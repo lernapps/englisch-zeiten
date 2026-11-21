@@ -45,5 +45,5 @@
   <use href="#sophie" transform="translate(30,110) scale(0.85)"/>
   <use href="#ellie" transform="translate(130,110) scale(0.85)"/>
   <use href="#amir" transform="translate(230,110) scale(0.85)"/>
-  <use href="#peter" transform="translate(330,100) scale(1.0)"/>
+  <use href="#peter" transform="translate(330,136) scale(0.8)"/>
 </svg>

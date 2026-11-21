@@ -10,7 +10,7 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-haeufigkeit.svg
-        alt: Sophie, Ellie, Amir und Peter stehen vor der Schultür. Über der Tür hängt eine Uhr. Ellie sagt in der Sprechblase „Amir is never late.“
+        alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. An der Wand hängen eine Uhr und ein leerer Rahmen. Ellie sagt in der Sprechblase „Amir is never late.“
         caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Ellie spricht."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -37,10 +37,10 @@ blocks:
         text: "**Das kannst du danach:** Du sagst auf Englisch, wie oft jemand etwas tut, und setzt das Wort an die richtige Stelle im Satz."
   - type: section
     id: neu
-    title: Fähnchen über der Punktreihe
+    title: Das Wochenraster
     blocks:
       - type: text
-        text: Wie oft etwas passiert, sagen die **Häufigkeitswörter**. Am Zeitstrahl sind sie Fähnchen über der Punktreihe vom simple present. Je mehr Punkte ausgefüllt sind, desto öfter passiert es.
+        text: "Wie oft etwas passiert, sagen die **Häufigkeitswörter**. Mr Hill zeichnet dafür ein Raster: Jede Reihe ist ein Häufigkeitswort, jeder Punkt ein Tag der Woche. Je mehr Punkte ausgefüllt sind, desto öfter passiert es. Am Zeitstrahl hängen die Wörter dann als Fähnchen über der Punktreihe vom simple present."
       - type: figure
         image: images/zeitstrahl-haeufigkeit.svg
         alt: Fünf Reihen aus je sieben Punkten für die Tage von Montag bis Sonntag. Bei always sind alle Punkte ausgefüllt, bei usually sechs, bei often vier, bei sometimes zwei und bei never keiner.

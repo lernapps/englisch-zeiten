@@ -1,34 +1,34 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Was schon passiert ist: das present perfect"
-description: "Ellie zeigt ihr fertiges Poster. Du lernst, mit have oder has und der 3. Form zu sagen, was schon geschehen ist und jetzt zählt."
+description: "Ellie bringt einen fertigen Kuchen mit. Du lernst, mit have oder has und der 3. Form zu sagen, was schon geschehen ist und jetzt zählt."
 competencies: [present-perfect]
 scope: Die Seite führt das present perfect ein. Es sagt, dass etwas passiert ist und das Ergebnis jetzt zählt. Auf dem Zeitstrahl ist es ein Bogen von der Vergangenheit bis now. Die Form ist have oder has (has bei he, she und it) und die 3. Form des Verbs, bei regelmäßigen Verben mit -ed. Die Signalwörter already, never, ever und just stehen zwischen have und der 3. Form, yet am Satzende, meist in Fragen. Zum Vergleich steht das simple past mit Zeitangabe wie yesterday. Es gilt die einfache Regel, dass eine Zeitangabe das simple past verlangt und ein Ergebnis, das jetzt zählt, das present perfect. Nicht hier, weil es spätere Seiten sind. Since und for, Fragen und Verneinung mit do und did und das present perfect progressive.
 blocks:
   - type: section
     id: einstieg
-    title: Ellie zeigt ihr fertiges Poster
+    title: Ellie bringt einen Kuchen mit
     blocks:
       - type: figure
         image: images/szene-present-perfect.svg
-        alt: Ellie hält ein fertiges Poster an der Wand hoch. Peter und Sophie schauen es an. In der Sprechblase steht „I have made a poster.“
-        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Ellie spricht, rechts hängt ihr Poster.
+        alt: Ellie steht neben einem Tisch mit einem Kuchen auf einem Teller. Peter und Sophie schauen zu. In der Sprechblase steht „I have made a cake.“
+        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Ellie spricht, rechts steht ihr Kuchen.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie kommt mit einem Poster in die Klasse: „I have made a poster.“ Das Poster ist fertig und hängt jetzt an der Wand."
+        text: "Ellie kommt mit einem Kuchen in die Klasse: „I have made a cake.“ Der Kuchen ist fertig und steht jetzt auf dem Tisch."
       - type: single-choice
         id: present-perfect-start
-        text: Ellie sagt „I have made a poster.“ Was ist ihr dabei wichtig?
+        text: Ellie sagt „I have made a cake.“ Was ist ihr dabei wichtig?
         options:
-          - text: Das Poster ist jetzt fertig und alle sehen es.
+          - text: Der Kuchen ist jetzt fertig und alle sehen ihn.
             correct: true
-            info: Ellie nennt keine Zeit. Wichtig ist, dass das Poster jetzt da ist.
-          - text: Sie hat das Poster gestern gemacht, nur darum geht es.
+            info: Ellie nennt keine Zeit. Wichtig ist, dass der Kuchen jetzt da ist.
+          - text: Sie hat den Kuchen gestern gemacht, nur darum geht es.
             correct: false
             info: Von gestern steht nichts im Satz. Mit einer Zeitangabe wäre es eine andere Zeitform.
-          - text: Sie macht das Poster gerade.
+          - text: Sie macht den Kuchen gerade.
             correct: false
-            info: Sie ist schon fertig, das Poster hängt ja schon.
+            info: Sie ist schon fertig, der Kuchen steht ja schon da.
         explanation: Das present perfect sagt, was schon passiert ist. Das Ergebnis zählt jetzt.
         links:
           - title: Lernlandkarte Englisch · Present perfect
@@ -53,10 +53,10 @@ blocks:
         caption: Klassenzimmer-Poster · Das present perfect
         header: [Person, have / has, Beispiel]
         rows:
-          - [I / you / we / they, "**have** + 3. Form", They have made a poster.]
-          - [he / she / it, "**has** + 3. Form", Ellie has made a poster.]
+          - [I / you / we / they, "**have** + 3. Form", They have made a cake.]
+          - [he / she / it, "**has** + 3. Form", Ellie has made a cake.]
       - type: text
-        text: "Kleine Wörter zeigen dir den Bogen. Sie stehen zwischen have und der 3. Form: *I have never seen it.* Nur yet steht am Ende, meist in einer Frage."
+        text: "Kleine Wörter zeigen dir den Bogen. Sie stehen zwischen have und der 3. Form: *I have never seen it.* Nur yet steht am Ende, meist in einer Frage. Die Frage beginnt mit have oder has: *Have you ever written a book?*"
       - type: table
         caption: Schulkalender · Signalwörter für das present perfect
         header: [Signalwort, Bedeutung]
@@ -71,17 +71,16 @@ blocks:
         blocks:
           - type: text
             text: |
-              Steht eine **Zeitangabe** wie yesterday oder last week im Satz, nimmst du das **simple past**: ein Punkt. Zählt das **Ergebnis jetzt** und es steht keine Zeitangabe da, nimmst du das **present perfect**: ein Bogen. Das Poster hängt jetzt, also: I have made a poster.
+              Steht eine **Zeitangabe** wie yesterday oder last week im Satz, nimmst du das **simple past**: ein Punkt. Zählt das **Ergebnis jetzt** und es steht keine Zeitangabe da, nimmst du das **present perfect**: ein Bogen. Der Kuchen steht jetzt da, also: I have made a cake.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
-          - [look, schau]
+          - [cake, Kuchen]
           - [finish, fertig machen]
           - [late, zu spät]
           - [homework, Hausaufgaben]
           - [his / her / your, sein / ihr / dein]
-          - [us, uns]
           - [pizza, Pizza]
           - [film, Film]
           - [book, Buch]
@@ -98,8 +97,8 @@ blocks:
         task: Wähle die richtige Form des Verbs.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Ellie hat ein Poster gemacht.
-            target: Ellie has [made] a poster.
+          - cue: Ellie hat einen Kuchen gemacht.
+            target: Ellie has [made] a cake.
             distractors: [[make, maked]]
           - cue: Peter hat Pizza gegessen.
             target: Peter has [eaten] pizza.
@@ -167,10 +166,10 @@ blocks:
             mistakes:
               - answer: Ellie has never be late.
                 message: Nach has brauchst du die 3. Form von be, also been.
-          - cue: we · just · finish · the poster
-            target: We have just finished the poster.
+          - cue: we · just · finish · the cake
+            target: We have just finished the cake.
             mistakes:
-              - answer: We have just finish the poster.
+              - answer: We have just finish the cake.
                 message: Nach have brauchst du die 3. Form. Bei finish ist sie finished, mit -ed.
           - cue: Peter · already · do · his homework
             target: Peter has already done his homework.
@@ -246,8 +245,8 @@ blocks:
             text: Amir has just come home.
           - audio: ellie-has-never-run-to-school.mp3
             text: Ellie has never run to school.
-          - audio: mr-hill-has-given-us-homework.mp3
-            text: Mr Hill has given us homework.
+          - audio: mr-hill-has-given-peter-homework.mp3
+            text: Mr Hill has given Peter homework.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf have oder has vor der 3. Form.
       - type: open-task
         id: present-perfect-karte
@@ -255,12 +254,12 @@ blocks:
         points:
           - text: Der Satz mit Zeitangabe steht im simple past, zum Beispiel Peter played football yesterday.
             source: /gestern-und-schon/simple-past/#neu
-          - text: Der Satz mit already, never oder just hat have oder has und die 3. Form, zum Beispiel Ellie has just made a poster.
+          - text: Der Satz mit already, never oder just hat have oder has und die 3. Form, zum Beispiel Ellie has just made a cake.
             source: /gestern-und-schon/present-perfect/#neu
           - text: Es sind ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          Peter played football yesterday. Ellie has just made a poster.
+          Peter played football yesterday. Ellie has just made a cake.
   - type: section
     id: weiter
     title: Rückblick auf das Kapitel
@@ -272,4 +271,4 @@ blocks:
         header: [Zeichen, Form, Beispiel]
         rows:
           - [Punkt mit Zeitangabe, simple past, Peter played football yesterday.]
-          - [Bogen bis now, have / has + 3. Form, Ellie has made a poster.]
+          - [Bogen bis now, have / has + 3. Form, Ellie has made a cake.]

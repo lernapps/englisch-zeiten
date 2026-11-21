@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
-  <title>Ellie hält ein fertiges Poster hoch, Peter und Sophie schauen es an</title>
+  <title>Ellie hat einen Kuchen gebacken, Peter und Sophie schauen zu</title>
   <defs>
     <g id="sophie" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a9a5b"/>
@@ -35,13 +35,17 @@
     </g></defs>
   <rect width="640" height="340" fill="#f4efe2"/>
   <rect y="270" width="640" height="70" fill="#c9a77a"/>
-  <rect x="470" y="100" width="130" height="110" rx="6" fill="#fff" stroke="#333" stroke-width="3"/>
-  <circle cx="505" cy="140" r="14" fill="#e0b020"/><rect x="525" y="150" width="50" height="38" fill="#3a9a5b"/><path d="M485 190 l25 -30 l25 30 z" fill="#2c6fd8"/>
-  <use href="#ellie" transform="translate(300,110) scale(0.95)"/>
-  <use href="#peter" transform="translate(180,130) scale(0.85)"/>
-  <use href="#sophie" transform="translate(60,115) scale(0.9)"/>
+  <rect x="450" y="215" width="170" height="14" fill="#7a5a35"/>
+  <rect x="470" y="229" width="12" height="45" fill="#7a5a35"/><rect x="588" y="229" width="12" height="45" fill="#7a5a35"/>
+  <ellipse cx="535" cy="212" rx="60" ry="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <rect x="490" y="165" width="90" height="45" rx="6" fill="#e8b27a" stroke="#333" stroke-width="2"/>
+  <path d="M490 175 q15 -12 30 0 t30 0 t30 0 v-10 h-90 z" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="535" cy="150" r="7" fill="#d33" stroke="#333" stroke-width="2"/>
+  <use href="#ellie" transform="translate(300,128) scale(0.85)"/>
+  <use href="#peter" transform="translate(180,139) scale(0.8)"/>
+  <use href="#sophie" transform="translate(60,124) scale(0.85)"/>
   <rect x="240" y="14" width="330" height="54" rx="14" fill="#fff" stroke="#333" stroke-width="2"/>
   <path d="M336 68 l14 22 l14 -22" fill="#fff" stroke="#333" stroke-width="2"/>
   <rect x="338" y="64" width="24" height="6" fill="#fff"/>
-  <text x="405.0" y="48" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#222">I have made a poster.</text>
+  <text x="405.0" y="48" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#222">I have made a cake.</text>
 </svg>

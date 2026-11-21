@@ -59,7 +59,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: write – writ**ing**. Ein Vokal ist a, e, i, o oder u. Steht vor dem letzten Konsonanten genau ein Vokal (run), wird der Konsonant doppelt: run – run**n**ing. Bei zwei Vokalen (read) oder zwei Konsonanten am Ende (listen) bleibt es: reading, listening.
+              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: write – writ**ing**. Steht vor dem letzten Konsonanten genau ein Vokal (run), wird der Konsonant doppelt: run – run**n**ing. Bei zwei Vokalen (read) oder zwei Konsonanten am Ende (listen) bleibt es: reading, listening.
       - type: table
         caption: Klassenzimmer-Poster · Zeitformen
         header: [Zeichen, Form, Beispiel]
@@ -206,27 +206,21 @@ blocks:
               - answer: Is Sophie and Ellie reading?
                 message: Sophie und Ellie sind zwei Personen, also they. Dazu gehört are.
         hint: In der Frage steht be am Anfang.
-      - type: single-choice
-        id: present-progressive-bild
-        text: Was macht Peter im Bild?
-        material:
-          - type: figure
-            image: images/szene-present-progressive.svg
-            alt: Im Klassenzimmer sitzen vier Kinder an Tischen und tun je etwas anderes. Eines trägt eine gelbe Jacke.
-            caption: Schau auf das Kind mit der gelben Jacke.
-            source: eigene Zeichnung
-            licence: CC-BY-4.0
-        options:
-          - text: He is drawing a picture.
-            correct: true
-            info: Peter hat einen Stift und ein Blatt und malt. drawing ist die -ing-Form von draw.
-          - text: He is reading a book.
-            correct: false
-            info: Das Buch hat Sophie, nicht Peter.
-          - text: He is writing a letter.
-            correct: false
-            info: Einen Brief schreibt Ellie.
-        explanation: Peter malt gerade. Dafür nimmst du is und die -ing-Form von draw.
+      - type: matching
+        id: present-progressive-paare
+        text: Was passiert gerade? Ordne den Satz zu.
+        pairs:
+          - left: Sophie liest gerade ein Buch.
+            right: Sophie is reading a book.
+          - left: Ellie schreibt gerade einen Brief.
+            right: Ellie is writing a letter.
+          - left: Peter malt gerade ein Bild.
+            right: Peter is drawing a picture.
+          - left: Amir und Peter laufen gerade.
+            right: Amir and Peter are running.
+        distractors: [Sophie reads a book.]
+        explanation: Was gerade passiert, ist die Welle über now. Dafür brauchst du be und die -ing-Form.
+        hint: Achte auf die Person. Bei einer Person nimmst du is, bei zwei Personen are.
         links:
           - title: Lernlandkarte Englisch · Present progressive
             url: https://lernapps.net/apps/map/englisch/c/present-progressive/

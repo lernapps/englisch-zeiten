@@ -128,17 +128,17 @@ blocks:
             - [we / you / they, "[are] going to eat"]
       - type: matching
         id: going-to-anzeichen
-        text: Was sagt der Satz links voraus? Ordne zu.
+        text: Ein Plan oder ein Anzeichen. Was sagt der Satz voraus? Ordne zu.
         pairs:
-          - left: Look at the clouds!
+          - left: Am Himmel sind dunkle Wolken.
             right: It is going to rain.
-          - left: Peter has a ticket for a film.
-            right: He is going to watch it.
-          - left: Amir is hungry.
-            right: He is going to eat a pizza.
+          - left: Peter hat eine Eintrittskarte für einen Film.
+            right: He is going to watch a film.
+          - left: Ellie hat die Gäste schon ausgesucht.
+            right: She is going to invite Amir.
         distractors: [Peter plays football every Saturday.]
-        explanation: Wer ein Anzeichen sieht oder schon eine Eintrittskarte hat, sagt mit going to, was bald passiert. Der Satz mit every Saturday erzählt von einer Gewohnheit.
-        hint: Frag dich, was man bei dem Anzeichen als Nächstes erwartet.
+        explanation: Wer einen Plan hat oder ein Anzeichen sieht, sagt mit going to, was bald passiert. Der Satz mit every Saturday erzählt von einer Gewohnheit.
+        hint: Frag dich, was man nach dem Satz links als Nächstes erwartet.
         links:
           - title: Lernlandkarte Englisch · Going-to-Future
             url: https://lernapps.net/apps/map/englisch/c/going-to/

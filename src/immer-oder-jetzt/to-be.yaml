@@ -44,7 +44,7 @@ blocks:
       - type: figure
         image: images/zeitstrahl-to-be.svg
         alt: Ein Zeitstrahl von links nach rechts. Bei dem roten Strich now hängt eine Karte mit den Worten I am Sophie. Sonst ist der Strahl leer.
-        caption: Die Karte hängt bei now, denn Sophie ist jetzt Sophie.
+        caption: Sophie ist jetzt hier. Darum hängt die Karte bei now.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -126,7 +126,7 @@ blocks:
         explanation: Die Person bestimmt die Form. Wer von sich spricht, sagt I am. Wer zu einer Person spricht, sagt you are.
         hint: Frag dich bei jedem Satz, ob es um mich, dich, ihn, sie oder mehrere geht.
         links:
-          - title: Lernlandkarte Englisch · Verb to be
+          - title: "Verb to be: Verneinung und Frage (Lernlandkarte)"
             url: https://lernapps.net/apps/map/englisch/c/to-be/
       - type: language-task
         id: to-be-verneinung-tabelle

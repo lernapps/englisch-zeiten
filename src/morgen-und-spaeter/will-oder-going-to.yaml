@@ -61,7 +61,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Auf dieser Seite sind die Fälle klar. Manchmal passen beide Formen, und es hängt davon ab, wie du es meinst. Das übst du später.
+              Auf dieser Seite sind die Fälle klar. Manchmal passen beide Formen, und es hängt davon ab, wie du es meinst.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -70,6 +70,12 @@ blocks:
           - [cake, Kuchen]
           - [phone, Telefon / Handy]
           - [ring, klingeln]
+          - [watch a film, einen Film anschauen]
+          - [ticket, Eintrittskarte]
+          - [hungry, hungrig]
+          - [eat, essen]
+          - [pizza, Pizza]
+          - [rain, regnen]
           - [answer the phone, ans Telefon gehen]
           - [answer, abnehmen]
           - [watch a film, einen Film anschauen]
@@ -82,15 +88,14 @@ blocks:
         id: will-oder-going-to-grund
         text: Warum steht in dem Satz will oder going to? Ordne den Grund zu.
         pairs:
-          - left: I am going to have a party on 10 July.
+          - left: Peter is going to watch a film on Saturday.
             right: Der Plan steht schon.
-          - left: I will bring a cake.
+          - left: The phone rings. I will answer it.
             right: Es wird gerade erst beschlossen.
-          - left: Look at the clouds! It is going to rain.
-            right: Ein Anzeichen ist schon zu sehen.
           - left: I think it will rain.
             right: Es ist nur eine Vermutung.
-        explanation: Plan und Anzeichen gehören zum Pfeil, going to. Ein Entschluss im Moment und eine Vermutung gehören zum Punkt ohne Pfeil, will.
+        distractors: [Ein Anzeichen ist schon zu sehen.]
+        explanation: Ein Plan oder ein Anzeichen gehört zum Pfeil, going to. Ein Entschluss im Moment und eine Vermutung gehören zum Punkt ohne Pfeil, will.
         links:
           - title: Lernlandkarte Englisch · Will oder going to
             url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
@@ -121,12 +126,12 @@ blocks:
           - cue: Ellie hat ihre Party schon lange geplant.
             target: Ellie [is going to] have a party on 10 July.
             distractors: [[will, is will]]
-          - cue: Das Telefon klingelt. Sophie beschließt gerade, ranzugehen.
-            target: The phone rings. Sophie [will] answer it.
+          - cue: Amir ist hungrig und beschließt gleich, eine Pizza zu essen.
+            target: Amir is hungry. He [will] eat a pizza.
             distractors: [[is going to, is will]]
-          - cue: Sophie sieht dunkle Wolken.
-            target: Look at the clouds! It [is going to] rain.
-            distractors: [[will, is will]]
+          - cue: Amir und Peter haben schon Tickets für einen Film.
+            target: Amir and Peter have tickets. They [are going to] watch a film.
+            distractors: [[will, are will]]
           - cue: Amir hört von der Party und beschließt gleich, etwas mitzubringen.
             target: Amir [will] bring a cake.
             distractors: [[is going to, is will]]
@@ -153,16 +158,11 @@ blocks:
             mistakes:
               - answer: Amir is going to bring a cake.
                 message: Amir beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
-          - source: Sophie sieht dunkle Wolken. Es wird gleich regnen.
-            target: It is going to rain.
-            mistakes:
-              - answer: It will rain.
-                message: Sophie sieht jetzt ein Anzeichen. Dann nimmst du going to, den Pfeil von now.
       - type: true-false
         id: will-oder-going-to-richtig
-        text: Amir hört zum ersten Mal von Ellies Party und sagt „I am going to bring a cake.“ Passt der Satz?
+        text: Peter hat die Tickets für einen Film schon gekauft und sagt „I will watch a film on Saturday.“ Passt der Satz?
         answer: false
-        explanation: Amir hat keinen Plan, er beschließt gerade erst. Dafür nimmst du will. Richtig ist „I will bring a cake.“
+        explanation: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to. Richtig ist „I am going to watch a film on Saturday.“
         links:
           - title: Lernlandkarte Englisch · Will oder going to
             url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
@@ -214,7 +214,7 @@ blocks:
       - type: figure
         image: images/zeitstrahl-ganz.svg
         alt: Ein Zeitstrahl von links nach rechts mit einem roten Strich bei now. Links davon liegen ein blauer Punkt und ein grüner Bogen, der bis now reicht. Bei now liegen drei blaue Punkte unter der Linie und eine lila Welle darüber. Rechts davon läuft ein oranger Pfeil von now zu einem Punkt, und ein zweiter orangefarbener Punkt liegt ohne Pfeil weiter rechts.
-        caption: Alle Zeichen am Zeitstrahl. Die Tabelle darunter sagt, welches Zeichen zu welcher Zeitform gehört.
+        caption: "Alle Zeichen am Zeitstrahl: der Punkt links, der Bogen, die Punktreihe unter der Linie, die Welle, der Pfeil und der Punkt rechts. Die Tabelle darunter sagt, welches Zeichen zu welcher Zeitform gehört."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
