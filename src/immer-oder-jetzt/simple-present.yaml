@@ -171,7 +171,7 @@ blocks:
             target: Ellie plays football every Saturday.
             mistakes:
               - answer: Ellie play football every Saturday.
-                message: Das ist der Satz mit dem Fehler. Ellie ist „sie“, schau in den Kasten „Merke“.
+                message: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
           - cue: Peter and Amir plays football every day.
             target: Peter and Amir play football every day.
             mistakes:

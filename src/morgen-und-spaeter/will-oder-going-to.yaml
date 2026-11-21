@@ -77,8 +77,6 @@ blocks:
           - [pizza, Pizza]
           - [rain, regnen]
           - [answer the phone, ans Telefon gehen]
-          - [answer, abnehmen]
-          - [watch a film, einen Film anschauen]
           - [on 10 July, am 10. Juli]
   - type: section
     id: uebung
@@ -125,16 +123,16 @@ blocks:
         items:
           - cue: Ellie hat ihre Party schon lange geplant.
             target: Ellie [is going to] have a party on 10 July.
-            distractors: [[will, is will]]
+            distractors: [[will, are going to]]
           - cue: Amir ist hungrig und beschließt gleich, eine Pizza zu essen.
             target: Amir is hungry. He [will] eat a pizza.
-            distractors: [[is going to, is will]]
+            distractors: [[is going to, are going to]]
           - cue: Amir und Peter haben schon Tickets für einen Film.
             target: Amir and Peter have tickets. They [are going to] watch a film.
-            distractors: [[will, are will]]
+            distractors: [[will, is going to]]
           - cue: Amir hört von der Party und beschließt gleich, etwas mitzubringen.
             target: Amir [will] bring a cake.
-            distractors: [[is going to, is will]]
+            distractors: [[is going to, are going to]]
       - type: language-task
         id: will-oder-going-to-bilden
         languages: { source: de, target: en }

@@ -168,12 +168,12 @@ blocks:
             target: Sophie is reading a book now.
             mistakes:
               - answer: Sophie reads a book now.
-                message: Das ist der Satz mit dem Fehler. now gehört zur Welle, also is reading.
+                message: Noch nicht ganz. now gehört zur Welle, also is reading.
           - cue: Peter is playing football every day.
             target: Peter plays football every day.
             mistakes:
               - answer: Peter is playing football every day.
-                message: Das ist der Satz mit dem Fehler. every day gehört zur Punktreihe, also plays.
+                message: Noch nicht ganz. every day gehört zur Punktreihe, also plays.
       - type: language-task
         id: simple-oder-progressive-uebersetzen
         languages: { source: de, target: en }

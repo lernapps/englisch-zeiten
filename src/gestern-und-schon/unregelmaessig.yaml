@@ -225,17 +225,17 @@ blocks:
             target: Sophie swam two days ago.
             mistakes:
               - answer: Sophie swimmed two days ago.
-                message: Das ist der Satz mit dem Fehler. Swim hat die Form swam.
+                message: Noch nicht ganz. Swim hat die Form swam.
           - cue: Amir bringed a book yesterday.
             target: Amir brought a book yesterday.
             mistakes:
               - answer: Amir bringed a book yesterday.
-                message: Das ist der Satz mit dem Fehler. Bring hat die Form brought.
+                message: Noch nicht ganz. Bring hat die Form brought.
           - cue: Ellie writed to Sophie last week.
             target: Ellie wrote to Sophie last week.
             mistakes:
               - answer: Ellie writed to Sophie last week.
-                message: Das ist der Satz mit dem Fehler. Write hat die Form wrote.
+                message: Noch nicht ganz. Write hat die Form wrote.
         hint: Such das Verb auf dem Poster und nimm die 2. Spalte.
       - type: language-task
         id: unregelmaessig-hoeren

@@ -2,7 +2,7 @@
 title: Wie oft? Von always bis never
 description: Amir kommt nie zu spät, Peter manchmal. Du lernst die Häufigkeitswörter von always bis never und wo sie im Satz stehen.
 competencies: [adverbien-haeufigkeit]
-scope: Die Seite führt die Häufigkeitswörter always, usually, often, sometimes und never ein. Auf dem Zeitstrahl sind sie Fähnchen über der Punktreihe des simple present, und je mehr Punkte ausgefüllt sind, desto öfter passiert es. Das Wort steht vor dem Verb (Peter often plays football) und nach am, is und are (Amir is never late). Nicht hier, weil es spätere Seiten sind. Die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do, Häufigkeitswörter wie twice a week.
+scope: Die Seite führt die Häufigkeitswörter always, usually, often, sometimes und never ein. Auf dem Zeitstrahl sind sie Fähnchen über der Punktreihe des simple present, und je mehr Punkte ausgefüllt sind, desto öfter passiert es. Das Wort steht vor dem Verb (Sophie usually takes the bus) und nach am, is und are (Amir is usually tired). Nicht hier, weil es spätere Seiten sind. Die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do, Häufigkeitswörter wie twice a week.
 blocks:
   - type: section
     id: einstieg
@@ -74,7 +74,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Das Häufigkeitswort steht **vor dem Verb**: Peter **often** plays football. Bei **am**, **is** und **are** steht es **danach**: Ellie is **always** happy. Das -s bei he, she und it bleibt: Peter often plays.
+              Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. Bei **am**, **is** und **are** steht es **danach**: Amir is **usually** tired. Das -s bei he, she und it bleibt: Sophie usually takes.
   - type: section
     id: uebung
     title: Übung

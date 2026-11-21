@@ -2,7 +2,7 @@
 title: "Was gerade passiert: das present progressive"
 description: Sophie liest, Ellie schreibt, Peter malt. Du lernst, mit be und der -ing-Form zu sagen, was gerade passiert.
 competencies: [present-progressive]
-scope: Die Seite führt das present progressive ein. Es sagt, was gerade jetzt passiert, und ist auf dem Zeitstrahl eine Welle über now. Die Form besteht aus am, is oder are und dem Verb mit -ing (I am reading, Sophie is reading, they are reading). Dazu die Schreibung der -ing-Form, bei write fällt das e weg und bei run wird das n doppelt, und die Frage mit be (Is Peter drawing?). Die Signalwörter now und at the moment. Nicht hier, weil es spätere Seiten sind. Die Entscheidung zwischen simple present und present progressive, die Verneinung, Fragen mit do und Verben, die keine -ing-Form haben.
+scope: Die Seite führt das present progressive ein. Es sagt, was gerade jetzt passiert, und ist auf dem Zeitstrahl eine Welle über now. Die Form besteht aus am, is oder are und dem Verb mit -ing (I am reading, Sophie is reading, they are reading). Dazu die Schreibung der -ing-Form, bei dance fällt das e weg und bei swim wird das m doppelt, und die Frage mit be (Is Peter drawing?). Die Signalwörter now und at the moment. Nicht hier, weil es spätere Seiten sind. Die Entscheidung zwischen simple present und present progressive, die Verneinung, Fragen mit do und Verben, die keine -ing-Form haben.
 blocks:
   - type: section
     id: einstieg
@@ -59,7 +59,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: write – writ**ing**. Steht vor dem letzten Konsonanten genau ein Vokal (run), wird der Konsonant doppelt: run – run**n**ing. Bei zwei Vokalen (read) oder zwei Konsonanten am Ende (listen) bleibt es: reading, listening.
+              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: dance – danc**ing**. Steht vor dem letzten Konsonanten genau ein Vokal (swim), wird der Konsonant doppelt: swim – swim**m**ing. Bei zwei Vokalen (eat) bleibt es: eating.
       - type: table
         caption: Klassenzimmer-Poster · Zeitformen
         header: [Zeichen, Form, Beispiel]
@@ -74,6 +74,8 @@ blocks:
           - [write, schreiben]
           - [draw, zeichnen]
           - [run, rennen]
+          - [dance, tanzen]
+          - [swim, schwimmen]
           - [make, machen]
           - [sit, sitzen]
           - [play, spielen]
@@ -148,9 +150,9 @@ blocks:
           - cue: Ellie liest gerade.
             target: Ellie is [reading].
             distractors: [[readding, read]]
-          - cue: Sophie hört gerade Musik.
-            target: Sophie is [listening] to music.
-            distractors: [[listenning, listen]]
+          - cue: Amir spielt gerade Fußball.
+            target: Amir is [playing] football.
+            distractors: [[play, playeing]]
         hint: Endet das Verb auf e, fällt das e weg. Steht vor dem letzten Konsonanten nur ein Vokal, wird der Konsonant doppelt.
       - type: language-task
         id: present-progressive-bilden

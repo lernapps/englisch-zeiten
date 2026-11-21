@@ -61,7 +61,7 @@ blocks:
         header: [Verb, simple past, Beispiel]
         rows:
           - [play (spielen), "play**ed**", Peter played football yesterday.]
-          - [walk (gehen), "walk**ed**", We walked home last week.]
+          - [walk (zu Fuß gehen), "walk**ed**", We walked home last week.]
           - [like (mögen), "like**d**", Ellie liked the film.]
           - [study (lernen), "stud**ied**", Amir studied English.]
           - [stop (anhalten), "sto**pped**", The bus stopped.]
@@ -168,17 +168,17 @@ blocks:
             target: Peter played football yesterday.
             mistakes:
               - answer: Peter plays football yesterday.
-                message: Das ist der Satz mit dem Fehler. Gestern ist vorbei, also braucht das Verb -ed.
+                message: Noch nicht ganz. Gestern ist vorbei, also braucht das Verb -ed.
           - cue: The bus stopd two days ago.
             target: The bus stopped two days ago.
             mistakes:
               - answer: The bus stopd two days ago.
-                message: Das ist der Satz mit dem Fehler. Stop verdoppelt das p vor ed.
+                message: Noch nicht ganz. Stop verdoppelt das p vor ed.
           - cue: Amir studyed English last week.
             target: Amir studied English last week.
             mistakes:
               - answer: Amir studyed English last week.
-                message: Das ist der Satz mit dem Fehler. Nach Konsonant wird aus y ein ied.
+                message: Noch nicht ganz. Nach Konsonant wird aus y ein ied.
       - type: language-task
         id: simple-past-uebersetzen
         languages: { source: de, target: en }

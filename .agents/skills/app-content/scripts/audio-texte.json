@@ -49,7 +49,6 @@
   "src/audio/sophie-came-to-school-last-week.mp3": "Sophie came to school last week.",
   "src/audio/sophie-has-taken-a-book-home.mp3": "Sophie has taken a book home.",
   "src/audio/peter-has-already-written-to-ellie.mp3": "Peter has already written to Ellie.",
-  "src/audio/we-have-just-seen-mr-hill.mp3": "We have just seen Mr Hill.",
   "src/audio/amir-has-just-come-home.mp3": "Amir has just come home.",
   "src/audio/ellie-has-never-run-to-school.mp3": "Ellie has never run to school.",
   "src/audio/ellie-will-probably-come-next-week.mp3": "Ellie will probably come next week.",
@@ -70,5 +69,6 @@
   "src/audio/i-will-bring-a-cake.mp3": "I will bring a cake.",
   "src/audio/we-are-going-to-have-a-party.mp3": "We are going to have a party.",
   "src/audio/i-will-answer-it.mp3": "I will answer it.",
-  "src/audio/mr-hill-has-given-peter-homework.mp3": "Mr Hill has given Peter homework."
+  "src/audio/mr-hill-has-given-peter-homework.mp3": "Mr Hill has given Peter homework.",
+  "src/audio/we-have-just-seen-peter.mp3": "We have just seen Peter."
 }

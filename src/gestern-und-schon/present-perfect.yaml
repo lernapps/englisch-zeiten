@@ -188,17 +188,17 @@ blocks:
             accepted: [Peter has played football.]
             mistakes:
               - answer: Peter has played football yesterday.
-                message: Das ist der Satz mit dem Fehler. Zu yesterday passt das simple past.
+                message: Noch nicht ganz. Zu yesterday passt das simple past.
           - cue: Sophie have seen the film.
             target: Sophie has seen the film.
             mistakes:
               - answer: Sophie have seen the film.
-                message: Das ist der Satz mit dem Fehler. Bei she brauchst du has.
+                message: Noch nicht ganz. Bei she brauchst du has.
           - cue: Amir has ate pizza.
             target: Amir has eaten pizza.
             mistakes:
               - answer: Amir has ate pizza.
-                message: Das ist der Satz mit dem Fehler. Nach has brauchst du die 3. Form.
+                message: Noch nicht ganz. Nach has brauchst du die 3. Form.
       - type: language-task
         id: present-perfect-uebersetzen
         languages: { source: de, target: en }
@@ -231,8 +231,8 @@ blocks:
             target: Sophie has taken a book home.
           - audio: peter-has-already-written-to-ellie.mp3
             target: Peter has already written to Ellie.
-          - audio: we-have-just-seen-mr-hill.mp3
-            target: We have just seen Mr Hill.
+          - audio: we-have-just-seen-peter.mp3
+            target: We have just seen Peter.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
