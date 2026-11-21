@@ -1,0 +1,273 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was schon passiert ist: das present perfect"
+description: "Ellie zeigt ihr fertiges Poster. Du lernst, mit have oder has und der 3. Form zu sagen, was schon geschehen ist und jetzt zählt."
+competencies: [present-perfect]
+scope: Die Seite führt das present perfect ein. Es sagt, dass etwas passiert ist und das Ergebnis jetzt zählt. Auf dem Zeitstrahl ist es ein Bogen von der Vergangenheit bis now. Die Form ist have oder has (has bei he, she und it) und die 3. Form des Verbs, bei regelmäßigen Verben mit -ed. Die Signalwörter already, never, ever und just stehen zwischen have und der 3. Form, yet am Satzende, meist in Fragen. Zum Vergleich steht das simple past mit Zeitangabe wie yesterday. Es gilt die einfache Regel, dass eine Zeitangabe das simple past verlangt und ein Ergebnis, das jetzt zählt, das present perfect. Nicht hier, weil es spätere Seiten sind. Since und for, Fragen und Verneinung mit do und did und das present perfect progressive.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellie zeigt ihr fertiges Poster
+    blocks:
+      - type: figure
+        image: images/szene-present-perfect.svg
+        alt: Ellie hält ein fertiges Bild an der Wand hoch. Peter und Sophie schauen es an. In der Sprechblase steht „I have made a poster.“
+        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Ellie spricht, rechts hängt ihr Poster.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ellie kommt mit einem Plakat in die Klasse: „I have made a poster.“ Das Plakat ist fertig und hängt jetzt an der Wand."
+      - type: single-choice
+        id: present-perfect-start
+        text: Ellie sagt „I have made a poster.“ Was ist ihr dabei wichtig?
+        options:
+          - text: Das Poster ist jetzt fertig und alle sehen es.
+            correct: true
+            info: Ellie nennt keine Zeit. Wichtig ist, dass das Poster jetzt da ist.
+          - text: Sie hat das Poster gestern gemacht, nur darum geht es.
+            correct: false
+            info: Von gestern steht nichts im Satz. Mit einer Zeitangabe wäre es eine andere Zeitform.
+          - text: Sie macht das Poster gerade.
+            correct: false
+            info: Sie ist schon fertig, das Poster hängt ja schon.
+        explanation: Das present perfect sagt, was schon passiert ist. Das Ergebnis zählt jetzt.
+        links:
+          - title: Lernlandkarte Englisch · Present perfect
+            url: https://lernapps.net/apps/map/englisch/c/present-perfect/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst, was schon passiert ist, mit have oder has und der 3. Form. Und du weißt, wann du statt dessen das simple past nimmst."
+  - type: section
+    id: neu
+    title: Ein Bogen bis now
+    blocks:
+      - type: text
+        text: Auf dem Zeitstrahl hast du links von now einzelne Punkte mit Fähnchen. Dort steht das simple past mit einer Zeitangabe. Jetzt kommt ein **Bogen** dazu, der von früher bis **now** reicht. Er zeigt, dass etwas passiert ist und bis jetzt wichtig ist. Das ist das **present perfect**.
+      - type: figure
+        image: images/zeitstrahl-punkt-und-bogen.svg
+        alt: Ein Zeitstrahl mit einem roten Strich now. Links liegt ein blauer Punkt mit dem Fähnchen yesterday. Daneben läuft ein grüner Bogen von einem früheren Punkt bis zu now, mit dem Fähnchen already.
+        caption: Der Punkt links hat eine Zeitangabe. Der Bogen reicht bis now und hat keine Zeitangabe.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Du bildest das present perfect mit **have** oder **has** und der **3. Form** des Verbs. Die 3. Form kennst du von den Karten. Bei regelmäßigen Verben ist sie wie das simple past, mit -ed.
+      - type: table
+        caption: Klassenzimmer-Poster · Das present perfect
+        header: [Person, have / has, Beispiel]
+        rows:
+          - [I / you / we / they, "**have** + 3. Form", They have made a poster.]
+          - [he / she / it, "**has** + 3. Form", Ellie has made a poster.]
+      - type: text
+        text: "Kleine Wörter zeigen dir den Bogen. Sie stehen zwischen have und der 3. Form: *I have never seen it.* Nur yet steht am Ende, meist in einer Frage."
+      - type: table
+        caption: Schulkalender · Zeitangaben für das present perfect
+        header: [Zeitangabe, Bedeutung]
+        rows:
+          - [already, schon]
+          - [just, gerade eben]
+          - [never, nie]
+          - [ever, jemals]
+          - [yet, schon (in Fragen)]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Steht eine **Zeitangabe** wie yesterday oder last week im Satz, nimmst du das **simple past**: ein Punkt. Zählt das **Ergebnis jetzt** und es steht keine Zeitangabe da, nimmst du das **present perfect**: ein Bogen. Das Poster hängt jetzt, also: I have made a poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [look, schau]
+          - [finish, fertig machen]
+          - [late, zu spät]
+          - [homework, Hausaufgaben]
+          - [his / her / your, sein / ihr / dein]
+          - [us, uns]
+          - [pizza, Pizza]
+          - [film, Film]
+          - [book, Buch]
+          - [home, nach Hause]
+          - [to, zu / nach]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: present-perfect-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form des Verbs.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Ellie hat ein Poster gemacht.
+            target: Ellie has [made] a poster.
+            distractors: [[make, maked]]
+          - cue: Peter hat Pizza gegessen.
+            target: Peter has [eaten] pizza.
+            distractors: [[ate, eated]]
+          - cue: Sophie hat den Film gesehen.
+            target: Sophie has [seen] the film.
+            distractors: [[saw, see]]
+          - cue: Amir hat seine Hausaufgaben gemacht.
+            target: Amir has [done] his homework.
+            distractors: [[did, do]]
+        hint: Nimm die 3. Spalte der Karten.
+      - type: matching
+        id: present-perfect-signale
+        text: Welches kleine Wort passt zu welcher Bedeutung?
+        pairs:
+          - left: already
+            right: schon
+          - left: just
+            right: gerade eben
+          - left: never
+            right: nie
+          - left: ever
+            right: jemals
+        explanation: Diese Wörter zeigen den Bogen bis now. Sie stehen zwischen have oder has und der 3. Form.
+        hint: Schau in den Schulkalender. Dort steht jedes Wort mit seiner Bedeutung.
+        links:
+          - title: Lernlandkarte Englisch · Present perfect
+            url: https://lernapps.net/apps/map/englisch/c/present-perfect/
+      - type: language-task
+        id: present-perfect-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: "Punkt oder Bogen? Wähle die Zeitform, die zum Satz passt."
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie hat gestern einen Film gesehen.
+            target: Sophie [saw] a film yesterday.
+            distractors: [[has seen, have seen]]
+          - cue: Ellie hat ihre Hausaufgaben schon gemacht.
+            target: Ellie [has done] her homework already.
+            distractors: [[did, have done]]
+          - cue: Peter hat vor zwei Tagen ein Buch gelesen.
+            target: Peter [read] a book two days ago.
+            distractors: [[has read, have read]]
+          - cue: Amir ist nie zu spät gewesen.
+            target: Amir [has never been] late.
+            distractors: [[was never, have never been]]
+        hint: Eine Zeitangabe wie yesterday ist ein Punkt. Zählt das Ergebnis jetzt, ist es ein Bogen.
+      - type: language-task
+        id: present-perfect-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz im present perfect.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie · already · eat · pizza
+            target: Sophie has already eaten pizza.
+            accepted: [Sophie has eaten pizza already.]
+            mistakes:
+              - answer: Sophie have already eaten pizza.
+                message: Bei she brauchst du has.
+              - answer: Sophie has already ate pizza.
+                message: Ate ist das simple past. Nach has brauchst du die 3. Form, eaten.
+          - cue: Ellie · never · be · late
+            target: Ellie has never been late.
+            mistakes:
+              - answer: Ellie has never be late.
+                message: Nach has brauchst du die 3. Form von be, also been.
+          - cue: we · just · finish · the poster
+            target: We have just finished the poster.
+            mistakes:
+              - answer: We have just finish the poster.
+                message: Nach have brauchst du die 3. Form. Bei finish ist sie finished, mit -ed.
+          - cue: Peter · already · do · his homework
+            target: Peter has already done his homework.
+            mistakes:
+              - answer: Peter has already did his homework.
+                message: Did ist das simple past. Nach has brauchst du die 3. Form, done.
+      - type: language-task
+        id: present-perfect-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter has played football yesterday.
+            target: Peter played football yesterday.
+            accepted: [Peter has played football.]
+            mistakes:
+              - answer: Peter has played football yesterday.
+                message: Das ist der Satz mit dem Fehler. Zu yesterday passt das simple past.
+          - cue: Sophie have seen the film.
+            target: Sophie has seen the film.
+            mistakes:
+              - answer: Sophie have seen the film.
+                message: Das ist der Satz mit dem Fehler. Bei she brauchst du has.
+          - cue: Amir has ate pizza.
+            target: Amir has eaten pizza.
+            mistakes:
+              - answer: Amir has ate pizza.
+                message: Das ist der Satz mit dem Fehler. Nach has brauchst du die 3. Form.
+      - type: language-task
+        id: present-perfect-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Ich habe nie Pizza gegessen.
+            target: I have never eaten pizza.
+            mistakes:
+              - answer: I never have eaten pizza.
+                message: Never steht zwischen have und der 3. Form.
+          - source: Hast du jemals ein Buch geschrieben?
+            target: Have you ever written a book?
+            mistakes:
+              - answer: Have you ever wrote a book?
+                message: Nach have brauchst du die 3. Form, written.
+          - source: Hast du schon deine Hausaufgaben gemacht?
+            target: Have you done your homework yet?
+            mistakes:
+              - answer: Have you did your homework yet?
+                message: Did ist das simple past. Nach have brauchst du die 3. Form, done.
+      - type: language-task
+        id: present-perfect-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: sophie-has-taken-a-book-home.mp3
+            target: Sophie has taken a book home.
+          - audio: peter-has-already-written-to-ellie.mp3
+            target: Peter has already written to Ellie.
+          - audio: we-have-just-seen-mr-hill.mp3
+            target: We have just seen Mr Hill.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: present-perfect-nachsprechen
+        language: en
+        items:
+          - audio: amir-has-just-come-home.mp3
+            text: Amir has just come home.
+          - audio: ellie-has-never-run-to-school.mp3
+            text: Ellie has never run to school.
+          - audio: mr-hill-has-given-us-homework.mp3
+            text: Mr Hill has given us homework.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf have oder has vor der 3. Form.
+      - type: open-task
+        id: present-perfect-karte
+        task: "Sophie hängt zwei Karten an den Zeitstrahl, einen Punkt und einen Bogen. Schreibe zwei Sätze, einen mit einer Zeitangabe wie yesterday und einen mit already, never oder just."
+        points:
+          - text: Der Satz mit Zeitangabe steht im simple past, zum Beispiel Peter played football yesterday.
+            source: /gestern-und-schon/simple-past/#neu
+          - text: Der Satz mit already, never oder just hat have oder has und die 3. Form, zum Beispiel Ellie has just made a poster.
+            source: /gestern-und-schon/present-perfect/#neu
+          - text: Es sind ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          Peter played football yesterday. Ellie has just made a poster.
+  - type: section
+    id: weiter
+    title: Rückblick auf das Kapitel
+    blocks:
+      - type: text
+        text: Der Zeitstrahl wächst nach links. Du kennst jetzt zwei Zeichen für das, was schon war. Mr Hill schaut auf die rechte Seite des Strahls. Dort ist noch alles leer. Auf der nächsten Seite geht es darum, was noch kommt.
+      - type: table
+        caption: Klassenzimmer-Poster · Zeitformen links von now
+        header: [Zeichen, Form, Beispiel]
+        rows:
+          - [Punkt mit Zeitangabe, simple past, Peter played football yesterday.]
+          - [Bogen bis now, have / has + 3. Form, Ellie has made a poster.]
