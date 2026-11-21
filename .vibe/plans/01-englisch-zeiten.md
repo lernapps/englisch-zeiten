@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -81,6 +81,8 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 
 **Stand (2026-11-21, Pause):** Explore abgeschlossen (Recherche-Checkpoint bestätigt). Plan fertig bis auf den Checkpoint „Plan und Inhaltsmethode“: er wurde schon an den Orchestrator geschickt (Fragen: Musterseite `simple-present`, Diktat/Nachsprechen auf jeder Seite), die Antwort steht aus. Auf Anweisung des Orchestrators ruht die Arbeit, bis er „weiter“ meldet (der Nutzer klärt zuerst den Grundwortschatz Englisch). Kein Code, keine weiteren Pushes. Bei „weiter“: Antwort zum Plan-Checkpoint abwarten bzw. verwenden, die Wortlisten gegen den geklärten Grundwortschatz prüfen.
+
+**Grundwortschatz-Prüfung (2026-11-21, `https://lernapps.net/apps/map/englisch/grundwortschatz/`, 1343 Wörter A1, 1080 A2):** Alle 38 unregelmäßigen Verben stehen in der Grundform in A1 (sing, swim, drink, begin, ring, run, come, write, drive, ride, take, give, eat, see, know, buy, bring, think, catch, teach, go, do, be, have, make, say, pay, meet, read, sit, get, find, lose, leave, cut, put, hit, let); die Liste führt nur Grundformen, die Formen (sang, sung …) führt die Seite selbst ein. Signalwörter: A1 yesterday, tomorrow, last, week, ago, always, usually, often, sometimes, never, already, ever, just, soon, next, maybe, probably; A2 yet. Alltagswörter: A1 play, watch, study, stop, like, jacket, brother, football, birthday, party, rain, window, door, chair, table, teacher, homework; A2 classroom, lesson. Nicht in der Liste: poster, clouds (cloud): nur wenn die Situation sie braucht, auf der Seite eingeführt und im Inhaltsführer gelistet. Weitere Wörter prüft ein Skript gegen die Liste (Wörter je Seite in den Notes nachführen).
 
 ## Explore
 
@@ -162,8 +164,9 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Plan bestätigt. simple-present als Musterseite ist richtig. Diktat und Nachsprechen auf jeder Seite, je höchstens drei ganze Sätze, Sätze wiederholen sich nicht zwischen Seiten; Audio mit regen_audio.py, Namen am Satzende zweisilbig. Wörter aus A1/A2 (Grundwortschatz), Ausnahmen nur eingeführt und im Inhaltsführer gelistet; Wörter und 38 unregelmäßige Verben gegen die Liste prüfen und in den Notes festhalten.
 
 ### Content method
 
