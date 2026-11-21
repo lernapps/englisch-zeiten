@@ -169,7 +169,7 @@ blocks:
           - cue: Wir haben vor zwei Tagen ein Buch gekauft.
             target: We [bought] a book two days ago.
             distractors: [[buyed, buy]]
-        hint: Yesterday, last week und two days ago sind vorbei. Nimm die 2. Spalte der Karte.
+        hint: Yesterday, last week und two days ago sind vorbei. Nimm die 2. Form des Verbs, das simple past.
       - type: language-task
         id: unregelmaessig-tabelle
         languages: { source: de, target: en }
@@ -196,7 +196,7 @@ blocks:
               - answer: Amir taked a book last week.
                 message: Take ist unregelmäßig. Du brauchst die 2. Form, nicht -ed.
               - answer: Amir taken a book last week.
-                message: Taken ist die 3. Form. Im simple past nimmst du die 2. Spalte.
+                message: Taken ist die 3. Form. Im simple past nimmst du die 2. Form.
           - cue: Sophie · go · home · yesterday
             target: Sophie went home yesterday.
             mistakes:
@@ -214,7 +214,7 @@ blocks:
             mistakes:
               - answer: Peter comed to school last week.
                 message: Come ist unregelmäßig. Die Form im simple past heißt came.
-        hint: Such das Verb auf dem Poster. Bei einer Zeitangabe nimmst du die 2. Spalte.
+        hint: Bei einer Zeitangabe nimmst du die 2. Form des Verbs, nicht -ed und nicht die 3. Form.
       - type: language-task
         id: unregelmaessig-korrektur
         languages: { source: de, target: en }

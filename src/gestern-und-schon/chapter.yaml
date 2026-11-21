@@ -2,3 +2,14 @@
 title: Gestern und schon
 summary: Der Zeitstrahl wächst nach links. Du erzählst mit dem simple past, was gestern passiert ist, bildest die wichtigsten unregelmäßigen Verben und sagst mit dem present perfect, was schon geschehen ist.
 pages: [simple-past, unregelmaessig, present-perfect]
+selfAssessment:
+  pages:
+    - exercises:
+        - /gestern-und-schon/simple-past/#simple-past-form
+        - /gestern-und-schon/simple-past/#simple-past-bilden
+    - exercises:
+        - /gestern-und-schon/unregelmaessig/#unregelmaessig-waehlen
+        - /gestern-und-schon/unregelmaessig/#unregelmaessig-bilden
+    - exercises:
+        - /gestern-und-schon/present-perfect/#present-perfect-waehlen
+        - /gestern-und-schon/present-perfect/#present-perfect-bilden
