@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Gestern und schon
+summary: Der Zeitstrahl wächst nach links. Du erzählst mit dem simple past, was gestern passiert ist, bildest die wichtigsten unregelmäßigen Verben und sagst mit dem present perfect, was schon geschehen ist.
+pages: [simple-past, unregelmaessig, present-perfect]

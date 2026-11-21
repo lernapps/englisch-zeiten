@@ -1,0 +1,284 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Verben mit drei Formen: sing – sang – sung"
+description: "Mr Hill hängt Karten mit unregelmäßigen Verben an die Tafel. Du lernst die wichtigsten 38 nach ihrem Klang und bildest ihr simple past."
+competencies: [unregelmaessige-verben]
+scope: Die Seite zeigt, dass viele häufige Verben im simple past kein -ed bekommen. Jedes hat drei Formen, die Grundform, die Form im simple past und die dritte Form (go, went, gone). Die 38 häufigsten Verben stehen in Tabellen nach Klangmustern, zum Beispiel sing, sang, sung oder buy, bought, bought. Ziel ist, im simple past die zweite Form zu wählen und ein Muster auf ein neues Verb zu übertragen. Typische Fehler sind eine regelmäßige Form wie goed oder eated und die Verwechslung von went und gone. Die dritte Form wird hier gelernt und auf der nächsten Seite beim present perfect gebraucht. Nicht hier, weil es andere Seiten sind. Das present perfect, Fragen und Verneinung mit did und die Aussprache.
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Karten an der Tafel
+    blocks:
+      - type: figure
+        image: images/szene-unregelmaessig.svg
+        alt: Mr Hill steht neben der Tafel. Auf der Tafel hängen zwei Karten mit den Aufschriften go – went und see – saw. Sophie und Peter schauen zu.
+        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und rechts Mr Hill (graue Haare). Auf der Tafel hängen zwei Karten.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie sagt zu Mr Hill: „Yesterday I went to school.“ Go heißt gehen. Mr Hill hängt zwei Karten an die Tafel."
+      - type: single-choice
+        id: unregelmaessig-start
+        text: Sophie sagt „went“ und nicht „goed“. Warum?
+        options:
+          - text: Go ist ein unregelmäßiges Verb. Es hat eine eigene Form und bekommt kein -ed.
+            correct: true
+            info: Manche Verben ändern ihr Wort im simple past, statt ein -ed zu bekommen. Went gehört zu go.
+          - text: Sophie hat sich versprochen.
+            correct: false
+            info: Went ist richtig. Es ist die Form von go im simple past.
+          - text: Went ist die Form für die Gegenwart.
+            correct: false
+            info: Went steht bei Zeitangaben wie yesterday. Die Gegenwart wäre go.
+        explanation: Bei unregelmäßigen Verben musst du die Form kennen. Ein -ed hilft hier nicht.
+        links:
+          - title: Lernlandkarte Englisch · Unregelmäßige Verben
+            url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
+      - type: text
+        text: "**Das kannst du danach:** Du kennst die wichtigsten unregelmäßigen Verben und bildest ihr simple past und ihre dritte Form."
+  - type: section
+    id: neu
+    title: Karten mit drei Formen, nach Klang sortiert
+    blocks:
+      - type: text
+        text: Jede Karte hat drei Formen, die **Grundform**, das **simple past** und die **3. Form**. Die 3. Form brauchst du gleich auf der nächsten Seite. Die Karten sind nach ihrem Klang sortiert. Wer ein Muster kennt, merkt sich viele Verben auf einmal.
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige Verben · i – a – u
+        header: [Grundform, simple past, 3. Form]
+        rows:
+          - [sing (singen), sang, sung]
+          - [swim (schwimmen), swam, swum]
+          - [drink (trinken), drank, drunk]
+          - [begin (anfangen), began, begun]
+          - [ring (klingeln), rang, rung]
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige Verben · 3. Form endet auf n
+        header: [Grundform, simple past, 3. Form]
+        rows:
+          - [write (schreiben), wrote, written]
+          - [drive (fahren), drove, driven]
+          - [ride (reiten), rode, ridden]
+          - [take (nehmen), took, taken]
+          - [give (geben), gave, given]
+          - [eat (essen), ate, eaten]
+          - [see (sehen), saw, seen]
+          - [know (wissen), knew, known]
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige Verben · simple past und 3. Form gleich
+        header: [Grundform, simple past, 3. Form]
+        rows:
+          - [buy (kaufen), bought, bought]
+          - [bring (bringen), brought, brought]
+          - [think (denken), thought, thought]
+          - [catch (fangen), caught, caught]
+          - [teach (unterrichten), taught, taught]
+          - [make (machen), made, made]
+          - [say (sagen), said, said]
+          - [pay (bezahlen), paid, paid]
+          - [meet (treffen), met, met]
+          - [sit (sitzen), sat, sat]
+          - [get (bekommen), got, got]
+          - [find (finden), found, found]
+          - [lose (verlieren), lost, lost]
+          - [leave (verlassen), left, left]
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige Verben · Grundform und 3. Form gleich
+        header: [Grundform, simple past, 3. Form]
+        rows:
+          - [come (kommen), came, come]
+          - [run (rennen), ran, run]
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige Verben · alle drei Formen gleich
+        header: [Grundform, simple past, 3. Form]
+        rows:
+          - [cut (schneiden), cut, cut]
+          - [put (legen), put, put]
+          - [hit (schlagen), hit, hit]
+          - [let (lassen), let, let]
+          - [read (lesen), read, read]
+      - type: table
+        caption: Klassenzimmer-Poster · Unregelmäßige Verben · besondere Verben
+        header: [Grundform, simple past, 3. Form]
+        rows:
+          - [go (gehen), went, gone]
+          - [do (tun), did, done]
+          - [be (sein), was / were, been]
+          - [have (haben), had, had]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Im simple past nimmst du die **2. Spalte**: Yesterday I went to school. Die **3. Form** ist eine andere Karte: gone gehört nicht zu yesterday. Hänge bei diesen Verben **kein ed** an: goed, eated und buyed gibt es nicht.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [break, kaputt machen]
+          - [speak, sprechen]
+          - [sink, sinken]
+          - [pizza, Pizza]
+          - [film, Film]
+          - [book, Buch]
+          - [water, Wasser]
+          - [school, Schule]
+          - [home, nach Hause]
+          - [at home, zu Hause]
+          - [to, zu / nach]
+          - [a, ein / eine]
+          - [with, mit]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: unregelmaessig-karten
+        text: Welche Form gehört zum simple past? Ordne zu.
+        pairs:
+          - left: eat
+            right: ate
+          - left: see
+            right: saw
+          - left: buy
+            right: bought
+          - left: swim
+            right: swam
+          - left: take
+            right: took
+        distractors: [eated, goed]
+        explanation: Diese Verben haben eine eigene Form im simple past. Ein -ed gibt es hier nicht.
+        hint: Schau auf die Karten im Poster. Die 2. Spalte ist das simple past.
+        links:
+          - title: Lernlandkarte Englisch · Unregelmäßige Verben
+            url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
+      - type: language-task
+        id: unregelmaessig-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie ist gestern zur Schule gegangen.
+            target: Yesterday Sophie [went] to school.
+            distractors: [[goed, gone]]
+          - cue: Peter hat letzte Woche Pizza gegessen.
+            target: Peter [ate] pizza last week.
+            distractors: [[eated, eaten]]
+          - cue: Ellie hat gestern einen Film gesehen.
+            target: Ellie [saw] a film yesterday.
+            distractors: [[seed, seen]]
+          - cue: Wir haben vor zwei Tagen ein Buch gekauft.
+            target: We [bought] a book two days ago.
+            distractors: [[buyed, buy]]
+        hint: Yesterday, last week und two days ago sind vorbei. Nimm die 2. Spalte der Karte.
+      - type: language-task
+        id: unregelmaessig-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: "Mr Hill hängt neue Karten auf. Welche Formen fehlen? Schau auf die Muster."
+        form: { case: hint }
+        table:
+          caption: Neue Karten von Mr Hill
+          header: [Grundform, simple past, 3. Form]
+          rows:
+            - [sink, "[sank]", "[sunk]"]
+            - [break, "[broke]", "[broken]"]
+            - [speak, "[spoke]", "[spoken]"]
+        hint: "Sink klingt wie sing und drink. Break und speak klingen wie write und ride: die 3. Form endet auf n."
+      - type: language-task
+        id: unregelmaessig-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz im simple past.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Amir · take · a book · last week
+            target: Amir took a book last week.
+            mistakes:
+              - answer: Amir taked a book last week.
+                message: Take ist unregelmäßig. Du brauchst die 2. Form, nicht -ed.
+              - answer: Amir taken a book last week.
+                message: Taken ist die 3. Form. Im simple past nimmst du die 2. Spalte.
+          - cue: Sophie · go · home · yesterday
+            target: Sophie went home yesterday.
+            mistakes:
+              - answer: Sophie goed home yesterday.
+                message: Go ist unregelmäßig. Die Form heißt went.
+              - answer: Sophie gone home yesterday.
+                message: Gone ist die 3. Form. Bei yesterday brauchst du went.
+          - cue: Ellie · drink · water · two days ago
+            target: Ellie drank water two days ago.
+            mistakes:
+              - answer: Ellie drunk water two days ago.
+                message: Drunk ist die 3. Form. Im simple past heißt es drank.
+          - cue: Peter · come · to school · last week
+            target: Peter came to school last week.
+            mistakes:
+              - answer: Peter comed to school last week.
+                message: Come ist unregelmäßig. Die Form im simple past heißt came.
+        hint: Such das Verb auf dem Poster. Bei einer Zeitangabe nimmst du die 2. Spalte.
+      - type: language-task
+        id: unregelmaessig-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie swimmed two days ago.
+            target: Sophie swam two days ago.
+            mistakes:
+              - answer: Sophie swimmed two days ago.
+                message: Das ist der Satz mit dem Fehler. Swim hat die Form swam.
+          - cue: Amir bringed a book yesterday.
+            target: Amir brought a book yesterday.
+            mistakes:
+              - answer: Amir bringed a book yesterday.
+                message: Das ist der Satz mit dem Fehler. Bring hat die Form brought.
+          - cue: Ellie writed to Sophie last week.
+            target: Ellie wrote to Sophie last week.
+            mistakes:
+              - answer: Ellie writed to Sophie last week.
+                message: Das ist der Satz mit dem Fehler. Write hat die Form wrote.
+        hint: Such das Verb auf dem Poster und nimm die 2. Spalte.
+      - type: language-task
+        id: unregelmaessig-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: mr-hill-gave-peter-a-book.mp3
+            target: Mr Hill gave Peter a book.
+          - audio: we-drank-water-at-home.mp3
+            target: We drank water at home.
+          - audio: sophie-sang-at-home-yesterday.mp3
+            target: Sophie sang at home yesterday.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: unregelmaessig-nachsprechen
+        language: en
+        items:
+          - audio: peter-ran-home-yesterday.mp3
+            text: Peter ran home yesterday.
+          - audio: ellie-sat-with-amir.mp3
+            text: Ellie sat with Amir.
+          - audio: sophie-came-to-school-last-week.mp3
+            text: Sophie came to school last week.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Verbform, die kein -ed hat.
+      - type: open-task
+        id: unregelmaessig-karte
+        task: "Sophie schreibt eine Karte, die als einzelner Punkt links von now am Zeitstrahl hängt. Schreibe zwei Sätze darüber, was Ellie, Peter oder Amir letzte Woche oder gestern gemacht haben. Nimm ein unregelmäßiges Verb von den Karten."
+        points:
+          - text: Mindestens ein Satz hat ein unregelmäßiges Verb in der Form des simple past, zum Beispiel went, ate oder saw.
+            source: /gestern-und-schon/unregelmaessig/#neu
+          - text: Die Sätze nennen, wann es war, zum Beispiel yesterday oder last week.
+            source: /gestern-und-schon/simple-past/#neu
+          - text: Es sind ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          Peter ate pizza yesterday. Ellie went to school last week.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."

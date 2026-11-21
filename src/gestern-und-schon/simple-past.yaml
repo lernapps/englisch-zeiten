@@ -1,0 +1,251 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was gestern war: das simple past"
+description: "Sophie erzählt, was sie gestern gemacht hat. Du lernst, mit dem simple past und -ed von abgeschlossenen Ereignissen zu erzählen."
+competencies: [simple-past]
+scope: Die Seite führt das simple past mit regelmäßigen Verben ein. Es erzählt von etwas, das vorbei ist und zu einer Zeitangabe wie yesterday, last week oder two days ago gehört. Auf dem Zeitstrahl ist es ein einzelner Punkt links von now. Die Form ist die Grundform mit -ed für alle Personen, ohne s (played, watched). Nach e kommt nur d (liked, danced), nach Konsonant und y wird aus y ein ied (studied, cried), nach kurzem Vokal und einem Konsonanten wird der Konsonant verdoppelt (stopped, shopped). Nicht hier, weil es spätere Seiten oder andere Explainer sind. Die unregelmäßigen Verben, das present perfect, Fragen und Verneinung mit did und die Aussprache von -ed.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was Sophie gestern erzählt
+    blocks:
+      - type: figure
+        image: images/szene-simple-past.svg
+        alt: Sophie erzählt Amir und Ellie etwas. In der Sprechblase über ihr steht „Yesterday I played football.“ Amir und Ellie hören zu.
+        caption: Von links Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz). Sophie spricht.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie erzählt Amir und Ellie von ihrem Tag: „Yesterday I played football.“ Yesterday heißt gestern. Der Tag ist vorbei."
+      - type: single-choice
+        id: simple-past-start
+        text: Sophie sagt „Yesterday I played football.“ Wo liegt ihr Fußballspiel auf dem Zeitstrahl?
+        options:
+          - text: Ein einzelner Punkt links von now
+            correct: true
+            info: Gestern ist vorbei, also liegt es links von now. Das Spiel war einmal, also ist es ein einzelner Punkt.
+          - text: Eine Reihe von Punkten
+            correct: false
+            info: Eine Punktreihe ist eine Gewohnheit. Sophie erzählt nur von gestern.
+          - text: Ein einzelner Punkt rechts von now
+            correct: false
+            info: Rechts von now liegt das, was noch kommt. Gestern ist schon vorbei.
+        explanation: Was einmal war und vorbei ist, ist ein einzelner Punkt links von now.
+        links:
+          - title: Lernlandkarte Englisch · Simple past
+            url: https://lernapps.net/apps/map/englisch/c/simple-past/
+      - type: text
+        text: "**Das kannst du danach:** Du erzählst auf Englisch, was gestern oder letzte Woche passiert ist, und bildest die Verbform mit -ed."
+  - type: section
+    id: neu
+    title: Ein Punkt mit Zeitangabe und das -ed
+    blocks:
+      - type: text
+        text: Auf dem Zeitstrahl kennst du schon die Punktreihe. Jetzt kommt links von now ein **einzelner Punkt** dazu. Am Punkt hängt ein Fähnchen mit der Zeitangabe, wann es war. Diese Zeitform heißt **simple past**.
+      - type: figure
+        image: images/zeitstrahl-punkt-links.svg
+        alt: Ein Zeitstrahl von links nach rechts mit einem roten Strich now. Links davon liegen zwei einzelne blaue Punkte. An einem hängt das Fähnchen yesterday, am anderen das Fähnchen last week.
+        caption: Jeder Punkt ist ein einzelnes Ereignis. Das Fähnchen sagt, wann es war.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Schulkalender · Zeitangaben für das simple past
+        header: [Zeitangabe, Bedeutung]
+        rows:
+          - [yesterday, gestern]
+          - [last week, letzte Woche]
+          - [two days ago, vor zwei Tagen]
+      - type: text
+        text: Bei regelmäßigen Verben hängst du **ed** an die Grundform. Das gilt für alle Personen, auch für he, she und it. Das s von der letzten Seite fällt weg.
+      - type: table
+        caption: Klassenzimmer-Poster · Das simple past
+        header: [Verb, simple past, Beispiel]
+        rows:
+          - [play (spielen), "play**ed**", Peter played football yesterday.]
+          - [walk (gehen), "walk**ed**", We walked home last week.]
+          - [like (mögen), "like**d**", Ellie liked the film.]
+          - [study (lernen), "stud**ied**", Amir studied English.]
+          - [stop (anhalten), "sto**pped**", The bus stopped.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Ein Verb mit **e** am Ende bekommt nur ein **d**: like – liked. Nach einem Konsonanten wird aus **y** ein **ied**: study – studied. Ein kurzes Verb mit einem Vokal und einem Konsonanten am Ende verdoppelt den Konsonanten: stop – stopped.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [dance, tanzen]
+          - [help, helfen]
+          - [cry, weinen]
+          - [shop, einkaufen]
+          - [watch, anschauen]
+          - [football, Fußball]
+          - [film, Film]
+          - [homework, Hausaufgaben]
+          - [home, nach Hause / zu Hause]
+          - [to, zu / nach]
+          - [and, und]
+          - [a, ein / eine]
+          - [with, mit]
+          - [bus, Bus]
+          - [English, Englisch]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: simple-past-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form des Verbs.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter hat gestern Fußball gespielt.
+            target: Peter [played] football yesterday.
+            distractors: [[plays, play]]
+          - cue: Ellie hat letzte Woche einen Film angeschaut.
+            target: Ellie [watched] a film last week.
+            distractors: [[watches, is watch]]
+          - cue: Wir sind vor zwei Tagen nach Hause gegangen.
+            target: We [walked] home two days ago.
+            distractors: [[walk, walks]]
+          - cue: Amir hat gestern Sophie geholfen.
+            target: Amir [helped] Sophie yesterday.
+            distractors: [[helps, is help]]
+        hint: Gestern, letzte Woche und vor zwei Tagen sind vorbei. Dann braucht das Verb die Endung -ed.
+      - type: language-task
+        id: simple-past-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Bilde das simple past. Denke an das Merke.
+        form: { case: hint }
+        table:
+          caption: simple past
+          header: [Verb, simple past]
+          rows:
+            - [dance, "[danced]"]
+            - [help, "[helped]"]
+            - [cry, "[cried]"]
+            - [shop, "[shopped]"]
+        hint: "Schau auf den letzten Buchstaben: dance endet auf e, cry auf y und shop ist kurz mit einem Konsonanten am Ende."
+      - type: language-task
+        id: simple-past-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz im simple past.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie · play · football · yesterday
+            target: Sophie played football yesterday.
+            mistakes:
+              - answer: Sophie plays football yesterday.
+                message: Yesterday ist vorbei. Links von now brauchst du das simple past mit -ed.
+              - answer: Sophie playd football yesterday.
+                message: Nach einem Vokal bleibt das y. Aus play wird played.
+          - cue: Ellie · watch · a film · last week
+            target: Ellie watched a film last week.
+            mistakes:
+              - answer: Ellie watchs a film last week.
+                message: Das s gehört in die Gegenwart. Bei last week brauchst du watched.
+          - cue: Amir · cry · yesterday
+            target: Amir cried yesterday.
+            mistakes:
+              - answer: Amir cryed yesterday.
+                message: Nach einem Konsonanten wird aus y ein ied.
+          - cue: Peter · stop · two days ago
+            target: Peter stopped two days ago.
+            mistakes:
+              - answer: Peter stoped two days ago.
+                message: Stop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
+        hint: Frag dich, welches Fähnchen am Punkt hängt. Dann bildest du die Form mit -ed.
+      - type: language-task
+        id: simple-past-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter plays football yesterday.
+            target: Peter played football yesterday.
+            mistakes:
+              - answer: Peter plays football yesterday.
+                message: Das ist der Satz mit dem Fehler. Gestern ist vorbei, also braucht das Verb -ed.
+          - cue: Ellie stopd two days ago.
+            target: Ellie stopped two days ago.
+            mistakes:
+              - answer: Ellie stopd two days ago.
+                message: Das ist der Satz mit dem Fehler. Stop verdoppelt das p vor ed.
+          - cue: Amir studyed English last week.
+            target: Amir studied English last week.
+            mistakes:
+              - answer: Amir studyed English last week.
+                message: Das ist der Satz mit dem Fehler. Nach Konsonant wird aus y ein ied.
+      - type: language-task
+        id: simple-past-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Gestern habe ich Fußball gespielt.
+            target: I played football yesterday.
+            accepted: [Yesterday I played football.]
+            mistakes:
+              - answer: I play football yesterday.
+                message: Yesterday ist vorbei. Das Verb braucht -ed.
+          - source: Ellie hat letzte Woche getanzt.
+            target: Ellie danced last week.
+            accepted: [Last week Ellie danced.]
+            mistakes:
+              - answer: Ellie dancied last week.
+                message: Dance endet schon auf e. Du hängst nur ein d an.
+          - source: Wir haben vor zwei Tagen Peter geholfen.
+            target: We helped Peter two days ago.
+            accepted: [Two days ago we helped Peter.]
+            mistakes:
+              - answer: We help Peter two days ago.
+                message: Two days ago liegt links von now. Dann brauchst du helped.
+        hint: Schau auf die Zeitangabe. Dann bildest du das Verb mit -ed.
+      - type: language-task
+        id: simple-past-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: sophie-walked-home-yesterday.mp3
+            target: Sophie walked home yesterday.
+          - audio: peter-and-amir-played-football-last-week.mp3
+            target: Peter and Amir played football last week.
+          - audio: ellie-studied-english-two-days-ago.mp3
+            target: Ellie studied English two days ago.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: simple-past-nachsprechen
+        language: en
+        items:
+          - audio: ellie-danced-with-sophie.mp3
+            text: Ellie danced with Sophie.
+          - audio: we-helped-mr-hill-yesterday.mp3
+            text: We helped Mr Hill yesterday.
+          - audio: amir-liked-the-film.mp3
+            text: Amir liked the film.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende der Verben.
+      - type: open-task
+        id: simple-past-karte
+        task: "Sophie schreibt eine Karte, die als einzelner Punkt links von now am Zeitstrahl hängt. Schreibe zwei Sätze darüber, was Ellie, Peter oder Amir gestern oder letzte Woche gemacht haben."
+        points:
+          - text: Beide Sätze erzählen von etwas, das vorbei ist, und das Verb hat -ed.
+            source: /gestern-und-schon/simple-past/#neu
+          - text: Die Sätze nennen, wann es war, zum Beispiel yesterday oder last week.
+            source: /gestern-und-schon/simple-past/#neu
+          - text: Es sind ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          Peter helped Mr Hill yesterday. Ellie watched a film last week.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Mr Hill hängt eine Karte dazu, auf der steht „went“. Sophie wundert sich: Das ist kein -ed. Auf der nächsten Seite lernst du die Verben, die anders sind."
