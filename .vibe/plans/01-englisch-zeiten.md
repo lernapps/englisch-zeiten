@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -119,9 +119,10 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, passt. Kapitel 1 bis 3 stimmen mit Issue und requires der Karte. Reihenfolge: simple-oder-progressive nach present-progressive und adverbien-haeufigkeit; unregelmaessige-verben nach simple-past; present-perfect danach; will-future frei (Anfang K3); going-to nach present-progressive; will-oder-going-to zuletzt. Unregelmäßige Verben 30-40 nach Klangmustern, passend zu A1/A2. Ungeprüftes bleibt im Inhaltsführer als ungeprüft. Jede Seite bringt einen neuen Schritt (explainer-one-step); Figuren-Szenen passen zum Zeitstrahl-Bild.
 
 ### Answers
 
@@ -147,17 +148,17 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -169,6 +170,56 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+**Aufbau.** Strang-App `strand: englisch/grammatik`, Format 2, `languages: [de]`. Drei Kapitel (`immer-oder-jetzt`, `gestern-und-schon`, `morgen-und-spaeter`), 13 Seiten, eine Kompetenz je Seite, Reihenfolge wie in den Notes (am Checkpoint „Recherche“ bestätigt). Alle Abschnitts-IDs gleich: `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Zeichen und Bau-Karte, Merke-Kasten), `uebung` (mindestens vier, leicht → schwer), `anwenden` (den Strahl selbst füllen: `open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte). Die Wiederholungsseite hat keine Übung.
+
+**Geschichte (Figuren aus konventionen.md, nicht ändern).** Mr Hill lässt die Klasse ein Wandbild „Millbrook-Zeitstrahl“ gestalten: Sophie, Ellie, Peter und Amir hängen Karten auf den Strahl (K1: was sie immer tun und was gerade passiert; K2: was gestern und schon passiert ist; K3: was kommt, z. B. die Geburtstage am 5. Mai, 10. Juli, 12. Oktober, 14. Oktober). Jede Seite hat eine Szene (`szene-<seite>.svg`, Figuren als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 kopiert) und endet mit dem nächsten Schritt am Wandbild. Zwei wachsende Bilder: der **Zeitstrahl** (eine SVG-Familie; K1 now mit Punktreihe und Welle, K2 nach links mit Punkt und Bogen, K3 nach rechts mit Pfeil und Punkt) und die Tabelle „Klassenzimmer-Poster · Zeitformen“ (Zeichen · Form · Beispiel); in K2 und K3 dazu „Schulkalender · Zeitangaben“ (Signalwörter).
+
+**Zeichen** (eigene SVG in `src/images/`, Quelle „eigene Zeichnung“, `CC-BY-4.0`; gleich auf jeder Seite, im Inhaltsführer unter „Figures“ festgeschrieben): now = senkrechter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil. Signalwörter hängen als Fähnchen am Strahl. Bau-Karten: be + -ing, have + 3. Form, be + going to + Grundform, will + Grundform. Das -s bei he/she/it ist farbig hervorgehoben („He, she, it – das s muss mit.“). In Aufgaben zeigt die Figur den leeren Strahl mit Legende, nie das Ergebnis (`explainer-figure-hides-answer`).
+
+**Komponente? Nein (guess).** Das Setzen auf den Strahl wird mit eingebauten Blöcken geübt: `matching` (Satz ↔ Zeichen), `ordering` (Fähnchen von always bis never; Ereignisse nach Zeit), `labelled-figure` mit `language-task` (Marker am Strahl). Eine Ziehen-Komponente kostet Logik, Test und Text ohne JavaScript (`prefer-built-in-block`); sie bleibt Wunsch für ein Inkrement (im Inhaltsführer vermerkt).
+
+**Muster je Kompetenz** (leicht → schwer, jede Übung mit `mistakes` und `hint`):
+- `to-be`: `matching` Person ↔ Form; `language-task` `table` (am/is/are mit Lücken); `choice` mit Distraktoren; `write` Verneinung und Frage aus Cue; Diktat; Nachsprechen.
+- `have-got`: `choice` have/has; `gap` nach Person mit Dingen der Figuren; `write` Frage und Verneinung mit have got; Diktat; Nachsprechen.
+- `simple-present`: `matching` Satz ↔ Punktreihe; `table` Formen mit -s-Spalte; `gap`/`write` mit Cue (`cue: "play · she"`); Schreibung (goes, watches, studies) als `choice`; Diktat; Nachsprechen.
+- `adverbien-haeufigkeit`: `ordering` Fähnchen always–never; `ordering` Satzteile (She often plays …; He is never late); `gap` Stellung; `write` mit Cue; Diktat.
+- `present-progressive`: Bau-Karte; `matching` Szene-Satz ↔ Welle; `table` Formen; `gap` (-ing-Schreibung running, making, writing); `write` aus Szene; Diktat; Nachsprechen.
+- `simple-oder-progressive`: `choice` mit Signalwort-Fähnchen; `matching` Signalwort ↔ Zeichen; `gap` mit Klammer-Cue; `true-false` mit Begründung; `write`; Diktat.
+- `simple-past`: `table` -ed-Bildung (play – played, study – studied, stop – stopped, like – liked); `choice` Zeitangabe (yesterday, last week, two days ago); `gap` mit Cue; `write`; Diktat; Nachsprechen. Nur Bejahung (did-Verneinung gehört zu #473).
+- `unregelmaessige-verben`: Kartenset in Klangmustern („Klassenzimmer-Poster · Unregelmäßige Verben“); `matching` Grundform ↔ past; `table` (drei Formen mit Lücken); Muster erkennen (sing – sang – sung → swim); `write` mit Cue; `choice` went/gone; Diktat; Nachsprechen.
+  Verben (Auswahl A1/A2, Grundwortschatz-Seite der Karte vorher öffnen): sing sang sung · swim swam swum · drink drank drunk · begin began begun · ring rang rung · run ran run · come came come · write wrote written · drive drove driven · ride rode ridden · take took taken · give gave given · eat ate eaten · see saw seen · know knew known · buy bought bought · bring brought brought · think thought thought · catch caught caught · teach taught taught · go went gone · do did done · be was/were been · have had had · make made made · say said said · pay paid paid · meet met met · read read read · sit sat sat · get got got · find found found · lose lost lost · leave left left · cut cut cut · put put put · hit hit hit · let let let (38).
+- `present-perfect`: Bau-Karte have + 3. Form (Formen von der vorigen Seite); `matching` Signalwort (ever, never, already, yet, just) ↔ Bogen; `choice` simple past oder present perfect nur in eindeutigen Fällen (Zeitangabe → past, Ergebnis zählt jetzt → perfect); `gap`; `ordering` Satzstellung (already, yet); Diktat; Nachsprechen. Ohne since/for (Kapitel 5).
+- `will-future`: `choice` Vermutung oder spontaner Entschluss; `table` Form (will + Grundform, alle Personen gleich); `gap`/`write` mit Cue (maybe, I think, probably); `matching` Situation ↔ Satz; Diktat; Nachsprechen.
+- `going-to`: Bau-Karte be + going to + Grundform (be aus K1); `table`; `choice` be-Form; `gap`; `matching` Anzeichen ↔ Satz („Look at the clouds!“ ↔ „It is going to rain.“); `write`; Diktat; Nachsprechen.
+- `will-oder-going-to`: `choice` mit Begründung im Feedback („Der Plan steht schon: going to“, „spontan: will“); `matching` Situation ↔ Zeichen; `true-false` mit Begründung; `write` Pläne der Figuren; Diktat; Rückblick auf K3. Nur eindeutige Fälle.
+
+**Rückmeldungen.** Jeder typische Fehler der Notes ist ein `mistakes`-Eintrag mit eigener Meldung, die die Regel am Zeichen benennt („Eine Punktreihe: he, she, it – das s muss mit“, „Ein Punkt mit Zeitangabe → simple past, kein Bogen“). Gleichwertige Antworten mit `(a|b)` (isn't/is not, I'm/I am); britische Schreibung.
+
+**Hören und Sprechen.** Stimme `bf_emma`, nur ganze Sätze, erzeugt mit `.agents/skills/app-content/scripts/regen_audio.py` (Kopie aus hello-millbrook, schneidet das Ausklingen ab). Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir). Jede Seite ein Diktat (`<seite>-hoeren`), dazu Nachsprechen (`<seite>-nachsprechen`). Die Aussprache von -s und -ed bleibt in #482.
+
+**Wörter.** Quelle: Grundwortschatz-Seite der Karte (`https://lernapps.net/apps/map/englisch/grundwortschatz/`), A1/A2; jedes Wort vor einer Übung mit Bedeutung eingeführt. Englische Aufgaben enthalten kein deutsches Wort. Fachbegriffe verb, noun, tense, sentence nur benutzen (aus #470). Keine Datendateien: jede Tatsache steht einmal in ihrer Seite.
+
+**Wiederholungsseite K1:** `recap: englisch/personalpronomen` („Das brauchst du hier“), kompakt: I, you, he, she, it, we, they; Link auf die echte Seite aus #471, sonst auf die Karte. Keine Übung. Andere Voraussetzungen von außen gibt es nicht.
+
+**Selbsteinschätzung** (Skill `lernapps-explainer-self-assessment`, im Commit-Teil): je Seite 2 Übungen, die ohne die Seite verständlich sind.
+
+**Ein späteres Kapitel ergänzen (Inkremente 4 bis 7).** Karte lesen, Seite nach dem Muster der Musterseite anlegen, den Strahl um die neuen Zeichen erweitern (Welle in der Vergangenheit, Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben, Punktreihe in der Vergangenheit für used to), Poster erweitern, Übungen aus den Mustern mit `mistakes`, Hörtexte mit `regen_audio.py`, `check`, Inhaltsführer nachführen.
+
+**Engagement je Seite** (Einstieg · Wechsel · Belohnung · Geschichte):
+- `das-brauchst-du` (Wiederholung K1): kompakt, keine Übung · Tabelle der Pronomen · Kinder wissen, dass sie sie gleich brauchen · Mr Hill hängt den leeren Strahl an die Wand.
+- `to-be`: Sophie stellt Karten für den Strahl vor („I am Sophie“): die Kinder ordnen Person ↔ Form · Tabelle lesen, selbst ergänzen, schreiben · sie stellen die Figuren mit be vor · Karte „Wer ist wer?“ hängt am Strahl.
+- `have-got`: Ellie zeigt, was sie hat (a red jacket, a brother): Lücke have/has · Szene, Tabelle, Frage schreiben · sie beschreiben Dinge der Figuren · Peters Karte „What has he got?“.
+- `simple-present`: Peter spielt jeden Samstag Fußball: Punktreihe lesen (Satz ↔ Gewohnheit) · Tabelle mit -s · sie schreiben Gewohnheiten der vier Kinder · die Reihe von Punkten steht am Strahl.
+- `haeufigkeit`: Fähnchen always bis never ordnen · Ordnen, Lücke, Schreiben · sie beschreiben ihre eigene Woche · Amir ist nie zu spät, Peter manchmal.
+- `present-progressive`: Szene im Klassenzimmer (Wer macht gerade was?): Satz ↔ Welle · Bau-Karte be + -ing, Tabelle, -ing-Schreibung · sie beschreiben die Szene · Welle über now am Strahl.
+- `simple-oder-progressive`: zwei Sätze mit Signalwort-Fähnchen: Punktreihe oder Welle? · Signalwort-Zuordnung, Lücke mit Klammer · sie entscheiden bei Sätzen der Kinder · Rückblick K1: der Strahl hat jetzt Punktreihe und Welle.
+- `simple-past`: Sophie erzählt, was gestern war (yesterday, last week): Punkt mit Zeitangabe · Bildung -ed am Strahl, Tabelle, Lücke · sie schreiben, was gestern passiert ist · der Strahl wächst nach links.
+- `unregelmaessig`: Karten fallen vom Strahl: Mr Hill zeigt went, saw, ate: sortieren nach Klangmustern · Ordnen, Tabelle, Schreiben · sie bilden die Muster nach (sing → swim) · Kartenset ist das Poster.
+- `present-perfect`: Ellie: „Have you ever been to London?“: Bogen bis now · Bau-Karte have + 3. Form, Signalwörter, simple past gegen Bogen · sie entscheiden bei Sätzen der Kinder · Bogen am Strahl; Rückblick K2.
+- `will`: Amir überlegt, was nächstes Jahr ist (I think / maybe): Punkt rechts · Form, Entscheidung Vermutung/spontan · sie machen Vorhersagen · Strahl wächst nach rechts.
+- `going-to`: Peter plant seinen Geburtstag am 5. Mai: Pfeil ab now · Bau-Karte, Anzeichen ↔ Satz · sie schreiben Pläne der Figuren · Pfeil am Strahl.
+- `will-oder-going-to`: Ellies Geburtstag und eine spontane Idee: Pfeil oder Punkt? · Entscheiden mit Begründung, Zuordnung · sie schreiben Pläne und Angebote · Rückblick K3, der Strahl ist fertig (Vergangenheit, jetzt, Zukunft).
 
 ## Code
 
@@ -193,11 +244,18 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite K1 `simple-present` (immer-oder-jetzt/simple-present): Zeichnungen (Zeitstrahl-SVG mit now, Punktreihe und Fähnchen; Szene Peter spielt Fußball; Figuren aus millbrook-klassenzimmer.svg von #470), alle Abschnitte (einstieg, neu, uebung mit mindestens vier Übungen und mistakes, anwenden, weiter), Diktat und Nachsprechen mit bf_emma via regen_audio.py, Tabelle Klassenzimmer-Poster · Zeitformen; zeigt das Muster aller Seiten
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Kapitel 1 Rest: Wiederholungsseite das-brauchst-du (recap personalpronomen) und Seiten to-be, have-got, haeufigkeit (adverbien-haeufigkeit) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
+- [ ] Kapitel 1 Rest: Seiten present-progressive (Welle, Bau-Karte be + -ing) und simple-oder-progressive (Signalwörter, Rückblick K1) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
+- [ ] Kapitel 2: Seiten simple-past (Strahl nach links), unregelmaessig (Kartenset der 38 Verben nach Klangmustern, Poster) und present-perfect (Bogen, Bau-Karte have + 3. Form, Rückblick K2) nach dem Muster, je mit Szene, Übungen, mistakes, Audio, Schulkalender · Zeitangaben
+- [ ] Kapitel 3: Seiten will, going-to (Pfeil, Bau-Karte) und will-oder-going-to (Entscheiden mit Begründung, Rückblick K3, fertiger Strahl) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
+- [ ] Selbsteinschätzung (Skill lernapps-explainer-self-assessment) je Kapitel und der App; Übungen mit Prüfung, dass sie ohne die Seite verständlich sind
+- [ ] Sprachprüfung: ein Sub-Agent prüft das Englisch (britisch, keine deutschen Wörter in englischen Aufgaben) und das Deutsche aller Seiten; Funde beheben und unter Notes aufschreiben
+<!-- tasks: pages (6 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.

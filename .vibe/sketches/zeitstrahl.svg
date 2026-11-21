@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="t d">
+  <title id="t">Skizze Zeitstrahl</title>
+  <desc id="d">Strahl von links nach rechts mit now in der Mitte: links ein Punkt und ein Bogen, in der Mitte eine Punktreihe und eine Welle, rechts ein Pfeil und ein Punkt.</desc>
+  <rect width="640" height="260" fill="#fff"/>
+  <line x1="20" y1="170" x2="620" y2="170" stroke="#333" stroke-width="3"/>
+  <polygon points="620,170 610,164 610,176" fill="#333"/>
+  <line x1="320" y1="130" x2="320" y2="210" stroke="#c0392b" stroke-width="4"/>
+  <text x="320" y="228" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#c0392b">now</text>
+  <text x="60" y="244" font-size="13" font-family="sans-serif">früher</text>
+  <text x="560" y="244" font-size="13" font-family="sans-serif">später</text>
+  <!-- K2: Punkt + Bogen links -->
+  <circle cx="120" cy="170" r="7" fill="#2c7be5"/>
+  <text x="120" y="150" text-anchor="middle" font-size="12" font-family="sans-serif">yesterday</text>
+  <path d="M 190 170 Q 255 100 320 170" fill="none" stroke="#2c7be5" stroke-width="3"/>
+  <text x="255" y="108" text-anchor="middle" font-size="12" font-family="sans-serif">already</text>
+  <!-- K1: Punktreihe + Welle -->
+  <g fill="#27ae60"><circle cx="300" cy="190" r="4"/><circle cx="320" cy="190" r="4"/><circle cx="340" cy="190" r="4"/></g>
+  <path d="M 290 150 q 10 -14 20 0 t 20 0 t 20 0" fill="none" stroke="#8e44ad" stroke-width="3"/>
+  <text x="320" y="118" text-anchor="middle" font-size="12" font-family="sans-serif">always · now</text>
+  <!-- K3: Pfeil + Punkt rechts -->
+  <line x1="320" y1="150" x2="440" y2="150" stroke="#e67e22" stroke-width="3"/>
+  <polygon points="440,150 430,144 430,156" fill="#e67e22"/>
+  <text x="440" y="136" text-anchor="middle" font-size="12" font-family="sans-serif">going to</text>
+  <circle cx="540" cy="170" r="7" fill="#e67e22"/>
+  <text x="540" y="150" text-anchor="middle" font-size="12" font-family="sans-serif">will</text>
+</svg>
