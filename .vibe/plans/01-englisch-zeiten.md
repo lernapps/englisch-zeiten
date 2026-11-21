@@ -32,6 +32,7 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 <!-- One line each: decision and reason. Archetype first. Your own choice without the creator: mark "(guess)". -->
 
 - Archetyp `explainer` (Format 2, `strand: englisch/grammatik`): Die Kinder brauchen Erklärung mit Figur (Zeitstrahl, Bau-Karten) und Übungen auf jeder Seite; ein Quiz erklärt nicht, ein Spiel (`interactive`) wäre mehr als das Issue verlangt. Das Issue nennt Format 2. Grenzen: kein Timer, kein Spiel, keine Spracherkennung (Aussprache bewertet das Kind selbst), eigene Farben/Layout nicht möglich; das Setzen von Ereignissen auf den Strahl wird eine Vue-Komponente oder Auswahl-/Ordnungsübung.
+- `scope`: ja. Der Abschnitt `anwenden` jeder Seite hat eine `open-task` (Karte für den Strahl); dann verlangt die Laufzeit `scope` in `src/app.yaml` und auf jeder Seite (in eigenen Worten: was die Seite lehrt, nichts mehr). Der Tutor beurteilt die offenen Antworten daran.
 
 ## Notes
 
@@ -242,12 +243,12 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Musterseite K1 `simple-present` (immer-oder-jetzt/simple-present): Zeichnungen (Zeitstrahl-SVG mit now, Punktreihe und Fähnchen; Szene Peter spielt Fußball; Figuren aus millbrook-klassenzimmer.svg von #470), alle Abschnitte (einstieg, neu, uebung mit mindestens vier Übungen und mistakes, anwenden, weiter), Diktat und Nachsprechen mit bf_emma via regen_audio.py, Tabelle Klassenzimmer-Poster · Zeitformen; zeigt das Muster aller Seiten
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->

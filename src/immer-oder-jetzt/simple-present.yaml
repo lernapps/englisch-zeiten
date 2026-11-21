@@ -1,0 +1,234 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was du immer tust: das simple present"
+description: "Peter spielt jeden Samstag Fußball. Du lernst, mit dem simple present von Gewohnheiten zu erzählen, und merkst dir das -s bei he, she und it."
+competencies: [simple-present]
+scope: Die Seite führt das simple present ein. Es erzählt von Gewohnheiten und Tatsachen und ist auf dem Zeitstrahl eine Reihe von Punkten. Die Form ist die Grundform des Verbs, nur bei he, she und it kommt ein -s dazu (plays, likes, lives). Nach s, sh, ch, x und o steht -es (watches, goes), nach Konsonant und y wird aus y ein ies (studies). Dazu die Signalwörter every day und every Saturday. Nicht hier, weil es spätere Seiten sind. Häufigkeitswörter wie always, die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was Peter jeden Samstag tut
+    blocks:
+      - type: figure
+        image: images/szene-simple-present.svg
+        alt: Peter kickt auf einer Wiese einen Fußball. Sophie, Ellie und Amir stehen daneben und schauen zu. Über ihnen steht die Sprechblase „Peter plays football.“
+        caption: Peter (gelbe Jacke) spielt Fußball. Daneben stehen Sophie, Ellie und Amir.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Ellie erzählt Sophie von ihrem Bruder: „Peter plays football every Saturday.“ Das heißt: Peter spielt jeden Samstag Fußball, nicht nur heute. Hier steht also etwas, das immer wieder passiert.
+      - type: single-choice
+        id: simple-present-start
+        text: Ellie sagt „Peter plays football every Saturday.“ Was erzählt sie damit?
+        options:
+          - text: Peter spielt immer wieder, jeden Samstag.
+            correct: true
+            info: every Saturday heißt „jeden Samstag“. Der Satz erzählt von etwas, das sich wiederholt.
+          - text: Peter spielt nur heute einmal Fußball.
+            correct: false
+            info: Dann würde der Satz nicht every Saturday sagen. Es geht um alle Samstage.
+          - text: Peter möchte irgendwann Fußball spielen.
+            correct: false
+            info: Von einem Wunsch steht im Satz nichts. Er sagt, dass Peter es tut.
+        explanation: Das simple present erzählt von Gewohnheiten, also von Dingen, die sich wiederholen.
+        links:
+          - title: Lernlandkarte Englisch · Simple present
+            url: https://lernapps.net/apps/map/englisch/c/simple-present/
+      - type: text
+        text: "**Das kannst du danach:** Du erzählst auf Englisch, was jemand immer tut. Und du weißt, wann das -s an das Verb muss."
+  - type: section
+    id: neu
+    title: Eine Reihe von Punkten und das -s
+    blocks:
+      - type: text
+        text: Mr Hill hat einen langen Streifen an die Wand gehängt, den Zeitstrahl. Links liegt das Frühere, rechts das Spätere, und in der Mitte steht **now**, das heißt „jetzt“. Jeder Samstag, an dem Peter spielt, ist ein Punkt. Viele Samstage sind eine **Reihe von Punkten**. Das ist das Zeichen für das simple present.
+      - type: figure
+        image: images/zeitstrahl-punktreihe.svg
+        alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Links und rechts davon liegt eine gleichmäßige Reihe blauer Punkte. An einem Punkt hängt ein Fähnchen mit den Worten every Saturday.
+        caption: Die Punkte laufen links und rechts über now hinaus. Das Fähnchen sagt, wie oft es passiert.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Das Verb sieht so aus, wie du es kennst. Nur bei **he**, **she** und **it** hängt ein **s** an.
+      - type: table
+        caption: Klassenzimmer-Poster · Das simple present mit play
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I, play, I play football.]
+          - [you, play, You play football.]
+          - [he / she / it, "play**s**", Peter plays football.]
+          - [we / you / they, play, They play football.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **He, she, it – das s muss mit.** Nach s, sh, ch, x und o hängst du **es** an: watch – watch**es**, go – go**es**. Nach einem Konsonanten wird aus **y** ein **ies**: study – stud**ies**. Nach einem Vokal bleibt das y: play – plays.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [play, spielen]
+          - [like, mögen]
+          - [live, wohnen]
+          - [watch, anschauen]
+          - [go, gehen]
+          - [study, lernen]
+          - [every day, jeden Tag]
+          - [every Saturday, jeden Samstag]
+          - [football, Fußball]
+          - [pizza, Pizza]
+          - [film, Film]
+          - [teach, unterrichten]
+          - [English, Englisch]
+          - [school, Schule]
+          - [after school, nach der Schule]
+          - [at home, zu Hause]
+          - [with, mit]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: simple-present-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form des Verbs.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Amir mag Pizza.
+            target: Amir [likes] pizza.
+            distractors: [[like, likees]]
+          - cue: Wir spielen jeden Samstag Fußball.
+            target: We [play] football every Saturday.
+            distractors: [[plays, playes]]
+          - cue: Sophie wohnt bei den Parkers.
+            target: Sophie [lives] with the Parkers.
+            distractors: [[live, livees]]
+          - cue: Peter und Ellie spielen jeden Tag.
+            target: Peter and Ellie [play] every day.
+            distractors: [[plays, playes]]
+        hint: Peter und Ellie sind zwei Personen, also they.
+      - type: language-task
+        id: simple-present-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Tabelle für das Verb watch.
+        form: { case: hint }
+        table:
+          caption: simple present · watch
+          header: [Person, Form]
+          rows:
+            - [I, "[watch]"]
+            - [you, "[watch]"]
+            - [he / she / it, "[watches]"]
+            - [we / you / they, "[watch]"]
+        hint: Nach ch brauchst du bei he, she und it die Endung es.
+      - type: language-task
+        id: simple-present-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz mit der richtigen Form des Verbs.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie · go · to school · every day
+            target: Sophie goes to school every day.
+            mistakes:
+              - answer: Sophie go to school every day.
+                message: "He, she, it – das s muss mit. Sophie ist „sie“, also brauchst du die Form mit -s. Bei go ist das es."
+              - answer: Sophie gos to school every day.
+                message: Nach o hängst du es an, nicht nur s.
+          - cue: Ellie · watch · a film · every Saturday
+            target: Ellie watches a film every Saturday.
+            mistakes:
+              - answer: Ellie watchs a film every Saturday.
+                message: Nach ch hängst du es an, sonst kannst du das Wort nicht sprechen.
+              - answer: Ellie watch a film every Saturday.
+                message: "He, she, it – das s muss mit. Ellie ist „sie“."
+          - cue: Amir · study · every day
+            target: Amir studies every day.
+            mistakes:
+              - answer: Amir studys every day.
+                message: Nach einem Konsonanten wird aus y ein ies.
+              - answer: Amir study every day.
+                message: "He, she, it – das s muss mit. Amir ist „er“."
+          - cue: Mr Hill · like · pizza
+            target: Mr Hill likes pizza.
+            mistakes:
+              - answer: Mr Hill like pizza.
+                message: Mr Hill ist „er“, also braucht like ein s.
+        hint: Frag dich, ob du he, she oder it sagen kannst. Dann kommt ein s oder es an das Verb.
+      - type: true-false
+        id: simple-present-korrektur
+        text: „Ellie play football every Saturday.“ Ist der Satz richtig?
+        answer: false
+        hint: Ellie ist „sie“. Schau in den Kasten „Merke“.
+        explanation: Bei she fehlt das s. Richtig ist „Ellie plays football every Saturday.“
+        links:
+          - title: Lernlandkarte Englisch · Simple present
+            url: https://lernapps.net/apps/map/englisch/c/simple-present/
+      - type: language-task
+        id: simple-present-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Peter spielt jeden Samstag Fußball.
+            target: Peter plays football every Saturday.
+            mistakes:
+              - answer: Peter play football every Saturday.
+                message: "He, she, it – das s muss mit. Peter ist „er“."
+          - source: Sophie und Ellie schauen jeden Tag einen Film an.
+            target: Sophie and Ellie watch a film every day.
+            mistakes:
+              - answer: Sophie and Ellie watches a film every day.
+                message: Sophie und Ellie sind zwei Personen, also they. Bei they kommt kein s an das Verb.
+          - source: Amir wohnt in Millbrook.
+            target: Amir lives in Millbrook.
+            mistakes:
+              - answer: Amir live in Millbrook.
+                message: "He, she, it – das s muss mit. Amir ist „er“."
+      - type: language-task
+        id: simple-present-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: peter-plays-football-every-saturday.mp3
+            target: Peter plays football every Saturday.
+          - audio: ellie-watches-a-film-after-school.mp3
+            target: Ellie watches a film after school.
+          - audio: amir-studies-english-at-home.mp3
+            target: Amir studies English at home.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: simple-present-nachsprechen
+        language: en
+        items:
+          - audio: sophie-lives-with-the-parkers.mp3
+            text: Sophie lives with the Parkers.
+          - audio: mr-hill-teaches-english.mp3
+            text: Mr Hill teaches English.
+          - audio: they-play-football-on-saturdays.mp3
+            text: They play football on Saturdays.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von lives und teaches.
+      - type: open-task
+        id: simple-present-karte
+        task: "Sophie schreibt eine Karte für den Zeitstrahl. Schreibe zwei Sätze über Ellie, Peter oder Amir: Was tut die Person jeden Tag oder jeden Samstag?"
+        points:
+          - text: Beide Sätze handeln von einer Person (he oder she) und das Verb hat das -s.
+            source: /immer-oder-jetzt/simple-present/#neu
+          - text: Die Sätze nennen, wie oft es passiert, zum Beispiel every day oder every Saturday.
+            source: /immer-oder-jetzt/simple-present/#neu
+          - text: Es sind ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          Peter plays football every Saturday. Ellie watches a film every day.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am Zeitstrahl hängt jetzt eine Reihe von Punkten. Peter hat seine Karte aufgehängt. Mr Hill fragt in die Klasse: „Wer tut etwas immer, wer nur manchmal, wer nie?“ Auf der nächsten Seite lernst du, wie du das auf Englisch sagst."

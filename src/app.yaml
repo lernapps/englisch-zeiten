@@ -1,10 +1,15 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+strand: englisch/grammatik
+title: Zeiten auf dem Zeitstrahl
+intro: In der Millbrook School hängt Mr Hill einen Zeitstrahl an die Wand. Sophie, Ellie, Peter und Amir hängen Karten darauf. Du lernst, welche englische Zeitform du für Gewohnheiten, für das, was gerade passiert, für Vergangenes und für Pläne brauchst, und wie du sie bildest.
 languages: [de]
-chapters: [thema]
+scope:
+  text: Die App erklärt die englischen Zeitformen auf einem Zeitstrahl für Kinder im ersten und zweiten Lernjahr. Jede Zeitform hat ein festes Zeichen, ein Signalwort und eine Bau-Karte. Gelernt werden to be, have got, simple present, Häufigkeitswörter, present progressive, simple past, unregelmäßige Verben, present perfect, will und going to. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir.
+  out:
+    - Fragen und Verneinung mit do und did (steht im Explainer „Sätze bauen“)
+    - Bedingungssätze und indirekte Rede
+    - Passiv
+    - Aussprache von -s und -ed
+    - Zeiten für Klasse 7 bis 10 (Erzählen, since und for, Zukunft mit Plänen, used to)
+chapters: [immer-oder-jetzt]
