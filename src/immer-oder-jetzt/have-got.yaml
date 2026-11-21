@@ -1,0 +1,224 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was hast du? have got und has got"
+description: "Ellie, Peter und Amir zeigen, was sie haben. Du lernst have got und has got für Aussagen, Verneinungen und Fragen."
+competencies: [have-got]
+scope: "Die Seite führt have got und has got ein. Es sagt, was jemand hat. Bei I, you, we und they steht have got, bei he, she und it steht has got (wieder gilt: He, she, it – das s muss mit). Die Verneinung ist haven't got oder hasn't got, die Frage entsteht, indem have oder has und die Person die Plätze tauschen (Have you got a pen? Has Ellie got a dog?). Dazu die Kurzformen I've got und she's got. Bei have got steht kein do. Nicht hier, weil es spätere Seiten sind. Das Verb be, das simple present, Fragen und Verneinung mit do."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer hat was?
+    blocks:
+      - type: figure
+        image: images/szene-have-got.svg
+        alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. Ellie steht neben einem braunen Hund. Auf dem Boden liegen eine rote Federtasche und ein blauer Stift.
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Rechts steht Ellies Hund."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ellie hat einen Hund (dog). Peter hat einen Stift (pen). Mr Hill fragt: „Wer hat was?“ Wenn du sagst, was jemand hat, brauchst du auf Englisch **have got**."
+      - type: single-choice
+        id: have-got-start
+        text: Welcher Satz sagt, dass Ellie einen Hund hat?
+        options:
+          - text: Ellie has got a dog.
+            correct: true
+            info: Ellie ist „sie“, und zu she gehört has got.
+          - text: Ellie have got a dog.
+            correct: false
+            info: have got gehört zu I, you, we und they. Bei Ellie fehlt das s.
+          - text: Ellie is got a dog.
+            correct: false
+            info: is gehört zum Verb be und sagt, wie jemand ist, nicht, was er hat.
+        explanation: Was jemand hat, sagst du mit have got. Bei he, she und it heißt es has got.
+        links:
+          - title: Lernlandkarte Englisch · have got und has got
+            url: https://lernapps.net/apps/map/englisch/c/have-got/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, was jemand hat, und du verneinst und fragst mit have got."
+  - type: section
+    id: neu
+    title: have got, has got und die Fragen
+    blocks:
+      - type: text
+        text: Mit **have got** sagst du, was du oder jemand anderes hat. Bei he, she und it wird daraus **has got**. Das ist wieder das s von he, she und it.
+      - type: table
+        caption: Klassenzimmer-Poster · have got und has got
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I, have got, I have got a pen.]
+          - [you, have got, You have got a bag.]
+          - [he / she / it, has got, Ellie has got a dog.]
+          - [we, have got, We have got a book.]
+          - [they, have got, They have got a bike.]
+      - type: table
+        caption: Klassenzimmer-Poster · Aussage, Verneinung, Frage
+        header: [Aussage, Verneinung, Frage]
+        rows:
+          - [Ellie has got a dog., Ellie hasn't got a dog. / Ellie has not got a dog., Has Ellie got a dog?]
+          - [We have got a bike., We haven't got a bike. / We have not got a bike., Have we got a bike?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **He, she, it – das s muss mit:** has got statt have got. Die **Verneinung** hängt not hinter have oder has und wird kurz zu **haven't** und **hasn't**. Die **Frage** entsteht, wenn have oder has und die Person die Plätze tauschen. Bei have got brauchst du kein do. Kurz sagst du auch **I've got** und **she's got**.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [have got, haben]
+          - [pen, Stift]
+          - [book, Buch]
+          - [bag, Tasche]
+          - [dog, Hund]
+          - [bike, Fahrrad]
+          - [phone, Handy]
+          - [brother, Bruder]
+          - [sister, Schwester]
+          - [pencil case, Federtasche]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: have-got-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle have oder has.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Ich habe einen Stift.
+            target: I [have] got a pen.
+            distractors: [[has, am]]
+          - cue: Ellie hat einen Hund.
+            target: Ellie [has] got a dog.
+            distractors: [[have, is]]
+          - cue: Amir und Peter haben ein Fahrrad.
+            target: Amir and Peter [have] got a bike.
+            distractors: [[has, are]]
+          - cue: Amir hat eine Federtasche.
+            target: Amir [has] got a pencil case.
+            distractors: [[have, is]]
+        hint: Schau, wer etwas hat. Nur he, she und it bekommen has.
+      - type: ordering
+        id: have-got-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [She, has, got, a sister]
+        explanation: Zuerst kommt die Person, dann has got, dann das, was sie hat.
+        hint: Der Satz beginnt mit der Person. Danach kommt die Form von have got.
+        links:
+          - title: Lernlandkarte Englisch · have got und has got
+            url: https://lernapps.net/apps/map/englisch/c/have-got/
+      - type: language-task
+        id: have-got-verneinung-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Verneinung von have got.
+        form: { case: hint, apostrophe: ok }
+        table:
+          caption: have got · Verneinung
+          header: [Person, Verneinung, Kurzform]
+          rows:
+            - [you, "[have not got]", "[haven't got]"]
+            - [he / she / it, "[has not got]", "[hasn't got]"]
+            - [we, "[have not got]", "[haven't got]"]
+            - [they, "[have not got]", "[haven't got]"]
+        hint: not hängt hinter have oder has. Die Kurzform ist haven't oder hasn't.
+      - type: language-task
+        id: have-got-frage
+        languages: { source: de, target: en }
+        task: Schreibe die Frage.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: you · a pen
+            target: Have you got a pen?
+            mistakes:
+              - answer: Do you have got a pen?
+                message: Bei have got brauchst du kein do. Tausche have und you.
+              - answer: You have got a pen?
+                message: In der Frage tauschen have und die Person die Plätze.
+          - cue: Ellie · a dog
+            target: Has Ellie got a dog?
+            mistakes:
+              - answer: Have Ellie got a dog?
+                message: "He, she, it – das s muss mit. Ellie ist „sie“, also has."
+          - cue: they · a bike
+            target: Have they got a bike?
+            mistakes:
+              - answer: Do they have got a bike?
+                message: Bei have got brauchst du kein do. Tausche have und they.
+          - cue: Amir · a sister
+            target: Has Amir got a sister?
+            mistakes:
+              - answer: Have Amir got a sister?
+                message: "Amir ist „er“, also has statt have."
+        hint: have oder has kommt an den Anfang, danach die Person, dann got.
+      - type: language-task
+        id: have-got-verneinen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Peter hat keinen Hund.
+            target: Peter (hasn't|has not) got a dog.
+            mistakes:
+              - answer: Peter haven't got a dog.
+                message: "Peter ist „er“. He, she, it – das s muss mit: hasn't."
+              - answer: Peter doesn't got a dog.
+                message: Mit got brauchst du kein do. Nimm hasn't got.
+          - source: Wir haben kein Fahrrad.
+            target: We (haven't|have not) got a bike.
+            mistakes:
+              - answer: We hasn't got a bike.
+                message: Zu we gehört have, nicht has.
+          - source: Amir hat keine Schwester.
+            target: Amir (hasn't|has not) got a sister.
+            mistakes:
+              - answer: Amir haven't got a sister.
+                message: "Amir ist „er“, also hasn't got."
+        hint: not hängt hinter have oder has, vor got.
+      - type: language-task
+        id: have-got-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: amir-has-got-a-pencil-case.mp3
+            target: Amir has got a pencil case.
+          - audio: have-you-got-a-pen-sophie.mp3
+            target: Have you got a pen, Sophie?
+          - audio: they-have-got-a-dog.mp3
+            target: They have got a dog.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: have-got-nachsprechen
+        language: en
+        items:
+          - audio: i-have-got-a-brother.mp3
+            text: I have got a brother.
+          - audio: she-has-got-a-bike.mp3
+            text: She has got a bike.
+          - audio: he-has-not-got-a-phone.mp3
+            text: He has not got a phone.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf have und has.
+      - type: open-task
+        id: have-got-karte
+        task: "Mr Hill sammelt, was die Kinder haben. Schreibe zwei Sätze mit have got oder has got: einen über dich und einen über Ellie, Peter oder Amir."
+        points:
+          - text: Der Satz über dich hat have got, der Satz über eine andere Person has got.
+            source: /immer-oder-jetzt/have-got/#neu
+          - text: In beiden Sätzen steht, was die Person hat, zum Beispiel a pen, a dog oder a bike.
+            source: /immer-oder-jetzt/have-got/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I have got a book. Ellie has got a dog.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer Freizeit tun. Auf der nächsten Seite hängt Peter eine Reihe von Punkten an den Zeitstrahl.
