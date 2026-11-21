@@ -68,15 +68,16 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 
 ## Figures
 
-- Zeichen des Zeitstrahls (eine SVG-Familie in `src/images/`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.
+- Zeichen des Zeitstrahls (eine SVG-Familie `src/images/zeitstrahl-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox; Farben: now #c0392b, Punkte #2c6fd8, Welle #8e44ad, Bogen #138d75, Pfeil und will #d35400): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.
 - Bau-Karten: be + -ing, have + 3. Form, be + going to + Grundform, will + Grundform.
+- Gebaut: `zeitstrahl-leer` (das-brauchst-du), `-to-be`, `-punktreihe` (simple-present), `-haeufigkeit`, `-welle`, `-beides` (simple-oder-progressive), `-punkt-links`, `-punkt-und-bogen`, `-bogen` (nicht benutzt, Reserve), `-will`, `-going-to`, `-will-oder-going-to`, `-ganz` (Rückblick K3, alle Zeichen). `zeitstrahl-ganz.svg` wächst mit jedem Inkrement.
 - Szenen: je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; in Aufgaben zeigt der Strahl nur die Legende, nie das Ergebnis.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb); Skizzen liegen in `.vibe/sketches/`.
 - Poster und Kalender sind `table`-Blöcke, wachsen von Seite zu Seite.
 
 ## Sources
 
-Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus, jedes Wort außerhalb steht hier gelistet und wird auf der Seite eingeführt: poster, cloud/clouds). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
+Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur poster (in `present-perfect` im Poster erklärt), sink (Poster-Eintrag in `unregelmaessig`) und friends (Mehrzahl von friend); `yet` ist A2). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
 ## Adding a chapter or round
 
@@ -84,7 +85,7 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Strahl-SVG um die neuen Zeichen erweitern (Inkremente: Welle in der Vergangenheit, Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben, Punktreihe in der Vergangenheit für used to) und das Poster um die Zeilen der Seite.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
-5. Hörtexte mit `.agents/skills/app-content/scripts/regen_audio.py` (Kopie aus hello-millbrook) erzeugen und anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, alle 72 Sätze der App, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
@@ -97,4 +98,12 @@ Aus #470 übernommen (hello-millbrook):
 - Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich geschrieben.
 - Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
 - Bilder: Beschriftungen innerhalb des `viewBox` halten.
-Aus dieser App: bisher keine.
+Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
+- Die Antwort einer Frage steht nie im Absatz direkt darüber; die Einstiegsfrage fragt, was der Text noch nicht sagt.
+- Bilder: Die Bildunterschrift nennt, wer wer ist (Sophie Zöpfe, Ellie roter Pferdeschwanz, Amir Brille, Peter gelbe Jacke); das `alt` verrät nie die Lösung.
+- Das Merke-Kasten nennt andere Verben als die Übungen, sonst schreiben die Kinder nur ab.
+- Als Auswahl nur echte Lernerfehler (is like, are plays), keine Unwörter (likees).
+- Eine Übung für die Selbsteinschätzung nennt in Hinweis und Meldung weder „Spalte“ noch „Poster“ noch „oben“.
+- Gleichwertige Kurzformen zulassen (I'm not, you're not, Amir's not; `accepted` oder `(a|b)`); Stellen mit „already“ und Zeitangabe so bauen, dass es nur eine richtige Zeit gibt.
+- Der englische Cue enthält kein deutsches Wort; der deutsche Hinweis steht in `source` oder in der Aufgabe.
+- Einheitliche Wörter: Punktreihe, Welle über now, Poster, happy = froh, phone = Telefon / Handy.
