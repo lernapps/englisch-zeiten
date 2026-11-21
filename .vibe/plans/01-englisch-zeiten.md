@@ -80,6 +80,8 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 - Typische Fehler mit eigener Rückmeldung: fehlendes -s bei he/she/it; „I am go“ (be + Grundform); -ing ohne be; present progressive für Gewohnheiten (und umgekehrt); *goed* statt went; present perfect mit gestern; will für feste Pläne mit Anzeichen.
 
 
+**Stand (2026-11-21, Pause):** Explore abgeschlossen (Recherche-Checkpoint bestätigt). Plan fertig bis auf den Checkpoint „Plan und Inhaltsmethode“: er wurde schon an den Orchestrator geschickt (Fragen: Musterseite `simple-present`, Diktat/Nachsprechen auf jeder Seite), die Antwort steht aus. Auf Anweisung des Orchestrators ruht die Arbeit, bis er „weiter“ meldet (der Nutzer klärt zuerst den Grundwortschatz Englisch). Kein Code, keine weiteren Pushes. Bei „weiter“: Antwort zum Plan-Checkpoint abwarten bzw. verwenden, die Wortlisten gegen den geklärten Grundwortschatz prüfen.
+
 ## Explore
 
 <!--
