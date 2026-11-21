@@ -139,9 +139,9 @@ blocks:
           header: [Person, Verneinung, Kurzform]
           rows:
             - [I, "[am not]", "[I'm not]"]
-            - [you, "[are not]", "[aren't]"]
-            - [we, "[are not]", "[aren't]"]
-            - [they, "[are not]", "[aren't]"]
+            - [you, "[are not]", "[aren't|you're not]"]
+            - [we, "[are not]", "[aren't|we're not]"]
+            - [they, "[are not]", "[aren't|they're not]"]
         hint: not hängt hinter be. Die Kurzform von are not ist aren't.
       - type: language-task
         id: to-be-frage
@@ -178,6 +178,7 @@ blocks:
         items:
           - cue: Amir · tired · today
             target: Amir (is not|isn't) tired today.
+            accepted: [Amir's not tired today.]
             mistakes:
               - answer: Amir not is tired today.
                 message: not steht hinter is, nicht davor.
@@ -185,11 +186,13 @@ blocks:
                 message: Bei be brauchst du kein do. Nimm is not oder isn't.
           - cue: we · late
             target: We (are not|aren't) late.
+            accepted: [We're not late.]
             mistakes:
               - answer: We not are late.
                 message: not steht hinter are, nicht davor.
           - cue: Sophie · at school · today
             target: Sophie (is not|isn't) at school today.
+            accepted: [Sophie's not at school today.]
             mistakes:
               - answer: Sophie am not at school today.
                 message: Sophie ist „sie“, also brauchst du is, nicht am.

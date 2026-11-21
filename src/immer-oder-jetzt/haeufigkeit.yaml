@@ -57,7 +57,7 @@ blocks:
           - [sometimes, manchmal]
           - [never, nie]
           - [late, zu spät]
-          - [happy, fröhlich]
+          - [happy, froh]
           - [tired, müde]
           - [breakfast, Frühstück]
           - [lunch, Mittagessen]
@@ -134,7 +134,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
       - type: ordering
         id: haeufigkeit-reihe
-        text: Wer geht am häufigsten zu Fuß zur Schule? Ordne von oft (oben) bis nie (unten).
+        text: Wer geht am häufigsten zu Fuß zur Schule? Ordne von immer (oben) bis nie (unten).
         items:
           - Ellie always walks to school.
           - Amir usually walks to school.

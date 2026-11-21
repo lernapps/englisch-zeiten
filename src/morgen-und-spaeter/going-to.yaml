@@ -65,7 +65,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Das be darfst du nicht vergessen.** Es heißt Peter is going to play, nicht Peter going to play. Nach going to steht das Verb ohne s und ohne zweites to.
+              **Das be darfst du nicht vergessen.** Es heißt Peter is going to play, nicht Peter going to play. Nach going to steht das Verb ohne s und ohne weiteres to.
       - type: table
         caption: Schulkalender · Geburtstage
         header: [Person, Geburtstag]
@@ -159,7 +159,7 @@ blocks:
             target: Ellie is going to invite Amir.
             mistakes:
               - answer: Ellie is going invite Amir.
-                message: Dir fehlt das zweite to. Es heißt going to.
+                message: Dir fehlt das to. Es heißt going to.
           - cue: I · watch · a film
             target: I am going to watch a film.
             mistakes:
@@ -196,9 +196,9 @@ blocks:
           - text: Ein einzelner Punkt rechts von now, ohne Pfeil.
             correct: false
             info: Das ist das Zeichen für will. Dort hat noch nichts begonnen. Peter hat sich die Party schon vorgenommen.
-          - text: Eine Reihe von Punkten links und rechts von now.
+          - text: Eine Punktreihe links und rechts von now.
             correct: false
-            info: Eine Reihe von Punkten ist das Zeichen für Gewohnheiten. Peters Feier ist ein einziger Termin.
+            info: Eine Punktreihe ist das Zeichen für Gewohnheiten. Peters Feier ist ein einziger Termin.
         explanation: Going to hat als Zeichen einen Pfeil, der schon bei now beginnt.
         links:
           - title: Lernlandkarte Englisch · Going-to-Future

@@ -40,8 +40,8 @@ blocks:
         text: "Auf dem Zeitstrahl gibt es jetzt zwei Zeichen. Die **Punktreihe** ist das simple present: Es passiert immer wieder. Die **Welle** ist das present progressive: Es passiert gerade jetzt. Die Fähnchen am Strahl sind **Signalwörter**. Sie sagen dir, welches Zeichen gemeint ist."
       - type: figure
         image: images/zeitstrahl-beides.svg
-        alt: Ein Zeitstrahl mit einem roten Strich now in der Mitte. Links und rechts davon liegen blaue Punkte mit einem Fähnchen always, often, every day. Über dem Strich liegt eine violette Welle mit einem Fähnchen now, at the moment.
-        caption: Die Fähnchen links zeigen auf die Punktreihe, die Fähnchen rechts auf die Welle.
+        alt: Ein Zeitstrahl mit einem roten Strich now in der Mitte. Links und rechts davon liegen blaue Punkte, an einem Punkt links hängt ein Fähnchen always, often, every day. Über dem Strich liegt eine violette Welle, an ihr hängt ein Fähnchen now, at the moment.
+        caption: Das linke Fähnchen gehört zur Punktreihe, das rechte zur Welle.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -239,4 +239,4 @@ blocks:
     title: Rückblick und wie es weitergeht
     blocks:
       - type: text
-        text: "Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er hat und was er immer tut, und du weißt, was gerade passiert. Alles, was Peter bisher erzählt hat, liegt auf der Punktreihe oder auf der Welle um now. Aber Sophie fragt: Und was war gestern? Im nächsten Kapitel wächst der Strahl nach links."
+        text: "Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er hat und was er immer tut, und du weißt, was gerade passiert. Alles, was Peter bisher erzählt hat, liegt auf der Punktreihe oder auf der Welle über now. Aber Sophie fragt: Und was war gestern? Im nächsten Kapitel wächst der Strahl nach links."

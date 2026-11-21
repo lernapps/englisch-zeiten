@@ -2,7 +2,7 @@
 title: "Was du immer tust: das simple present"
 description: "Peter spielt jeden Samstag Fußball. Du lernst, mit dem simple present von Gewohnheiten zu erzählen, und merkst dir das -s bei he, she und it."
 competencies: [simple-present]
-scope: Die Seite führt das simple present ein. Es erzählt von Gewohnheiten und Tatsachen und ist auf dem Zeitstrahl eine Reihe von Punkten. Die Form ist die Grundform des Verbs, nur bei he, she und it kommt ein -s dazu (plays, likes, lives). Nach s, sh, ch, x und o steht -es (watches, goes), nach Konsonant und y wird aus y ein ies (studies). Dazu die Signalwörter every day und every Saturday. Nicht hier, weil es spätere Seiten sind. Häufigkeitswörter wie always, die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do.
+scope: Die Seite führt das simple present ein. Es erzählt von Gewohnheiten und Tatsachen und ist auf dem Zeitstrahl eine Punktreihe. Die Form ist die Grundform des Verbs, nur bei he, she und it kommt ein -s dazu (plays, likes, lives). Nach s, sh, ch, x und o steht -es (watches, goes), nach Konsonant und y wird aus y ein ies (studies). Dazu die Signalwörter every day und every Saturday. Nicht hier, weil es spätere Seiten sind. Häufigkeitswörter wie always, die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do.
 blocks:
   - type: section
     id: einstieg
@@ -38,10 +38,10 @@ blocks:
         text: "**Das kannst du danach:** Du erzählst auf Englisch, was jemand immer tut. Und du weißt, wann das -s an das Verb muss."
   - type: section
     id: neu
-    title: Eine Reihe von Punkten und das -s
+    title: Die Punktreihe und das -s
     blocks:
       - type: text
-        text: "Mr Hill hat einen langen Streifen an die Wand gehängt, den Zeitstrahl. Links liegt das Frühere, rechts das Spätere, und in der Mitte steht **now**, das heißt „jetzt“. Jeder Samstag, an dem Peter spielt, ist ein Punkt. Heute ist kein Samstag, darum liegt now zwischen zwei Punkten. Viele Samstage sind eine **Reihe von Punkten**: Was sich so wiederholt, ist eine Gewohnheit. Die Zeitform dafür heißt **simple present**, und die Punktreihe ist ihr Zeichen."
+        text: "Mr Hill hat einen langen Streifen an die Wand gehängt, den Zeitstrahl. Links liegt das Frühere, rechts das Spätere, und in der Mitte steht **now**, das heißt „jetzt“. Jeder Samstag, an dem Peter spielt, ist ein Punkt. Heute ist kein Samstag, darum liegt now zwischen zwei Punkten. Viele Samstage sind eine **Punktreihe**: Was sich so wiederholt, ist eine Gewohnheit. Die Zeitform dafür heißt **simple present**, und die Punktreihe ist ihr Zeichen."
       - type: figure
         image: images/zeitstrahl-punktreihe.svg
         alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Links und rechts davon liegt eine gleichmäßige Reihe blauer Punkte. An einem Punkt hängt ein Fähnchen mit den Worten every Saturday.
@@ -112,7 +112,7 @@ blocks:
           - cue: Peter und Ellie spielen jeden Tag.
             target: Peter and Ellie [play] every day.
             distractors: [[plays, are plays]]
-        hint: Peter und Ellie sind zwei Personen, also they.
+        hint: Schau, wer etwas tut. Nur bei he, she und it hängt ein s an.
       - type: language-task
         id: simple-present-tabelle
         languages: { source: de, target: en }
@@ -245,4 +245,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Zeitstrahl hängt jetzt eine Reihe von Punkten. Peter hat seine Karte aufgehängt. Mr Hill fragt in die Klasse: „Wer tut etwas immer, wer nur manchmal, wer nie?“ Auf der nächsten Seite lernst du, wie du das auf Englisch sagst."
+        text: "Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. Mr Hill fragt in die Klasse: „Wer tut etwas immer, wer nur manchmal, wer nie?“ Auf der nächsten Seite lernst du, wie du das auf Englisch sagst."

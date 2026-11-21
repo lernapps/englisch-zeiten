@@ -263,7 +263,7 @@ page, which a link. -->
 - [x] Kapitel 1 Rest: Seiten present-progressive (Welle, Bau-Karte be + -ing) und simple-oder-progressive (Signalwörter, Rückblick K1) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
 - [x] Kapitel 2: Seiten simple-past (Strahl nach links), unregelmaessig (Kartenset der 38 Verben nach Klangmustern, Poster) und present-perfect (Bogen, Bau-Karte have + 3. Form, Rückblick K2) nach dem Muster, je mit Szene, Übungen, mistakes, Audio, Schulkalender · Zeitangaben
 - [x] Kapitel 3: Seiten will, going-to (Pfeil, Bau-Karte) und will-oder-going-to (Entscheiden mit Begründung, Rückblick K3, fertiger Strahl) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
-- [ ] Selbsteinschätzung (Skill lernapps-explainer-self-assessment) je Kapitel und der App; Übungen mit Prüfung, dass sie ohne die Seite verständlich sind
+- [x] Selbsteinschätzung (Skill lernapps-explainer-self-assessment) je Kapitel und der App; Übungen mit Prüfung, dass sie ohne die Seite verständlich sind
 - [ ] Sprachprüfung: ein Sub-Agent prüft das Englisch (britisch, keine deutschen Wörter in englischen Aufgaben) und das Deutsche aller Seiten; Funde beheben und unter Notes aufschreiben
 <!-- tasks: pages (6 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).

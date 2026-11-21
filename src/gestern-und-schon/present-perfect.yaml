@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-present-perfect.svg
-        alt: Ellie hält ein fertiges Bild an der Wand hoch. Peter und Sophie schauen es an. In der Sprechblase steht „I have made a poster.“
+        alt: Ellie hält ein fertiges Poster an der Wand hoch. Peter und Sophie schauen es an. In der Sprechblase steht „I have made a poster.“
         caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Ellie spricht, rechts hängt ihr Poster.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie kommt mit einem Plakat in die Klasse: „I have made a poster.“ Das Plakat ist fertig und hängt jetzt an der Wand."
+        text: "Ellie kommt mit einem Poster in die Klasse: „I have made a poster.“ Das Poster ist fertig und hängt jetzt an der Wand."
       - type: single-choice
         id: present-perfect-start
         text: Ellie sagt „I have made a poster.“ Was ist ihr dabei wichtig?
@@ -58,8 +58,8 @@ blocks:
       - type: text
         text: "Kleine Wörter zeigen dir den Bogen. Sie stehen zwischen have und der 3. Form: *I have never seen it.* Nur yet steht am Ende, meist in einer Frage."
       - type: table
-        caption: Schulkalender · Zeitangaben für das present perfect
-        header: [Zeitangabe, Bedeutung]
+        caption: Schulkalender · Signalwörter für das present perfect
+        header: [Signalwort, Bedeutung]
         rows:
           - [already, schon]
           - [just, gerade eben]
@@ -140,13 +140,13 @@ blocks:
             distractors: [[has seen, have seen]]
           - cue: Ellie hat ihre Hausaufgaben schon gemacht.
             target: Ellie [has done] her homework already.
-            distractors: [[did, have done]]
+            distractors: [[has did, have done]]
           - cue: Peter hat vor zwei Tagen ein Buch gelesen.
             target: Peter [read] a book two days ago.
             distractors: [[has read, have read]]
-          - cue: Amir ist nie zu spät gewesen.
+          - cue: Amir ist noch nie zu spät gewesen.
             target: Amir [has never been] late.
-            distractors: [[was never, have never been]]
+            distractors: [[is never been, have never been]]
         hint: Eine Zeitangabe wie yesterday ist ein Punkt. Zählt das Ergebnis jetzt, ist es ein Bogen.
       - type: language-task
         id: present-perfect-bilden
@@ -174,6 +174,7 @@ blocks:
                 message: Nach have brauchst du die 3. Form. Bei finish ist sie finished, mit -ed.
           - cue: Peter · already · do · his homework
             target: Peter has already done his homework.
+            accepted: [Peter has done his homework already.]
             mistakes:
               - answer: Peter has already did his homework.
                 message: Did ist das simple past. Nach has brauchst du die 3. Form, done.
@@ -217,6 +218,7 @@ blocks:
                 message: Nach have brauchst du die 3. Form, written.
           - source: Hast du schon deine Hausaufgaben gemacht?
             target: Have you done your homework yet?
+            accepted: [Have you already done your homework?]
             mistakes:
               - answer: Have you did your homework yet?
                 message: Did ist das simple past. Nach have brauchst du die 3. Form, done.

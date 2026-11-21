@@ -174,7 +174,7 @@ blocks:
         id: unregelmaessig-tabelle
         languages: { source: de, target: en }
         mode: table
-        task: "Mr Hill hängt neue Karten auf. Welche Formen fehlen? Schau auf die Muster."
+        task: "Mr Hill hängt neue Karten auf. Diese Verben sind neu. Welche Formen fehlen? Rate nach den Mustern."
         form: { case: hint }
         table:
           caption: Neue Karten von Mr Hill
@@ -183,7 +183,7 @@ blocks:
             - [sink, "[sank]", "[sunk]"]
             - [break, "[broke]", "[broken]"]
             - [speak, "[spoke]", "[spoken]"]
-        hint: "Sink klingt wie sing und drink. Break und speak klingen wie write und ride: die 3. Form endet auf n."
+        hint: "Sink gehört zum Muster i – a – u wie sing und drink. Bei break und speak endet die 3. Form wie bei write und ride auf n."
       - type: language-task
         id: unregelmaessig-bilden
         languages: { source: de, target: en }

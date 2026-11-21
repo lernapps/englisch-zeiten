@@ -72,7 +72,7 @@ blocks:
           - [bag, Tasche]
           - [dog, Hund]
           - [bike, Fahrrad]
-          - [phone, Handy]
+          - [phone, Telefon / Handy]
           - [brother, Bruder]
           - [sister, Schwester]
           - [pencil case, Federtasche]
@@ -117,7 +117,7 @@ blocks:
         form: { case: hint, apostrophe: ok }
         table:
           caption: have got · Verneinung
-          header: [Person, Verneinung, Kurzform]
+          header: [Person, Verneinung, Kurzform mit n't]
           rows:
             - [you, "[have not got]", "[haven't got]"]
             - [he / she / it, "[has not got]", "[hasn't got]"]
@@ -221,4 +221,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer Freizeit tun. Auf der nächsten Seite hängt Peter eine Reihe von Punkten an den Zeitstrahl.
+        text: Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer Freizeit tun. Auf der nächsten Seite hängt Peter eine Punktreihe an den Zeitstrahl.

@@ -68,7 +68,7 @@ blocks:
         rows:
           - [bring, mitbringen]
           - [cake, Kuchen]
-          - [phone, Telefon]
+          - [phone, Telefon / Handy]
           - [ring, klingeln]
           - [answer the phone, ans Telefon gehen]
           - [answer, abnehmen]
@@ -133,27 +133,27 @@ blocks:
       - type: language-task
         id: will-oder-going-to-bilden
         languages: { source: de, target: en }
-        task: Schreibe den ganzen Satz. Der deutsche Hinweis sagt dir, ob du will oder going to brauchst.
+        task: Schreibe den Satz auf Englisch. Der deutsche Satz sagt dir, ob du will oder going to brauchst.
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
-          - cue: Peter · watch · a film (die Karten sind schon gekauft)
+          - source: Peter hat vor, einen Film anzuschauen. Die Karten sind schon gekauft.
             target: Peter is going to watch a film.
             mistakes:
               - answer: Peter will watch a film.
                 message: Die Karten sind schon gekauft, der Plan steht. Das ist der Pfeil, going to.
               - answer: Peter going to watch a film.
                 message: Dir fehlt das be. Zu Peter gehört is.
-          - cue: I · answer · it (das Telefon klingelt gerade)
-            target: I (will|'ll) answer it.
+          - source: Das Telefon klingelt. Ich nehme es gleich ab.
+            target: (I will|I'll) answer it.
             mistakes:
               - answer: I am going to answer it.
                 message: Du entscheidest gerade erst, im Moment des Sprechens. Das ist der Punkt ohne Pfeil, will.
-          - cue: Amir · bring · a cake (er hat es gerade erst beschlossen)
+          - source: Amir hat gerade erst beschlossen, einen Kuchen mitzubringen.
             target: Amir will bring a cake.
             mistakes:
               - answer: Amir is going to bring a cake.
                 message: Amir beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
-          - cue: it · rain (Sophie sieht dunkle Wolken)
+          - source: Sophie sieht dunkle Wolken. Es wird gleich regnen.
             target: It is going to rain.
             mistakes:
               - answer: It will rain.
@@ -223,7 +223,7 @@ blocks:
         rows:
           - [Punkt links von now, simple past, Peter played football yesterday.]
           - [Bogen bis now, present perfect, Peter has played football.]
-          - [Reihe von Punkten, simple present, Peter plays football every Saturday.]
+          - [Punktreihe, simple present, Peter plays football every Saturday.]
           - [Welle über now, present progressive, Peter is playing football.]
           - [Pfeil von now, going to, Peter is going to play football.]
           - ["Punkt rechts, ohne Pfeil", will, Peter will play football.]

@@ -59,7 +59,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: write – writ**ing**. Bei kurzen Verben wie run wird der letzte Buchstabe doppelt: run – run**n**ing. Ein Vokal ist a, e, i, o oder u.
+              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: write – writ**ing**. Ein Vokal ist a, e, i, o oder u. Steht vor dem letzten Konsonanten genau ein Vokal (run), wird der Konsonant doppelt: run – run**n**ing. Bei zwei Vokalen (read) oder zwei Konsonanten am Ende (listen) bleibt es: reading, listening.
       - type: table
         caption: Klassenzimmer-Poster · Zeitformen
         header: [Zeichen, Form, Beispiel]
@@ -151,7 +151,7 @@ blocks:
           - cue: Sophie hört gerade Musik.
             target: Sophie is [listening] to music.
             distractors: [[listenning, listen]]
-        hint: Endet das Verb auf e, fällt das e weg. Ein kurzes Verb wie run bekommt einen doppelten Buchstaben.
+        hint: Endet das Verb auf e, fällt das e weg. Steht vor dem letzten Konsonanten nur ein Vokal, wird der Konsonant doppelt.
       - type: language-task
         id: present-progressive-bilden
         languages: { source: de, target: en }
@@ -212,7 +212,7 @@ blocks:
         material:
           - type: figure
             image: images/szene-present-progressive.svg
-            alt: Im Klassenzimmer sitzen vier Kinder an Tischen. Ein Kind hat ein Buch, eines schreibt, eines sitzt am Computer und das vierte, Peter mit der gelben Jacke, malt ein Bild.
+            alt: Im Klassenzimmer sitzen vier Kinder an Tischen und tun je etwas anderes. Eines trägt eine gelbe Jacke.
             caption: Schau auf das Kind mit der gelben Jacke.
             source: eigene Zeichnung
             licence: CC-BY-4.0

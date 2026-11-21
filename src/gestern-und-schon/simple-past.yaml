@@ -23,7 +23,7 @@ blocks:
           - text: Ein einzelner Punkt links von now
             correct: true
             info: Gestern ist vorbei, also liegt es links von now. Das Spiel war einmal, also ist es ein einzelner Punkt.
-          - text: Eine Reihe von Punkten
+          - text: Eine Punktreihe
             correct: false
             info: Eine Punktreihe ist eine Gewohnheit. Sophie erzählt nur von gestern.
           - text: Ein einzelner Punkt rechts von now
@@ -55,7 +55,7 @@ blocks:
           - [last week, letzte Woche]
           - [two days ago, vor zwei Tagen]
       - type: text
-        text: Bei regelmäßigen Verben hängst du **ed** an die Grundform. Das gilt für alle Personen, auch für he, she und it. Das s von der letzten Seite fällt weg.
+        text: Bei regelmäßigen Verben hängst du **ed** an die Grundform. Das gilt für alle Personen, auch für he, she und it. Das -s vom simple present fällt weg.
       - type: table
         caption: Klassenzimmer-Poster · Das simple past
         header: [Verb, simple past, Beispiel]
@@ -152,10 +152,10 @@ blocks:
             mistakes:
               - answer: Amir cryed yesterday.
                 message: Nach einem Konsonanten wird aus y ein ied.
-          - cue: Peter · stop · two days ago
-            target: Peter stopped two days ago.
+          - cue: The bus · stop · two days ago
+            target: The bus stopped two days ago.
             mistakes:
-              - answer: Peter stoped two days ago.
+              - answer: The bus stoped two days ago.
                 message: Stop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
         hint: Frag dich, welches Fähnchen am Punkt hängt. Dann bildest du die Form mit -ed.
       - type: language-task
@@ -169,10 +169,10 @@ blocks:
             mistakes:
               - answer: Peter plays football yesterday.
                 message: Das ist der Satz mit dem Fehler. Gestern ist vorbei, also braucht das Verb -ed.
-          - cue: Ellie stopd two days ago.
-            target: Ellie stopped two days ago.
+          - cue: The bus stopd two days ago.
+            target: The bus stopped two days ago.
             mistakes:
-              - answer: Ellie stopd two days ago.
+              - answer: The bus stopd two days ago.
                 message: Das ist der Satz mit dem Fehler. Stop verdoppelt das p vor ed.
           - cue: Amir studyed English last week.
             target: Amir studied English last week.

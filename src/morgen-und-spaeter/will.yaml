@@ -41,7 +41,7 @@ blocks:
     title: Ein einzelner Punkt rechts von now
     blocks:
       - type: text
-        text: Rechts von **now** liegt, was noch kommt. Wenn du nur vermutest oder gerade erst entscheidest, ist noch nichts losgegangen. Darum ist das Zeichen ein **einzelner Punkt** rechts von now, ohne Pfeil. Das gehört zu **will**. Das Fähnchen sagt, wann es passiert.
+        text: "Rechts von **now** liegt, was noch kommt. Wenn du nur vermutest oder gerade erst entscheidest, ist noch nichts losgegangen. Darum ist das Zeichen ein **einzelner Punkt** rechts von now, ohne Pfeil. Das gehört zu **will**. Das Fähnchen sagt, wann es passiert. Du kannst auch erst beim Sprechen beschließen, zum Beispiel jemandem zu helfen: I will help you."
       - type: figure
         image: images/zeitstrahl-will.svg
         alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Rechts davon liegt ein einzelner oranger Punkt. An ihm hängt ein Fähnchen mit dem Wort tomorrow. Ein Pfeil ist nicht zu sehen.
@@ -107,8 +107,8 @@ blocks:
           - cue: Sophie hilft dir wahrscheinlich.
             target: Sophie [will] probably help you.
             distractors: [[wills, is]]
-          - cue: Wir spielen nächste Woche Fußball.
-            target: We [will] play football next week.
+          - cue: Ich glaube, wir spielen nächste Woche Fußball.
+            target: I think we [will] play football next week.
             distractors: [[wills, are]]
       - type: matching
         id: will-situation
@@ -162,9 +162,9 @@ blocks:
           - text: Ein einzelner Punkt rechts von now, ohne Pfeil.
             correct: true
             info: Ellie vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
-          - text: Eine Reihe von Punkten links und rechts von now.
+          - text: Eine Punktreihe links und rechts von now.
             correct: false
-            info: Eine Reihe von Punkten ist das Zeichen für Gewohnheiten, also für das simple present.
+            info: Eine Punktreihe ist das Zeichen für Gewohnheiten, also für das simple present.
           - text: Ein roter Strich bei now.
             correct: false
             info: Der Strich bei now ist das jetzt. Das Wetter von morgen liegt rechts davon.
@@ -229,7 +229,7 @@ blocks:
           - text: Ein Satz sagt, was du über morgen vermutest, mit I think, maybe oder probably.
             source: /morgen-und-spaeter/will/#neu
           - text: Der andere Satz bietet spontan Hilfe an.
-            source: /morgen-und-spaeter/will/#einstieg
+            source: /morgen-und-spaeter/will/#neu
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
