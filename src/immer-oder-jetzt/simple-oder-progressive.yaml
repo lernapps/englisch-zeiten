@@ -1,0 +1,242 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Punktreihe oder Welle?
+description: Peter spielt jeden Samstag Fußball, und gerade spielt er auch. Du lernst, mit Signalwörtern zu entscheiden, ob du das simple present oder das present progressive brauchst.
+competencies: [simple-oder-progressive]
+scope: Die Seite lässt wählen zwischen simple present und present progressive. Das simple present ist die Punktreihe und erzählt, was jemand immer wieder tut, mit Signalwörtern wie always, often, usually und every day. Das present progressive ist die Welle und erzählt, was gerade im Gang ist, mit now und at the moment. Dazu die Bildung beider Formen im Vergleich und ein Rückblick auf das Kapitel. Nicht hier, weil es spätere Seiten sind. Verben, die keine -ing-Form haben, Fragen und Verneinung mit do, die Vergangenheit und die Zukunft.
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter spielt, immer und jetzt
+    blocks:
+      - type: figure
+        image: images/szene-simple-oder-progressive.svg
+        alt: Sophie, Ellie, Amir und Peter stehen vor dem Wandbild. Auf dem Wandbild liegt ein Zeitstrahl mit blauen Punkten, einem roten Strich in der Mitte und einer violetten Welle über dem Strich.
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Hinter ihnen hängt der Zeitstrahl von der Klasse."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ellie zeigt auf den Zeitstrahl und sagt zwei Sätze über ihren Bruder: „Peter often plays football.“ und „Peter is playing football at the moment.“ **At the moment** heißt „im Moment“."
+      - type: single-choice
+        id: simple-oder-progressive-start
+        text: Welcher Satz sagt, was Peter gerade jetzt tut?
+        options:
+          - text: Peter is playing football at the moment.
+            correct: true
+            info: at the moment heißt „im Moment“. Der Satz erzählt, was in diesem Moment passiert.
+          - text: Peter often plays football.
+            correct: false
+            info: often heißt „oft“. Der Satz erzählt, was immer wieder passiert, nicht, was gerade passiert.
+        explanation: Ein Satz kann von etwas erzählen, das oft passiert, oder von etwas, das gerade passiert. Du brauchst für jedes eine andere Form.
+        links:
+          - title: Lernlandkarte Englisch · Simple present oder present progressive
+            url: https://lernapps.net/apps/map/englisch/c/simple-oder-progressive/
+      - type: text
+        text: "**Das kannst du danach:** Du entscheidest bei einem Satz, ob er eine Punktreihe oder eine Welle erzählt, und wählst die passende Form."
+  - type: section
+    id: neu
+    title: Welches Zeichen passt?
+    blocks:
+      - type: text
+        text: "Auf dem Zeitstrahl gibt es jetzt zwei Zeichen. Die **Punktreihe** ist das simple present: Es passiert immer wieder. Die **Welle** ist das present progressive: Es passiert gerade jetzt. Die Fähnchen am Strahl sind **Signalwörter**. Sie sagen dir, welches Zeichen gemeint ist."
+      - type: figure
+        image: images/zeitstrahl-beides.svg
+        alt: Ein Zeitstrahl mit einem roten Strich now in der Mitte. Links und rechts davon liegen blaue Punkte mit einem Fähnchen always, often, every day. Über dem Strich liegt eine violette Welle mit einem Fähnchen now, at the moment.
+        caption: Die Fähnchen links zeigen auf die Punktreihe, die Fähnchen rechts auf die Welle.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Zeitformen
+        header: [Zeichen, Form, Fähnchen]
+        rows:
+          - [Punktreihe, "play / play**s**", "always, often, every day"]
+          - [Welle, am / is / are + -ing, "now, at the moment"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Frag dich zuerst: Passiert es **immer wieder** oder **gerade jetzt**? Immer wieder ist die Punktreihe, also **plays**. Gerade jetzt ist die Welle, also **is playing**. Das Fähnchen hilft dir dabei.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [play, spielen]
+          - [watch, anschauen]
+          - [read, lesen]
+          - [eat, essen]
+          - [go, gehen]
+          - [every day, jeden Tag]
+          - [always, immer]
+          - [often, oft]
+          - [now, jetzt]
+          - [at the moment, im Moment]
+          - [football, Fußball]
+          - [film, Film]
+          - [book, Buch]
+          - [breakfast, Frühstück]
+          - [lunch, Mittagessen]
+          - [sit, sitzen]
+          - [chair, Stuhl]
+          - [on, auf]
+          - [every Saturday, jeden Samstag]
+          - [school, Schule]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: simple-oder-progressive-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form. Das Fähnchen im Satz hilft dir.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Ellie isst immer Frühstück.
+            target: Ellie always [eats] breakfast.
+            distractors: [[is eating]]
+          - cue: Ellie schaut gerade einen Film an.
+            target: Ellie [is watching] a film now.
+            distractors: [[watches]]
+          - cue: Peter geht jeden Tag zur Schule.
+            target: Peter [goes] to school every day.
+            distractors: [[is going]]
+          - cue: Sophie liest im Moment ein Buch.
+            target: Sophie [is reading] a book at the moment.
+            distractors: [[reads]]
+          - cue: Wir spielen gerade Fußball.
+            target: We [are playing] football now.
+            distractors: [[play]]
+          - cue: Amir liest oft.
+            target: Amir often [reads].
+            distractors: [[is reading]]
+        hint: Immer wieder ist die Punktreihe. Gerade jetzt ist die Welle.
+      - type: matching
+        id: simple-oder-progressive-paare
+        text: Welcher englische Satz passt zu welchem deutschen Satz?
+        pairs:
+          - left: Ellie schaut jeden Tag einen Film an.
+            right: Ellie watches a film every day.
+          - left: Ellie schaut gerade einen Film an.
+            right: Ellie is watching a film now.
+          - left: Amir liest im Moment.
+            right: Amir is reading at the moment.
+          - left: Amir liest oft.
+            right: Amir often reads.
+        explanation: Wiederholung ist die Punktreihe, dann steht das simple present. Gerade jetzt ist die Welle, dann steht is und -ing.
+        hint: Suche zuerst in jedem Satz das Fähnchen. Gehört es zur Punktreihe oder zur Welle?
+        links:
+          - title: Lernlandkarte Englisch · Simple present oder present progressive
+            url: https://lernapps.net/apps/map/englisch/c/simple-oder-progressive/
+      - type: language-task
+        id: simple-oder-progressive-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz. Wähle selbst die richtige Form.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter · play football · every Saturday
+            target: Peter plays football every Saturday.
+            mistakes:
+              - answer: Peter is playing football every Saturday.
+                message: every Saturday ist ein Fähnchen der Punktreihe. Dann brauchst du das simple present, also plays.
+          - cue: Amir · sit · on a chair · now
+            target: Amir is sitting on a chair( now|).
+            mistakes:
+              - answer: Amir sits on a chair now.
+                message: now ist ein Fähnchen der Welle. Dann brauchst du is und -ing, also is sitting.
+              - answer: Amir is siting on a chair now.
+                message: Bei sit wird das t doppelt, also sitting.
+          - cue: Sophie · always · read a book
+            target: Sophie always reads a book.
+            mistakes:
+              - answer: Sophie always is reading a book.
+                message: always ist ein Fähnchen der Punktreihe. Dann brauchst du reads.
+              - answer: Sophie always read a book.
+                message: "He, she, it – das s muss mit."
+          - cue: Peter and Ellie · go to school · at the moment
+            target: Peter and Ellie are going to school at the moment.
+            mistakes:
+              - answer: Peter and Ellie go to school at the moment.
+                message: at the moment ist ein Fähnchen der Welle. Dann brauchst du are und -ing, also are going.
+        hint: Suche zuerst das Fähnchen. Dann wählst du Punktreihe oder Welle.
+      - type: language-task
+        id: simple-oder-progressive-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz ist die falsche Form. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie reads a book now.
+            target: Sophie is reading a book now.
+            mistakes:
+              - answer: Sophie reads a book now.
+                message: Das ist der Satz mit dem Fehler. now gehört zur Welle, also is reading.
+          - cue: Peter is playing football every day.
+            target: Peter plays football every day.
+            mistakes:
+              - answer: Peter is playing football every day.
+                message: Das ist der Satz mit dem Fehler. every day gehört zur Punktreihe, also plays.
+      - type: language-task
+        id: simple-oder-progressive-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Ellie isst gerade Frühstück.
+            target: Ellie is eating breakfast( now| at the moment|).
+            mistakes:
+              - answer: Ellie eats breakfast now.
+                message: gerade jetzt ist die Welle. Du brauchst is und -ing.
+          - source: Peter geht oft zur Schule.
+            target: Peter often goes to school.
+            mistakes:
+              - answer: Peter often go to school.
+                message: "He, she, it – das s muss mit. Bei go ist das es."
+          - source: Sophie liest im Moment.
+            target: Sophie is reading at the moment.
+            mistakes:
+              - answer: Sophie reads at the moment.
+                message: at the moment gehört zur Welle. Du brauchst is und -ing.
+      - type: language-task
+        id: simple-oder-progressive-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: sophie-reads-a-book-every-day.mp3
+            target: Sophie reads a book every day.
+          - audio: peter-is-eating-lunch-now.mp3
+            target: Peter is eating lunch now.
+          - audio: amir-often-goes-to-school.mp3
+            target: Amir often goes to school.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: simple-oder-progressive-nachsprechen
+        language: en
+        items:
+          - audio: we-are-playing-football-at-the-moment.mp3
+            text: We are playing football at the moment.
+          - audio: mr-hill-often-reads-a-book.mp3
+            text: Mr Hill often reads a book.
+          - audio: sophie-and-amir-are-going-to-school.mp3
+            text: Sophie and Amir are going to school.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Form des Verbs.
+      - type: open-task
+        id: simple-oder-progressive-karte
+        task: "Mr Hill sagt: Hängt zwei Karten an den Zeitstrahl. Schreibe einen Satz für die Punktreihe, etwas, das du oft oder immer tust. Schreibe einen Satz für die Welle, etwas, das du gerade tust."
+        points:
+          - text: Der erste Satz hat ein Fähnchen der Punktreihe (always, often, every day) und ein Verb im simple present.
+            source: /immer-oder-jetzt/simple-oder-progressive/#neu
+          - text: Der zweite Satz hat am und ein Verb mit -ing, dazu now oder at the moment.
+            source: /immer-oder-jetzt/simple-oder-progressive/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I often play football. I am writing a card now.
+  - type: section
+    id: weiter
+    title: Rückblick und wie es weitergeht
+    blocks:
+      - type: text
+        text: "Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er hat und was er immer tut, und du weißt, was gerade passiert. Alles, was Peter bisher erzählt hat, liegt auf der Punktreihe oder auf der Welle um now. Aber Sophie fragt: Und was war gestern? Im nächsten Kapitel wächst der Strahl nach links."
