@@ -250,7 +250,7 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite K1 `simple-present` (immer-oder-jetzt/simple-present): Zeichnungen (Zeitstrahl-SVG mit now, Punktreihe und Fähnchen; Szene Peter spielt Fußball; Figuren aus millbrook-klassenzimmer.svg von #470), alle Abschnitte (einstieg, neu, uebung mit mindestens vier Übungen und mistakes, anwenden, weiter), Diktat und Nachsprechen mit bf_emma via regen_audio.py, Tabelle Klassenzimmer-Poster · Zeitformen; zeigt das Muster aller Seiten
+- [x] Musterseite K1 `simple-present` (immer-oder-jetzt/simple-present): Zeichnungen (Zeitstrahl-SVG mit now, Punktreihe und Fähnchen; Szene Peter spielt Fußball; Figuren aus millbrook-klassenzimmer.svg von #470), alle Abschnitte (einstieg, neu, uebung mit mindestens vier Übungen und mistakes, anwenden, weiter), Diktat und Nachsprechen mit bf_emma via regen_audio.py, Tabelle Klassenzimmer-Poster · Zeitformen; zeigt das Muster aller Seiten
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
