@@ -5,59 +5,96 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-<!--
-Skeleton. Delete this comment when you fill the guide.
-- When: after the plan is confirmed, before any content. Replace every placeholder comment below; none may remain
-  (`lernapps check`, rule app-content-guide, fails once the plan is in Commit).
-- Keep the headings.
-- Concrete, for an agent without your conversation: files, ids, data files, one example.
-  - No: "Use varied exercises with figures where they help."
-  - Yes: "Every page ends with section `uebung`: one `generated` exercise of pattern 'Ohmsches Gesetz' from
-    `src/data/widerstaende.yaml`, one `matching` of symbols and parts."
-- Content decision changes → update this file in the same commit.
-- Public: no personal data, no goals of one learner.
--->
+„Zeiten auf dem Zeitstrahl“: Explainer (Strang-App `englisch/grammatik`, Format 2, Sprache Deutsch, englische Beispiele) über die englischen Zeitformen. Auftrag: Issue lernapps/apps#472 (Epic lernapps/apps#489, Konventionen dort). Die erste Version baut nur Stufe 5-6 (Kapitel 1 bis 3); Kapitel 4 bis 7 (Stufen 7-8 und 9-10) kommen als Inkremente `increment/<NN>-<name>`.
 
 ## Curriculum
 
-<!-- FILL IN: Land, Schulform, Jahrgang; orientation (Lehrplan: document, issuer, year, address, page and unit per
-part; welcome, not required); where the creator's material differs, and which one the app follows. -->
+Englisch als erste Fremdsprache, Klasse 5-6 (erstes und zweites Lernjahr, Stufe 5-6 der Karte). Kein Lehrplan: Reihenfolge und Bausteine kommen aus der Lernlandkarte `https://lernapps.net/apps/map/englisch.json` (Fokus `competency`; diese App ist eine Strang-App des Strangs `grammatik`). Vorwissen: Hello, Millbrook! (#470) und Personalpronomen (#471). Nicht hier: Fragen und Verneinung mit do und did (#473), Bedingungssätze und indirekte Rede (#481), Passiv (#480), Aussprache von -s und -ed (#482), Kapitel 4 bis 7 (spätere Inkremente).
 
 ## Competencies
 
-<!-- FILL IN: every competency as "Ich kann …", grouped by chapter; per competency: page or round (file, id),
-exercise ids. -->
+Alle zwölf sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach `requires`. Von außen braucht die Karte nur `personalpronomen`.
+
+1. Kapitel `immer-oder-jetzt` („Immer oder gerade jetzt?“)
+   - Wiederholung `recap: englisch/personalpronomen` → `immer-oder-jetzt/das-brauchst-du` (ohne Übung)
+   - `to-be` → `immer-oder-jetzt/to-be`
+   - `have-got` → `immer-oder-jetzt/have-got`
+   - `simple-present` → `immer-oder-jetzt/simple-present` (Musterseite)
+   - `adverbien-haeufigkeit` → `immer-oder-jetzt/haeufigkeit`
+   - `present-progressive` → `immer-oder-jetzt/present-progressive`
+   - `simple-oder-progressive` → `immer-oder-jetzt/simple-oder-progressive`
+2. Kapitel `gestern-und-schon` („Gestern und schon“)
+   - `simple-past` → `gestern-und-schon/simple-past`
+   - `unregelmaessige-verben` → `gestern-und-schon/unregelmaessig`
+   - `present-perfect` → `gestern-und-schon/present-perfect`
+3. Kapitel `morgen-und-spaeter` („Morgen und später“)
+   - `will-future` → `morgen-und-spaeter/will`
+   - `going-to` → `morgen-und-spaeter/going-to`
+   - `will-oder-going-to` → `morgen-und-spaeter/will-oder-going-to`
+
+Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Karte (nicht umformulieren). Übungs-IDs: Präfix = Seite (`simple-present-…`), Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`.
 
 ## Content structure
 
-<!-- FILL IN: how a chapter, page or round is built: sections or question groups in order, ids or titles, what
-each holds; length. -->
+- Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`.
+- Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Szene der Figuren, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Zeichen am Strahl, Bau-Karte, Merke-Kasten), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`: den Strahl selbst füllen), `weiter` (nächster Schritt am Wandbild; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut. Die Wiederholungsseite hat nur Text und Tabelle.
+- Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken. Jede Seite bringt einen neuen Schritt (`explainer-one-step`).
+- Geschichte: Mr Hill lässt die Klasse das Wandbild „Millbrook-Zeitstrahl“ gestalten; Sophie, Ellie, Peter und Amir hängen Karten auf. Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Tabellen heißen „Klassenzimmer-Poster · Zeitformen“ und „Schulkalender · Zeitangaben“ und wachsen von Seite zu Seite.
+- Anrede „du“.
 
 ## Terminology
 
-<!-- FILL IN: terms used and avoided (why); units, notation; how learners are addressed; glossary terms with
-wording. -->
+- „Ausdruck“ (fester Ausdruck), nie „Wendung“. Fachbegriffe noun, verb, adjective, sentence, tense (aus #470); Zeitnamen als Eigennamen: simple present, present progressive, simple past, present perfect, will-future, going-to.
+- Zeitstrahl-Wörter: Strahl, now, Punkt, Punktreihe, Welle, Bogen, Pfeil, Fähnchen (Signalwort), Bau-Karte. Immer dieselben.
+- Merksatz: „He, she, it – das s muss mit.“
+- Britisches Englisch (favourite, colour). Englische Aufgaben enthalten kein deutsches Wort. Englisches immer mit deutscher Bedeutung, wo ein Wort neu ist.
+- Aussprache: keine Lesehilfe und keine Lautschrift hier (IPA gehört zu #482); Hörtexte nur als Sätze.
 
 ## Exercise patterns
 
-<!-- FILL IN: per pattern: name, competency, archetype form (block or question type, fixed parts, what varies),
-one example (file, id), data file. -->
+Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → übersetzen/frei. Je Übung `mistakes` mit eigener Meldung und `hint`; gleichwertige Antworten mit `(a|b)`.
+
+- Zeichen zuordnen: `matching` Satz ↔ Zeichen (Punktreihe, Punkt, Welle, Bogen, Pfeil).
+- Reihe ordnen: `ordering` Fähnchen always … never; Satzteile (Stellung des Häufigkeitsadverbs).
+- Formen ergänzen: `language-task` mode `table` (Person ↔ Form, -s-Spalte), `gap`, `choice` mit `distractors`.
+- Form bilden: `language-task` mode `write` mit `cue` (`cue: "play · she"`).
+- Entscheiden mit Begründung: `choice`/`true-false`, die Rückmeldung nennt das Zeichen („Ein Punkt mit Zeitangabe: simple past“).
+- Hören und schreiben: `language-task` mit `audio` (Diktat, je Seite höchstens drei ganze Sätze, keine Wiederholung zwischen Seiten); Nachsprechen: `speaking-task`.
+- Freies Schreiben: `open-task` (Karte für den Strahl).
+- Typische Fehler (jeweils `mistakes`): fehlendes -s bei he/she/it; be vergessen („She reading“, „I going to“); „I am go“; Welle für Gewohnheiten und umgekehrt; „goed“ statt went; went/gone verwechselt; present perfect mit yesterday; have/has nach Person; will für schon gefassten Plan, going to für spontanes Angebot.
+- Unregelmäßige Verben: 38 nach Klangmustern, Liste auf der Seite `gestern-und-schon/unregelmaessig` (Poster „Klassenzimmer-Poster · Unregelmäßige Verben“): sing sang sung · swim swam swum · drink drank drunk · begin began begun · ring rang rung · run ran run · come came come · write wrote written · drive drove driven · ride rode ridden · take took taken · give gave given · eat ate eaten · see saw seen · know knew known · buy bought bought · bring brought brought · think thought thought · catch caught caught · teach taught taught · go went gone · do did done · be was/were been · have had had · make made made · say said said · pay paid paid · meet met met · read read read · sit sat sat · get got got · find found found · lose lost lost · leave left left · cut cut cut · put put put · hit hit hit · let let let. Alle Grundformen sind A1.
+- Keine Komponente (`prefer-built-in-block`); eine Ziehen-Übung auf dem Strahl wäre ein Wunsch für ein Inkrement.
+- Keine Datendateien: jede Tatsache steht einmal in ihrer Seite.
 
 ## Figures
 
-<!-- FILL IN: figure kinds and images, for what; conventions (colours, labels, units, orientation, sizes); alt
-texts and captions; image origin and licence. -->
+- Zeichen des Zeitstrahls (eine SVG-Familie in `src/images/`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.
+- Bau-Karten: be + -ing, have + 3. Form, be + going to + Grundform, will + Grundform.
+- Szenen: je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; in Aufgaben zeigt der Strahl nur die Legende, nie das Ergebnis.
+- Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb); Skizzen liegen in `.vibe/sketches/`.
+- Poster und Kalender sind `table`-Blöcke, wachsen von Seite zu Seite.
 
 ## Sources
 
-<!-- FILL IN: sources linked or relied on (Lehrplan, second explanations, videos, articles), how verified, what
-is left out; the creator's material stays local, never committed. -->
+Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus, jedes Wort außerhalb steht hier gelistet und wird auf der Seite eingeführt: poster, cloud/clouds). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
 ## Adding a chapter or round
 
-<!-- FILL IN: the steps for a new chapter (explainer) or round (quiz), in order, with the files: competencies,
-content, exercises from the patterns, entry topics, check, commit. -->
+1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
+2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
+3. Strahl-SVG um die neuen Zeichen erweitern (Inkremente: Welle in der Vergangenheit, Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben, Punktreihe in der Vergangenheit für used to) und das Poster um die Zeilen der Seite.
+4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
+5. Hörtexte mit `.agents/skills/app-content/scripts/regen_audio.py` (Kopie aus hello-millbrook) erzeugen und anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
 
-<!-- FILL IN: one line per rule with the mistake it came from. "None yet." until the first. -->
+Aus #470 übernommen (hello-millbrook):
+- Jede Übung fragt nur Wörter ab, die vorher auf der Seite stehen.
+- Eine Tabelle, die eine Übung beantwortet, steht nicht direkt über ihr.
+- Englische Aufgaben enthalten kein deutsches Wort.
+- Mit `(a|b)` gleichwertige richtige Antworten zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
+- Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich geschrieben.
+- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Bilder: Beschriftungen innerhalb des `viewBox` halten.
+Aus dieser App: bisher keine.
