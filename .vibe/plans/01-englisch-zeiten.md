@@ -255,9 +255,10 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite K1 `simple-present` (immer-oder-jetzt/simple-present): Zeichnungen (Zeitstrahl-SVG mit now, Punktreihe und Fähnchen; Szene Peter spielt Fußball; Figuren aus millbrook-klassenzimmer.svg von #470), alle Abschnitte (einstieg, neu, uebung mit mindestens vier Übungen und mistakes, anwenden, weiter), Diktat und Nachsprechen mit bf_emma via regen_audio.py, Tabelle Klassenzimmer-Poster · Zeitformen; zeigt das Muster aller Seiten
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Ja, die anderen Seiten dürfen nach diesem Muster folgen. Update 0.18.3 jetzt (erledigt). Wiederholungsseite personalpronomen bald; Reihenfolge to-be, have-got, simple-present, adverbien-haeufigkeit, present-progressive, simple-oder-progressive. Je Seite ein neuer Schritt, Sätze nicht von Seite zu Seite wiederholen, Diktat und Nachsprechen je höchstens drei ganze Sätze, Grundwortschatz-Abgleich für jede Seite. work regelmäßig pushen, nicht gh-pages anlegen.
 - [ ] Kapitel 1 Rest: Wiederholungsseite das-brauchst-du (recap personalpronomen) und Seiten to-be, have-got, haeufigkeit (adverbien-haeufigkeit) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
 - [ ] Kapitel 1 Rest: Seiten present-progressive (Welle, Bau-Karte be + -ing) und simple-oder-progressive (Signalwörter, Rückblick K1) nach dem Muster, je mit Szene, Übungen, mistakes, Audio
 - [ ] Kapitel 2: Seiten simple-past (Strahl nach links), unregelmaessig (Kartenset der 38 Verben nach Klangmustern, Poster) und present-perfect (Bogen, Bau-Karte have + 3. Form, Rückblick K2) nach dem Muster, je mit Szene, Übungen, mistakes, Audio, Schulkalender · Zeitangaben
