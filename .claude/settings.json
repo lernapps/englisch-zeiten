@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes @lernapps/tooling *)",
+      "Bash(npx --no -- lernapps *)",
+      "Bash(npx vp *)",
+      "Bash(npm install*)",
+      "Bash(npm ci*)",
+      "Bash(npm run *)",
+      "Bash(python3 .agents/skills/lernapps-audio/scripts/lernapps_audio.py *)",
+      "Bash(git push -u origin work)",
+      "Bash(git push origin work)",
+      "Bash(git -c push.negotiate=true push -u origin work)",
+      "Bash(git -c push.negotiate=true push origin work)",
+      "Bash(gh api *)",
+      "Bash(gh run *)"
+    ]
+  }
+}
