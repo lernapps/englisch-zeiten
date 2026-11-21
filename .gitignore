@@ -3,3 +3,4 @@ dist/
 _site/
 test-results/
 playwright-report/
+__pycache__/
