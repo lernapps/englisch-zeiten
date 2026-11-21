@@ -1,0 +1,250 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was du vorhast: going to"
+description: "Peter plant seinen Geburtstag. Du lernst, mit going to über Pläne und Anzeichen zu sprechen, und siehst den Pfeil, der schon bei now beginnt."
+competencies: [going-to]
+scope: Die Seite führt going to ein. Es nennt Pläne, die schon feststehen, und Vorhersagen, für die man jetzt ein Anzeichen sieht (Look at the clouds! It is going to rain.). Auf dem Zeitstrahl ist es ein Pfeil, der bei now beginnt und nach rechts zeigt. Die Form ist am, is oder are plus going to plus Verb in der Grundform. Dazu die Geburtstage der Figuren im Schulkalender. Nicht hier, weil es spätere Seiten sind. Die Entscheidung zwischen will und going to.
+blocks:
+  - type: section
+    id: einstieg
+    title: Peters Plan für den 5. Mai
+    blocks:
+      - type: figure
+        image: images/szene-going-to.svg
+        alt: "Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 5 May. Peter sagt in der Sprechblase: „I am going to have a party.“"
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Peter spricht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Peter hat am 5. Mai Geburtstag. Er erzählt der Klasse: „I am going to have a party.“ Party heißt Feier, have a party heißt eine Feier machen.
+      - type: single-choice
+        id: going-to-start
+        text: Peter sagt „I am going to have a party.“ Wann hat er sich die Feier überlegt?
+        options:
+          - text: Schon vorher. Er hat es sich vorgenommen.
+            correct: true
+            info: I am going to heißt „ich habe vor“. Der Plan ist schon da, auch wenn die Feier noch nicht begonnen hat.
+          - text: Erst in diesem Moment, beim Sprechen.
+            correct: false
+            info: Wer erst beim Sprechen entscheidet, nimmt will. Peter sagt aber, was er sich vorgenommen hat.
+          - text: Die Feier war schon gestern.
+            correct: false
+            info: Gestern heißt yesterday. In Peters Satz ist die Feier noch nicht vorbei.
+        explanation: Mit going to sagst du, was du dir vorgenommen hast.
+        links:
+          - title: Lernlandkarte Englisch · Going-to-Future
+            url: https://lernapps.net/apps/map/englisch/c/going-to/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, was du vorhast oder was nach einem Anzeichen bald passiert. Und du bildest going to mit am, is und are."
+  - type: section
+    id: neu
+    title: Ein Pfeil, der schon jetzt beginnt
+    blocks:
+      - type: text
+        text: "Ein Plan ist schon da, bevor etwas passiert: im Kopf, auf dem Papier, im Kalender. Darum beginnt das Zeichen schon bei **now**. Ein **Pfeil** läuft von now nach rechts bis zum Termin. Das ist **going to**."
+      - type: figure
+        image: images/zeitstrahl-going-to.svg
+        alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Von diesem Strich läuft ein oranger Pfeil mit der Beschriftung going to nach rechts. Er zeigt auf einen orangen Punkt, an dem ein Fähnchen mit der Aufschrift 5 May hängt.
+        caption: Der Pfeil beginnt bei now. Er zeigt auf den Tag, der geplant ist.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Auch ein Anzeichen, das du jetzt siehst, zeigt nach vorn. Sophie schaut aus dem Fenster und sagt: „Look at the clouds! It is going to rain.“ Clouds sind Wolken, look at heißt schau dir an."
+      - type: text
+        text: Die Bau-Karte heißt **be + going to + Verb**. Das be kennst du schon (am, is, are). Das Verb bleibt in der Grundform.
+      - type: table
+        caption: Klassenzimmer-Poster · going to mit play
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I, am going to play, I am going to play football.]
+          - [you, are going to play, You are going to play football.]
+          - [he / she / it, is going to play, Peter is going to play football.]
+          - [we / you / they, are going to play, They are going to play football.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Das be darfst du nicht vergessen.** Es heißt Peter is going to play, nicht Peter going to play. Nach going to steht das Verb ohne s und ohne zweites to.
+      - type: table
+        caption: Schulkalender · Geburtstage
+        header: [Person, Geburtstag]
+        rows:
+          - [Peter, 5 May]
+          - [Ellie, 10 July]
+          - [Amir, 12 October]
+          - [Sophie, 14 October]
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [have a party, eine Feier machen]
+          - [invite, einladen]
+          - [visit, besuchen]
+          - [watch a film, einen Film anschauen]
+          - [eat, essen]
+          - [pizza, Pizza]
+          - [hungry, hungrig]
+          - [ticket, Eintrittskarte]
+          - [cloud, Wolke]
+          - [look at, anschauen]
+          - [on 10 July, am 10. Juli]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: going-to-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form von be.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter hat vor, Amir einzuladen.
+            target: Peter [is] going to invite Amir.
+            distractors: [[am, are]]
+          - cue: Ich habe vor, einen Film anzuschauen.
+            target: I [am] going to watch a film.
+            distractors: [[is, are]]
+          - cue: Wir haben vor, Peter zu besuchen.
+            target: We [are] going to visit Peter.
+            distractors: [[is, am]]
+          - cue: Gleich fängt es an zu regnen.
+            target: It [is] going to rain.
+            distractors: [[am, are]]
+      - type: language-task
+        id: going-to-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Tabelle für das Verb eat.
+        form: { case: hint }
+        table:
+          caption: going to · eat
+          header: [Person, Form]
+          rows:
+            - [I, "[am] going to eat"]
+            - [you, "[are] going to eat"]
+            - [he / she / it, "[is] going to eat"]
+            - [we / you / they, "[are] going to eat"]
+      - type: matching
+        id: going-to-anzeichen
+        text: Was sagt der Satz links voraus? Ordne zu.
+        pairs:
+          - left: Look at the clouds!
+            right: It is going to rain.
+          - left: Peter has a ticket for a film.
+            right: He is going to watch it.
+          - left: Amir is hungry.
+            right: He is going to eat a pizza.
+        distractors: [Peter plays football every Saturday.]
+        explanation: Wer ein Anzeichen sieht oder schon eine Eintrittskarte hat, sagt mit going to, was bald passiert. Der Satz mit every Saturday erzählt von einer Gewohnheit.
+        hint: Frag dich, was man bei dem Anzeichen als Nächstes erwartet.
+        links:
+          - title: Lernlandkarte Englisch · Going-to-Future
+            url: https://lernapps.net/apps/map/englisch/c/going-to/
+      - type: language-task
+        id: going-to-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz mit going to.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter · have · a party
+            target: Peter is going to have a party.
+            mistakes:
+              - answer: Peter going to have a party.
+                message: Dir fehlt das be. Zu Peter gehört is.
+              - answer: Peter is going to has a party.
+                message: Nach going to steht das Verb in der Grundform, ohne s.
+          - cue: Ellie · invite · Amir
+            target: Ellie is going to invite Amir.
+            mistakes:
+              - answer: Ellie is going invite Amir.
+                message: Dir fehlt das zweite to. Es heißt going to.
+          - cue: I · watch · a film
+            target: I am going to watch a film.
+            mistakes:
+              - answer: I is going to watch a film.
+                message: Zu I gehört am, nicht is.
+          - cue: they · visit · Peter
+            target: They are going to visit Peter.
+            mistakes:
+              - answer: They is going to visit Peter.
+                message: Zu they gehört are, nicht is.
+      - type: language-task
+        id: going-to-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie going to visit Peter.
+            target: Sophie is going to visit Peter.
+            mistakes:
+              - answer: Sophie going to visit Peter.
+                message: Das ist der Satz mit dem Fehler. Dir fehlt das be vor going to.
+          - cue: Amir and Peter is going to eat a pizza.
+            target: Amir and Peter are going to eat a pizza.
+            mistakes:
+              - answer: Amir and Peter is going to eat a pizza.
+                message: Das ist der Satz mit dem Fehler. Zwei Personen sind they, dazu gehört are.
+      - type: single-choice
+        id: going-to-zeichen
+        text: Welches Zeichen am Zeitstrahl gehört zu „Peter is going to have a party.“?
+        options:
+          - text: Ein Pfeil, der bei now beginnt und nach rechts zeigt.
+            correct: true
+            info: Der Plan steht schon jetzt. Darum beginnt der Pfeil bei now.
+          - text: Ein einzelner Punkt rechts von now, ohne Pfeil.
+            correct: false
+            info: Das ist das Zeichen für will. Dort hat noch nichts begonnen. Peter hat sich die Party schon vorgenommen.
+          - text: Eine Reihe von Punkten links und rechts von now.
+            correct: false
+            info: Eine Reihe von Punkten ist das Zeichen für Gewohnheiten. Peters Feier ist ein einziger Termin.
+        explanation: Going to hat als Zeichen einen Pfeil, der schon bei now beginnt.
+        links:
+          - title: Lernlandkarte Englisch · Going-to-Future
+            url: https://lernapps.net/apps/map/englisch/c/going-to/
+      - type: language-task
+        id: going-to-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: we-are-going-to-watch-a-film.mp3
+            target: We are going to watch a film.
+          - audio: sophie-is-going-to-visit-peter.mp3
+            target: Sophie is going to visit Peter.
+          - audio: ellie-is-going-to-invite-amir.mp3
+            target: Ellie is going to invite Amir.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: going-to-nachsprechen
+        language: en
+        items:
+          - audio: ellie-is-going-to-have-a-party-in-july.mp3
+            text: Ellie is going to have a party in July.
+          - audio: i-am-going-to-eat-a-pizza.mp3
+            text: I am going to eat a pizza.
+          - audio: look-at-the-clouds-it-is-going-to-rain.mp3
+            text: Look at the clouds, it is going to rain.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
+      - type: open-task
+        id: going-to-karte
+        task: "Sophie hängt eine Karte mit einem Pfeil an den Zeitstrahl. Wähle eine Person aus dem Schulkalender und schreibe zwei Sätze mit going to über ihren Geburtstag."
+        points:
+          - text: Beide Sätze haben die richtige Form von be, going to und ein Verb in der Grundform.
+            source: /morgen-und-spaeter/going-to/#neu
+          - text: Die Sätze nennen einen Plan, zum Beispiel have a party oder invite.
+            source: /morgen-und-spaeter/going-to/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Ellie is going to have a party on 10 July. She is going to invite Amir.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters Pfeil. Ellie hat am 10. Juli Geburtstag und erzählt ihre Pläne. Amir hört zu und hat gleich eine Idee. Auf der nächsten Seite entscheidest du, wann du will und wann du going to nimmst."
