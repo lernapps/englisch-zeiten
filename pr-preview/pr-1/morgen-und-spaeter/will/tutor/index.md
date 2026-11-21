@@ -188,11 +188,11 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter wills win tomorrow. → Peter will win tomorrow.
-     - Peter wills win tomorrow.: Das ist der Satz mit dem Fehler. Nach will gibt es kein s.
+     - Peter wills win tomorrow.: Noch nicht ganz. Nach will gibt es kein s.
 2. Ellie will to come soon. → Ellie will come soon.
-     - Ellie will to come soon.: Das ist der Satz mit dem Fehler. Nach will steht kein to.
+     - Ellie will to come soon.: Noch nicht ganz. Nach will steht kein to.
 3. Amir will plays football next week. → Amir will play football next week.
-     - Amir will plays football next week.: Das ist der Satz mit dem Fehler. Nach will bleibt das Verb in der Grundform.
+     - Amir will plays football next week.: Noch nicht ganz. Nach will bleibt das Verb in der Grundform.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#will-korrektur](../?via=tutor#will-korrektur)
 

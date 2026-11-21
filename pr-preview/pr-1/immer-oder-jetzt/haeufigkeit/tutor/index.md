@@ -82,7 +82,7 @@ Klassenzimmer-Poster · Wie oft?:
 
 **Merke: Merke**
 
-Das Häufigkeitswort steht **vor dem Verb**: Peter **often** plays football. Bei **am**, **is** und **are** steht es **danach**: Ellie is **always** happy. Das -s bei he, she und it bleibt: Peter often plays.
+Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. Bei **am**, **is** und **are** steht es **danach**: Amir is **usually** tired. Das -s bei he, she und it bleibt: Sophie usually takes.
 
 ### Übung
 

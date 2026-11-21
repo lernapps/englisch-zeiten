@@ -70,7 +70,7 @@ Bei regelmäßigen Verben hängst du **ed** an die Grundform. Das gilt für alle
 Klassenzimmer-Poster · Das simple past:
 - Verb | simple past | Beispiel
 - play (spielen) | play**ed** | Peter played football yesterday.
-- walk (gehen) | walk**ed** | We walked home last week.
+- walk (zu Fuß gehen) | walk**ed** | We walked home last week.
 - like (mögen) | like**d** | Ellie liked the film.
 - study (lernen) | stud**ied** | Amir studied English.
 - stop (anhalten) | sto**pped** | The bus stopped.
@@ -187,11 +187,11 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter plays football yesterday. → Peter played football yesterday.
-     - Peter plays football yesterday.: Das ist der Satz mit dem Fehler. Gestern ist vorbei, also braucht das Verb -ed.
+     - Peter plays football yesterday.: Noch nicht ganz. Gestern ist vorbei, also braucht das Verb -ed.
 2. The bus stopd two days ago. → The bus stopped two days ago.
-     - The bus stopd two days ago.: Das ist der Satz mit dem Fehler. Stop verdoppelt das p vor ed.
+     - The bus stopd two days ago.: Noch nicht ganz. Stop verdoppelt das p vor ed.
 3. Amir studyed English last week. → Amir studied English last week.
-     - Amir studyed English last week.: Das ist der Satz mit dem Fehler. Nach Konsonant wird aus y ein ied.
+     - Amir studyed English last week.: Noch nicht ganz. Nach Konsonant wird aus y ein ied.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-past-korrektur](../?via=tutor#simple-past-korrektur)
 

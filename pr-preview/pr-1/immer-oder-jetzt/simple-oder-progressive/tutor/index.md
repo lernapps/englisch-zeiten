@@ -178,9 +178,9 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Sophie reads a book now. → Sophie is reading a book now.
-     - Sophie reads a book now.: Das ist der Satz mit dem Fehler. now gehört zur Welle, also is reading.
+     - Sophie reads a book now.: Noch nicht ganz. now gehört zur Welle, also is reading.
 2. Peter is playing football every day. → Peter plays football every day.
-     - Peter is playing football every day.: Das ist der Satz mit dem Fehler. every day gehört zur Punktreihe, also plays.
+     - Peter is playing football every day.: Noch nicht ganz. every day gehört zur Punktreihe, also plays.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-oder-progressive-korrektur](../?via=tutor#simple-oder-progressive-korrektur)
 

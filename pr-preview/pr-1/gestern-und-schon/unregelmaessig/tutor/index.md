@@ -232,11 +232,11 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Sophie swimmed two days ago. → Sophie swam two days ago.
-     - Sophie swimmed two days ago.: Das ist der Satz mit dem Fehler. Swim hat die Form swam.
+     - Sophie swimmed two days ago.: Noch nicht ganz. Swim hat die Form swam.
 2. Amir bringed a book yesterday. → Amir brought a book yesterday.
-     - Amir bringed a book yesterday.: Das ist der Satz mit dem Fehler. Bring hat die Form brought.
+     - Amir bringed a book yesterday.: Noch nicht ganz. Bring hat die Form brought.
 3. Ellie writed to Sophie last week. → Ellie wrote to Sophie last week.
-     - Ellie writed to Sophie last week.: Das ist der Satz mit dem Fehler. Write hat die Form wrote.
+     - Ellie writed to Sophie last week.: Noch nicht ganz. Write hat die Form wrote.
 - Tipp der App: Such das Verb auf dem Poster und nimm die 2. Spalte.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#unregelmaessig-korrektur](../?via=tutor#unregelmaessig-korrektur)

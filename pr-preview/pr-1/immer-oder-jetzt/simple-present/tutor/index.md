@@ -188,7 +188,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ellie play football every Saturday. → Ellie plays football every Saturday.
-     - Ellie play football every Saturday.: Das ist der Satz mit dem Fehler. Ellie ist „sie“, schau in den Kasten „Merke“.
+     - Ellie play football every Saturday.: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
 2. Peter and Amir plays football every day. → Peter and Amir play football every day.
      - Peter and Amir plays football every day.: Zwei Personen sind they, also kein s.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

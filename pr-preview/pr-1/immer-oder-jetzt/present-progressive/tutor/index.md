@@ -67,7 +67,7 @@ Klassenzimmer-Poster · Bau-Karte present progressive:
 
 **Merke: Merke**
 
-Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: write – writ**ing**. Steht vor dem letzten Konsonanten genau ein Vokal (run), wird der Konsonant doppelt: run – run**n**ing. Bei zwei Vokalen (read) oder zwei Konsonanten am Ende (listen) bleibt es: reading, listening.
+Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: dance – danc**ing**. Steht vor dem letzten Konsonanten genau ein Vokal (swim), wird der Konsonant doppelt: swim – swim**m**ing. Bei zwei Vokalen (eat) bleibt es: eating.
 
 Klassenzimmer-Poster · Zeitformen:
 - Zeichen | Form | Beispiel
@@ -80,6 +80,8 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - write | schreiben
 - draw | zeichnen
 - run | rennen
+- dance | tanzen
+- swim | schwimmen
 - make | machen
 - sit | sitzen
 - play | spielen
@@ -175,7 +177,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 1. Amir macht gerade ein Bild. → Amir is making a picture.
 2. Peter sitzt gerade auf einem Stuhl. → Peter is sitting on a chair.
 3. Ellie liest gerade. → Ellie is reading.
-4. Sophie hört gerade Musik. → Sophie is listening to music.
+4. Amir spielt gerade Fußball. → Amir is playing football.
 - Tipp der App: Endet das Verb auf e, fällt das e weg. Steht vor dem letzten Konsonanten nur ein Vokal, wird der Konsonant doppelt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-progressive-schreibung](../?via=tutor#present-progressive-schreibung)

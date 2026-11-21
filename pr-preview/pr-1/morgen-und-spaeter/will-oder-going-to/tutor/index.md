@@ -83,8 +83,6 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - pizza | Pizza
 - rain | regnen
 - answer the phone | ans Telefon gehen
-- answer | abnehmen
-- watch a film | einen Film anschauen
 - on 10 July | am 10. Juli
 
 ### Übung

@@ -193,9 +193,9 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Sophie going to visit Peter. → Sophie is going to visit Peter.
-     - Sophie going to visit Peter.: Das ist der Satz mit dem Fehler. Dir fehlt das be vor going to.
+     - Sophie going to visit Peter.: Noch nicht ganz. Dir fehlt das be vor going to.
 2. Amir and Peter is going to eat a pizza. → Amir and Peter are going to eat a pizza.
-     - Amir and Peter is going to eat a pizza.: Das ist der Satz mit dem Fehler. Zwei Personen sind they, dazu gehört are.
+     - Amir and Peter is going to eat a pizza.: Noch nicht ganz. Zwei Personen sind they, dazu gehört are.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#going-to-korrektur](../?via=tutor#going-to-korrektur)
 

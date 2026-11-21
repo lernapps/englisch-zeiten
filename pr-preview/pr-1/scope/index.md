@@ -22,11 +22,11 @@ Die Seite führt das simple present ein. Es erzählt von Gewohnheiten und Tatsac
 
 ### Wie oft? Von always bis never
 
-Die Seite führt die Häufigkeitswörter always, usually, often, sometimes und never ein. Auf dem Zeitstrahl sind sie Fähnchen über der Punktreihe des simple present, und je mehr Punkte ausgefüllt sind, desto öfter passiert es. Das Wort steht vor dem Verb (Peter often plays football) und nach am, is und are (Amir is never late). Nicht hier, weil es spätere Seiten sind. Die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do, Häufigkeitswörter wie twice a week.
+Die Seite führt die Häufigkeitswörter always, usually, often, sometimes und never ein. Auf dem Zeitstrahl sind sie Fähnchen über der Punktreihe des simple present, und je mehr Punkte ausgefüllt sind, desto öfter passiert es. Das Wort steht vor dem Verb (Sophie usually takes the bus) und nach am, is und are (Amir is usually tired). Nicht hier, weil es spätere Seiten sind. Die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do, Häufigkeitswörter wie twice a week.
 
 ### Was gerade passiert: das present progressive
 
-Die Seite führt das present progressive ein. Es sagt, was gerade jetzt passiert, und ist auf dem Zeitstrahl eine Welle über now. Die Form besteht aus am, is oder are und dem Verb mit -ing (I am reading, Sophie is reading, they are reading). Dazu die Schreibung der -ing-Form, bei write fällt das e weg und bei run wird das n doppelt, und die Frage mit be (Is Peter drawing?). Die Signalwörter now und at the moment. Nicht hier, weil es spätere Seiten sind. Die Entscheidung zwischen simple present und present progressive, die Verneinung, Fragen mit do und Verben, die keine -ing-Form haben.
+Die Seite führt das present progressive ein. Es sagt, was gerade jetzt passiert, und ist auf dem Zeitstrahl eine Welle über now. Die Form besteht aus am, is oder are und dem Verb mit -ing (I am reading, Sophie is reading, they are reading). Dazu die Schreibung der -ing-Form, bei dance fällt das e weg und bei swim wird das m doppelt, und die Frage mit be (Is Peter drawing?). Die Signalwörter now und at the moment. Nicht hier, weil es spätere Seiten sind. Die Entscheidung zwischen simple present und present progressive, die Verneinung, Fragen mit do und Verben, die keine -ing-Form haben.
 
 ### Punktreihe oder Welle?
 

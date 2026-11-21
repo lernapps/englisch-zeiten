@@ -198,11 +198,11 @@ Klassenzimmer-Poster · Zeitformen links von now:
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter has played football yesterday. → Peter played football yesterday. (auch richtig: Peter has played football.)
-     - Peter has played football yesterday.: Das ist der Satz mit dem Fehler. Zu yesterday passt das simple past.
+     - Peter has played football yesterday.: Noch nicht ganz. Zu yesterday passt das simple past.
 2. Sophie have seen the film. → Sophie has seen the film.
-     - Sophie have seen the film.: Das ist der Satz mit dem Fehler. Bei she brauchst du has.
+     - Sophie have seen the film.: Noch nicht ganz. Bei she brauchst du has.
 3. Amir has ate pizza. → Amir has eaten pizza.
-     - Amir has ate pizza.: Das ist der Satz mit dem Fehler. Nach has brauchst du die 3. Form.
+     - Amir has ate pizza.: Noch nicht ganz. Nach has brauchst du die 3. Form.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-korrektur](../?via=tutor#present-perfect-korrektur)
 
@@ -229,7 +229,7 @@ Klassenzimmer-Poster · Zeitformen links von now:
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie has taken a book home.
 2. Audio → Peter has already written to Ellie.
-3. Audio → We have just seen Mr Hill.
+3. Audio → We have just seen Peter.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-hoeren](../?via=tutor#present-perfect-hoeren)
