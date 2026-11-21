@@ -214,7 +214,7 @@ blocks:
             mistakes:
               - answer: Peter comed to school last week.
                 message: Come ist unregelmäßig. Die Form im simple past heißt came.
-        hint: Bei einer Zeitangabe nimmst du die 2. Form des Verbs, nicht -ed und nicht die 3. Form.
+        hint: Nimm die 2. Form des Verbs, nicht -ed.
       - type: language-task
         id: unregelmaessig-korrektur
         languages: { source: de, target: en }
