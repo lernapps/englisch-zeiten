@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Immer oder gerade jetzt?
 summary: Mr Hill hängt in Millbrook einen Zeitstrahl an die Wand. Du lernst, mit be, have got, dem simple present und dem present progressive zu sagen, wer du bist, was du hast, was du immer tust und was gerade passiert.
-pages: [simple-present, haeufigkeit]
+pages: [simple-present, haeufigkeit, present-progressive]
