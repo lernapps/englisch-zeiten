@@ -293,15 +293,16 @@ page, which a link. -->
 - [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
 - [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
-- [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
+- [x] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
+      Creator: Ja, Retrospektive und Entry draft jetzt ausfüllen (Entwurf: creator TODO, commit leer, url https://lernapps.net/englisch-zeiten/); work bleibt Branch, Pull-Request offen, nichts mergen, kein Katalogeintrag; am Inhalt nichts ändern, bis der Prüfbericht kommt.
+- [x] (skipped: nicht Teil dieser Session) Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
       the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
-- [ ] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
+- [x] (skipped: nicht Teil dieser Session) Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
+- [x] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
       "Finding the app".
-- [ ] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
+- [x] Fill the retrospective.
+- [x] (skipped: nicht Teil dieser Session) Commit this plan on `main` and push it: the listing check and the review read it there.
 - [ ] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
       pull request is the review. See it to "bestanden", then show the creator the pull request and its result.
 - [ ] If the plan changed since its last push, commit it on `main` and push again.
@@ -310,7 +311,30 @@ page, which a link. -->
 
 <!-- YAML valid against the entry schema the listing skill names. Only known values, never invented. -->
 
+Entwurf, nicht eingetragen (Auftrag der Orchestrator-Session: `creator` TODO, `commit` leer, kein Katalogeintrag in dieser Session).
+
 ```yaml
+# yaml-language-server: $schema=https://lernapps.net/apps/schemas/entry.v1.schema.json
+title: Zeiten auf dem Zeitstrahl
+subject: englisch
+strand: englisch/grammatik
+grades: [5, 6]
+summary: >-
+  Du lernst die englischen Zeitformen an einem Zeitstrahl. Jede Zeitform hat ein Zeichen:
+  Punkte, Welle, Bogen und Pfeil. Mit Sophie, Ellie, Peter und Amir übst du simple present,
+  present progressive, simple past, present perfect, will und going to, mit Hören und Sprechen.
+url: https://lernapps.net/englisch-zeiten/
+keywords: [Zeitformen Englisch, simple present, present progressive, simple past, present perfect, will, going to, Zeitstrahl, unregelmäßige Verben]
+creator: { name: "TODO" }
+source: https://github.com/lernapps/englisch-zeiten
+commit: ""
+fitness:
+  account: false
+  install: false
+  storage: device
+  thirdParty: none
+  thirdPartyNote: ""
+  checked: false
 ```
 
 ## Retrospective
@@ -319,12 +343,20 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan und Code abgeschlossen; Commit nur bis zum Vorschau-Pull-Request (lernapps/englisch-zeiten#1, `work` → `main`). Checkpoints bestanden: Recherche, Plan und Inhaltsmethode, Musterseite. Der Checkpoint „Veröffentlichen“ ist angezeigt; die Veröffentlichung, der Merge und der Katalogeintrag sind ausdrücklich nicht Teil dieser Session.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Drei Nachrichten der Orchestrator-Session nach der Bestätigung des Plans: (1) Musterseite bestätigt und Update tooling 0.18.3 verlangt, (2) Hinweis zu gh-pages und Anschlussarbeit, (3) Antwort zum Checkpoint „Veröffentlichen“ (Retrospektive und Entwurf ausfüllen, am Inhalt nichts ändern). Davor kam eine Pause zum Grundwortschatz, die den Plan nicht änderte.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Keine Ziehen-Komponente für das Setzen auf den Strahl (matching, ordering, labelled-figure statt dessen).
+- `scope` ja (wegen open-task je Seite).
+- Beispielsätze, Szenen und Geschichte (Mr Hills Wandbild) selbst erfunden.
+- Diktat und Nachsprechen je Seite (je drei Sätze), von der Orchestrator-Session bestätigt.
+- Suchwörter für den Eintrag aus den Bausteinen abgeleitet.
+- Der Entwurf des Eintrags: `storage: device` nach der Messung von `lernapps check`.
+- Audio nicht angehört (Aufgabe des Erstellers).
+- Selbsteinschätzung: 2 Übungen je Seite, nach Prüfung, dass sie ohne die Seite verständlich sind.
+- Mehrere Seiten durch parallele Sub-Agenten in eigenen Worktrees gebaut; Zusammenführung durch mich, danach Gesamtcheck und Sprachprüfung.
