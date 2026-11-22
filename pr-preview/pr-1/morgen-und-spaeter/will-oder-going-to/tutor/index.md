@@ -79,6 +79,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - watch a film | einen Film anschauen
 - ticket | Eintrittskarte
 - hungry | hungrig
+- so | deshalb
 - eat | essen
 - pizza | Pizza
 - rain | regnen
@@ -197,8 +198,8 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Amir will bring a cake.
-2. Audio → Ellie is going to have a party.
+1. Audio → Amir is hungry, so he will eat a pizza.
+2. Audio → Peter has a ticket and he is going to watch a film.
 3. Audio → Sophie will answer the phone.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -209,9 +210,9 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I will bring a cake.
+1. Audio → We are going to eat cake on 10 July.
 2. Audio → We are going to have a party.
-3. Audio → I will answer it.
+3. Audio → Sophie will eat a cake on 10 July.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#will-oder-going-to-nachsprechen](../?via=tutor#will-oder-going-to-nachsprechen)
 

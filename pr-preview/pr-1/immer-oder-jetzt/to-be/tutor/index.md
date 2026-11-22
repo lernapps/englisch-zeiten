@@ -219,7 +219,7 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 - Sätze:
 1. Audio → I am Sophie, and I am eleven.
 2. Audio → Ellie is a good friend.
-3. Audio → We are not tired, Peter.
+3. Audio → We are not tired.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf am, is und are.
 - Link: [../?via=tutor#to-be-nachsprechen](../?via=tutor#to-be-nachsprechen)
 

@@ -234,7 +234,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Amir is sitting on a chair.
+1. Audio → Amir is writing a story.
 2. Audio → Sophie is listening to music.
 3. Audio → Ellie is eating breakfast.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

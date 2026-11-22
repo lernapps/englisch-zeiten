@@ -261,7 +261,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 - Sätze:
 1. Audio → Peter ran home yesterday.
 2. Audio → Ellie sat with Amir.
-3. Audio → Sophie came to school last week.
+3. Audio → We saw a film at home.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Verbform, die kein -ed hat.
 - Link: [../?via=tutor#unregelmaessig-nachsprechen](../?via=tutor#unregelmaessig-nachsprechen)
 

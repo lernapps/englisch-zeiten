@@ -77,6 +77,7 @@ Schulkalender · Zeitangaben:
 - tomorrow | morgen
 - next week | nächste Woche
 - soon | bald
+- here | hier
 - in two days | in zwei Tagen
 
 Klassenzimmer-Poster · Wörter dieser Seite:
@@ -215,7 +216,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → We will probably win.
-2. Audio → It will be sunny tomorrow.
+2. Audio → Sophie will be here soon.
 3. Audio → I will help you soon.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das will, das du kaum betonst.
 - Link: [../?via=tutor#will-nachsprechen](../?via=tutor#will-nachsprechen)

@@ -231,7 +231,7 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 - Sätze:
 1. Audio → Ellie danced with Sophie.
 2. Audio → We helped Mr Hill yesterday.
-3. Audio → Amir liked the film.
+3. Audio → Sophie helped Peter with homework.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende der Verben.
 - Link: [../?via=tutor#simple-past-nachsprechen](../?via=tutor#simple-past-nachsprechen)
 

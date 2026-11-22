@@ -220,7 +220,7 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Mr Hill is always happy.
+1. Audio → We often play football at school.
 2. Audio → We usually walk to school.
 3. Audio → Amir always eats lunch with Sophie.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte darauf, wo das Häufigkeitswort steht.

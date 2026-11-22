@@ -216,7 +216,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter plays football every Saturday.
+1. Audio → Peter watches football every Saturday.
 2. Audio → Ellie watches a film after school.
 3. Audio → Amir studies English at home.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

@@ -218,8 +218,8 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Audio → We are going to watch a film.
-2. Audio → Sophie is going to visit Peter.
-3. Audio → Ellie is going to invite Amir.
+2. Audio → Peter is going to look at the ticket.
+3. Audio → We are going to eat pizza at the party.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#going-to-hoeren](../?via=tutor#going-to-hoeren)
@@ -231,7 +231,7 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 - Sätze:
 1. Audio → Ellie is going to have a party in July.
 2. Audio → I am going to eat a pizza.
-3. Audio → Look at the clouds, it is going to rain.
+3. Audio → They are going to visit Amir on 10 July.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
 - Link: [../?via=tutor#going-to-nachsprechen](../?via=tutor#going-to-nachsprechen)
 

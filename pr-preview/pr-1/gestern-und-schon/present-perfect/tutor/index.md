@@ -229,7 +229,7 @@ Klassenzimmer-Poster · Zeitformen links von now:
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie has taken a book home.
 2. Audio → Peter has already written to Ellie.
-3. Audio → We have just seen Peter.
+3. Audio → We have just seen Mr Hill.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-hoeren](../?via=tutor#present-perfect-hoeren)

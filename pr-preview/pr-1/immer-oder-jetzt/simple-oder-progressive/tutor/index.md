@@ -207,7 +207,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie reads a book every day.
 2. Audio → Peter is eating lunch now.
-3. Audio → Amir often goes to school.
+3. Audio → Amir always eats lunch.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-oder-progressive-hoeren](../?via=tutor#simple-oder-progressive-hoeren)
@@ -219,7 +219,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 - Sätze:
 1. Audio → We are playing football at the moment.
 2. Audio → Mr Hill often reads a book.
-3. Audio → Sophie and Amir are going to school.
+3. Audio → We are watching a film now.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Form des Verbs.
 - Link: [../?via=tutor#simple-oder-progressive-nachsprechen](../?via=tutor#simple-oder-progressive-nachsprechen)
 
