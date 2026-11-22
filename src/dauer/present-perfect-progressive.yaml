@@ -1,0 +1,277 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was bis jetzt andauert: das present perfect progressive"
+description: "Sophie wartet vor dem Kino, und Ellie ist zu spät. Du erkennst im Chat, was bis jetzt andauert, und bildest das present perfect progressive mit have been und -ing."
+competencies: [present-perfect-progressive]
+scope: Die Seite führt das present perfect progressive ein, mit einem Lesestück als Chat von Sophie und Ellie. Es sagt, dass eine Tätigkeit in der Vergangenheit begann und bis jetzt andauert (oder gerade erst aufgehört hat). Auf dem Zeitstrahl wird der Bogen des present perfect zur Welle, die an einem Startpunkt beginnt und bis now läuft. Die Form ist have oder has plus been plus das Verb mit -ing. Dazu since und for für Startpunkt und Länge und die Frage How long have you been …? Im Unterschied zum present perfect stehen die Tätigkeit selbst und ihre Dauer im Vordergrund, nicht das Ergebnis. Nicht hier, weil es spätere Seiten sind. Die Zustandsverben, die keine Verlaufsform bilden, und alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu.
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie wartet
+    blocks:
+      - type: text
+        text: Sophie und Ellie wollen ins Kino. Ellie ist nicht da, und Sophie schreibt ihr. Mr Hill hat am Wandbild neben den Bogen eine Welle gehängt.
+      - type: single-choice
+        id: present-perfect-progressive-start
+        text: Du kennst vom Zeitstrahl die Welle (etwas läuft) und den Bogen von einem Startpunkt bis now. Was glaubst du, wie die Welle bis now aussieht?
+        options:
+          - text: Die Welle beginnt in der Vergangenheit und läuft bis now.
+            correct: true
+            info: So zeigt der Zeitstrahl eine Tätigkeit, die irgendwann begann und bis jetzt andauert.
+          - text: Die Welle liegt nur rechts von now.
+            correct: false
+            info: Rechts von now liegt die Zukunft. Eine Tätigkeit, die schon begonnen hat, beginnt links.
+          - text: Die Welle ist ein einzelner Punkt.
+            correct: false
+            info: Ein Punkt ist ein einzelnes Ereignis. Eine Welle zeigt etwas, das über längere Zeit läuft.
+        explanation: Die Welle von einem Startpunkt bis now zeigt, dass die Tätigkeit bis jetzt andauert.
+        links:
+          - title: Lernlandkarte Englisch · Present perfect progressive
+            url: https://lernapps.net/apps/map/englisch/c/present-perfect-progressive/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst im Chat, was bis jetzt andauert. Und du bildest das present perfect progressive mit have been oder has been und der -ing-Form."
+  - type: section
+    id: lesestueck
+    title: Der Chat vor dem Kino
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Chat
+        languages: { source: de, target: en }
+        entries:
+          - target: cinema
+            source: Kino
+          - target: break down
+            source: kaputtgehen, eine Panne haben
+            forms: [broke down]
+          - target: catch
+            source: erwischen, bekommen
+          - target: for ages
+            source: ewig lange
+          - target: battery
+            source: Akku, Batterie
+          - target: bored
+            source: gelangweilt
+          - target: promise
+            source: versprechen
+          - target: wrong
+            source: falsch
+      - type: text
+        text: |
+          **[1]** **Sophie:** Ellie, where are you? I have been standing outside the cinema for an hour!
+
+          **[2]** **Ellie:** Sorry, sorry, sorry! I have been running since four o'clock. My bus broke down.
+
+          **[3]** **Sophie:** Running? Why?
+
+          **[4]** **Ellie:** I have been trying to catch another bus, but the streets are full. Everybody has been waiting in the rain for ages.
+      - type: text
+        text: |
+          **[5]** **Sophie:** I have been calling you all afternoon. Your phone was off.
+
+          **[6]** **Ellie:** The battery died. I have been using my phone too much today.
+
+          **[7]** **Sophie:** It's OK. I have been reading my book, so I was not bored. How long will you be?
+
+          **[8]** **Ellie:** Ten minutes, I promise! Amir has been looking for you, too. He thinks you have been waiting at the wrong cinema.
+  - type: section
+    id: neu
+    title: Aus dem Bogen wird eine Welle
+    blocks:
+      - type: text
+        text: Der Bogen des present perfect zeigt, dass etwas bis jetzt gilt. Wenn die **Tätigkeit selbst** bis jetzt andauert, wird aus dem Bogen eine **Welle**. Sie beginnt am Startpunkt und läuft bis now. Dann sagst du, was jemand schon eine Weile tut.
+      - type: figure
+        image: images/zeitstrahl-present-perfect-progressive.svg
+        alt: Ein Zeitstrahl von links nach rechts. Rechts steht ein roter Strich mit now. Von einem blauen Punkt links bis zu now läuft eine violette Welle. Am Punkt hängt das Fähnchen since 9 o'clock. Unter der Welle steht have / has been + -ing.
+        caption: Die Welle beginnt am Startpunkt und läuft bis now. Das Fähnchen since sagt, wann sie begann.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Das present perfect progressive mit learn
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I / you / we / they, have been learning, We have been learning Spanish for a year.]
+          - [he / she / it, has been learning, She has been learning it since May.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **have / has + been + Verb mit -ing.** Bei he, she und it steht **has**, sonst **have**. Mit **since** nennst du den Startpunkt, mit **for** die Länge. Die Frage heißt **How long have you been …?**
+
+              Das present perfect progressive betont die **Tätigkeit** und wie lange sie dauert: **I have been cleaning the car** (ich bin noch dabei, oder gerade fertig). Das present perfect betont das **Ergebnis**: **I have cleaned the car** (es ist sauber).
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: present-perfect-progressive-verstehen
+        text: "Wie lange wartet Sophie vor dem Kino schon?"
+        options:
+          - text: Seit einer Stunde
+            correct: true
+            info: Sophie schreibt for an hour. Die Länge ist eine Stunde.
+          - text: Seit vier Uhr
+            correct: false
+            info: Seit vier Uhr rennt Ellie, nicht Sophie.
+          - text: Den ganzen Nachmittag
+            correct: false
+            info: Den ganzen Nachmittag ruft Sophie an. Das ist nicht das Warten.
+        explanation: Sophie wartet seit einer Stunde. Ellie rennt seit vier Uhr, und Sophie ruft den ganzen Nachmittag an.
+        links:
+          - title: Present perfect continuous (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: multiple-choice
+        id: present-perfect-progressive-zeilen
+        text: "In welchen Zeilen des Chats steht since oder for?"
+        options:
+          - text: Zeile 1
+            correct: true
+            info: In Zeile 1 steht for an hour.
+          - text: Zeile 4
+            correct: true
+            info: In Zeile 4 steht for ages.
+          - text: Zeile 5
+            correct: false
+            info: In Zeile 5 steht all afternoon. Das ist weder since noch for.
+          - text: Zeile 6
+            correct: false
+            info: In Zeile 6 steht too much today. Das ist keine Zeitangabe mit since oder for.
+        explanation: Since nennt den Startpunkt, for die Länge. All afternoon sagt auch, wie lange, aber ohne since oder for.
+        links:
+          - title: Present perfect continuous (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: language-task
+        id: present-perfect-progressive-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter spielt seit drei Stunden Fußball.
+            target: Peter [has been playing] football for three hours.
+            distractors: [[have been playing, plays]]
+          - cue: Wir lernen seit acht Uhr.
+            target: We [have been studying] since eight o'clock.
+            distractors: [[has been studying, are studying]]
+          - cue: Es regnet seit dem Morgen.
+            target: It [has been raining] since the morning.
+            distractors: [[have been raining, rains]]
+          - cue: Die Kinder singen seit einer Stunde.
+            target: The children [have been singing] for an hour.
+            distractors: [[has been singing, are singing]]
+        hint: Das Verb braucht been und die -ing-Form. Bei he, she und it steht has.
+      - type: language-task
+        id: present-perfect-progressive-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz im present perfect progressive.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: she · cook · since noon
+            target: She has been cooking since noon.
+            mistakes:
+              - answer: She is cooking since noon.
+                message: Bei since brauchst du have oder has been und die -ing-Form, nicht is und -ing.
+              - answer: She has cooking since noon.
+                message: Es fehlt been. Es heißt has been cooking.
+              - answer: She have been cooking since noon.
+                message: She gehört zu has.
+          - cue: Amir · swim · for an hour
+            target: Amir has been swimming for an hour.
+            mistakes:
+              - answer: Amir has been swiming for an hour.
+                message: Bei swim verdoppelt sich das m, es heißt swimming.
+              - answer: Amir swims for an hour.
+                message: Die Tätigkeit dauert bis jetzt. Dafür brauchst du has been und -ing.
+          - cue: we · wait · for the bus · for ten minutes
+            target: We have been waiting for the bus for ten minutes.
+            mistakes:
+              - answer: We have been wait for the bus for ten minutes.
+                message: Nach been kommt die -ing-Form, hier waiting.
+              - answer: We has been waiting for the bus for ten minutes.
+                message: We gehört zu have.
+          - cue: Mr Hill · work · since six o'clock
+            target: Mr Hill has been working since six o'clock.
+            mistakes:
+              - answer: Mr Hill works since six o'clock.
+                message: Der Bogen beginnt um sechs und reicht bis jetzt. Dafür brauchst du has been working.
+              - answer: Mr Hill has be working since six o'clock.
+                message: Es heißt been, nicht be.
+        hint: Frag dich, wie lange die Tätigkeit schon dauert. Dann has oder have, been und -ing.
+      - type: single-choice
+        id: present-perfect-progressive-unterschied
+        text: "Welcher Satz sagt, dass die Tätigkeit selbst bis jetzt andauert?"
+        options:
+          - text: I have been writing emails all morning.
+            correct: true
+            info: Have been writing betont die Tätigkeit. Die Welle läuft bis now.
+          - text: I have written five emails.
+            correct: false
+            info: Hier zählt das Ergebnis, fünf fertige E-Mails. Das ist der Bogen des present perfect.
+          - text: I wrote emails yesterday.
+            correct: false
+            info: Yesterday nennt einen Punkt in der Vergangenheit. Das ist das simple past.
+        explanation: Das present perfect progressive zeigt die Tätigkeit, die läuft. Das present perfect zeigt das Ergebnis.
+        links:
+          - title: Present perfect continuous (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: language-task
+        id: present-perfect-progressive-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: I have waiting for two hours.
+            target: I have been waiting for two hours.
+            mistakes:
+              - answer: I have waiting for two hours.
+                message: Noch nicht ganz. Zwischen have und waiting fehlt been.
+          - cue: My sister is playing the piano since June.
+            target: My sister has been playing the piano since June.
+            mistakes:
+              - answer: My sister is playing the piano since June.
+                message: Noch nicht ganz. Mit since brauchst du has been und -ing.
+        hint: Prüfe have oder has, dann been, dann die -ing-Form.
+      - type: language-task
+        id: present-perfect-progressive-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: it-has-been-snowing-since-this-morning.mp3
+            target: It has been snowing since this morning.
+          - audio: my-parents-have-been-painting-the-kitchen-for-two-days.mp3
+            target: My parents have been painting the kitchen for two days.
+          - audio: why-have-you-been-crying.mp3
+            target: Why have you been crying?
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: present-perfect-progressive-nachsprechen
+        language: en
+        items:
+          - audio: how-long-have-you-been-learning-french.mp3
+            text: How long have you been learning French?
+          - audio: she-has-been-practising-the-guitar-all-week.mp3
+            text: She has been practising the guitar all week.
+          - audio: the-students-have-been-singing-since-lunch.mp3
+            text: The students have been singing since lunch.
+        hint: Hör den Satz zuerst. Sprich langsam nach und achte auf have been und has been.
+      - type: open-task
+        id: present-perfect-progressive-nachricht
+        task: "Du schreibst einer Freundin oder einem Freund eine Nachricht. Etwas hat länger gedauert, als du dachtest. Schreibe drei Sätze: Was hast du schon lange getan, und wie lange?"
+        points:
+          - text: Mindestens zwei Sätze mit have been oder has been und der -ing-Form.
+            source: /dauer/present-perfect-progressive/#neu
+          - text: Mindestens ein Satz mit since oder for.
+            source: /dauer/present-perfect-progressive/#neu
+          - text: Ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          Sorry, I am late! I have been looking for my keys for twenty minutes. I have been calling my brother since noon, and he has been sleeping all day.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Am Wandbild hängt jetzt eine Welle, die von einem Startpunkt bis now läuft. Am Abend sitzen Sophie und Amir im Kino. Auf der nächsten Seite siehst du, bei welchen Verben die Welle nicht möglich ist.
