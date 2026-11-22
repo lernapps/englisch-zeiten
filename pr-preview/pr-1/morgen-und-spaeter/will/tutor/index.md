@@ -163,7 +163,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Ein Punkt rechts von now, kein Pfeil. – Der Satz vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
   - ✗ Eine Punktreihe links und rechts von now. – Eine Punktreihe ist das Zeichen für Gewohnheiten, also für das simple present.
-  - ✗ Ein roter Strich bei now. – Der Strich bei now ist das jetzt. Das Wetter von morgen liegt rechts davon.
+  - ✗ Ein roter Strich bei now. – Der Strich bei now ist das jetzt. Das Spiel, das kommt, liegt rechts davon.
 - Lösung: Ein Punkt rechts von now, kein Pfeil.
 - Erklärung: Will hat das Zeichen des einzelnen Punktes rechts von now, ohne Pfeil.
 - Link: [../?via=tutor#will-zeichen](../?via=tutor#will-zeichen)
@@ -189,9 +189,9 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Ellie will probably come next week.
-2. Audio → Maybe they will play football tomorrow.
-3. Audio → It will rain soon.
+1. Audio → Mr Hill will probably be late.
+2. Audio → Maybe Peter will bring his bike.
+3. Audio → It will be cold on Sunday.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#will-hoeren](../?via=tutor#will-hoeren)
@@ -201,7 +201,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → We will probably win.
+1. Audio → I think she will like the cake.
 2. Audio → Sophie will be here soon.
 3. Audio → We will see you soon.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das will, das du kaum betonst.

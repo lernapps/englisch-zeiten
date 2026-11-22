@@ -123,7 +123,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 - Aufgabe: Welcher englische Satz passt zu welchem deutschen Satz?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Ellie schaut jeden Tag einen Film an. – Ellie watches a film every day.; Ellie schaut gerade einen Film an. – Ellie is watching a film now.; Amir liest im Moment. – Amir is reading at the moment.; Amir liest oft. – Amir often reads.
+- Lösung: Amir malt jeden Tag ein Bild. – Amir draws a picture every day.; Amir malt gerade ein Bild. – Amir is drawing a picture now.; Sophie singt im Moment. – Sophie is singing at the moment.; Sophie singt oft. – Sophie often sings.
 - Erklärung: Wiederholung ist die Punktreihe, dann steht das simple present. Gerade jetzt ist die Welle, dann steht is und -ing.
 - Tipp der App: Suche zuerst in jedem Satz das Fähnchen. Gehört es zur Punktreihe oder zur Welle?
 - Link: [../?via=tutor#simple-oder-progressive-paare](../?via=tutor#simple-oder-progressive-paare)
@@ -182,9 +182,9 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Sophie reads a book every day.
-2. Audio → Peter is eating lunch now.
-3. Audio → Amir always eats lunch.
+1. Audio → Sophie plays the piano every day.
+2. Audio → Peter is making a sandwich now.
+3. Audio → Ellie always has a sandwich at lunch.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-oder-progressive-hoeren](../?via=tutor#simple-oder-progressive-hoeren)
@@ -194,8 +194,8 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → We are playing football at the moment.
-2. Audio → Mr Hill often reads a book.
+1. Audio → We are cleaning the classroom at the moment.
+2. Audio → Mr Hill often drinks coffee.
 3. Audio → We are watching a film now.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Form des Verbs.
 - Link: [../?via=tutor#simple-oder-progressive-nachsprechen](../?via=tutor#simple-oder-progressive-nachsprechen)

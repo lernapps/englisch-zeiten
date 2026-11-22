@@ -116,7 +116,7 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie isst immer Frühstück. → Sophie always eats breakfast.
-2. Peter geht oft zu Fuß zur Schule. → Peter often walks to school.
+2. Amir spielt oft Tennis. → Amir often plays tennis.
 3. Ellie nimmt nie den Bus. → Ellie never takes the bus.
 4. Peter ist manchmal zu spät. → Peter is sometimes late.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -160,12 +160,12 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter · play football · often → Peter often plays football.
-     - Peter plays often football.: Das Häufigkeitswort steht vor dem Verb, also often plays.
-     - Peter often play football.: He, she, it – das s muss mit.
-2. Ellie · is · happy · always → Ellie is always happy.
-     - Ellie always is happy.: Bei is steht das Häufigkeitswort danach, also is always.
-     - Ellie is happy always.: Das Häufigkeitswort steht direkt nach is.
+1. Mr Hill · drink tea · always → Mr Hill always drinks tea.
+     - Mr Hill drinks always tea.: Das Häufigkeitswort steht vor dem Verb, also always drinks.
+     - Mr Hill always drink tea.: He, she, it – das s muss mit.
+2. Sophie · is · tired · sometimes → Sophie is sometimes tired.
+     - Sophie sometimes is tired.: Bei is steht das Häufigkeitswort danach, also is sometimes.
+     - Sophie is tired sometimes.: Das Häufigkeitswort steht direkt nach is.
 3. Ellie · take the bus · sometimes → Ellie sometimes takes the bus.
      - Ellie sometimes take the bus.: Ellie ist „sie“: He, she, it – das s muss mit.
 4. Amir · eat lunch · usually · at school → Amir usually eats lunch at school.
@@ -195,9 +195,9 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Ellie is usually happy.
-2. Audio → Amir sometimes eats lunch at school.
-3. Audio → Peter and Ellie often take the bus.
+1. Audio → Mr Hill is never angry in class.
+2. Audio → Sophie sometimes writes to her friends.
+3. Audio → Ellie often visits her grandmother.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#haeufigkeit-hoeren](../?via=tutor#haeufigkeit-hoeren)
@@ -207,9 +207,9 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → We often play football at school.
+1. Audio → We usually have breakfast at eight.
 2. Audio → We usually walk to school.
-3. Audio → Amir always eats lunch with Sophie.
+3. Audio → Peter always drinks milk in the morning.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte darauf, wo das Häufigkeitswort steht.
 - Link: [../?via=tutor#haeufigkeit-nachsprechen](../?via=tutor#haeufigkeit-nachsprechen)
 

@@ -122,16 +122,6 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - break | kaputt machen
 - speak | sprechen
 - sink | sinken
-- pizza | Pizza
-- film | Film
-- book | Buch
-- water | Wasser
-- school | Schule
-- home | nach Hause
-- at home | zu Hause
-- to | zu / nach
-- a | ein / eine
-- with | mit
 
 ### Übung
 
@@ -144,6 +134,8 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - Aufgabe `unregelmaessig-bilden` (unten)
 
 - Aufgabe `unregelmaessig-korrektur` (unten)
+
+- Aufgabe `unregelmaessig-trinken` (unten)
 
 - Aufgabe `unregelmaessig-hoeren` (unten)
 
@@ -174,8 +166,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 - Aufgabe: Welche Form gehört zum simple past? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: eat – ate; see – saw; buy – bought; swim – swam; take – took
-- Erklärung: Diese Verben haben eine eigene Form im simple past. Ein -ed gibt es hier nicht.
-- Tipp der App: Schau auf die Karten im Poster. Die 2. Spalte ist das simple past.
+- Erklärung: Diese Verben haben eine eigene Form im simple past.
 - Link: [../?via=tutor#unregelmaessig-karten](../?via=tutor#unregelmaessig-karten)
 
 ### Aufgabe unregelmaessig-waehlen
@@ -184,11 +175,10 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Sophie ist gestern zur Schule gegangen. → Yesterday Sophie went to school.
+1. Peter hat gestern einen Brief geschrieben. → Yesterday Peter wrote a letter.
 2. Peter hat letzte Woche Pizza gegessen. → Peter ate pizza last week.
 3. Ellie hat gestern einen Film gesehen. → Ellie saw a film yesterday.
 4. Wir haben vor zwei Tagen ein Buch gekauft. → We bought a book two days ago.
-- Tipp der App: Yesterday, last week und two days ago sind vorbei. Nimm die 2. Form des Verbs, das simple past.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#unregelmaessig-waehlen](../?via=tutor#unregelmaessig-waehlen)
 
@@ -221,7 +211,6 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
      - Ellie drunk water two days ago.: Drunk ist die 3. Form. Im simple past heißt es drank.
 4. Peter · come · to school · last week → Peter came to school last week.
      - Peter comed to school last week.: Come ist unregelmäßig. Die Form im simple past heißt came.
-- Tipp der App: Nimm die 2. Form des Verbs, nicht -ed.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#unregelmaessig-bilden](../?via=tutor#unregelmaessig-bilden)
 
@@ -237,9 +226,20 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
      - Amir bringed a book yesterday.: Noch nicht ganz. Bring hat die Form brought.
 3. Ellie writed to Sophie last week. → Ellie wrote to Sophie last week.
      - Ellie writed to Sophie last week.: Noch nicht ganz. Write hat die Form wrote.
-- Tipp der App: Such das Verb auf dem Poster und nimm die 2. Spalte.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#unregelmaessig-korrektur](../?via=tutor#unregelmaessig-korrektur)
+
+### Aufgabe unregelmaessig-trinken
+
+- Aufgabe: Sophie hat gestern Tee getrunken. Welcher Satz ist richtig?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Sophie drank tea yesterday. – Drink ist unregelmäßig. Im simple past heißt es drank.
+  - ✗ Sophie drunk tea yesterday. – Drunk ist die 3. Form. Die brauchst du erst auf der nächsten Seite, nicht für yesterday.
+  - ✗ Sophie drinked tea yesterday. – Bei drink hängst du kein ed an. Die Form ändert sich im Wort.
+- Lösung: Sophie drank tea yesterday.
+- Erklärung: Bei yesterday steht die 2. Form.
+- Link: [../?via=tutor#unregelmaessig-trinken](../?via=tutor#unregelmaessig-trinken)
 
 ### Aufgabe unregelmaessig-hoeren
 
@@ -247,7 +247,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Mr Hill gave Peter a book.
+1. Audio → Peter sang a song at the party.
 2. Audio → We drank water at home.
 3. Audio → Sophie sang at home yesterday.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -261,7 +261,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 - Sätze:
 1. Audio → Peter ran home yesterday.
 2. Audio → Ellie sat with Amir.
-3. Audio → We saw a film at home.
+3. Audio → Amir bought a drink at the shop.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Verbform, die kein -ed hat.
 - Link: [../?via=tutor#unregelmaessig-nachsprechen](../?via=tutor#unregelmaessig-nachsprechen)
 

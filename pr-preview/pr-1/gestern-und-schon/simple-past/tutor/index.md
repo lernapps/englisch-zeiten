@@ -152,13 +152,13 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 1. Sophie · shop · with Ellie · yesterday → Sophie shopped with Ellie yesterday.
      - Sophie shops with Ellie yesterday.: Yesterday ist vorbei. Links von now brauchst du das simple past mit -ed.
      - Sophie shoped with Ellie yesterday.: Shop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
-2. Ellie · watch · a film · last week → Ellie watched a film last week.
-     - Ellie watchs a film last week.: Das s gehört in die Gegenwart. Bei last week brauchst du watched.
+2. Ellie · clean · her room · last week → Ellie cleaned her room last week.
+     - Ellie cleans her room last week.: Last week ist vorbei. Links von now brauchst du das simple past mit -ed.
+     - Ellie cleanned her room last week.: In clean steht vor dem n ein langer Vokal (ea). Dann wird nichts verdoppelt, du hängst nur ed an.
 3. Amir · cry · yesterday → Amir cried yesterday.
      - Amir cryed yesterday.: Nach einem Konsonanten wird aus y ein ied.
 4. The bus · stop · two days ago → The bus stopped two days ago.
      - The bus stoped two days ago.: Stop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
-- Tipp der App: Frag dich, welches Fähnchen am Punkt hängt. Dann bildest du die Form mit -ed.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-past-bilden](../?via=tutor#simple-past-bilden)
 
@@ -199,9 +199,9 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Sophie walked home yesterday.
-2. Audio → Peter and Amir played football last week.
-3. Audio → Ellie studied English two days ago.
+1. Audio → Sophie called her mother on Monday.
+2. Audio → We listened to music last night.
+3. Audio → Amir cleaned his room on Sunday.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-past-hoeren](../?via=tutor#simple-past-hoeren)

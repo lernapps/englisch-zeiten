@@ -70,7 +70,7 @@ Klassenzimmer-Poster · Die Formen von be:
 Klassenzimmer-Poster · Aussage, Verneinung, Frage:
 - Aussage | Verneinung | Frage
 - She is tired. | She is not tired. / She isn't tired. | Is she tired?
-- I am late. | I am not late. / I'm not late. | Am I late?
+- He is hungry. | He is not hungry. / He isn't hungry. | Is he hungry?
 
 **Merke: Merke**
 
@@ -91,6 +91,8 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - Aufgabe `to-be-frage` (unten)
 
 - Aufgabe `to-be-verneinen` (unten)
+
+- Aufgabe `to-be-nicht` (unten)
 
 - Aufgabe `to-be-hoeren` (unten)
 
@@ -188,6 +190,18 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#to-be-verneinen](../?via=tutor#to-be-verneinen)
 
+### Aufgabe to-be-nicht
+
+- Aufgabe: Ich bin nicht wütend. Welcher Satz ist richtig?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ I am not angry. – Not steht hinter am. Es gibt auch die Kurzform I'm not.
+  - ✗ I not am angry. – Not steht hinter be, nicht davor.
+  - ✗ I amn't angry. – Am not wird nicht zu amn't. Kurz sagst du I'm not.
+- Lösung: I am not angry.
+- Erklärung: Die Verneinung hängt not hinter be.
+- Link: [../?via=tutor#to-be-nicht](../?via=tutor#to-be-nicht)
+
 ### Aufgabe to-be-hoeren
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
@@ -206,9 +220,9 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I am Sophie, and I am eleven.
+1. Audio → My name is Sophie and I like music.
 2. Audio → Ellie is a good friend.
-3. Audio → We are not tired.
+3. Audio → The children are not at home.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf am, is und are.
 - Link: [../?via=tutor#to-be-nachsprechen](../?via=tutor#to-be-nachsprechen)
 

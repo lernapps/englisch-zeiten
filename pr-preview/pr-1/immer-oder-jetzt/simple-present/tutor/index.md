@@ -164,7 +164,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie watch a film every Saturday. → Sophie watches a film every Saturday.
-     - Sophie watch a film every Saturday.: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
+     - Sophie watch a film every Saturday.: Noch nicht ganz. Sophie ist „sie“, schau in den Kasten „Merke“.
 2. Peter and Amir plays football every day. → Peter and Amir play football every day.
      - Peter and Amir plays football every day.: Zwei Personen sind they, also kein s.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -193,7 +193,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter watches football every Saturday.
-2. Audio → Ellie watches a film after school.
+2. Audio → Ellie listens to music after school.
 3. Audio → Amir studies English at home.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -206,7 +206,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 - Sätze:
 1. Audio → Sophie likes football.
 2. Audio → Mr Hill teaches English.
-3. Audio → They play football every day.
+3. Audio → They go to the park on Sunday.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von likes und teaches.
 - Link: [../?via=tutor#simple-present-nachsprechen](../?via=tutor#simple-present-nachsprechen)
 

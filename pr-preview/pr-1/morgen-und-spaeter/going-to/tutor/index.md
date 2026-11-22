@@ -74,17 +74,14 @@ Klassenzimmer-Poster · going to mit play:
 
 **Das be darfst du nicht vergessen.** Es heißt Peter is going to play, nicht Peter going to play. Nach going to steht das Verb ohne s und ohne weiteres to.
 
-Schulkalender · Geburtstage:
-- Person | Geburtstag
-- Peter | 5 May
-- Ellie | 10 July
-- Amir | 12 October
-- Sophie | 14 October
-
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- fall | fallen
+Schulkalender · Geburtstage und Wörter:
+- Eintrag | Bedeutung
+- Peter · 5 May | Peters Geburtstag
+- Ellie · 10 July | Ellies Geburtstag
+- Amir · 12 October | Amirs Geburtstag
+- Sophie · 14 October | Sophies Geburtstag
 - on 10 July | am 10. Juli
+- fall | fallen
 
 ### Übung
 
@@ -170,7 +167,7 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
      - Peter is going to has a party.: Nach going to steht das Verb in der Grundform, ohne s.
 2. Ellie · invite · Amir → Ellie is going to invite Amir.
      - Ellie is going invite Amir.: Dir fehlt das to. Es heißt going to.
-3. I · watch · a film → I am going to watch a film.
+3. I · read · a story → I am going to read a story.
      - I is going to watch a film.: Zu I gehört am, nicht is.
 4. they · visit · Peter → They are going to visit Peter.
      - They is going to visit Peter.: Zu they gehört are, nicht is.
@@ -208,9 +205,9 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → We are going to watch a film.
+1. Audio → We are going to wash the car.
 2. Audio → Peter is going to look at the ticket.
-3. Audio → We are going to eat pizza at the party.
+3. Audio → We are going to dance at the party.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#going-to-hoeren](../?via=tutor#going-to-hoeren)
@@ -221,8 +218,8 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Ellie is going to be twelve in July.
-2. Audio → I am going to eat a pizza.
-3. Audio → They are going to see Amir on Saturday.
+2. Audio → I am going to buy a new bag.
+3. Audio → Ellie and Sophie are going to swim after lunch.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
 - Link: [../?via=tutor#going-to-nachsprechen](../?via=tutor#going-to-nachsprechen)
 

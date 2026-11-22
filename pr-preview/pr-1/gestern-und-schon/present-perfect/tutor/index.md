@@ -138,11 +138,11 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 ### Aufgabe present-perfect-signale
 
-- Aufgabe: Welches kleine Wort passt zu welcher Bedeutung?
+- Aufgabe: Welcher englische Satz passt zu welchem deutschen Satz?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: already – schon; just – gerade eben; never – nie; ever – jemals
+- Lösung: Peter hat schon gegessen. – Peter has already eaten.; Ich habe gerade geschrieben. – I have just written.; Er hat nie Fisch gegessen. – He has never eaten fish.; Hast du jemals Kaffee getrunken? – Have you ever drunk coffee?
 - Erklärung: Diese Wörter zeigen den Bogen bis now. Sie stehen zwischen have oder has und der 3. Form.
-- Tipp der App: Schau in den Schulkalender. Dort steht jedes Wort mit seiner Bedeutung.
+- Tipp der App: Such in jedem deutschen Satz das Wort, das schon, gerade eben, nie oder jemals heißt.
 - Link: [../?via=tutor#present-perfect-signale](../?via=tutor#present-perfect-signale)
 
 ### Aufgabe present-perfect-waehlen
@@ -182,8 +182,9 @@ Klassenzimmer-Poster · Zeitformen links von now:
 - Einträge (Vorgabe → Lösung):
 1. Amir has finished the cake yesterday. → Amir finished the cake yesterday. (auch richtig: Amir has finished the cake.)
      - Amir has finished the cake yesterday.: Noch nicht ganz. Zu yesterday passt das simple past.
-2. Sophie have seen the film. → Sophie has seen the film.
-     - Sophie have seen the film.: Noch nicht ganz. Bei she brauchst du has.
+2. Peter have written a letter. → Peter has written a letter.
+     - Peter have written a letter.: Noch nicht ganz. Bei he brauchst du has.
+     - Peter has wrote a letter.: Wrote ist das simple past. Nach has brauchst du die 3. Form, written.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-korrektur](../?via=tutor#present-perfect-korrektur)
 
@@ -222,7 +223,7 @@ Klassenzimmer-Poster · Zeitformen links von now:
 - Sätze:
 1. Audio → Amir has just come home.
 2. Audio → Ellie has never run to school.
-3. Audio → Mr Hill has given Peter homework.
+3. Audio → Ellie has cleaned her room.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf have oder has vor der 3. Form.
 - Link: [../?via=tutor#present-perfect-nachsprechen](../?via=tutor#present-perfect-nachsprechen)
 

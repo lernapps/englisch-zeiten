@@ -87,6 +87,8 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 
 - Aufgabe `will-oder-going-to-richtig` (unten)
 
+- Aufgabe `will-oder-going-to-korrektur` (unten)
+
 - Aufgabe `will-oder-going-to-hoeren` (unten)
 
 ### Selbst sagen und schreiben
@@ -118,8 +120,8 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Gerade eben, als Ellie von der Party erzählt hat. – Amir hat die Party gerade erst erfahren. Er entscheidet beim Sprechen.
-  - ✗ Schon letzte Woche. – Dann hätte er schon vorher von der Party gewusst. Amir hört aber zum ersten Mal davon.
-  - ✗ Gestern. – Gestern heißt yesterday. Amir hat es sich nicht gestern überlegt, sondern gerade eben.
+  - ✗ Schon letzte Woche. – Dann hätte er es schon vorher gewusst. Er hört aber zum ersten Mal davon.
+  - ✗ Gestern. – Amir hat es sich nicht gestern überlegt, sondern gerade eben.
 - Lösung: Gerade eben, als Ellie von der Party erzählt hat.
 - Erklärung: Amir beschließt im Moment des Sprechens. Ellies Plan steht dagegen schon lange.
 - Link: [../?via=tutor#will-oder-going-to-start](../?via=tutor#will-oder-going-to-start)
@@ -128,8 +130,8 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 
 - Aufgabe: Warum steht in dem Satz will oder going to? Ordne den Grund zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: We are going to eat pizza on Saturday. – Vorher geplant.; The phone rings. I will answer it. – Spontaner Einfall.; I think it will rain. – Nur eine Vermutung.
-- Erklärung: Ein Plan oder ein Anzeichen gehört zum Pfeil, going to. Ein Entschluss im Moment und eine Vermutung gehören zum Punkt ohne Pfeil, will.
+- Lösung: We are going to eat pizza on Saturday. – Vorher geplant.; Ellie is sad. I will help her. – Spontaner Einfall.; I think it will rain. – Nur eine Vermutung.
+- Erklärung: Plan oder Anzeichen: Pfeil, going to. Entschluss im Moment oder Vermutung: Punkt ohne Pfeil, will.
 - Link: [../?via=tutor#will-oder-going-to-grund](../?via=tutor#will-oder-going-to-grund)
 
 ### Aufgabe will-oder-going-to-telefon
@@ -138,7 +140,7 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ I will answer it. – Sophie entscheidet erst jetzt. Es gibt keinen Pfeil, sondern den Punkt, will.
-  - ✗ I am going to answer it. – Das hieße, dass Sophie es schon vorher geplant hat. Sie entscheidet aber gerade erst.
+  - ✗ I am going to answer it. – Das hieße, dass der Plan schon stand. Sophie entscheidet aber gerade erst.
   - ✗ I answer it every day. – Every day erzählt von einer Gewohnheit. Das Telefon klingelt jetzt einmal.
 - Lösung: I will answer it.
 - Erklärung: Wer im Moment des Sprechens entscheidet, nimmt will.
@@ -166,10 +168,10 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 1. Ellie hat vor, einen Kuchen mitzubringen. Sie hat ihn schon gebacken. → Ellie is going to bring a cake.
      - Ellie will bring a cake.: Der Kuchen ist schon gebacken, der Plan steht. Das ist der Pfeil, going to.
      - Ellie going to bring a cake.: Dir fehlt das be. Zu Ellie gehört is.
-2. Das Telefon klingelt. Ich nehme es gleich ab. → I will answer it. (auch richtig: I'll answer it.)
-     - I am going to answer it.: Du entscheidest gerade erst, im Moment des Sprechens. Das ist der Punkt ohne Pfeil, will.
+2. Es ist kalt. Ich hole gleich eine Jacke. → I will get a jacket. (auch richtig: I'll get a jacket.)
+     - I am going to get a jacket.: Du entscheidest gerade erst. Das ist der Punkt ohne Pfeil, will.
 3. Sophie hat gerade erst beschlossen, Wasser mitzubringen. → Sophie will bring water.
-     - Sophie is going to bring water.: Sophie beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
+     - Sophie is going to bring water.: Sophie beschließt gerade erst. Einen Plan gab es nicht, also will.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#will-oder-going-to-bilden](../?via=tutor#will-oder-going-to-bilden)
 
@@ -178,8 +180,22 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Aufgabe: Peter hat die Tickets für einen Film schon gekauft und sagt „I will watch a film on Saturday.“ Passt der Satz?
 - Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
 - Lösung: Die Aussage stimmt nicht.
-- Erklärung: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to. Richtig ist „I am going to watch a film on Saturday.“
+- Erklärung: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to.
 - Link: [../?via=tutor#will-oder-going-to-richtig](../?via=tutor#will-oder-going-to-richtig)
+
+### Aufgabe will-oder-going-to-korrektur
+
+- Aufgabe: In jedem Satz steckt ein Fehler. Schreibe die Sätze richtig.
+- Antwortformat: die ganze Antwort auf Englisch schreiben
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
+- Einträge (Vorgabe → Lösung):
+1. It is cold. I am going to close the window. → It is cold. I will close the window. (auch richtig: It is cold. I'll close the window.)
+     - It is cold. I am going to close the window.: Noch nicht ganz. Der Einfall ist neu, einen Plan gab es nicht. Das ist will.
+     - It is cold. I going to close the window.: Dir fehlt das be, und der Einfall ist neu. Nimm will.
+2. Amir has a ticket. He will watch the game on Friday. → Amir has a ticket. He is going to watch the game on Friday.
+     - Amir has a ticket. He will watch the game on Friday.: Noch nicht ganz. Das Ticket zeigt, dass der Plan schon steht. Das ist going to.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#will-oder-going-to-korrektur](../?via=tutor#will-oder-going-to-korrektur)
 
 ### Aufgabe will-oder-going-to-hoeren
 
@@ -188,7 +204,7 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Amir is hungry, so he will eat a pizza.
-2. Audio → Peter has a ticket and he is going to watch a film.
+2. Audio → Sophie has a new bike and she is going to ride it to school.
 3. Audio → It is raining, so Peter will take the bus.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -199,9 +215,9 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → We are going to eat cake on 10 July.
-2. Audio → We are going to have a party.
-3. Audio → Sophie will eat a cake on 10 July.
+1. Audio → We are going to dance on 10 July.
+2. Audio → We are going to cook dinner on Friday.
+3. Audio → Amir will open the door.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#will-oder-going-to-nachsprechen](../?via=tutor#will-oder-going-to-nachsprechen)
 

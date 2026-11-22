@@ -86,7 +86,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 
 - Aufgabe `have-got-reihenfolge` (unten)
 
-- Aufgabe `have-got-verneinung-tabelle` (unten)
+- Aufgabe `have-got-verneinung` (unten)
 
 - Aufgabe `have-got-frage` (unten)
 
@@ -139,19 +139,18 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 - Tipp der App: Der Satz beginnt mit der Person. Danach kommt die Form von have got.
 - Link: [../?via=tutor#have-got-reihenfolge](../?via=tutor#have-got-reihenfolge)
 
-### Aufgabe have-got-verneinung-tabelle
+### Aufgabe have-got-verneinung
 
-- Aufgabe: Ergänze die Verneinung von have got.
-- Antwortformat: die Lücken der Tabelle auf Englisch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen falsch
-- Einträge (Vorgabe → Lösung):
-1. you · have not got · haven't got
-2. he / she / it · has not got · hasn't got
-3. we · have not got · haven't got
-4. they · have not got · haven't got
-- Tipp der App: not hängt hinter have oder has. Die Kurzform ist haven't oder hasn't.
-- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
-- Link: [../?via=tutor#have-got-verneinung-tabelle](../?via=tutor#have-got-verneinung-tabelle)
+- Aufgabe: Mr Hill hat kein Auto. Welcher Satz sagt das richtig?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Mr Hill hasn't got a car. – Bei he, she und it gehört hasn't hinter die Person, danach got.
+  - ✗ Mr Hill haven't got a car. – Haven't gehört zu I, you, we und they. Zu Mr Hill passt hasn't.
+  - ✗ Mr Hill doesn't got a car. – Bei have got brauchst du kein do. Die Verneinung hängt nicht an do, sondern an has.
+- Lösung: Mr Hill hasn't got a car.
+- Erklärung: Die Verneinung hängt not oder n't an have oder has.
+- Tipp der App: Mr Hill ist „er“. Dann brauchst du has, nicht have.
+- Link: [../?via=tutor#have-got-verneinung](../?via=tutor#have-got-verneinung)
 
 ### Aufgabe have-got-frage
 
@@ -160,8 +159,8 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. you · a phone → Have you got a phone?
-     - Do you have got a pen?: Bei have got brauchst du kein do. Tausche have und you.
-     - You have got a pen?: In der Frage tauschen have und die Person die Plätze.
+     - Do you have got a phone?: Bei have got brauchst du kein do. Tausche have und you.
+     - You have got a phone?: In der Frage tauschen have und die Person die Plätze.
 2. Sophie · a bag → Has Sophie got a bag?
      - Have Sophie got a bag?: He, she, it – das s muss mit. Sophie ist „sie“, also has.
 3. they · a book → Have they got a book?
@@ -196,8 +195,8 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie has got a red jacket.
-2. Audio → Has Amir got a bike?
-3. Audio → They have got a dog.
+2. Audio → Has Mr Hill got any children?
+3. Audio → They have got a very old house.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#have-got-hoeren](../?via=tutor#have-got-hoeren)
@@ -207,7 +206,7 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I have got a brother.
+1. Audio → I have got a big family.
 2. Audio → She has got a bike.
 3. Audio → He has not got a phone.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf have und has.

@@ -88,6 +88,8 @@ Klassenzimmer-Poster · Zeitformen:
 
 - Aufgabe `present-progressive-paare` (unten)
 
+- Aufgabe `present-progressive-tanzen` (unten)
+
 - Aufgabe `present-progressive-hoeren` (unten)
 
 ### Selbst sagen und schreiben
@@ -122,7 +124,6 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 2. Ich zeichne gerade ein Bild. → I am drawing a picture.
 3. Peter und Amir schauen gerade einen Film an. → Peter and Amir are watching a film.
 4. Wir spielen gerade Fußball. → We are playing football.
-- Tipp der App: I gehört zu am, he, she und it zu is, we, you und they zu are.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-progressive-be](../?via=tutor#present-progressive-be)
 
@@ -170,7 +171,6 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 4. I · write · a letter → I am writing a letter. (auch richtig: I'm writing a letter.)
      - I am writeing a letter.: Bei write fällt das e weg, also writing.
      - I writing a letter.: Du brauchst be vor der -ing-Form, bei I ist das am.
-- Tipp der App: Wer tut etwas? Wähle am, is oder are. Dann hängst du -ing an das Verb.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-progressive-bilden](../?via=tutor#present-progressive-bilden)
 
@@ -185,7 +185,6 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
      - Is Peter draw?: Nach Peter kommt die -ing-Form, also drawing.
 2. Sophie and Ellie · read → Are Sophie and Ellie reading?
      - Is Sophie and Ellie reading?: Sophie und Ellie sind zwei Personen, also they. Dazu gehört are.
-- Tipp der App: In der Frage steht be am Anfang.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-progressive-frage](../?via=tutor#present-progressive-frage)
 
@@ -193,10 +192,21 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Was passiert gerade? Ordne den Satz zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Amir sitzt gerade am Computer. – Amir is sitting at a computer.; Ellie schreibt gerade einen Brief. – Ellie is writing a letter.; Peter malt gerade ein Bild. – Peter is drawing a picture.; Amir und Peter laufen gerade. – Amir and Peter are running.
-- Erklärung: Was gerade passiert, ist die Welle über now. Dafür brauchst du be und die -ing-Form.
-- Tipp der App: Achte auf die Person. Bei einer Person nimmst du is, bei zwei Personen are.
+- Lösung: Amir isst gerade einen Apfel. – Amir is eating an apple.; Mr Hill trinkt gerade Kaffee. – Mr Hill is drinking coffee.; Ellie putzt gerade ihr Zimmer. – Ellie is cleaning her room.; Peter und Sophie kochen gerade das Essen. – Peter and Sophie are cooking dinner.
+- Erklärung: Die Welle über now braucht be und die -ing-Form.
 - Link: [../?via=tutor#present-progressive-paare](../?via=tutor#present-progressive-paare)
+
+### Aufgabe present-progressive-tanzen
+
+- Aufgabe: Sophie tanzt gerade. Welcher Satz ist richtig?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Sophie is dancing. – Dance endet auf e. Das e fällt weg, dann kommt -ing.
+  - ✗ Sophie is danceing. – Bei Verben auf e fällt das e vor -ing weg.
+  - ✗ Sophie dancing. – Dir fehlt das be. Zur Welle gehört is und die -ing-Form.
+- Lösung: Sophie is dancing.
+- Erklärung: Bei dance fällt das e vor -ing weg.
+- Link: [../?via=tutor#present-progressive-tanzen](../?via=tutor#present-progressive-tanzen)
 
 ### Aufgabe present-progressive-hoeren
 
@@ -204,7 +214,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Amir is writing a story.
+1. Audio → Amir is waiting for the bus.
 2. Audio → Sophie is listening to music.
 3. Audio → Ellie is eating breakfast.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -216,9 +226,9 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I am reading a story.
+1. Audio → I am drinking a cup of tea.
 2. Audio → They are making a cake.
-3. Audio → Peter is running now.
+3. Audio → Peter is swimming in the pool.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das be und das -ing.
 - Link: [../?via=tutor#present-progressive-nachsprechen](../?via=tutor#present-progressive-nachsprechen)
 
