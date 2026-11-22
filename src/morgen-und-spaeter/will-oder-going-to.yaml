@@ -66,10 +66,10 @@ blocks:
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         languages: { source: de, target: en }
         entries:
-          - target: ring ...
-            source: klingeln ...
-          - target: on 10 July ...
-            source: am 10. Juli ...
+          - target: ring
+            source: klingeln
+          - target: on 10 July
+            source: am 10. Juli
   - type: section
     id: uebung
     title: Übung

@@ -72,8 +72,8 @@ blocks:
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         languages: { source: de, target: en }
         entries:
-          - target: in the classroom ...
-            source: im Klassenzimmer ...
+          - target: in the classroom
+            source: im Klassenzimmer
   - type: section
     id: uebung
     title: Übung
