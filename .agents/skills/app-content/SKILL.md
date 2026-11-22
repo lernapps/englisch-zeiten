@@ -123,6 +123,26 @@ Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` sc
 | `it-is-raining-so-peter-will-take-the-bus.mp3` | It is raining, so Peter will take the bus. | `morgen-und-spaeter/will-oder-going-to` |
 | `peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3` | Peter has a ticket and he is going to watch a film. | `morgen-und-spaeter/will-oder-going-to` |
 
+### Fehllaut-Schnitt (`regen_audio.py` mit `valley_cut`)
+
+Alle 72 Dateien sind mit dem Skript neu erzeugt (Ausklingen abgeschnitten). Bei diesen 9 hat zusätzlich der Schnitt an der letzten Senke gegriffen (Regel: `orchestrierung/audio/README-schnitt.md` der Orchestrator-Session); die Ersteller:in hört sie gezielt:
+
+| Datei | Satz | entfernt |
+|---|---|---|
+| `ellie-is-a-good-friend.mp3` | Ellie is a good friend. | 45 ms |
+| `they-have-got-a-dog.mp3` | They have got a dog. | 35 ms |
+| `she-has-got-a-bike.mp3` | She has got a bike. | 45 ms |
+| `they-are-making-a-cake.mp3` | They are making a cake. | 55 ms |
+| `mr-hill-gave-peter-a-book.mp3` | Mr Hill gave Peter a book. | 55 ms |
+| `we-will-probably-win.mp3` | We will probably win. | 35 ms |
+| `we-are-not-tired.mp3` | We are not tired. | 65 ms |
+| `peter-is-going-to-look-at-the-ticket.mp3` | Peter is going to look at the ticket. | 65 ms |
+| `sophie-has-got-a-red-jacket.mp3` | Sophie has got a red jacket. | 35 ms |
+
+Sätze, die auf ein Wort mit mehr als einer Silbe enden (Risiko: eine Silbe wird angeschnitten), ebenfalls gezielt anhören:
+
+`amir-always-eats-lunch-with-sophie.mp3`, `amir-is-happy-today.mp3`, `amir-is-hungry-so-he-will-eat-a-pizza.mp3`, `amir-is-writing-a-story.mp3`, `are-sophie-and-ellie-tired.mp3`, `ellie-danced-with-sophie.mp3`, `ellie-is-eating-breakfast.mp3`, `ellie-is-going-to-be-twelve-in-july.mp3`, `ellie-is-usually-happy.mp3`, `ellie-sat-with-amir.mp3`, `ellie-studied-english-two-days-ago.mp3`, `i-am-going-to-eat-a-pizza.mp3`, `i-am-reading-a-story.mp3`, `i-am-sophie-and-i-am-eleven.mp3`, `i-have-got-a-brother.mp3`, `maybe-they-will-play-football-tomorrow.mp3`, `mr-hill-has-given-peter-homework.mp3`, `mr-hill-is-in-the-classroom.mp3`, `mr-hill-teaches-english.mp3`, `peter-has-already-written-to-ellie.mp3`, `peter-is-going-to-look-at-the-ticket.mp3`, `peter-ran-home-yesterday.mp3`, `peter-watches-football-every-saturday.mp3`, `sophie-has-got-a-red-jacket.mp3`, `sophie-helped-peter-with-homework.mp3`, `sophie-is-listening-to-music.mp3`, `sophie-likes-football.mp3`, `sophie-sang-at-home-yesterday.mp3`, `sophie-walked-home-yesterday.mp3`, `sophie-will-eat-a-cake-on-10-july.mp3`, `they-are-going-to-see-amir-on-saturday.mp3`, `we-are-going-to-eat-cake-on-10-july.mp3`, `we-are-going-to-eat-pizza-at-the-party.mp3`, `we-are-going-to-have-a-party.mp3`, `we-are-not-tired.mp3`, `we-are-playing-football-at-the-moment.mp3`, `we-danced-at-school-yesterday.mp3`.
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
