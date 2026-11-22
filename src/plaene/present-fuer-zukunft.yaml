@@ -263,8 +263,8 @@ blocks:
             text: The lesson finishes at a quarter to four.
           - audio: are-you-meeting-your-friends-this-weekend.mp3
             text: Are you meeting your friends this weekend?
-          - audio: i-am-visiting-my-aunt-on-saturday.mp3
-            text: I am visiting my aunt on Saturday.
+          - audio: i-am-playing-tennis-with-my-cousin-on-saturday.mp3
+            text: I am playing tennis with my cousin on Saturday.
         hint: Hör den Satz zuerst. Sprich langsam nach und achte auf die Uhrzeiten.
       - type: open-task
         id: present-fuer-zukunft-plan
