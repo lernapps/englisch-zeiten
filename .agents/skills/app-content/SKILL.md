@@ -176,7 +176,7 @@ Alle 54 Hörsätze sind mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt. Sätze 
 | `dauer/dynamic-stative` | `she-believes-every-word-of-the-story.mp3` | She believes every word of the story. | story |  |
 | `dauer/dynamic-stative` | `we-love-the-new-teacher-and-we-are-working-hard.mp3` | We love the new teacher, and we are working hard. | hard | 25 ms |
 | `dauer/present-perfect-progressive` | `how-long-have-you-been-learning-french.mp3` | How long have you been learning French? | french |  |
-| `dauer/present-perfect-progressive` | `it-has-been-snowing-since-this-morning.mp3` | It has been snowing since this morning. | morning |  |
+| `dauer/present-perfect-progressive` | `my-cat-has-been-hiding-under-the-bed-since-breakfast.mp3` | My cat has been hiding under the bed since breakfast. | breakfast |  |
 | `dauer/present-perfect-progressive` | `my-parents-have-been-painting-the-kitchen-for-two-days.mp3` | My parents have been painting the kitchen for two days. | days | 65 ms |
 | `dauer/present-perfect-progressive` | `she-has-been-practising-the-guitar-all-week.mp3` | She has been practising the guitar all week. | week |  |
 | `dauer/present-perfect-progressive` | `the-students-have-been-singing-since-lunch.mp3` | The students have been singing since lunch. | lunch | 85 ms |
@@ -205,13 +205,13 @@ Alle 54 Hörsätze sind mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt. Sätze 
 | `erzaehlen/present-perfect-oder-simple-past` | `she-has-already-sent-the-letter.mp3` | She has already sent the letter. | letter |  |
 | `erzaehlen/present-perfect-oder-simple-past` | `they-watched-the-match-on-saturday.mp3` | They watched the match on Saturday. | saturday |  |
 | `erzaehlen/present-perfect-oder-simple-past` | `we-went-to-the-beach-two-days-ago.mp3` | We went to the beach two days ago. | ago |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `after-she-had-finished-her-work-she-went-out.mp3` | After she had finished her work, she went out. | out | 25 ms |
 | `erzaehlen/zeitenfolge-temporalsaetze` | `after-they-had-cleaned-the-hall-the-teachers-went-home.mp3` | After they had cleaned the hall, the teachers went home. | home |  |
 | `erzaehlen/zeitenfolge-temporalsaetze` | `as-soon-as-the-shop-opens-i-will-buy-some-bread.mp3` | As soon as the shop opens, I will buy some bread. | bread |  |
-| `erzaehlen/zeitenfolge-temporalsaetze` | `before-she-went-out-she-had-finished-her-work.mp3` | Before she went out, she had finished her work. | work |  |
 | `erzaehlen/zeitenfolge-temporalsaetze` | `before-you-leave-please-turn-off-the-lights.mp3` | Before you leave, please turn off the lights. | lights |  |
 | `erzaehlen/zeitenfolge-temporalsaetze` | `we-will-have-lunch-after-the-match-ends.mp3` | We will have lunch after the match ends. | ends |  |
 | `erzaehlen/zeitenfolge-temporalsaetze` | `when-the-music-stops-everybody-will-clap.mp3` | When the music stops, everybody will clap. | clap | 75 ms |
-| `plaene/future-progressive-perfect` | `at-twelve-tomorrow-my-parents-will-be-driving-to-the-sea.mp3` | At twelve tomorrow my parents will be driving to the sea. | sea |  |
+| `plaene/future-progressive-perfect` | `at-twelve-tomorrow-my-parents-will-be-driving-to-the-seaside.mp3` | At twelve tomorrow my parents will be driving to the seaside. | seaside |  |
 | `plaene/future-progressive-perfect` | `by-friday-amir-will-have-cleaned-the-whole-kitchen.mp3` | By Friday Amir will have cleaned the whole kitchen. | kitchen |  |
 | `plaene/future-progressive-perfect` | `by-tonight-she-will-have-painted-the-whole-room.mp3` | By tonight she will have painted the whole room. | room |  |
 | `plaene/future-progressive-perfect` | `they-will-be-arriving-at-midnight.mp3` | They will be arriving at midnight. | midnight |  |

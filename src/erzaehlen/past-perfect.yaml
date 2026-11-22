@@ -8,20 +8,22 @@ blocks:
     id: einstieg
     title: Zwei Ereignisse, ein Zeitstrahl
     blocks:
+      - type: text
+        text: Peter hat auf dem Ausflug seinen Geldbeutel vergessen. Am Wandbild hat er noch einen Platz frei, für etwas, das schon vorher passiert war. Er chattet mit Ellie, weil er zu spät kommt.
       - type: single-choice
         id: past-perfect-start
-        text: "Auf dem Zeitstrahl liegen zwei Punkte in der Vergangenheit. Der linke Punkt ist früher passiert als der rechte. Was zeigt der linke Punkt?"
+        text: "Peter kommt an die Bushaltestelle, aber der Bus ist schon weg. Zwei Ereignisse liegen auf dem Zeitstrahl in der Vergangenheit: Peters Ankunft und die Abfahrt des Busses. Welches liegt weiter links?"
         options:
-          - text: Das Ereignis, das zuerst geschah.
+          - text: Die Abfahrt des Busses.
             correct: true
-            info: Auf dem Strahl liegt links das Frühere. Der linke Punkt ist das Ereignis, das zuerst war.
-          - text: Das Ereignis, das zuletzt geschah.
+            info: Der Bus fuhr zuerst ab. Was früher geschah, liegt weiter links.
+          - text: Peters Ankunft an der Haltestelle.
             correct: false
-            info: Das Spätere liegt weiter rechts, näher bei now.
-          - text: Beide Ereignisse geschahen gleichzeitig.
+            info: Peter kam später an, da war der Bus schon weg. Seine Ankunft liegt weiter rechts, näher bei now.
+          - text: Beide am selben Punkt.
             correct: false
-            info: Gleichzeitig wären sie am selben Punkt oder als zwei Wellen übereinander. Zwei Punkte nebeneinander heißen nacheinander.
-        explanation: Was weiter links liegt, ist früher passiert.
+            info: Dann wäre der Bus noch da gewesen, als Peter ankam. Er war aber schon weg.
+        explanation: Was früher passiert ist, liegt auf dem Strahl weiter links.
         links:
           - title: Lernlandkarte Englisch · Past perfect
             url: https://lernapps.net/apps/map/englisch/c/past-perfect/
@@ -46,8 +48,6 @@ blocks:
             source: Kino
           - target: save
             source: freihalten, aufheben
-          - target: hurry up
-            source: sich beeilen
       - type: text
         text: |
           **[1]** Ellie: Where are you? The film starts in ten minutes!
@@ -59,11 +59,11 @@ blocks:
           **[4]** Peter: I had forgotten my wallet, so I had gone back home to get it.
       - type: text
         text: |
-          **[5]** Ellie: Oh no! Amir had already bought the tickets when I arrived. He is waiting at the door.
+          **[5]** Ellie: Oh no! Amir had already bought the tickets when I arrived. He is waiting inside.
 
-          **[6]** Peter: Great! Had you eaten before you left home?
+          **[6]** Peter: Great! Has he found seats for us?
 
-          **[7]** Ellie: Yes, I had. I had made a sandwich after I had finished my homework.
+          **[7]** Ellie: Yes. When I came in, he had already put his jacket on the seat next to him.
 
           **[8]** Peter: I will run to the cinema now. Please keep my seat!
 
@@ -76,7 +76,7 @@ blocks:
         text: Zwei Ereignisse in der Vergangenheit liegen auf dem Strahl nebeneinander. Das spätere erzählst du im simple past, das frühere rückt einen Schritt nach links. Es heißt **past perfect**. Du bildest es mit **had** und der **3. Form** des Verbs, so wie du die 3. Form schon vom present perfect kennst.
       - type: figure
         image: images/zeitstrahl-past-perfect.svg
-        alt: Ein Zeitstrahl von links nach rechts mit dem roten Strich now ganz rechts. In der Vergangenheit liegen zwei blaue Punkte, ein linker mit dem Fähnchen had done und ein rechter mit dem Fähnchen did. Ein Pfeil zeigt vom linken zum rechten Punkt.
+        alt: Ein Zeitstrahl von links nach rechts mit dem roten Strich now ganz rechts. In der Vergangenheit liegen zwei blaue Punkte, ein linker mit dem Fähnchen had done und ein rechter mit dem Fähnchen did. Eine graue gestrichelte Linie verbindet die beiden Punkte und trägt die Worte zuerst, dann.
         caption: Der linke Punkt geschah zuerst. Das Fähnchen had done zeigt auf ihn, das Fähnchen did auf den späteren Punkt.
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -86,7 +86,7 @@ blocks:
         rows:
           - [alle Personen, had opened, "She had opened the window before the lesson started."]
           - [Verneinung, hadn't opened, "He hadn't opened his book."]
-          - [Frage, Had … opened?, "Had they opened the shop?"]
+          - [Frage, "Had … opened?", "Had they opened the shop?"]
       - type: note
         title: Merke
         blocks:
@@ -124,6 +124,9 @@ blocks:
           - text: Zeile 5
             correct: true
             info: In Zeile 5 hatte Amir die Karten schon gekauft (had already bought), bevor Ellie ankam.
+          - text: Zeile 7
+            correct: true
+            info: In Zeile 7 hatte Amir schon seine Jacke auf den Platz gelegt (had already put), bevor Ellie hereinkam.
           - text: Zeile 1
             correct: false
             info: "In Zeile 1 steht das simple present: The film starts. Das ist die Gegenwart."
@@ -138,18 +141,18 @@ blocks:
         id: past-perfect-form
         languages: { source: de, target: en }
         mode: choice
-        task: Wähle die richtige Form.
+        task: Wähle die richtige Form. Das frühere Ereignis steht im past perfect.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Als wir ankamen, hatte der Film schon begonnen.
             target: When we arrived, the film [had begun] already.
             distractors: [[began, has begun]]
-          - cue: Sie hatte ihre Tasche vergessen, bevor sie zur Schule ging.
-            target: She [had forgotten] her bag before she went to school.
+          - cue: Sie fand ihre Tasche nicht mehr, denn sie hatte sie im Bus vergessen.
+            target: She couldn't find her bag because she [had forgotten] it on the bus.
             distractors: [[forgot, has forgotten]]
           - cue: Die Kinder hatten das Essen schon gekocht, als die Eltern kamen.
-            target: The children [had cooked] the dinner when their parents came.
-            distractors: [[cooked, have cooked]]
+            target: The children [had already cooked] the dinner when their parents came.
+            distractors: [[already cooked, have already cooked]]
           - cue: Er hatte noch nie Schnee gesehen.
             target: He [had never seen] snow before.
             distractors: [[never saw, has never seen]]
@@ -164,25 +167,25 @@ blocks:
             target: When I arrived, the lesson had already begun.
             mistakes:
               - answer: When I arrived, the lesson already began.
-                message: Der Unterricht hatte schon begonnen, bevor du kamst. Das frühere Ereignis braucht had und die 3. Form.
+                message: Möglich, aber hier üben wir das past perfect. Der Unterricht hatte schon begonnen, bevor du kamst, also had begun.
               - answer: When I arrived, the lesson had already began.
                 message: Nach had steht die 3. Form. Von begin heißt sie begun, nicht began.
-          - cue: Sophie · lose · her key · before · she · enter
-            target: Sophie had lost her key before she entered.
+          - cue: Sophie · lose · her key · before · she · enter the house
+            target: Sophie had lost her key before she entered the house.
             mistakes:
-              - answer: Sophie lost her key before she entered.
-                message: Das Verlieren war zuerst. Du brauchst had und die 3. Form von lose.
-              - answer: Sophie had lose her key before she entered.
+              - answer: Sophie lost her key before she entered the house.
+                message: Möglich, aber hier üben wir das past perfect. Das Verlieren war zuerst, also had lost.
+              - answer: Sophie had lose her key before she entered the house.
                 message: Nach had steht die 3. Form von lose. Sie heißt lost.
           - cue: Amir · already · eat · when · Ellie · call
             target: Amir had already eaten when Ellie called.
             mistakes:
               - answer: Amir already ate when Ellie called.
-                message: Das Essen war schon vorbei, als der Anruf kam. Das ist das frühere Ereignis, also had eaten.
+                message: Möglich, aber hier üben wir das past perfect. Das Essen war schon vorbei, als der Anruf kam, also had eaten.
               - answer: Amir had already ate when Ellie called.
                 message: Nach had steht die 3. Form. Von eat heißt sie eaten.
           - cue: they · not · finish · when · the bell · ring
-            target: They hadn't finished when the bell rang.
+            target: They (hadn't|had not) finished when the bell rang.
             mistakes:
               - answer: They haven't finished when the bell rang.
                 message: Das Ereignis lag in der Vergangenheit. Du brauchst hadn't, nicht haven't.
@@ -244,7 +247,7 @@ blocks:
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          When I got to the station, the train had already left. I had forgotten my phone at home, so I had gone back to get it.
+          When I got to the station, the train had already left. I had forgotten my phone at home, so I had gone back to get it. That is why I was late.
   - type: section
     id: weiter
     title: Wie es weitergeht

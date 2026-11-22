@@ -60,24 +60,24 @@ blocks:
         text: |
           **[1]** **Sophie:** Ellie, where are you? I have been standing outside the cinema for an hour!
 
-          **[2]** **Ellie:** Sorry, sorry, sorry! I have been running since four o'clock. My bus broke down.
+          **[2]** **Ellie:** Sorry, sorry, sorry! My bus broke down.
 
-          **[3]** **Sophie:** Running? Why?
+          **[3]** **Sophie:** What did you do then?
 
-          **[4]** **Ellie:** I have been trying to catch another bus, but the streets are full. Everybody has been waiting in the rain for ages.
+          **[4]** **Ellie:** I have been trying to catch another bus since half past five, but the buses are full. Everybody has been waiting in the rain for ages.
       - type: text
         text: |
           **[5]** **Sophie:** I have been calling you all afternoon. Your phone was off.
 
           **[6]** **Ellie:** The battery died. I have been using my phone too much today.
 
-          **[7]** **Sophie:** It's OK. I have been reading my book, so I was not bored. How long will you be?
+          **[7]** **Sophie:** It's OK. I have been reading my book, so I am not bored. How long will you be?
 
           **[8]** **Ellie:** Ten minutes, I promise! Amir has been looking for you, too. He thinks you have been waiting at the wrong cinema.
 
           **[9]** **Sophie:** Fine. I am going to buy the tickets now. What would you like to eat?
 
-          **[10]** **Ellie:** A big box of popcorn, please! And keep a seat for me. I am running as fast as I can!
+          **[10]** **Ellie:** A big box of popcorn, please! I am running as fast as I can!
   - type: section
     id: neu
     title: Aus dem Bogen wird eine Welle
@@ -95,7 +95,7 @@ blocks:
         header: [Person, Form, Beispiel]
         rows:
           - [I / you / we / they, have been learning, We have been learning Spanish for a year.]
-          - [he / she / it, has been learning, She has been learning it since May.]
+          - [he / she / it, has been learning, She has been learning French since May.]
       - type: note
         title: Merke
         blocks:
@@ -103,7 +103,7 @@ blocks:
             text: |
               **have / has + been + Verb mit -ing.** Bei he, she und it steht **has**, sonst **have**. Mit **since** nennst du den Startpunkt, mit **for** die Länge. Die Frage heißt **How long have you been …?**
 
-              Das present perfect progressive betont die **Tätigkeit** und wie lange sie dauert: **I have been cleaning the car** (ich bin noch dabei, oder gerade fertig). Das present perfect betont das **Ergebnis**: **I have cleaned the car** (es ist sauber).
+              Das present perfect progressive betont die **Tätigkeit** und wie lange sie dauert: **I have been cleaning the car** (ich bin damit noch beschäftigt). Das present perfect betont das **Ergebnis**: **I have cleaned the car** (es ist sauber).
   - type: section
     id: uebung
     title: Übung
@@ -115,13 +115,13 @@ blocks:
           - text: Seit einer Stunde
             correct: true
             info: Sophie schreibt for an hour. Die Länge ist eine Stunde.
-          - text: Seit vier Uhr
+          - text: Seit halb sechs
             correct: false
-            info: Seit vier Uhr rennt Ellie, nicht Sophie.
+            info: Seit halb sechs versucht Ellie, einen anderen Bus zu bekommen, nicht Sophie.
           - text: Den ganzen Nachmittag
             correct: false
             info: Den ganzen Nachmittag ruft Sophie an. Das ist nicht das Warten.
-        explanation: Sophie wartet seit einer Stunde. Ellie rennt seit vier Uhr, und Sophie ruft den ganzen Nachmittag an.
+        explanation: Sophie wartet seit einer Stunde. Ellie versucht seit halb sechs, einen Bus zu bekommen, und Sophie ruft den ganzen Nachmittag an.
         links:
           - title: Present perfect continuous (Wikipedia)
             url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
@@ -134,7 +134,7 @@ blocks:
             info: In Zeile 1 steht for an hour.
           - text: Zeile 4
             correct: true
-            info: In Zeile 4 steht for ages.
+            info: In Zeile 4 stehen since half past five und for ages.
           - text: Zeile 5
             correct: false
             info: In Zeile 5 steht all afternoon. Das ist weder since noch for.
@@ -158,8 +158,8 @@ blocks:
           - cue: Wir lernen seit acht Uhr.
             target: We [have been studying] since eight o'clock.
             distractors: [[has been studying, are studying]]
-          - cue: Es regnet seit dem Morgen.
-            target: It [has been raining] since the morning.
+          - cue: Es regnet seit heute Morgen.
+            target: It [has been raining] since this morning.
             distractors: [[have been raining, rains]]
           - cue: Die Kinder singen seit einer Stunde.
             target: The children [have been singing] for an hour.
@@ -222,7 +222,7 @@ blocks:
       - type: language-task
         id: present-perfect-progressive-korrektur
         languages: { source: de, target: en }
-        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig im present perfect progressive.
         form: { case: hint, punctuation: ok }
         items:
           - cue: I have waiting for two hours.
@@ -242,8 +242,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: it-has-been-snowing-since-this-morning.mp3
-            target: It has been snowing since this morning.
+          - audio: my-cat-has-been-hiding-under-the-bed-since-breakfast.mp3
+            target: My cat has been hiding under the bed since breakfast.
           - audio: my-parents-have-been-painting-the-kitchen-for-two-days.mp3
             target: My parents have been painting the kitchen for two days.
           - audio: why-have-you-been-crying.mp3

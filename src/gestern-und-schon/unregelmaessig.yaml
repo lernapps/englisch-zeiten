@@ -2,7 +2,7 @@
 title: "Verben mit drei Formen: sing – sang – sung"
 description: "Mr Hill hängt Karten mit unregelmäßigen Verben an die Tafel. Du lernst die wichtigsten 38 nach ihrem Klang und bildest ihr simple past."
 competencies: [unregelmaessige-verben]
-scope: Die Seite zeigt, dass viele häufige Verben im simple past kein -ed bekommen. Jedes hat drei Formen, die Grundform, die Form im simple past und die dritte Form (go, went, gone). Die 38 häufigsten Verben stehen in Tabellen nach Klangmustern, zum Beispiel sing, sang, sung oder buy, bought, bought. Ziel ist, im simple past die zweite Form zu wählen und ein Muster auf ein neues Verb zu übertragen. Typische Fehler sind eine regelmäßige Form wie goed oder eated und die Verwechslung von went und gone. Die dritte Form wird hier gelernt und auf der nächsten Seite beim present perfect gebraucht. Nicht hier, weil es andere Seiten sind. Das present perfect, Fragen und Verneinung mit did und die Aussprache.
+scope: Die Seite zeigt, dass viele häufige Verben im simple past kein -ed bekommen. Jedes hat drei Formen, die Grundform, die Form im simple past und die 3. Form (go, went, gone). Die 38 häufigsten Verben stehen in Tabellen nach Klangmustern, zum Beispiel sing, sang, sung oder buy, bought, bought. Ziel ist, im simple past die zweite Form zu wählen und ein Muster auf ein neues Verb zu übertragen. Typische Fehler sind eine regelmäßige Form wie goed oder eated und die Verwechslung von went und gone. Die 3. Form wird hier gelernt und auf der nächsten Seite beim present perfect gebraucht. Nicht hier, weil es andere Seiten sind. Das present perfect, Fragen und Verneinung mit did und die Aussprache.
 blocks:
   - type: section
     id: einstieg
@@ -34,7 +34,7 @@ blocks:
           - title: Lernlandkarte Englisch · Unregelmäßige Verben
             url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
       - type: text
-        text: "**Das kannst du danach:** Du kennst die wichtigsten unregelmäßigen Verben und bildest ihr simple past und ihre dritte Form."
+        text: "**Das kannst du danach:** Du kennst die wichtigsten unregelmäßigen Verben und bildest ihr simple past und ihre 3. Form."
   - type: section
     id: neu
     title: Karten mit drei Formen, nach Klang sortiert
@@ -287,4 +287,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."
+        text: "Mr Hill hat auch die 3. Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."

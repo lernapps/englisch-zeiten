@@ -2,7 +2,7 @@
 title: "Wo bist du nächsten Samstag um acht? will be doing und will have done"
 description: "Sophie macht für die Schülerzeitung ein Interview. Du erkennst, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist, und bildest beides."
 competencies: [future-progressive-perfect]
-scope: Die Seite führt will be doing (future progressive) und will have done (future perfect) ein. Beide sprechen über einen genauen Zeitpunkt in der Zukunft. Will be + Verb mit -ing sagt, was zu diesem Zeitpunkt gerade läuft. Will have + dritte Form sagt, was bis dahin schon fertig ist. Auf dem Zeitstrahl ist das erste eine Welle um den Zeitpunkt, das zweite ein Bogen von now bis zum Zeitpunkt. Signalwörter sind at ... tomorrow, this time next ... und by ..., by then. Nicht hier, weil es spätere Seiten sind. Das past perfect progressive, used to und die Übersicht aller Zeiten.
+scope: Die Seite führt will be doing (future progressive) und will have done (future perfect) ein. Beide sprechen über einen genauen Zeitpunkt in der Zukunft. Will be + Verb mit -ing sagt, was zu diesem Zeitpunkt gerade läuft. Will have + 3. Form sagt, was bis dahin schon fertig ist. Auf dem Zeitstrahl ist das erste eine Welle um den Zeitpunkt, das zweite ein Bogen von now bis zum Zeitpunkt. Signalwörter sind at ... tomorrow, this time next ... und by ..., by then. Nicht hier, weil es spätere Seiten sind. Das past perfect progressive, used to und die Übersicht aller Zeiten.
 blocks:
   - type: section
     id: einstieg
@@ -64,19 +64,19 @@ blocks:
         text: |
           **[5]** Sophie: And Peter?
 
-          **[6]** Peter: I'll be sleeping, I think. By eight I'll have played football all day, so I'll be very tired.
+          **[6]** Peter: I'll be sleeping, I think. By eight I'll have played two matches, so I'll be very tired.
 
           **[7]** Sophie: Mr Hill, our teacher, what will you be doing?
 
-          **[8]** Mr Hill: I'll be marking your tests, I'm afraid. By Saturday night I'll have read about forty of them.
+          **[8]** Mr Hill: I'll be marking your tests, I'm afraid. By Saturday night I'll have marked about forty of them.
 
-          **[9]** Sophie: Thank you all. I'll be waiting for next week's answers!
+          **[9]** Sophie: Thank you all. I'll be writing the article!
   - type: section
     id: neu
     title: Die Welle und der Bogen in der Zukunft
     blocks:
       - type: text
-        text: Rechts von now liegt die Zukunft. Dort kannst du einen genauen **Zeitpunkt** markieren, zum Beispiel acht Uhr. Zwei Zeichen kennst du schon. Die **Welle** liegt um den Zeitpunkt, dann läuft etwas gerade. Der **Bogen** reicht von now bis zum Zeitpunkt, dann ist etwas bis dahin schon geschehen.
+        text: Rechts von now liegt die Zukunft. Dort kannst du einen genauen **Zeitpunkt** markieren, zum Beispiel acht Uhr. Zwei Zeichen kennst du schon. Die **Welle** liegt um den Zeitpunkt, dann läuft etwas gerade. Der **Bogen** reicht von now bis zum Zeitpunkt, dann ist etwas bis dahin schon geschehen. Beim present perfect endete der Bogen bei now, hier reicht er von now bis in die Zukunft.
       - type: figure
         image: images/zeitstrahl-future-progressive-perfect.svg
         alt: Zwei Zeitstrahlen übereinander. Oben liegt rechts von now eine violette Welle unter einem Kästchen mit at eight. Unten reicht ein grüner Bogen von now bis zu einem blauen Punkt unter einem Kästchen mit by eight.
@@ -88,15 +88,15 @@ blocks:
         header: [Zeichen, Form, Beispiel]
         rows:
           - [Welle, will be + Verb mit -ing, At nine on Monday the class will be walking to the park.]
-          - [Bogen, will have + dritte Form, By nine on Monday the class will have walked to the park.]
+          - [Bogen, will have + 3. Form, By nine on Monday the class will have walked to the park.]
       - type: text
-        text: Mit **at ... tomorrow** und **this time next ...** setzt du die Welle (will be doing). Mit **by ...** und **by then** zeigst du den Bogen (will have done). Bei will have kommt die **dritte Form** des Verbs, bei unregelmäßigen Verben also zum Beispiel written oder eaten.
+        text: Mit **at ... tomorrow** und **this time next ...** setzt du die Welle (will be doing). Mit **by ...** und **by then** zeigst du den Bogen (will have done). Bei will have kommt die **3. Form** des Verbs, bei unregelmäßigen Verben also zum Beispiel written oder eaten.
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **will be doing** sagt, was zu einem Zeitpunkt läuft. **will have done** sagt, was bis dahin fertig ist. Beides heißt auf Deutsch oft nur „werde tun“. Der Zeitpunkt sagt dir, welche Form du brauchst: At eight ... (Welle) oder By eight ... (Bogen). Beispiel: At ten I will be swimming. By ten I will have eaten breakfast.
+              **will be doing** sagt, was zu einem Zeitpunkt läuft. **will have done** sagt, was bis dahin fertig ist. Meist sagt der Zeitpunkt, welche Form du brauchst: At eight ... (Welle) oder By eight ... (Bogen). Beispiel: At ten I will be swimming. By ten I will have eaten breakfast.
   - type: section
     id: uebung
     title: Übung
@@ -134,7 +134,7 @@ blocks:
           - text: I'll be waiting for next week's answers! (Zeile 9)
             correct: false
             info: Auch hier läuft etwas, das ist die Welle.
-        explanation: Will have plus dritte Form ist der Bogen, will be plus -ing ist die Welle.
+        explanation: Will have plus 3. Form ist der Bogen, will be plus -ing ist die Welle.
         links:
           - title: Uses of English verb forms (Wikipedia)
             url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
@@ -148,74 +148,74 @@ blocks:
           - cue: Morgen um zehn Uhr sitzen wir im Zug.
             target: At ten tomorrow we [will be sitting] on the train.
             distractors: [[will sit, will have sat]]
-          - cue: Bis zehn Uhr haben wir gefrühstückt.
-            target: By ten o'clock we [will have had] breakfast.
-            distractors: [[will be having, will have have]]
-          - cue: Nächsten Montag um vier Uhr schreibe ich gerade einen Test.
-            target: At four next Monday I [will be writing] a test.
-            distractors: [[will write, will be write]]
+          - cue: Bis zehn Uhr haben wir das Zimmer aufgeräumt.
+            target: By ten o'clock we [will have tidied] the room.
+            distractors: [[will be tidying, will have tidy]]
+          - cue: Nächsten Montag um vier Uhr mache ich gerade einen Test.
+            target: At four o'clock next Monday I [will be doing] a test.
+            distractors: [[will do, will be do]]
           - cue: Bis Freitag hat sie das Buch gelesen.
             target: By Friday she [will have read] the book.
             distractors: [[will read, will have reading]]
       - type: language-task
         id: future-progressive-perfect-bilden
         languages: { source: de, target: en }
-        task: Schreibe den ganzen Satz.
+        task: Schreibe den ganzen Satz. Das Signalwort zeigt, ob es will be + -ing oder will have + 3. Form ist.
         form: { case: hint, punctuation: ok }
         items:
           - cue: this time tomorrow · I · sit · on a plane
             target: This time tomorrow (I will|I'll) be sitting on a plane.
             mistakes:
               - answer: This time tomorrow I will sit on a plane.
-                message: Noch nicht ganz. Zu einem Zeitpunkt läuft etwas, das ist die Welle. Du brauchst will be und -ing.
+                message: Möglich, aber hier üben wir will be doing. Zu einem Zeitpunkt läuft etwas, das ist die Welle, also will be und -ing.
               - answer: This time tomorrow I will sitting on a plane.
                 message: Noch nicht ganz. Nach will kommt be, dann das Verb mit -ing.
           - cue: by Friday · she · finish · the report
             target: By Friday (she will|she'll) have finished the report.
             mistakes:
               - answer: By Friday she will finish the report.
-                message: Noch nicht ganz. Bis Friday ist es schon fertig, das ist der Bogen. Du brauchst will have und die dritte Form.
+                message: Möglich, aber hier üben wir will have done. Bis Freitag ist es schon fertig, das ist der Bogen, also will have und die 3. Form.
               - answer: By Friday she will have finish the report.
-                message: Noch nicht ganz. Nach will have kommt die dritte Form, hier finished.
+                message: Noch nicht ganz. Nach will have kommt die 3. Form, hier finished.
           - cue: at six tomorrow · they · cook · dinner
             target: At six tomorrow (they will|they'll) be cooking dinner.
             mistakes:
               - answer: At six tomorrow they will cook dinner.
-                message: Noch nicht ganz. Zu einem Zeitpunkt läuft etwas, das ist die Welle mit will be und -ing.
+                message: Möglich, aber hier üben wir will be doing. Zu einem Zeitpunkt läuft etwas, das ist die Welle mit will be und -ing.
               - answer: At six tomorrow they will be cook dinner.
                 message: Noch nicht ganz. Nach will be kommt das Verb mit -ing.
           - cue: by the end of the week · we · write · three tests
             target: By the end of the week (we will|we'll) have written three tests.
             mistakes:
               - answer: By the end of the week we will have wrote three tests.
-                message: Noch nicht ganz. Write ist unregelmäßig, die dritte Form heißt written.
+                message: Noch nicht ganz. Write ist unregelmäßig, die 3. Form heißt written.
               - answer: By the end of the week we will write three tests.
-                message: Noch nicht ganz. Bis zum Ende der Woche ist es fertig, das ist der Bogen mit will have.
-        hint: Frag dich, was der Zeitpunkt sagt. Bei at oder this time läuft etwas (will be + -ing), bei by ist etwas fertig (will have + dritte Form).
+                message: Möglich, aber hier üben wir will have done. Bis zum Ende der Woche ist es fertig, das ist der Bogen mit will have.
+        hint: Frag dich, was der Zeitpunkt sagt. Bei at oder this time läuft etwas (will be + -ing), bei by ist etwas fertig (will have + 3. Form).
       - type: language-task
         id: future-progressive-perfect-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: At eight tonight I will watch a film.
+          - cue: At eight tonight I will be watch a film.
             target: At eight tonight I will be watching a film.
             mistakes:
-              - answer: At eight tonight I will watch a film.
-                message: Noch nicht ganz. Zu einem Zeitpunkt läuft etwas gerade. Du brauchst will be und -ing.
+              - answer: At eight tonight I will be watch a film.
+                message: Noch nicht ganz. Nach will be kommt das Verb mit -ing.
           - cue: By Monday they will have sended the letter.
             target: By Monday they will have sent the letter.
             mistakes:
               - answer: By Monday they will have sended the letter.
-                message: Noch nicht ganz. Send ist unregelmäßig, die dritte Form heißt sent.
+                message: Noch nicht ganz. Send ist unregelmäßig, die 3. Form heißt sent.
       - type: language-task
         id: future-progressive-perfect-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: at-twelve-tomorrow-my-parents-will-be-driving-to-the-sea.mp3
-            target: At twelve tomorrow my parents will be driving to the sea.
+          - audio: at-twelve-tomorrow-my-parents-will-be-driving-to-the-seaside.mp3
+            target: At twelve tomorrow my parents will be driving to the seaside.
           - audio: by-friday-amir-will-have-cleaned-the-whole-kitchen.mp3
             target: By Friday Amir will have cleaned the whole kitchen.
           - audio: this-time-next-week-we-will-be-lying-on-the-beach.mp3
@@ -241,17 +241,17 @@ blocks:
         points:
           - text: Mindestens ein Satz mit will be und dem Verb mit -ing für das, was du um acht gerade tust.
             source: /plaene/future-progressive-perfect/#neu
-          - text: Mindestens ein Satz mit will have und der dritten Form für das, was bis dahin fertig ist.
+          - text: Mindestens ein Satz mit will have und der 3. Form für das, was bis dahin fertig ist.
             source: /plaene/future-progressive-perfect/#neu
           - text: Die Sätze haben einen Zeitpunkt (at eight, by then).
             source: /plaene/future-progressive-perfect/#neu
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          At eight I'll be watching a film with my friends. By then I'll have done my homework and I'll have cleaned my room.
+          At eight I'll be watching a film with my friends. By then I'll have done my homework. I'll have cleaned my room, too.
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Das Interview ist fertig, und am Wandbild hängt jetzt auch ein Zeitpunkt in der Zukunft mit Welle und Bogen. Die Zeitformen für Klasse 7 und 8 sind damit komplett. Später kommen die Übersicht über alle Zeiten und frühere Gewohnheiten.
+        text: Das Interview ist fertig, und am Wandbild hängt jetzt auch ein Zeitpunkt in der Zukunft mit Welle und Bogen. Damit sind die Zeitformen dieser Stufe komplett. Kapitel 7 folgt später.

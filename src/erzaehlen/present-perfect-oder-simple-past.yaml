@@ -48,16 +48,26 @@ blocks:
             source: beitreten, mitmachen
           - target: reading corner
             source: Leseecke
+          - target: success
+            source: Erfolg
+          - target: clap
+            source: klatschen
+          - target: quiet
+            source: ruhig
+          - target: club
+            source: Klub, AG
       - type: text
         text: |
-          **[1]** New library is a big success. Last Monday, the new school library opened. Mr Hill welcomed the students, and the whole school clapped.
+          **The new library is a big success**
+
+          **[1]** Last Monday, the new school library opened. Mr Hill welcomed the students, and the whole school clapped.
 
           **[2]** The library has changed a lot. The old shelves are gone, and there are now comfortable chairs and a quiet reading corner. A group of students painted the walls in summer.
       - type: text
         text: |
           **[3]** "It's wonderful," says Ellie, 13. "I have already read three books, and I borrowed the first one on Monday."
 
-          **[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter, 11, has never been in a library before. Yesterday he found his first favourite story.
+          **[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter, 11, has never liked reading before, but yesterday he found a story he loves.
 
           **[5]** Have you visited the library yet? The doors are open every day after school. Come and see it!
   - type: section
@@ -92,7 +102,7 @@ blocks:
         id: ppsp-verstehen
         text: "Was hat Peter gestern gefunden?"
         options:
-          - text: Seine erste Lieblingsgeschichte.
+          - text: Eine Geschichte, die er liebt.
             correct: true
             info: Das steht in Zeile 4, mit yesterday.
           - text: Seinen ersten Bibliotheksausweis.
@@ -101,7 +111,7 @@ blocks:
           - text: Ein Buch, das Ellie ausgeliehen hat.
             correct: false
             info: Ellie hat ihr Buch am Montag ausgeliehen, das steht in Zeile 3.
-        explanation: Peter hat gestern seine erste Lieblingsgeschichte gefunden.
+        explanation: Peter hat gestern eine Geschichte gefunden, die er liebt.
         links:
           - title: Uses of English verb forms (Wikipedia)
             url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
@@ -114,10 +124,13 @@ blocks:
             info: In Zeile 2 steht The library has changed. Das Ergebnis zählt jetzt, es gibt keine Zeitangabe.
           - text: Zeile 4
             correct: true
-            info: In Zeile 4 stehen has joined, hasn't chosen und has never been.
+            info: In Zeile 4 stehen has joined, hasn't chosen und has never liked.
           - text: Zeile 5
             correct: true
             info: In Zeile 5 steht Have you visited the library yet? Das ist eine Frage nach dem Ergebnis.
+          - text: Zeile 3
+            correct: true
+            info: In Zeile 3 steht I have already read three books. Das Ergebnis zählt jetzt, I borrowed the first one on Monday ist dagegen simple past.
           - text: Zeile 1
             correct: false
             info: In Zeile 1 stehen opened, welcomed und clapped, dazu last Monday. Das ist nur simple past.
@@ -129,7 +142,7 @@ blocks:
         id: ppsp-form
         languages: { source: de, target: en }
         mode: choice
-        task: Wähle die richtige Zeit.
+        task: Wähle die richtige Zeit. Im britischen Englisch ist hier genau eine Zeit üblich.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Gestern habe ich ein Poster gemalt.
@@ -184,14 +197,14 @@ blocks:
             target: Ellie has just finished her book.
             mistakes:
               - answer: Ellie just finished her book.
-                message: Just zeigt, dass das Ergebnis jetzt zählt. Das ist der Bogen, also has finished.
+                message: Möglich, aber hier üben wir das britische Englisch. Just zeigt, dass das Ergebnis jetzt zählt, also has just finished.
               - answer: Ellie has just finish her book.
                 message: Nach has steht die 3. Form, bei finish heißt sie finished.
-          - cue: they · never · visit · London
+          - cue: they · never · visit · London (bis jetzt)
             target: They have never visited London.
             mistakes:
               - answer: They never visited London.
-                message: Never ohne Zeitangabe spricht über das Leben bis jetzt, das ist der Bogen. Du brauchst have visited.
+                message: Möglich, aber hier üben wir das present perfect. Never spricht über das Leben bis jetzt, das ist der Bogen, also have visited.
               - answer: They has never visited London.
                 message: They gehört zu have, nicht zu has.
         hint: Zeitangabe der Vergangenheit, dann simple past. Ergebnis jetzt, dann present perfect.
@@ -250,7 +263,7 @@ blocks:
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          Last week, our school opened a new gym. The students have already used it three times, and the teachers have bought new balls.
+          Last week, our school opened a new gym. The students have already used it three times. The teachers have bought new balls, and we played a match there yesterday.
   - type: section
     id: weiter
     title: Wie es weitergeht

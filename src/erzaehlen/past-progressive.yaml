@@ -60,6 +60,14 @@ blocks:
             source: das Licht ging aus
           - target: switch
             source: Schalter
+          - target: torch
+            source: Taschenlampe
+          - target: hall
+            source: Halle
+          - target: king
+            source: König
+          - target: ticket
+            source: Eintrittskarte
           - target: hold
             source: halten
           - target: strange
@@ -67,7 +75,7 @@ blocks:
           - target: noise
             source: Geräusch
           - target: carefully
-            source: vorsichtig, genau
+            source: aufmerksam, genau
           - target: suddenly
             source: plötzlich
           - target: scream
@@ -82,7 +90,7 @@ blocks:
           **[2]** Mr Hill was counting the students at the gate while Ellie was looking for her ticket. She was still searching her bag when the guide arrived. "Hurry up!" Amir said. "Everyone is waiting!"
       - type: text
         text: |
-          **[3]** Inside the castle, we were walking through a dark hall when the lights went out. Nobody was talking. Then Peter laughed. He was standing next to the switch, and he was holding it in his hand!
+          **[3]** Inside the castle, we were walking through a dark hall when the lights went out. Nobody was talking. Then Peter laughed. He was standing next to the switch, and he was holding a torch under his chin!
 
           **[4]** The guide was telling us about the old kings when I heard a strange noise. I was listening carefully when a window suddenly opened and a bird flew in. We all screamed, and then we laughed for ten minutes.
       - type: text
@@ -122,7 +130,7 @@ blocks:
     blocks:
       - type: single-choice
         id: past-progressive-verstehen
-        text: "Sophie schreibt über den Schulausflug. Was war im Gang, als im Schloss das Licht ausging?"
+        text: "Sophie schreibt über den Schulausflug. Was war im Gang, als in der Burg das Licht ausging?"
         options:
           - text: Die Klasse ging durch eine dunkle Halle.
             correct: true
@@ -132,7 +140,7 @@ blocks:
             info: Das passierte später, in Zeile 4. Mit dem Licht hat es nichts zu tun.
           - text: Mr Hill zählte die Kinder am Tor.
             correct: false
-            info: Das war am Tor, bevor die Klasse im Schloss war.
+            info: Das war am Tor, bevor die Klasse in der Burg war.
         explanation: Zuerst lief die Welle, das Gehen durch die Halle. Dann kam der Punkt.
         links:
           - title: Past continuous (Wikipedia)
@@ -216,16 +224,16 @@ blocks:
       - type: language-task
         id: past-progressive-verbinden
         languages: { source: de, target: en }
-        task: Schreibe einen Satz mit while. Beide Dinge laufen gleichzeitig.
+        task: Schreibe einen Satz mit while in der Vergangenheit. Beide Dinge laufen gleichzeitig, das sind zwei Wellen.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Mum · cook · I · do my homework
             target: Mum was cooking while I was doing my homework.
             mistakes:
               - answer: Mum was cooking while I did my homework.
-                message: Beide Dinge laufen gleichzeitig. Dann brauchst du zwei Wellen, auch bei I was doing.
+                message: Möglich, aber hier üben wir zwei Wellen. Auch bei I brauchst du dann was und das Verb mit -ing.
               - answer: Mum cooked while I was doing my homework.
-                message: "Auch das Kochen lief die ganze Zeit. Dann ist es eine Welle: was cooking."
+                message: "Möglich, aber hier üben wir zwei Wellen. Auch das Kochen ist dann eine Welle, also was cooking."
           - cue: the dog · sleep · the children · play
             target: The dog was sleeping while the children were playing.
             mistakes:
@@ -299,4 +307,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Wandbild hängt jetzt eine Welle in der Vergangenheit, die ein Punkt unterbricht. Ellie hat auf dem Ausflug etwas Wichtiges vergessen. Auf der nächsten Seite lernst du, wie du sagst, was schon vorher passiert war.
+        text: Am Wandbild hängt jetzt eine Welle in der Vergangenheit, die ein Punkt unterbricht. Peter hat auf dem Ausflug etwas Wichtiges vergessen. Auf der nächsten Seite lernst du, wie du sagst, was schon vorher passiert war.

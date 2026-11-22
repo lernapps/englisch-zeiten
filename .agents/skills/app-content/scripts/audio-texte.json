@@ -88,7 +88,6 @@
   "src/audio/before-you-leave-please-turn-off-the-lights.mp3": "Before you leave, please turn off the lights.",
   "src/audio/as-soon-as-the-shop-opens-i-will-buy-some-bread.mp3": "As soon as the shop opens, I will buy some bread.",
   "src/audio/we-will-have-lunch-after-the-match-ends.mp3": "We will have lunch after the match ends.",
-  "src/audio/before-she-went-out-she-had-finished-her-work.mp3": "Before she went out, she had finished her work.",
   "src/audio/she-has-already-sent-the-letter.mp3": "She has already sent the letter.",
   "src/audio/they-watched-the-match-on-saturday.mp3": "They watched the match on Saturday.",
   "src/audio/have-you-tried-the-new-cake-yet.mp3": "Have you tried the new cake yet?",
@@ -101,7 +100,6 @@
   "src/audio/how-long-has-your-sister-worked-in-the-shop.mp3": "How long has your sister worked in the shop?",
   "src/audio/they-have-been-in-london-for-three-days.mp3": "They have been in London for three days.",
   "src/audio/i-have-not-seen-him-since-the-party.mp3": "I have not seen him since the party.",
-  "src/audio/it-has-been-snowing-since-this-morning.mp3": "It has been snowing since this morning.",
   "src/audio/my-parents-have-been-painting-the-kitchen-for-two-days.mp3": "My parents have been painting the kitchen for two days.",
   "src/audio/why-have-you-been-crying.mp3": "Why have you been crying?",
   "src/audio/how-long-have-you-been-learning-french.mp3": "How long have you been learning French?",
@@ -118,11 +116,13 @@
   "src/audio/we-are-having-dinner-with-our-grandparents-tonight.mp3": "We are having dinner with our grandparents tonight.",
   "src/audio/the-lesson-finishes-at-a-quarter-to-four.mp3": "The lesson finishes at a quarter to four.",
   "src/audio/are-you-meeting-your-friends-this-weekend.mp3": "Are you meeting your friends this weekend?",
-  "src/audio/at-twelve-tomorrow-my-parents-will-be-driving-to-the-sea.mp3": "At twelve tomorrow my parents will be driving to the sea.",
   "src/audio/by-friday-amir-will-have-cleaned-the-whole-kitchen.mp3": "By Friday Amir will have cleaned the whole kitchen.",
   "src/audio/this-time-next-week-we-will-be-lying-on-the-beach.mp3": "This time next week we will be lying on the beach.",
   "src/audio/will-you-be-working-tomorrow-evening.mp3": "Will you be working tomorrow evening?",
   "src/audio/by-tonight-she-will-have-painted-the-whole-room.mp3": "By tonight she will have painted the whole room.",
   "src/audio/they-will-be-arriving-at-midnight.mp3": "They will be arriving at midnight.",
-  "src/audio/i-am-playing-tennis-with-my-cousin-on-saturday.mp3": "I am playing tennis with my cousin on Saturday."
+  "src/audio/i-am-playing-tennis-with-my-cousin-on-saturday.mp3": "I am playing tennis with my cousin on Saturday.",
+  "src/audio/after-she-had-finished-her-work-she-went-out.mp3": "After she had finished her work, she went out.",
+  "src/audio/at-twelve-tomorrow-my-parents-will-be-driving-to-the-seaside.mp3": "At twelve tomorrow my parents will be driving to the seaside.",
+  "src/audio/my-cat-has-been-hiding-under-the-bed-since-breakfast.mp3": "My cat has been hiding under the bed since breakfast."
 }

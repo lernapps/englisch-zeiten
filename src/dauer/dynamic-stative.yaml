@@ -2,7 +2,7 @@
 title: "Verben ohne Welle: Zustandsverben"
 description: "Sophie und Amir reden über einen Film. Du erkennst Verben wie know, like und belong, die einen Zustand beschreiben und meistens keine Verlaufsform bilden."
 competencies: [dynamic-stative]
-scope: Die Seite führt die Zustandsverben ein, mit einem Lesestück als Dialog von Sophie und Amir nach dem Kino. Zustandsverben beschreiben einen Zustand wie Wissen, Meinung, Gefühl, Wunsch und Besitz (know, understand, believe, remember, like, love, hate, want, need, prefer, belong, own) und bilden meist keine Verlaufsform. Auf dem Zeitstrahl endet die Welle an einem Stoppschild. Dagegen stehen Tätigkeitsverben (read, play, make) in der Verlaufsform, wenn etwas gerade läuft. Wie bei since und for steht auch das present perfect einfach (I have known him for years). Hinweis auf Ausnahmen, die nur genannt werden. Think, have und see haben eine Handlungsbedeutung, in der die Verlaufsform möglich ist. Nicht hier, weil es spätere Seiten sind. Alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu.
+scope: "Die Seite führt die Zustandsverben ein, mit einem Lesestück als Dialog von Sophie und Amir nach dem Kino. Zustandsverben beschreiben einen Zustand wie Wissen, Meinung, Gefühl, Wunsch und Besitz (know, understand, believe, remember, like, love, hate, want, need, prefer, belong, own) und bilden meist keine Verlaufsform. Auf dem Zeitstrahl endet die Welle an einem Stoppschild. Dagegen stehen Tätigkeitsverben (read, play, make) in der Verlaufsform, wenn etwas gerade läuft. Wie bei since und for steht auch das present perfect einfach (I have known him for years). Think ist eine Tätigkeit (nachdenken: I am thinking about it) oder ein Zustand (meinen: I think it is good). Nicht hier, weil es spätere Seiten sind. Alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu."
 blocks:
   - type: section
     id: einstieg
@@ -42,7 +42,7 @@ blocks:
           - target: ending
             source: Ende, Schluss
           - target: belong to
-            source: gehören zu
+            source: gehören (jemandem)
           - target: own
             source: besitzen
           - target: remember
@@ -51,17 +51,17 @@ blocks:
             source: lieber mögen
           - target: to be honest
             source: ehrlich gesagt
-          - target: even
-            source: sogar
+          - target: even better
+            source: noch besser
           - target: family tree
             source: Stammbaum
       - type: text
         text: |
           **[1]** **Amir:** So, how was the film? I want to hear everything!
 
-          **[2]** **Sophie:** I loved it! I know the actress from another film. She is making a new film right now, I read.
+          **[2]** **Sophie:** I loved it! I know the actress from another film. She is making a new film right now, I read that online.
 
-          **[3]** **Amir:** I like the ending, but I need a second look. I am still thinking about it.
+          **[3]** **Amir:** I like the ending, but I need to see it again. I am still thinking about it.
       - type: text
         text: |
           **[4]** **Sophie:** Me too. The old castle belongs to the boy's family, you remember? His grandfather owns it.
@@ -70,7 +70,7 @@ blocks:
 
           **[6]** **Sophie:** I prefer the first part, to be honest. At the moment I am reading the book, and it is even better.
 
-          **[7]** **Amir:** You are always reading! I want the book, too. Can I have it when you are ready?
+          **[7]** **Amir:** You read all the time! I want the book, too. Can I have it when you have finished it?
 
           **[8]** **Sophie:** Of course! But first tell me your idea about the old man. You always have the best ideas.
 
@@ -101,7 +101,7 @@ blocks:
             text: |
               **Zustandsverben stehen meistens in der einfachen Form**, auch wenn es um jetzt geht: **I know the answer** ist richtig, **I am knowing the answer** ist falsch. Auch mit since und for steht das present perfect einfach: **She has liked jazz for years**.
 
-              Tätigkeitsverben bilden die Welle, wenn etwas gerade läuft: **I am cooking.** Hinweis: Einige Verben haben zwei Bedeutungen. Bei **think** (nachdenken), **have** (essen, trinken) und **see** (treffen) ist die Verlaufsform möglich. Das merkst du dir später, hier genügt der Hinweis.
+              Tätigkeitsverben bilden die Welle, wenn etwas gerade läuft: **I am cooking.** Einige Verben haben zwei Bedeutungen. **think** als „nachdenken“ ist eine Tätigkeit: **I am thinking about it.** Als „meinen, glauben“ ist es ein Zustand: **I think it is good.**
   - type: section
     id: uebung
     title: Übung
@@ -130,6 +130,9 @@ blocks:
           - text: Zeile 2
             correct: true
             info: In Zeile 2 steht is making a new film.
+          - text: Zeile 3
+            correct: true
+            info: In Zeile 3 steht am still thinking. Hier ist think eine Tätigkeit, nachdenken.
           - text: Zeile 6
             correct: true
             info: In Zeile 6 steht am reading the book.
@@ -139,7 +142,7 @@ blocks:
           - text: Zeile 5
             correct: false
             info: In Zeile 5 stehen understand und believe. Beide sind Zustandsverben ohne -ing.
-        explanation: Making und reading sind Tätigkeiten, dort steht die Welle. Belongs, owns, understand und believe zeigen Zustände.
+        explanation: Making, thinking (nachdenken) und reading sind Tätigkeiten, dort steht die Welle. Belongs, owns, understand und believe zeigen Zustände.
         links:
           - title: Stative verb (Wikipedia)
             url: https://en.wikipedia.org/wiki/Stative_verb
@@ -270,7 +273,7 @@ blocks:
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          I love this game, and I know every level. I want a new controller, but I need to save money. At the moment I am playing the second level with my friend.
+          I love this game, and I know every level. I want a new controller, but I need to save money. At the moment I am playing the second level with my friend. I think it is the best part.
   - type: section
     id: weiter
     title: Wie es weitergeht
