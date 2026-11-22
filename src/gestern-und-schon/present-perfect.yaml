@@ -72,20 +72,6 @@ blocks:
           - type: text
             text: |
               Steht eine **Zeitangabe** wie yesterday oder last week im Satz, nimmst du das **simple past**: ein Punkt. Zählt das **Ergebnis jetzt** und es steht keine Zeitangabe da, nimmst du das **present perfect**: ein Bogen. Der Kuchen steht jetzt da, also: I have made a cake.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [cake, Kuchen]
-          - [finish, fertig machen]
-          - [late, zu spät]
-          - [homework, Hausaufgaben]
-          - [his / her / your, sein / ihr / dein]
-          - [pizza, Pizza]
-          - [film, Film]
-          - [book, Buch]
-          - [home, nach Hause]
-          - [to, zu / nach]
   - type: section
     id: uebung
     title: Übung
@@ -95,20 +81,17 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form des Verbs.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie hat einen Kuchen gemacht.
-            target: Ellie has [made] a cake.
-            distractors: [[make, maked]]
+          - cue: Amir hat Ellie ein Buch gegeben.
+            target: Amir has [given] Ellie a book.
+            distractors: [[gave, gived]]
           - cue: Peter hat Pizza gegessen.
             target: Peter has [eaten] pizza.
             distractors: [[ate, eated]]
           - cue: Sophie hat den Film gesehen.
             target: Sophie has [seen] the film.
             distractors: [[saw, see]]
-          - cue: Amir hat seine Hausaufgaben gemacht.
-            target: Amir has [done] his homework.
-            distractors: [[did, do]]
         hint: Nimm die 3. Spalte der Karten.
       - type: matching
         id: present-perfect-signale
@@ -132,7 +115,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: "Punkt oder Bogen? Wähle die Zeitform, die zum Satz passt."
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie hat gestern einen Film gesehen.
             target: Sophie [saw] a film yesterday.
@@ -140,22 +123,18 @@ blocks:
           - cue: Ellie hat ihre Hausaufgaben schon gemacht.
             target: Ellie [has done] her homework already.
             distractors: [[has did, have done]]
-          - cue: Peter hat vor zwei Tagen ein Buch gelesen.
-            target: Peter [read] a book two days ago.
-            distractors: [[has read, have read]]
           - cue: Amir ist noch nie zu spät gewesen.
             target: Amir [has never been] late.
-            distractors: [[is never been, have never been]]
+            distractors: [[has never be, have never been]]
         hint: Eine Zeitangabe wie yesterday ist ein Punkt. Zählt das Ergebnis jetzt, ist es ein Bogen.
       - type: language-task
         id: present-perfect-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz im present perfect.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie · already · eat · pizza
-            target: Sophie has already eaten pizza.
-            accepted: [Sophie has eaten pizza already.]
+            target: (Sophie has already eaten pizza|Sophie has eaten pizza already).
             mistakes:
               - answer: Sophie have already eaten pizza.
                 message: Bei she brauchst du has.
@@ -166,14 +145,8 @@ blocks:
             mistakes:
               - answer: Ellie has never be late.
                 message: Nach has brauchst du die 3. Form von be, also been.
-          - cue: we · just · finish · the cake
-            target: We have just finished the cake.
-            mistakes:
-              - answer: We have just finish the cake.
-                message: Nach have brauchst du die 3. Form. Bei finish ist sie finished, mit -ed.
           - cue: Peter · already · do · his homework
-            target: Peter has already done his homework.
-            accepted: [Peter has done his homework already.]
+            target: (Peter has already done his homework|Peter has done his homework already).
             mistakes:
               - answer: Peter has already did his homework.
                 message: Did ist das simple past. Nach has brauchst du die 3. Form, done.
@@ -181,43 +154,36 @@ blocks:
         id: present-perfect-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter has played football yesterday.
-            target: Peter played football yesterday.
-            accepted: [Peter has played football.]
+          - cue: Amir has finished the cake yesterday.
+            target: (Amir finished the cake yesterday|Amir has finished the cake).
             mistakes:
-              - answer: Peter has played football yesterday.
+              - answer: Amir has finished the cake yesterday.
                 message: Noch nicht ganz. Zu yesterday passt das simple past.
           - cue: Sophie have seen the film.
             target: Sophie has seen the film.
             mistakes:
               - answer: Sophie have seen the film.
                 message: Noch nicht ganz. Bei she brauchst du has.
-          - cue: Amir has ate pizza.
-            target: Amir has eaten pizza.
-            mistakes:
-              - answer: Amir has ate pizza.
-                message: Noch nicht ganz. Nach has brauchst du die 3. Form.
       - type: language-task
         id: present-perfect-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Ich habe nie Pizza gegessen.
             target: I have never eaten pizza.
             mistakes:
               - answer: I never have eaten pizza.
                 message: Never steht zwischen have und der 3. Form.
-          - source: Hast du jemals ein Buch geschrieben?
-            target: Have you ever written a book?
+          - source: Hast du jemals ein Buch gelesen?
+            target: Have you ever read a book?
             mistakes:
-              - answer: Have you ever wrote a book?
-                message: Nach have brauchst du die 3. Form, written.
+              - answer: Have you ever readed a book?
+                message: Read ist unregelmäßig. Die 3. Form schreibst du wieder read.
           - source: Hast du schon deine Hausaufgaben gemacht?
-            target: Have you done your homework yet?
-            accepted: [Have you already done your homework?]
+            target: (Have you done your homework yet|Have you already done your homework)?
             mistakes:
               - answer: Have you did your homework yet?
                 message: Did ist das simple past. Nach have brauchst du die 3. Form, done.
@@ -225,7 +191,7 @@ blocks:
         id: present-perfect-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: sophie-has-taken-a-book-home.mp3
             target: Sophie has taken a book home.

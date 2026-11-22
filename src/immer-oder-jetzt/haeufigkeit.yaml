@@ -56,19 +56,6 @@ blocks:
           - [often, oft]
           - [sometimes, manchmal]
           - [never, nie]
-          - [late, zu spät]
-          - [happy, froh]
-          - [tired, müde]
-          - [breakfast, Frühstück]
-          - [lunch, Mittagessen]
-          - [eat, essen]
-          - [walk, zu Fuß gehen]
-          - [take the bus, den Bus nehmen]
-          - [at school, in der Schule]
-          - [to school, zur Schule]
-          - [with, mit]
-          - [play, spielen]
-          - [football, Fußball]
       - type: note
         title: Merke
         blocks:
@@ -84,7 +71,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle das passende Häufigkeitswort.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie isst immer Frühstück.
             target: Sophie [always] eats breakfast.
@@ -149,7 +136,7 @@ blocks:
         id: haeufigkeit-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz. Setze das Häufigkeitswort an die richtige Stelle.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter · play football · often
             target: Peter often plays football.
@@ -180,7 +167,7 @@ blocks:
         id: haeufigkeit-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Wir spielen oft Fußball.
             target: We often play football.
@@ -201,7 +188,7 @@ blocks:
         id: haeufigkeit-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: ellie-is-usually-happy.mp3
             target: Ellie is usually happy.

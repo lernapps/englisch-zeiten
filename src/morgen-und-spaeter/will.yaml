@@ -71,23 +71,8 @@ blocks:
           - [tomorrow, morgen]
           - [next week, nächste Woche]
           - [soon, bald]
-          - [here, hier]
-          - [in two days, in zwei Tagen]
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
           - [I think, ich glaube]
-          - [maybe, vielleicht]
-          - [probably, wahrscheinlich]
-          - [win, gewinnen]
-          - [help, helfen]
-          - [come, kommen]
-          - [rain, regnen]
-          - [sunny, sonnig]
-          - [be, sein]
-          - [play, spielen]
-          - [football, Fußball]
+          - [in two days, in zwei Tagen]
   - type: section
     id: uebung
     title: Übung
@@ -97,7 +82,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ich glaube, Amir kommt bald.
             target: I think Amir [will] come soon.
@@ -116,11 +101,11 @@ blocks:
         text: Welcher Satz passt zu welcher Situation?
         pairs:
           - left: Sophie sieht, dass Peters Tasche schwer ist. Sie bietet gleich ihre Hilfe an.
-            right: I will help you.
+            right: I will take your bag.
           - left: Amir glaubt, dass Peter das Spiel gewinnt.
             right: I think Peter will win.
-          - left: Ellie vermutet, dass es regnet.
-            right: Maybe it will rain.
+          - left: Ellie vermutet, dass Peter bald kommt.
+            right: Maybe Peter will come soon.
         distractors: [Peter plays football every Saturday.]
         explanation: Bei will geht es um das, was noch kommt, als Vermutung oder als Einfall in diesem Moment. Der Satz mit every Saturday erzählt von einer Gewohnheit.
         links:
@@ -130,7 +115,7 @@ blocks:
         id: will-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz mit will.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Mr Hill · help · you
             target: Mr Hill will help you.
@@ -158,11 +143,11 @@ blocks:
                 message: Dir fehlt will. Es heißt it will rain.
       - type: single-choice
         id: will-zeichen
-        text: Welches Zeichen am Zeitstrahl gehört zu „Maybe it will rain.“?
+        text: Welches Zeichen am Zeitstrahl gehört zu „Peter will probably win.“?
         options:
-          - text: Ein einzelner Punkt rechts von now, ohne Pfeil.
+          - text: Ein Punkt rechts von now, kein Pfeil.
             correct: true
-            info: Ellie vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
+            info: Der Satz vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
           - text: Eine Punktreihe links und rechts von now.
             correct: false
             info: Eine Punktreihe ist das Zeichen für Gewohnheiten, also für das simple present.
@@ -177,7 +162,7 @@ blocks:
         id: will-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter wills win tomorrow.
             target: Peter will win tomorrow.
@@ -198,7 +183,7 @@ blocks:
         id: will-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: ellie-will-probably-come-next-week.mp3
             target: Ellie will probably come next week.
@@ -218,8 +203,8 @@ blocks:
             text: We will probably win.
           - audio: sophie-will-be-here-soon.mp3
             text: Sophie will be here soon.
-          - audio: i-will-help-you-soon.mp3
-            text: I will help you soon.
+          - audio: we-will-see-you-soon.mp3
+            text: We will see you soon.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das will, das du kaum betonst.
       - type: open-task
         id: will-karte

@@ -78,16 +78,7 @@ blocks:
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
-          - [have a party, eine Feier machen]
-          - [invite, einladen]
-          - [visit, besuchen]
-          - [watch a film, einen Film anschauen]
-          - [eat, essen]
-          - [pizza, Pizza]
-          - [hungry, hungrig]
-          - [ticket, Eintrittskarte]
-          - [cloud, Wolke]
-          - [look at, anschauen]
+          - [fall, fallen]
           - [on 10 July, am 10. Juli]
   - type: section
     id: uebung
@@ -98,7 +89,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form von be.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter hat vor, Amir einzuladen.
             target: Peter [is] going to invite Amir.
@@ -109,8 +100,8 @@ blocks:
           - cue: Wir haben vor, Peter zu besuchen.
             target: We [are] going to visit Peter.
             distractors: [[is, am]]
-          - cue: Gleich fängt es an zu regnen.
-            target: It [is] going to rain.
+          - cue: Ellie hat vor, ein Buch zu lesen.
+            target: Ellie [is] going to read a book.
             distractors: [[am, are]]
       - type: language-task
         id: going-to-tabelle
@@ -130,8 +121,8 @@ blocks:
         id: going-to-anzeichen
         text: Ein Plan oder ein Anzeichen. Was sagt der Satz voraus? Ordne zu.
         pairs:
-          - left: Am Himmel sind dunkle Wolken.
-            right: It is going to rain.
+          - left: Peter steht auf einem Stuhl, und der Stuhl wackelt.
+            right: He is going to fall.
           - left: Peter hat eine Eintrittskarte für einen Film.
             right: He is going to watch a film.
           - left: Ellie hat die Gäste schon ausgesucht.
@@ -146,7 +137,7 @@ blocks:
         id: going-to-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz mit going to.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter · have · a party
             target: Peter is going to have a party.
@@ -174,7 +165,7 @@ blocks:
         id: going-to-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie going to visit Peter.
             target: Sophie is going to visit Peter.
@@ -207,7 +198,7 @@ blocks:
         id: going-to-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: we-are-going-to-watch-a-film.mp3
             target: We are going to watch a film.
@@ -223,12 +214,12 @@ blocks:
         id: going-to-nachsprechen
         language: en
         items:
-          - audio: ellie-is-going-to-have-a-party-in-july.mp3
-            text: Ellie is going to have a party in July.
+          - audio: ellie-is-going-to-be-twelve-in-july.mp3
+            text: Ellie is going to be twelve in July.
           - audio: i-am-going-to-eat-a-pizza.mp3
             text: I am going to eat a pizza.
-          - audio: they-are-going-to-visit-amir-on-10-july.mp3
-            text: They are going to visit Amir on 10 July.
+          - audio: they-are-going-to-see-amir-on-saturday.mp3
+            text: They are going to see Amir on Saturday.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
       - type: open-task
         id: going-to-karte

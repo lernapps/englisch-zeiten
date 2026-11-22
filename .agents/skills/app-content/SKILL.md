@@ -52,7 +52,7 @@ Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Kart
 
 ## Exercise patterns
 
-Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → übersetzen/frei. Je Übung `mistakes` mit eigener Meldung und `hint`; gleichwertige Antworten mit `(a|b)`.
+Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → übersetzen/frei. Je Übung `mistakes` mit eigener Meldung und `hint`; gleichwertige Antworten nur als `(a|b)`-Gruppe im `target` (ein `accepted` einer Sprach-Aufgabe wirkt in der App nicht); `form: { case: hint, punctuation: ok }` in allen Sprach-Aufgaben (sonst meldet die App bei richtiger Antwort „Achte auf die Satzzeichen“). Jeder Einstiegs-`single-choice` hat mindestens drei Optionen, jede mit eigenem `info`. Im Modus `choice` zeigt die App `mistakes` nicht: dort tragen `hint` und die Optionen die Rückmeldung.
 
 - Zeichen zuordnen: `matching` Satz ↔ Zeichen (Punktreihe, Punkt, Welle, Bogen, Pfeil).
 - Reihe ordnen: `ordering` Fähnchen always … never; Satzteile (Stellung des Häufigkeitsadverbs).
@@ -81,11 +81,18 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 
 ## Hörliste
 
-Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` schneidet das Ausklingen der Stimme am Satzende ab. Diese 38 Sätze enden auf ein einsilbiges Wort; sie sind die gezielte Hörprobe der Ersteller:in (Datei in `src/audio/` · Satz · Seite):
+Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` schneidet das Ausklingen der Stimme am Satzende ab. Diese 37 Sätze enden auf ein einsilbiges Wort; sie sind die gezielte Hörprobe der Ersteller:in (Datei in `src/audio/` · Satz · Seite):
 
 | Datei | Satz | Seite |
 |---|---|---|
-| `we-are-going-to-watch-a-film.mp3` | We are going to watch a film. | `morgen-und-spaeter/going-to` |
+| `amir-has-just-come-home.mp3` | Amir has just come home. | `gestern-und-schon/present-perfect` |
+| `ellie-has-never-run-to-school.mp3` | Ellie has never run to school. | `gestern-und-schon/present-perfect` |
+| `sophie-has-taken-a-book-home.mp3` | Sophie has taken a book home. | `gestern-und-schon/present-perfect` |
+| `we-have-just-seen-mr-hill.mp3` | We have just seen Mr Hill. | `gestern-und-schon/present-perfect` |
+| `peter-and-amir-played-football-last-week.mp3` | Peter and Amir played football last week. | `gestern-und-schon/simple-past` |
+| `mr-hill-gave-peter-a-book.mp3` | Mr Hill gave Peter a book. | `gestern-und-schon/unregelmaessig` |
+| `we-drank-water-at-home.mp3` | We drank water at home. | `gestern-und-schon/unregelmaessig` |
+| `we-saw-a-film-at-home.mp3` | We saw a film at home. | `gestern-und-schon/unregelmaessig` |
 | `amir-sometimes-eats-lunch-at-school.mp3` | Amir sometimes eats lunch at school. | `immer-oder-jetzt/haeufigkeit` |
 | `peter-and-ellie-often-take-the-bus.mp3` | Peter and Ellie often take the bus. | `immer-oder-jetzt/haeufigkeit` |
 | `we-often-play-football-at-school.mp3` | We often play football at school. | `immer-oder-jetzt/haeufigkeit` |
@@ -94,10 +101,6 @@ Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` sc
 | `he-has-not-got-a-phone.mp3` | He has not got a phone. | `immer-oder-jetzt/have-got` |
 | `she-has-got-a-bike.mp3` | She has got a bike. | `immer-oder-jetzt/have-got` |
 | `they-have-got-a-dog.mp3` | They have got a dog. | `immer-oder-jetzt/have-got` |
-| `amir-has-just-come-home.mp3` | Amir has just come home. | `gestern-und-schon/present-perfect` |
-| `ellie-has-never-run-to-school.mp3` | Ellie has never run to school. | `gestern-und-schon/present-perfect` |
-| `sophie-has-taken-a-book-home.mp3` | Sophie has taken a book home. | `gestern-und-schon/present-perfect` |
-| `we-have-just-seen-mr-hill.mp3` | We have just seen Mr Hill. | `gestern-und-schon/present-perfect` |
 | `peter-is-running-now.mp3` | Peter is running now. | `immer-oder-jetzt/present-progressive` |
 | `they-are-making-a-cake.mp3` | They are making a cake. | `immer-oder-jetzt/present-progressive` |
 | `amir-always-eats-lunch.mp3` | Amir always eats lunch. | `immer-oder-jetzt/simple-oder-progressive` |
@@ -105,24 +108,20 @@ Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` sc
 | `peter-is-eating-lunch-now.mp3` | Peter is eating lunch now. | `immer-oder-jetzt/simple-oder-progressive` |
 | `sophie-reads-a-book-every-day.mp3` | Sophie reads a book every day. | `immer-oder-jetzt/simple-oder-progressive` |
 | `we-are-watching-a-film-now.mp3` | We are watching a film now. | `immer-oder-jetzt/simple-oder-progressive` |
-| `ellie-studied-english-two-days-ago.mp3` | Ellie studied English two days ago. | `gestern-und-schon/simple-past` |
-| `peter-and-amir-played-football-last-week.mp3` | Peter and Amir played football last week. | `gestern-und-schon/simple-past` |
 | `amir-studies-english-at-home.mp3` | Amir studies English at home. | `immer-oder-jetzt/simple-present` |
 | `ellie-watches-a-film-after-school.mp3` | Ellie watches a film after school. | `immer-oder-jetzt/simple-present` |
 | `they-play-football-every-day.mp3` | They play football every day. | `immer-oder-jetzt/simple-present` |
 | `are-sophie-and-ellie-tired.mp3` | Are Sophie and Ellie tired? | `immer-oder-jetzt/to-be` |
 | `ellie-is-a-good-friend.mp3` | Ellie is a good friend. | `immer-oder-jetzt/to-be` |
 | `we-are-not-tired.mp3` | We are not tired. | `immer-oder-jetzt/to-be` |
-| `mr-hill-gave-peter-a-book.mp3` | Mr Hill gave Peter a book. | `gestern-und-schon/unregelmaessig` |
-| `we-drank-water-at-home.mp3` | We drank water at home. | `gestern-und-schon/unregelmaessig` |
-| `we-saw-a-film-at-home.mp3` | We saw a film at home. | `gestern-und-schon/unregelmaessig` |
+| `we-are-going-to-watch-a-film.mp3` | We are going to watch a film. | `morgen-und-spaeter/going-to` |
 | `ellie-will-probably-come-next-week.mp3` | Ellie will probably come next week. | `morgen-und-spaeter/will` |
-| `i-will-help-you-soon.mp3` | I will help you soon. | `morgen-und-spaeter/will` |
 | `it-will-rain-soon.mp3` | It will rain soon. | `morgen-und-spaeter/will` |
 | `sophie-will-be-here-soon.mp3` | Sophie will be here soon. | `morgen-und-spaeter/will` |
 | `we-will-probably-win.mp3` | We will probably win. | `morgen-und-spaeter/will` |
+| `we-will-see-you-soon.mp3` | We will see you soon. | `morgen-und-spaeter/will` |
+| `it-is-raining-so-peter-will-take-the-bus.mp3` | It is raining, so Peter will take the bus. | `morgen-und-spaeter/will-oder-going-to` |
 | `peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3` | Peter has a ticket and he is going to watch a film. | `morgen-und-spaeter/will-oder-going-to` |
-| `sophie-will-answer-the-phone.mp3` | Sophie will answer the phone. | `morgen-und-spaeter/will-oder-going-to` |
 
 ## Adding a chapter or round
 
@@ -147,7 +146,9 @@ Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
 - Die Antwort einer Frage steht nie im Absatz direkt darüber; die Einstiegsfrage fragt, was der Text noch nicht sagt.
 - Bilder: Die Bildunterschrift nennt, wer wer ist (Sophie Zöpfe, Ellie roter Pferdeschwanz, Amir Brille, Peter gelbe Jacke); das `alt` verrät nie die Lösung.
 - Das Merke-Kasten nennt andere Verben als die Übungen, sonst schreiben die Kinder nur ab.
-- Als Auswahl nur echte Lernerfehler (is like, are plays), keine Unwörter (likees).
+- Als Auswahl nur echte Lernerfehler (is like, are plays, eated, has did), keine erfundenen Unwörter (likees, is will).
+- Höchstens eine kurze Wörtertabelle je Seite („Klassenzimmer-Poster · Wörter dieser Seite“ oder „Schulkalender · Zeitangaben“): sie nennt nur Wörter außerhalb von A1 und weniger einfache Wörter; einfache Wörter (A1) gelten als bekannt. Seiten mit mehr als etwa 25 Items kürzen.
+- Übungssätze und Beispielsätze der Erklärung (Text, Poster, Merke, Bildtext) sind verschiedene Sätze; ein Prüfskript über alle Seiten vergleicht die Lösungen (`target`, richtige Option, Zuordnung) mit dem Erklärtext derselben Seite.
 - Eine Übung für die Selbsteinschätzung nennt in Hinweis und Meldung weder „Spalte“ noch „Poster“ noch „oben“.
 - Gleichwertige Kurzformen zulassen (I'm not, you're not, Amir's not; `accepted` oder `(a|b)`); Stellen mit „already“ und Zeitangabe so bauen, dass es nur eine richtige Zeit gibt.
 - Der englische Cue enthält kein deutsches Wort; der deutsche Hinweis steht in `source` oder in der Aufgabe.

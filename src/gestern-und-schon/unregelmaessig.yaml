@@ -155,7 +155,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie ist gestern zur Schule gegangen.
             target: Yesterday Sophie [went] to school.
@@ -188,7 +188,7 @@ blocks:
         id: unregelmaessig-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz im simple past.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Amir · take · a book · last week
             target: Amir took a book last week.
@@ -219,7 +219,7 @@ blocks:
         id: unregelmaessig-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie swimmed two days ago.
             target: Sophie swam two days ago.
@@ -241,7 +241,7 @@ blocks:
         id: unregelmaessig-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: mr-hill-gave-peter-a-book.mp3
             target: Mr Hill gave Peter a book.

@@ -51,11 +51,11 @@ blocks:
         caption: Klassenzimmer-Poster · Die Formen von be
         header: [Person, Form, Beispiel]
         rows:
-          - [I, am, I am happy.]
-          - [you, are, You are late.]
-          - [he / she / it, is, Mr Hill is a teacher.]
-          - [we, are, We are friends.]
-          - [they, are, They are at school.]
+          - [I, am, I am Sophie.]
+          - [you, are, You are my friend.]
+          - [he / she / it, is, Peter is my brother.]
+          - [we, are, We are in class five.]
+          - [they, are, They are Ellie and Peter.]
       - type: table
         caption: Klassenzimmer-Poster · Aussage, Verneinung, Frage
         header: [Aussage, Verneinung, Frage]
@@ -72,17 +72,6 @@ blocks:
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
-          - [be, sein]
-          - [eleven, elf]
-          - [nine, neun]
-          - [happy, froh]
-          - [tired, müde]
-          - [late, spät dran]
-          - [today, heute]
-          - [teacher, Lehrer]
-          - [friend, Freund]
-          - [good, gut]
-          - [at school, in der Schule]
           - [in the classroom, im Klassenzimmer]
   - type: section
     id: uebung
@@ -93,7 +82,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form von be.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ich bin froh.
             target: I [am] happy.
@@ -147,7 +136,7 @@ blocks:
         id: to-be-frage
         languages: { source: de, target: en }
         task: Schreibe die Frage.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: she · eleven
             target: Is she eleven?
@@ -174,25 +163,22 @@ blocks:
         id: to-be-verneinen
         languages: { source: de, target: en }
         task: Schreibe den Satz mit not.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Amir · tired · today
-            target: Amir (is not|isn't) tired today.
-            accepted: [Amir's not tired today.]
+            target: (Amir is not tired today|Amir isn't tired today|Amir's not tired today).
             mistakes:
               - answer: Amir not is tired today.
                 message: not steht hinter is, nicht davor.
               - answer: Amir doesn't tired today.
                 message: Bei be brauchst du kein do. Nimm is not oder isn't.
           - cue: we · late
-            target: We (are not|aren't) late.
-            accepted: [We're not late.]
+            target: (We are not late|We aren't late|We're not late).
             mistakes:
               - answer: We not are late.
                 message: not steht hinter are, nicht davor.
           - cue: Sophie · at school · today
-            target: Sophie (is not|isn't) at school today.
-            accepted: [Sophie's not at school today.]
+            target: (Sophie is not at school today|Sophie isn't at school today|Sophie's not at school today).
             mistakes:
               - answer: Sophie am not at school today.
                 message: Sophie ist „sie“, also brauchst du is, nicht am.
@@ -201,7 +187,7 @@ blocks:
         id: to-be-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: amir-is-happy-today.mp3
             target: Amir is happy today.

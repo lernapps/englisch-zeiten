@@ -64,31 +64,6 @@ blocks:
           - type: text
             text: |
               **He, she, it – das s muss mit.** Die Endung ist das, was hinten am Verb hängt. Nach s, sh, ch, x und o hängst du **es** an: teach – teach**es**. Nach einem Konsonanten (b, c, d …) wird aus **y** ein **ies**: fly – fl**ies**. Nach einem Vokal (a, e, i, o, u) bleibt das y: play – plays.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [play, spielen]
-          - [like, mögen]
-          - [live, wohnen]
-          - [watch, anschauen]
-          - [go, gehen]
-          - [study, lernen]
-          - [fly, fliegen]
-          - [every day, jeden Tag]
-          - [every Saturday, jeden Samstag]
-          - [football, Fußball]
-          - [pizza, Pizza]
-          - [film, Film]
-          - [teach, unterrichten]
-          - [English, Englisch]
-          - [school, Schule]
-          - [after school, nach der Schule]
-          - [at home, zu Hause]
-          - [with, mit]
-          - [to, zu / nach]
-          - [a, ein / eine]
-          - [and, und]
   - type: section
     id: uebung
     title: Übung
@@ -98,7 +73,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form des Verbs.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Amir mag Pizza.
             target: Amir [likes] pizza.
@@ -132,7 +107,7 @@ blocks:
         id: simple-present-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz mit der richtigen Form des Verbs.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie · go · to school · every day
             target: Sophie goes to school every day.
@@ -165,12 +140,12 @@ blocks:
         id: simple-present-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie play football every Saturday.
-            target: Ellie plays football every Saturday.
+          - cue: Sophie watch a film every Saturday.
+            target: Sophie watches a film every Saturday.
             mistakes:
-              - answer: Ellie play football every Saturday.
+              - answer: Sophie watch a film every Saturday.
                 message: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
           - cue: Peter and Amir plays football every day.
             target: Peter and Amir play football every day.
@@ -181,16 +156,15 @@ blocks:
         id: simple-present-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - source: Peter spielt jeden Samstag Fußball.
-            target: Peter plays football every Saturday.
+          - source: Mr Hill geht jeden Tag nach Hause.
+            target: (Mr Hill goes home every day|Every day Mr Hill goes home).
             mistakes:
-              - answer: Peter play football every Saturday.
-                message: "He, she, it – das s muss mit. Peter ist „er“."
-              - answer: Peter plays soccer every Saturday.
-                message: In Großbritannien heißt der Sport football.
-            accepted: [Every Saturday Peter plays football.]
+              - answer: Mr Hill go home every day.
+                message: "He, she, it – das s muss mit. Mr Hill ist „er“."
+              - answer: Mr Hill gos home every day.
+                message: Nach o hängst du es an, also goes.
           - source: Sophie und Ellie schauen jeden Tag einen Film an.
             target: Sophie and Ellie watch a film every day.
             mistakes:
@@ -205,7 +179,7 @@ blocks:
         id: simple-present-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: peter-watches-football-every-saturday.mp3
             target: Peter watches football every Saturday.

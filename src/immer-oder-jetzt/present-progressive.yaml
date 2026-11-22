@@ -66,37 +66,6 @@ blocks:
         rows:
           - [Punktreihe, "play / play**s**", Peter plays football every Saturday.]
           - [Welle, am / is / are + -ing, Sophie is reading a book.]
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [read, lesen]
-          - [write, schreiben]
-          - [draw, zeichnen]
-          - [run, rennen]
-          - [dance, tanzen]
-          - [swim, schwimmen]
-          - [make, machen]
-          - [sit, sitzen]
-          - [play, spielen]
-          - [watch, anschauen]
-          - [listen to, zuhören]
-          - [eat, essen]
-          - [now, jetzt]
-          - [at the moment, im Moment]
-          - [book, Buch]
-          - [letter, Brief]
-          - [picture, Bild]
-          - [film, Film]
-          - [football, Fußball]
-          - [computer, Computer]
-          - [chair, Stuhl]
-          - [music, Musik]
-          - [breakfast, Frühstück]
-          - [story, Geschichte]
-          - [cake, Kuchen]
-          - [friend, Freund / Freundin]
-          - [on, auf]
   - type: section
     id: uebung
     title: Übung
@@ -106,7 +75,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form von be.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie schreibt gerade einen Brief.
             target: Ellie [is] writing a letter.
@@ -139,7 +108,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige -ing-Form.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Amir macht gerade ein Bild.
             target: Amir is [making] a picture.
@@ -147,9 +116,9 @@ blocks:
           - cue: Peter sitzt gerade auf einem Stuhl.
             target: Peter is [sitting] on a chair.
             distractors: [[siting, sit]]
-          - cue: Ellie liest gerade.
-            target: Ellie is [reading].
-            distractors: [[readding, read]]
+          - cue: Sophie nimmt gerade ein Buch.
+            target: Sophie is [taking] a book.
+            distractors: [[takeing, take]]
           - cue: Amir spielt gerade Fußball.
             target: Amir is [playing] football.
             distractors: [[play, playeing]]
@@ -158,7 +127,7 @@ blocks:
         id: present-progressive-bilden
         languages: { source: de, target: en }
         task: Schreibe, was gerade passiert. Schreibe den ganzen Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter · draw · a picture
             target: Peter is drawing a picture.
@@ -193,7 +162,7 @@ blocks:
         id: present-progressive-frage
         languages: { source: de, target: en }
         task: Schreibe die Frage mit be.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter · draw
             target: Is Peter drawing?
@@ -212,15 +181,15 @@ blocks:
         id: present-progressive-paare
         text: Was passiert gerade? Ordne den Satz zu.
         pairs:
-          - left: Sophie liest gerade ein Buch.
-            right: Sophie is reading a book.
+          - left: Amir sitzt gerade am Computer.
+            right: Amir is sitting at a computer.
           - left: Ellie schreibt gerade einen Brief.
             right: Ellie is writing a letter.
           - left: Peter malt gerade ein Bild.
             right: Peter is drawing a picture.
           - left: Amir und Peter laufen gerade.
             right: Amir and Peter are running.
-        distractors: [Sophie reads a book.]
+        distractors: [Amir sits at a computer.]
         explanation: Was gerade passiert, ist die Welle über now. Dafür brauchst du be und die -ing-Form.
         hint: Achte auf die Person. Bei einer Person nimmst du is, bei zwei Personen are.
         links:
@@ -230,7 +199,7 @@ blocks:
         id: present-progressive-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: amir-is-writing-a-story.mp3
             target: Amir is writing a story.

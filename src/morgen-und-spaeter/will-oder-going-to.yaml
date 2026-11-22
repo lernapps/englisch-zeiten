@@ -66,18 +66,7 @@ blocks:
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
-          - [bring, mitbringen]
-          - [cake, Kuchen]
-          - [phone, Telefon / Handy]
           - [ring, klingeln]
-          - [watch a film, einen Film anschauen]
-          - [ticket, Eintrittskarte]
-          - [hungry, hungrig]
-          - [so, deshalb]
-          - [eat, essen]
-          - [pizza, Pizza]
-          - [rain, regnen]
-          - [answer the phone, ans Telefon gehen]
           - [on 10 July, am 10. Juli]
   - type: section
     id: uebung
@@ -87,13 +76,13 @@ blocks:
         id: will-oder-going-to-grund
         text: Warum steht in dem Satz will oder going to? Ordne den Grund zu.
         pairs:
-          - left: Peter is going to watch a film on Saturday.
-            right: Der Plan steht schon.
+          - left: We are going to eat pizza on Saturday.
+            right: Vorher geplant.
           - left: The phone rings. I will answer it.
-            right: Es wird gerade erst beschlossen.
+            right: Spontaner Einfall.
           - left: I think it will rain.
-            right: Es ist nur eine Vermutung.
-        distractors: [Ein Anzeichen ist schon zu sehen.]
+            right: Nur eine Vermutung.
+        distractors: [Eine Gewohnheit.]
         explanation: Ein Plan oder ein Anzeichen gehört zum Pfeil, going to. Ein Entschluss im Moment und eine Vermutung gehören zum Punkt ohne Pfeil, will.
         links:
           - title: Lernlandkarte Englisch · Will oder going to
@@ -120,43 +109,43 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle will oder going to. Der deutsche Satz sagt dir, warum.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie hat ihre Party schon lange geplant.
-            target: Ellie [is going to] have a party on 10 July.
+          - cue: Sophie hat schon lange geplant, am 10. Juli Pizza zu essen.
+            target: Sophie [is going to] eat pizza on 10 July.
             distractors: [[will, are going to]]
-          - cue: Amir ist hungrig und beschließt gleich, eine Pizza zu essen.
-            target: Amir is hungry. He [will] eat a pizza.
+          - cue: Ellie ist hungrig und beschließt gleich, einen Kuchen zu essen.
+            target: Ellie is hungry. She [will] eat a cake.
             distractors: [[is going to, are going to]]
-          - cue: Amir und Peter haben schon Tickets für einen Film.
-            target: Amir and Peter have tickets. They [are going to] watch a film.
+          - cue: Ellie und Sophie haben schon Tickets für einen Film.
+            target: Ellie and Sophie have tickets. They [are going to] watch a film.
             distractors: [[will, is going to]]
-          - cue: Amir hört von der Party und beschließt gleich, etwas mitzubringen.
-            target: Amir [will] bring a cake.
+          - cue: Amir hört von der Party und beschließt gleich, Musik mitzubringen.
+            target: Amir [will] bring music.
             distractors: [[is going to, are going to]]
       - type: language-task
         id: will-oder-going-to-bilden
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch. Der deutsche Satz sagt dir, ob du will oder going to brauchst.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - source: Peter hat vor, einen Film anzuschauen. Die Karten sind schon gekauft.
-            target: Peter is going to watch a film.
+          - source: Ellie hat vor, einen Kuchen mitzubringen. Sie hat ihn schon gebacken.
+            target: Ellie is going to bring a cake.
             mistakes:
-              - answer: Peter will watch a film.
-                message: Die Karten sind schon gekauft, der Plan steht. Das ist der Pfeil, going to.
-              - answer: Peter going to watch a film.
-                message: Dir fehlt das be. Zu Peter gehört is.
+              - answer: Ellie will bring a cake.
+                message: Der Kuchen ist schon gebacken, der Plan steht. Das ist der Pfeil, going to.
+              - answer: Ellie going to bring a cake.
+                message: Dir fehlt das be. Zu Ellie gehört is.
           - source: Das Telefon klingelt. Ich nehme es gleich ab.
             target: (I will|I'll) answer it.
             mistakes:
               - answer: I am going to answer it.
                 message: Du entscheidest gerade erst, im Moment des Sprechens. Das ist der Punkt ohne Pfeil, will.
-          - source: Amir hat gerade erst beschlossen, einen Kuchen mitzubringen.
-            target: Amir will bring a cake.
+          - source: Sophie hat gerade erst beschlossen, Wasser mitzubringen.
+            target: Sophie will bring water.
             mistakes:
-              - answer: Amir is going to bring a cake.
-                message: Amir beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
+              - answer: Sophie is going to bring water.
+                message: Sophie beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
       - type: true-false
         id: will-oder-going-to-richtig
         text: Peter hat die Tickets für einen Film schon gekauft und sagt „I will watch a film on Saturday.“ Passt der Satz?
@@ -169,14 +158,14 @@ blocks:
         id: will-oder-going-to-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: amir-is-hungry-so-he-will-eat-a-pizza.mp3
             target: Amir is hungry, so he will eat a pizza.
           - audio: peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3
             target: Peter has a ticket and he is going to watch a film.
-          - audio: sophie-will-answer-the-phone.mp3
-            target: Sophie will answer the phone.
+          - audio: it-is-raining-so-peter-will-take-the-bus.mp3
+            target: It is raining, so Peter will take the bus.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben

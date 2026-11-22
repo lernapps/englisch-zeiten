@@ -71,25 +71,6 @@ blocks:
           - type: text
             text: |
               Ein Verb mit **e** am Ende bekommt nur ein **d**: like – liked. Nach einem Konsonanten wird aus **y** ein **ied**: study – studied. Ein kurzes Verb mit einem Vokal und einem Konsonanten am Ende verdoppelt den Konsonanten: stop – stopped.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [dance, tanzen]
-          - [help, helfen]
-          - [cry, weinen]
-          - [shop, einkaufen]
-          - [watch, anschauen]
-          - [football, Fußball]
-          - [film, Film]
-          - [homework, Hausaufgaben]
-          - [home, nach Hause / zu Hause]
-          - [to, zu / nach]
-          - [and, und]
-          - [a, ein / eine]
-          - [with, mit]
-          - [bus, Bus]
-          - [English, Englisch]
   - type: section
     id: uebung
     title: Übung
@@ -99,10 +80,10 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form des Verbs.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter hat gestern Fußball gespielt.
-            target: Peter [played] football yesterday.
+          - cue: Peter hat gestern mit Amir gespielt.
+            target: Peter [played] with Amir yesterday.
             distractors: [[plays, play]]
           - cue: Ellie hat letzte Woche einen Film angeschaut.
             target: Ellie [watched] a film last week.
@@ -133,15 +114,15 @@ blocks:
         id: simple-past-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz im simple past.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Sophie · play · football · yesterday
-            target: Sophie played football yesterday.
+          - cue: Sophie · shop · with Ellie · yesterday
+            target: Sophie shopped with Ellie yesterday.
             mistakes:
-              - answer: Sophie plays football yesterday.
+              - answer: Sophie shops with Ellie yesterday.
                 message: Yesterday ist vorbei. Links von now brauchst du das simple past mit -ed.
-              - answer: Sophie playd football yesterday.
-                message: Nach einem Vokal bleibt das y. Aus play wird played.
+              - answer: Sophie shoped with Ellie yesterday.
+                message: Shop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
           - cue: Ellie · watch · a film · last week
             target: Ellie watched a film last week.
             mistakes:
@@ -162,12 +143,12 @@ blocks:
         id: simple-past-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter plays football yesterday.
-            target: Peter played football yesterday.
+          - cue: Ellie plays with Peter yesterday.
+            target: Ellie played with Peter yesterday.
             mistakes:
-              - answer: Peter plays football yesterday.
+              - answer: Ellie plays with Peter yesterday.
                 message: Noch nicht ganz. Gestern ist vorbei, also braucht das Verb -ed.
           - cue: The bus stopd two days ago.
             target: The bus stopped two days ago.
@@ -183,23 +164,20 @@ blocks:
         id: simple-past-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - source: Gestern habe ich Fußball gespielt.
-            target: I played football yesterday.
-            accepted: [Yesterday I played football.]
+          - source: Gestern habe ich mit Peter gespielt.
+            target: (I played with Peter yesterday|Yesterday I played with Peter).
             mistakes:
-              - answer: I play football yesterday.
+              - answer: I play with Peter yesterday.
                 message: Yesterday ist vorbei. Das Verb braucht -ed.
           - source: Ellie hat letzte Woche getanzt.
-            target: Ellie danced last week.
-            accepted: [Last week Ellie danced.]
+            target: (Ellie danced last week|Last week Ellie danced).
             mistakes:
               - answer: Ellie dancied last week.
                 message: Dance endet schon auf e. Du hängst nur ein d an.
           - source: Wir haben vor zwei Tagen Peter geholfen.
-            target: We helped Peter two days ago.
-            accepted: [Two days ago we helped Peter.]
+            target: (We helped Peter two days ago|Two days ago we helped Peter).
             mistakes:
               - answer: We help Peter two days ago.
                 message: Two days ago liegt links von now. Dann brauchst du helped.
@@ -208,7 +186,7 @@ blocks:
         id: simple-past-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: sophie-walked-home-yesterday.mp3
             target: Sophie walked home yesterday.
@@ -226,8 +204,8 @@ blocks:
         items:
           - audio: ellie-danced-with-sophie.mp3
             text: Ellie danced with Sophie.
-          - audio: we-helped-mr-hill-yesterday.mp3
-            text: We helped Mr Hill yesterday.
+          - audio: we-danced-at-school-yesterday.mp3
+            text: We danced at school yesterday.
           - audio: sophie-helped-peter-with-homework.mp3
             text: Sophie helped Peter with homework.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende der Verben.

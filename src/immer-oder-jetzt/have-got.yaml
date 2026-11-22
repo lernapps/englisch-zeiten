@@ -18,15 +18,15 @@ blocks:
         text: "Ellie hat einen Hund (dog). Peter hat einen Stift (pen). Mr Hill fragt: „Wer hat was?“ Wenn du sagst, was jemand hat, brauchst du auf Englisch **have got**."
       - type: single-choice
         id: have-got-start
-        text: Welcher Satz sagt, dass Ellie einen Hund hat?
+        text: Welcher Satz sagt, dass Peter einen Stift hat?
         options:
-          - text: Ellie has got a dog.
+          - text: Peter has got a pen.
             correct: true
-            info: Ellie ist „sie“, und zu she gehört has got.
-          - text: Ellie have got a dog.
+            info: Peter ist „er“, und zu he gehört has got.
+          - text: Peter have got a pen.
             correct: false
-            info: have got gehört zu I, you, we und they. Bei Ellie fehlt das s.
-          - text: Ellie is got a dog.
+            info: have got gehört zu I, you, we und they. Bei Peter fehlt das s.
+          - text: Peter is got a pen.
             correct: false
             info: is gehört zum Verb be und sagt, wie jemand ist, nicht, was er hat.
         explanation: Was jemand hat, sagst du mit have got. Bei he, she und it heißt es has got.
@@ -67,14 +67,7 @@ blocks:
         header: [Ausdruck, Bedeutung]
         rows:
           - [have got, haben]
-          - [pen, Stift]
-          - [book, Buch]
-          - [bag, Tasche]
-          - [dog, Hund]
           - [bike, Fahrrad]
-          - [phone, Telefon / Handy]
-          - [brother, Bruder]
-          - [sister, Schwester]
           - [pencil case, Federtasche]
   - type: section
     id: uebung
@@ -85,13 +78,13 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle have oder has.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: Ich habe einen Stift.
-            target: I [have] got a pen.
+          - cue: Ich habe ein Telefon.
+            target: I [have] got a phone.
             distractors: [[has, am]]
-          - cue: Ellie hat einen Hund.
-            target: Ellie [has] got a dog.
+          - cue: Sophie hat einen Bruder.
+            target: Sophie [has] got a brother.
             distractors: [[have, is]]
           - cue: Amir und Peter haben ein Fahrrad.
             target: Amir and Peter [have] got a bike.
@@ -103,7 +96,7 @@ blocks:
       - type: ordering
         id: have-got-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
-        items: [She, has, got, a sister]
+        items: [Amir, has, got, a, bag]
         explanation: Zuerst kommt die Person, dann has got, dann das, was sie hat.
         hint: Der Satz beginnt mit der Person. Danach kommt die Form von have got.
         links:
@@ -128,24 +121,24 @@ blocks:
         id: have-got-frage
         languages: { source: de, target: en }
         task: Schreibe die Frage.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - cue: you · a pen
-            target: Have you got a pen?
+          - cue: you · a phone
+            target: Have you got a phone?
             mistakes:
               - answer: Do you have got a pen?
                 message: Bei have got brauchst du kein do. Tausche have und you.
               - answer: You have got a pen?
                 message: In der Frage tauschen have und die Person die Plätze.
-          - cue: Ellie · a dog
-            target: Has Ellie got a dog?
+          - cue: Sophie · a bag
+            target: Has Sophie got a bag?
             mistakes:
-              - answer: Have Ellie got a dog?
-                message: "He, she, it – das s muss mit. Ellie ist „sie“, also has."
-          - cue: they · a bike
-            target: Have they got a bike?
+              - answer: Have Sophie got a bag?
+                message: "He, she, it – das s muss mit. Sophie ist „sie“, also has."
+          - cue: they · a book
+            target: Have they got a book?
             mistakes:
-              - answer: Do they have got a bike?
+              - answer: Do they have got a book?
                 message: Bei have got brauchst du kein do. Tausche have und they.
           - cue: Amir · a sister
             target: Has Amir got a sister?
@@ -157,19 +150,19 @@ blocks:
         id: have-got-verneinen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - source: Amir hat keinen Hund.
-            target: Amir (hasn't|has not) got a dog.
+          - source: Amir hat keinen Stift.
+            target: Amir (hasn't|has not) got a pen.
             mistakes:
-              - answer: Amir haven't got a dog.
+              - answer: Amir haven't got a pen.
                 message: "Amir ist „er“. He, she, it – das s muss mit: hasn't."
-              - answer: Amir doesn't got a dog.
+              - answer: Amir doesn't got a pen.
                 message: Mit got brauchst du kein do. Nimm hasn't got.
-          - source: Wir haben kein Fahrrad.
-            target: We (haven't|have not) got a bike.
+          - source: Wir haben kein Telefon.
+            target: We (haven't|have not) got a phone.
             mistakes:
-              - answer: We hasn't got a bike.
+              - answer: We hasn't got a phone.
                 message: Zu we gehört have, nicht has.
           - source: Amir hat keine Schwester.
             target: Amir (hasn't|has not) got a sister.
@@ -181,10 +174,10 @@ blocks:
         id: have-got-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - audio: sophie-has-got-a-sister.mp3
-            target: Sophie has got a sister.
+          - audio: sophie-has-got-a-red-jacket.mp3
+            target: Sophie has got a red jacket.
           - audio: has-amir-got-a-bike.mp3
             target: Has Amir got a bike?
           - audio: they-have-got-a-dog.mp3

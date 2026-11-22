@@ -18,14 +18,17 @@ blocks:
         text: "Ellie zeigt auf den Zeitstrahl und sagt zwei Sätze über ihren Bruder: „Peter often plays football.“ und „Peter is playing football at the moment.“ **At the moment** heißt „im Moment“."
       - type: single-choice
         id: simple-oder-progressive-start
-        text: Welcher Satz sagt, was Peter gerade jetzt tut?
+        text: Welcher Satz sagt, was Amir gerade jetzt tut?
         options:
-          - text: Peter is playing football at the moment.
+          - text: Amir is eating lunch at the moment.
             correct: true
             info: at the moment heißt „im Moment“. Der Satz erzählt, was in diesem Moment passiert.
-          - text: Peter often plays football.
+          - text: Amir often eats lunch at school.
             correct: false
             info: often heißt „oft“. Der Satz erzählt, was immer wieder passiert, nicht, was gerade passiert.
+          - text: Amir eats lunch every day.
+            correct: false
+            info: every day heißt „jeden Tag“. Auch dieser Satz erzählt von etwas, das sich wiederholt.
         explanation: Ein Satz kann von etwas erzählen, das oft passiert, oder von etwas, das gerade passiert. Du brauchst für jedes eine andere Form.
         links:
           - title: Lernlandkarte Englisch · Simple present oder present progressive
@@ -56,30 +59,6 @@ blocks:
           - type: text
             text: |
               Frag dich zuerst: Passiert es **immer wieder** oder **gerade jetzt**? Immer wieder ist die Punktreihe, also **plays**. Gerade jetzt ist die Welle, also **is playing**. Das Fähnchen hilft dir dabei.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [play, spielen]
-          - [watch, anschauen]
-          - [read, lesen]
-          - [eat, essen]
-          - [go, gehen]
-          - [every day, jeden Tag]
-          - [always, immer]
-          - [often, oft]
-          - [now, jetzt]
-          - [at the moment, im Moment]
-          - [football, Fußball]
-          - [film, Film]
-          - [book, Buch]
-          - [breakfast, Frühstück]
-          - [lunch, Mittagessen]
-          - [sit, sitzen]
-          - [chair, Stuhl]
-          - [on, auf]
-          - [every Saturday, jeden Samstag]
-          - [school, Schule]
   - type: section
     id: uebung
     title: Übung
@@ -89,7 +68,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form. Das Fähnchen im Satz hilft dir.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie isst immer Frühstück.
             target: Ellie always [eats] breakfast.
@@ -106,9 +85,6 @@ blocks:
           - cue: Wir spielen gerade Fußball.
             target: We [are playing] football now.
             distractors: [[play]]
-          - cue: Amir liest oft.
-            target: Amir often [reads].
-            distractors: [[is reading]]
         hint: Immer wieder ist die Punktreihe. Gerade jetzt ist die Welle.
       - type: matching
         id: simple-oder-progressive-paare
@@ -131,7 +107,7 @@ blocks:
         id: simple-oder-progressive-bilden
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz. Wähle selbst die richtige Form.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter · play football · every Saturday
             target: Peter plays football every Saturday.
@@ -162,7 +138,7 @@ blocks:
         id: simple-oder-progressive-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz ist die falsche Form. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie reads a book now.
             target: Sophie is reading a book now.
@@ -178,7 +154,7 @@ blocks:
         id: simple-oder-progressive-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Ellie isst gerade Frühstück.
             target: Ellie is eating breakfast( now| at the moment|).
@@ -199,7 +175,7 @@ blocks:
         id: simple-oder-progressive-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: sophie-reads-a-book-every-day.mp3
             target: Sophie reads a book every day.
