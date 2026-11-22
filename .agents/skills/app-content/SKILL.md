@@ -34,6 +34,12 @@ Alle zwölf sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung na
 
 Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Karte (nicht umformulieren). Übungs-IDs: Präfix = Seite (`simple-present-…`), Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`.
 
+Inkrement 02 (Stufe 7-8, Branch `increment/02-erzaehlen-dauer-plaene`): neun weitere Lücken der Karte, alle Voraussetzungen in Kapitel 1 bis 3 geübt (keine Wiederholungsseite, kein `ahead`).
+4. Kapitel `erzaehlen` („Erzählen: Hintergrund, Handlung, vorher“): `past-progressive` → `erzaehlen/past-progressive` (Musterseite Lesestück) · `past-perfect` → `erzaehlen/past-perfect` · `zeitenfolge-temporalsaetze` → `erzaehlen/zeitenfolge-temporalsaetze` · `present-perfect-oder-simple-past` → `erzaehlen/present-perfect-oder-simple-past`
+5. Kapitel `dauer` („Seit wann und wie lange?“): `since-for` → `dauer/since-for` · `present-perfect-progressive` → `dauer/present-perfect-progressive` · `dynamic-stative` → `dauer/dynamic-stative`
+6. Kapitel `plaene` („Pläne, Fahrpläne und Zeitpunkte“): `present-fuer-zukunft` → `plaene/present-fuer-zukunft` · `future-progressive-perfect` → `plaene/future-progressive-perfect`
+Kapitel 7 (Stufe 9-10) folgt später als Inkrement.
+
 ## Content structure
 
 - Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`.
@@ -80,11 +86,12 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 - Gebaut: `zeitstrahl-leer` (das-brauchst-du), `-to-be`, `-punktreihe` (simple-present), `-haeufigkeit`, `-welle`, `-beides` (simple-oder-progressive), `-punkt-links`, `-punkt-und-bogen`, `-will`, `-going-to`, `-will-oder-going-to`, `-ganz` (Rückblick K3, alle Zeichen). `zeitstrahl-ganz.svg` wächst mit jedem Inkrement.
 - Szenen: je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; in Aufgaben zeigt der Strahl nur die Legende, nie das Ergebnis.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb); Skizzen liegen in `.vibe/sketches/`.
+- Stufe 7-8 (Inkrement 02): `zeitstrahl-<seite>.svg` für past-progressive (Welle in der Vergangenheit, Punkt unterbricht, Fähnchen when), past-perfect (ein Punkt vor dem Punkt), zeitenfolge, ppsp (Punkt links neben Bogen), since-for (Fähnchen since am Startpunkt, Klammer for), present-perfect-progressive (Bogen wird Welle), dynamic-stative (Stoppschild an der Welle), present-fuer-zukunft (Kalender-Punkt und Fahrplan), future-progressive-perfect (Welle um einen Zeitpunkt, Bogen bis dahin); Figuren nur im Text (Sophie 13, Ellie 13, Peter 11, Amir 13), keine neuen Szenen; Mrs Parker wird nicht gezeichnet.
 - Poster und Kalender sind `table`-Blöcke, wachsen von Seite zu Seite.
 
 ## Sources
 
-Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur sink (Poster-Eintrag in `unregelmaessig`) und friends (Mehrzahl von friend); `yet` ist A2). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
+Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur sink (Poster-Eintrag in `unregelmaessig`) und friends (Mehrzahl von friend); `yet` ist A2). Inkrement 02: Grammatikfakten aus Wikipedia, geöffnet am 2026-11-22 (nur Fakten): Past continuous, Pluperfect (past perfect), Uses of English verb forms (present perfect progressive, future progressive, future perfect), Stative verb, Future perfect, Sequence of tenses. Die Lesestücke sind eigene erfundene Texte der Figuren ohne reale Faktenangaben; Fahrpläne und Orte sind erfunden. Erste Version: Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
 ## Hörliste
 
@@ -155,6 +162,67 @@ Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` (m
 ### Sätze mit mehrsilbigem Ende (34)
 
 Risiko: eine Silbe wird angeschnitten. Gezielt anhören: `amir-cleaned-his-room-on-sunday.mp3`, `amir-is-happy-today.mp3`, `amir-is-hungry-so-he-will-eat-a-pizza.mp3`, `are-sophie-and-ellie-tired.mp3`, `ellie-danced-with-sophie.mp3`, `ellie-is-eating-breakfast.mp3`, `ellie-is-going-to-be-twelve-in-july.mp3`, `ellie-often-visits-her-grandmother.mp3`, `ellie-sat-with-amir.mp3`, `has-mr-hill-got-any-children.mp3`, `i-have-got-a-big-family.mp3`, `it-will-be-cold-on-sunday.mp3`, `mr-hill-is-in-the-classroom.mp3`, `mr-hill-often-drinks-coffee.mp3`, `mr-hill-teaches-english.mp3`, `my-name-is-sophie-and-i-like-music.mp3`, `peter-always-drinks-milk-in-the-morning.mp3`, `peter-has-already-written-to-ellie.mp3`, `peter-is-going-to-look-at-the-ticket.mp3`, `peter-ran-home-yesterday.mp3`, `peter-sang-a-song-at-the-party.mp3`, `peter-watches-football-every-saturday.mp3`, `sophie-called-her-mother-on-monday.mp3`, `sophie-has-got-a-red-jacket.mp3`, `sophie-helped-peter-with-homework.mp3`, `sophie-is-listening-to-music.mp3`, `sophie-likes-football.mp3`, `sophie-sang-at-home-yesterday.mp3`, `they-go-to-the-park-on-sunday.mp3`, `we-are-cleaning-the-classroom-at-the-moment.mp3`, `we-are-going-to-cook-dinner-on-friday.mp3`, `we-are-going-to-dance-at-the-party.mp3`, `we-are-going-to-dance-on-10-july.mp3`, `we-danced-at-school-yesterday.mp3`.
+
+### Hörliste Inkrement 02 (Stufe 7-8, Kapitel 4 bis 6)
+
+Alle 54 Hörsätze sind mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt. Sätze mit Schnitt an der Senke sind mit ms markiert; die Ersteller:in hört gezielt die markierten Sätze und die, die auf ein kurzes Wort enden (Spalte „Ende“). Kein Satz ist angehört worden.
+
+| Seite | Datei | Satz | Ende | Schnitt |
+|---|---|---|---|---|
+| `dauer/dynamic-stative` | `he-likes-cheese-but-he-is-eating-an-apple.mp3` | He likes cheese, but he is eating an apple. | apple |  |
+| `dauer/dynamic-stative` | `i-need-a-bigger-bag-for-my-books.mp3` | I need a bigger bag for my books. | books |  |
+| `dauer/dynamic-stative` | `i-understand-the-rules-but-i-am-still-learning.mp3` | I understand the rules, but I am still learning. | learning |  |
+| `dauer/dynamic-stative` | `my-little-brother-wants-a-new-football.mp3` | My little brother wants a new football. | football |  |
+| `dauer/dynamic-stative` | `she-believes-every-word-of-the-story.mp3` | She believes every word of the story. | story |  |
+| `dauer/dynamic-stative` | `we-love-the-new-teacher-and-we-are-working-hard.mp3` | We love the new teacher, and we are working hard. | hard | 25 ms |
+| `dauer/present-perfect-progressive` | `how-long-have-you-been-learning-french.mp3` | How long have you been learning French? | french |  |
+| `dauer/present-perfect-progressive` | `it-has-been-snowing-since-this-morning.mp3` | It has been snowing since this morning. | morning |  |
+| `dauer/present-perfect-progressive` | `my-parents-have-been-painting-the-kitchen-for-two-days.mp3` | My parents have been painting the kitchen for two days. | days | 65 ms |
+| `dauer/present-perfect-progressive` | `she-has-been-practising-the-guitar-all-week.mp3` | She has been practising the guitar all week. | week |  |
+| `dauer/present-perfect-progressive` | `the-students-have-been-singing-since-lunch.mp3` | The students have been singing since lunch. | lunch | 85 ms |
+| `dauer/present-perfect-progressive` | `why-have-you-been-crying.mp3` | Why have you been crying? | crying |  |
+| `dauer/since-for` | `how-long-has-your-sister-worked-in-the-shop.mp3` | How long has your sister worked in the shop? | shop |  |
+| `dauer/since-for` | `i-have-not-seen-him-since-the-party.mp3` | I have not seen him since the party. | party |  |
+| `dauer/since-for` | `i-have-wanted-a-dog-since-my-last-birthday.mp3` | I have wanted a dog since my last birthday. | birthday |  |
+| `dauer/since-for` | `my-brother-has-played-the-piano-for-six-months.mp3` | My brother has played the piano for six months. | months |  |
+| `dauer/since-for` | `our-teacher-has-been-ill-for-a-week.mp3` | Our teacher has been ill for a week. | week |  |
+| `dauer/since-for` | `they-have-been-in-london-for-three-days.mp3` | They have been in London for three days. | days |  |
+| `erzaehlen/past-perfect` | `had-they-met-before-the-party.mp3` | Had they met before the party? | party |  |
+| `erzaehlen/past-perfect` | `he-hadn-t-visited-the-museum-before.mp3` | He hadn't visited the museum before. | before |  |
+| `erzaehlen/past-perfect` | `my-brother-hadn-t-tried-the-soup.mp3` | My brother hadn't tried the soup. | soup |  |
+| `erzaehlen/past-perfect` | `sophie-had-lost-her-pen-before-the-lesson.mp3` | Sophie had lost her pen before the lesson. | lesson |  |
+| `erzaehlen/past-perfect` | `the-teacher-had-left-the-room-before-the-bell-rang.mp3` | The teacher had left the room before the bell rang. | rang |  |
+| `erzaehlen/past-perfect` | `we-had-already-eaten-when-dad-came-home.mp3` | We had already eaten when Dad came home. | home |  |
+| `erzaehlen/past-progressive` | `i-was-cooking-while-he-was-listening-to-music.mp3` | I was cooking while he was listening to music. | music |  |
+| `erzaehlen/past-progressive` | `mr-hill-was-drinking-tea-when-the-phone-rang.mp3` | Mr Hill was drinking tea when the phone rang. | rang |  |
+| `erzaehlen/past-progressive` | `my-sister-was-sleeping-when-i-arrived.mp3` | My sister was sleeping when I arrived. | arrived |  |
+| `erzaehlen/past-progressive` | `the-students-were-waiting-in-the-hall.mp3` | The students were waiting in the hall. | hall |  |
+| `erzaehlen/past-progressive` | `they-were-playing-cards-in-the-garden.mp3` | They were playing cards in the garden. | garden |  |
+| `erzaehlen/past-progressive` | `what-were-you-doing-at-nine-o-clock.mp3` | What were you doing at nine o'clock? | o'clock | 25 ms |
+| `erzaehlen/present-perfect-oder-simple-past` | `have-you-tried-the-new-cake-yet.mp3` | Have you tried the new cake yet? | yet |  |
+| `erzaehlen/present-perfect-oder-simple-past` | `i-haven-t-finished-my-homework-yet.mp3` | I haven't finished my homework yet. | yet | 65 ms |
+| `erzaehlen/present-perfect-oder-simple-past` | `my-uncle-has-bought-a-new-car.mp3` | My uncle has bought a new car. | car |  |
+| `erzaehlen/present-perfect-oder-simple-past` | `she-has-already-sent-the-letter.mp3` | She has already sent the letter. | letter |  |
+| `erzaehlen/present-perfect-oder-simple-past` | `they-watched-the-match-on-saturday.mp3` | They watched the match on Saturday. | saturday |  |
+| `erzaehlen/present-perfect-oder-simple-past` | `we-went-to-the-beach-two-days-ago.mp3` | We went to the beach two days ago. | ago |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `after-they-had-cleaned-the-hall-the-teachers-went-home.mp3` | After they had cleaned the hall, the teachers went home. | home |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `as-soon-as-the-shop-opens-i-will-buy-some-bread.mp3` | As soon as the shop opens, I will buy some bread. | bread |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `before-she-went-out-she-had-finished-her-work.mp3` | Before she went out, she had finished her work. | work |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `before-you-leave-please-turn-off-the-lights.mp3` | Before you leave, please turn off the lights. | lights |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `we-will-have-lunch-after-the-match-ends.mp3` | We will have lunch after the match ends. | ends |  |
+| `erzaehlen/zeitenfolge-temporalsaetze` | `when-the-music-stops-everybody-will-clap.mp3` | When the music stops, everybody will clap. | clap | 75 ms |
+| `plaene/future-progressive-perfect` | `at-twelve-tomorrow-my-parents-will-be-driving-to-the-sea.mp3` | At twelve tomorrow my parents will be driving to the sea. | sea |  |
+| `plaene/future-progressive-perfect` | `by-friday-amir-will-have-cleaned-the-whole-kitchen.mp3` | By Friday Amir will have cleaned the whole kitchen. | kitchen |  |
+| `plaene/future-progressive-perfect` | `by-tonight-she-will-have-painted-the-whole-room.mp3` | By tonight she will have painted the whole room. | room |  |
+| `plaene/future-progressive-perfect` | `they-will-be-arriving-at-midnight.mp3` | They will be arriving at midnight. | midnight |  |
+| `plaene/future-progressive-perfect` | `this-time-next-week-we-will-be-lying-on-the-beach.mp3` | This time next week we will be lying on the beach. | beach |  |
+| `plaene/future-progressive-perfect` | `will-you-be-working-tomorrow-evening.mp3` | Will you be working tomorrow evening? | evening |  |
+| `plaene/present-fuer-zukunft` | `are-you-meeting-your-friends-this-weekend.mp3` | Are you meeting your friends this weekend? | weekend |  |
+| `plaene/present-fuer-zukunft` | `i-am-playing-tennis-with-my-cousin-on-saturday.mp3` | I am playing tennis with my cousin on Saturday. | saturday |  |
+| `plaene/present-fuer-zukunft` | `my-cousin-is-coming-to-our-house-on-sunday.mp3` | My cousin is coming to our house on Sunday. | sunday |  |
+| `plaene/present-fuer-zukunft` | `the-concert-begins-at-eight-o-clock.mp3` | The concert begins at eight o'clock. | o'clock |  |
+| `plaene/present-fuer-zukunft` | `the-lesson-finishes-at-a-quarter-to-four.mp3` | The lesson finishes at a quarter to four. | four |  |
+| `plaene/present-fuer-zukunft` | `we-are-having-dinner-with-our-grandparents-tonight.mp3` | We are having dinner with our grandparents tonight. | tonight | 35 ms |
 
 ## Adding a chapter or round
 

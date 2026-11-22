@@ -2,3 +2,17 @@
 title: "Erzählen: Hintergrund, Handlung, vorher"
 summary: "Zwei Jahre später: Sophie (13) schreibt Tagebuch, Peter und Ellie chatten, Mr Hill gibt ein Interview. Du liest kurze Texte der Figuren und erkennst, was im Hintergrund lief, was passierte und was schon vorher geschehen war."
 pages: [past-progressive, past-perfect, zeitenfolge-temporalsaetze, present-perfect-oder-simple-past]
+selfAssessment:
+  pages:
+    - exercises:
+        - /erzaehlen/past-progressive/#past-progressive-form
+        - /erzaehlen/past-progressive/#past-progressive-bilden
+    - exercises:
+        - /erzaehlen/past-perfect/#past-perfect-form
+        - /erzaehlen/past-perfect/#past-perfect-bilden
+    - exercises:
+        - /erzaehlen/zeitenfolge-temporalsaetze/#zeitenfolge-form
+        - /erzaehlen/zeitenfolge-temporalsaetze/#zeitenfolge-bilden
+    - exercises:
+        - /erzaehlen/present-perfect-oder-simple-past/#ppsp-form
+        - /erzaehlen/present-perfect-oder-simple-past/#ppsp-bilden

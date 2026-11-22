@@ -2,3 +2,11 @@
 title: "Pläne, Fahrpläne und Zeitpunkte"
 summary: "Die Klasse plant eine Klassenfahrt und fragt sich, was nächsten Samstag um acht los ist. Du liest einen Chat und ein Interview und lernst, wie du feste Verabredungen, Fahrpläne und genaue Zeitpunkte in der Zukunft sagst."
 pages: [present-fuer-zukunft, future-progressive-perfect]
+selfAssessment:
+  pages:
+    - exercises:
+        - /plaene/present-fuer-zukunft/#present-fuer-zukunft-form
+        - /plaene/present-fuer-zukunft/#present-fuer-zukunft-bilden
+    - exercises:
+        - /plaene/future-progressive-perfect/#future-progressive-perfect-form
+        - /plaene/future-progressive-perfect/#future-progressive-perfect-bilden
