@@ -1,0 +1,237 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Will oder going to: Pfeil oder Punkt?"
+description: "Ellie hat einen Plan, Amir einen Einfall. Du lernst, in klaren Fällen zu entscheiden, ob du will oder going to brauchst."
+competencies: [will-oder-going-to]
+scope: Die Seite lässt zwischen will und going to wählen, in eindeutigen Fällen. Going to (Pfeil von now) steht für einen Plan, der schon feststeht, und für eine Vorhersage mit einem Anzeichen, das man jetzt sieht. Will (Punkt ohne Pfeil) steht für einen spontanen Entschluss im Moment des Sprechens und für eine bloße Vermutung. Auf der Seite stehen zwei Fragen, die bei der Wahl helfen. Am Ende ein Rückblick auf alle Zeichen des Zeitstrahls. Nicht hier, weil es spätere Seiten oder andere Explainer sind. Fälle, in denen beide Formen passen, Bedingungssätze und Fragen mit do.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellies Plan und Amirs Einfall
+    blocks:
+      - type: figure
+        image: images/szene-will-oder-going-to.svg
+        alt: "Peter, Sophie, Ellie und Amir stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 10 July. Ellie sagt in der oberen Sprechblase: „I am going to have a party.“ Amir sagt in der unteren: „I will bring a cake.“"
+        caption: "Von links: Peter (gelbe Jacke), Sophie (Zöpfe), Ellie (roter Pferdeschwanz) und Amir (Brille). Ellie und Amir sprechen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Ellie hat am 10. Juli Geburtstag. Sie erzählt: „I am going to have a party.“ Amir hört das zum ersten Mal und sagt gleich: „I will bring a cake.“ Bring heißt mitbringen, cake heißt Kuchen.
+      - type: single-choice
+        id: will-oder-going-to-start
+        text: Wann hat Amir sich entschieden, den Kuchen mitzubringen?
+        options:
+          - text: Gerade eben, als Ellie von der Party erzählt hat.
+            correct: true
+            info: Amir hat die Party gerade erst erfahren. Er entscheidet beim Sprechen.
+          - text: Schon letzte Woche.
+            correct: false
+            info: Dann hätte er es schon vorher gewusst. Er hört aber zum ersten Mal davon.
+          - text: Gestern.
+            correct: false
+            info: Amir hat es sich nicht gestern überlegt, sondern gerade eben.
+        explanation: Amir beschließt im Moment des Sprechens. Ellies Plan steht dagegen schon lange.
+        links:
+          - title: Lernlandkarte Englisch · Will oder going to
+            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
+      - type: text
+        text: "**Das kannst du danach:** Du entscheidest in klaren Fällen, ob du will oder going to brauchst, und sagst, warum."
+  - type: section
+    id: neu
+    title: Plan oder Einfall? Das Zeichen entscheidet
+    blocks:
+      - type: text
+        text: "Auf dem Zeitstrahl liegen jetzt zwei Zeichen rechts von now. Ellies Satz hat den **Pfeil**: Der Plan steht schon, das ist **going to**. Amirs Satz hat den **Punkt** ohne Pfeil: Er beschließt gerade erst, das ist **will**."
+      - type: figure
+        image: images/zeitstrahl-will-oder-going-to.svg
+        alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Rechts davon liegen zwei orange Punkte. Zum linken Punkt führt ein Pfeil von now, an ihm hängt das Fähnchen going to. Der rechte Punkt hat keinen Pfeil und das Fähnchen will.
+        caption: Der Pfeil gehört zu going to, der Punkt ohne Pfeil gehört zu will.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Zwei Fragen helfen dir: Steht der Plan schon fest, oder siehst du jetzt ein Anzeichen? Dann nimmst du **going to**. Beschließt du gerade erst, oder vermutest du nur? Dann nimmst du **will**."
+      - type: table
+        caption: Klassenzimmer-Poster · will oder going to
+        header: [Zeichen, Wann, Beispiel]
+        rows:
+          - [Pfeil von now, der Plan steht schon / ein Anzeichen ist da, I am going to have a party.]
+          - [Punkt ohne Pfeil, du beschließt gerade erst / du vermutest, I will bring a cake.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Auf dieser Seite sind die Fälle klar. Manchmal passen beide Formen, und es hängt davon ab, wie du es meinst.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [ring, klingeln]
+          - [on 10 July, am 10. Juli]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: will-oder-going-to-grund
+        text: Warum steht in dem Satz will oder going to? Ordne den Grund zu.
+        pairs:
+          - left: We are going to eat pizza on Saturday.
+            right: Vorher geplant.
+          - left: Ellie is sad. I will help her.
+            right: Spontaner Einfall.
+          - left: I think it will rain.
+            right: Nur eine Vermutung.
+        distractors: [Eine Gewohnheit.]
+        explanation: "Plan oder Anzeichen: Pfeil, going to. Entschluss im Moment oder Vermutung: Punkt ohne Pfeil, will."
+        links:
+          - title: Lernlandkarte Englisch · Will oder going to
+            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
+      - type: single-choice
+        id: will-oder-going-to-telefon
+        text: Das Telefon klingelt. Sophie ist allein im Zimmer und sagt gleich, was sie tut. Welcher Satz passt?
+        options:
+          - text: I will answer it.
+            correct: true
+            info: Sophie entscheidet erst jetzt. Es gibt keinen Pfeil, sondern den Punkt, will.
+          - text: I am going to answer it.
+            correct: false
+            info: Das hieße, dass der Plan schon stand. Sophie entscheidet aber gerade erst.
+          - text: I answer it every day.
+            correct: false
+            info: Every day erzählt von einer Gewohnheit. Das Telefon klingelt jetzt einmal.
+        explanation: Wer im Moment des Sprechens entscheidet, nimmt will.
+        links:
+          - title: Lernlandkarte Englisch · Will oder going to
+            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
+      - type: language-task
+        id: will-oder-going-to-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle will oder going to. Der deutsche Satz sagt dir, warum.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Sophie hat schon lange geplant, am 10. Juli Pizza zu essen.
+            target: Sophie [is going to] eat pizza on 10 July.
+            distractors: [[will, are going to]]
+          - cue: Ellie ist hungrig und beschließt gleich, einen Kuchen zu essen.
+            target: Ellie is hungry. She [will] eat a cake.
+            distractors: [[is going to, are going to]]
+          - cue: Ellie und Sophie haben schon Tickets für einen Film.
+            target: Ellie and Sophie have tickets. They [are going to] watch a film.
+            distractors: [[will, is going to]]
+          - cue: Amir hört von der Party und beschließt gleich, Musik mitzubringen.
+            target: Amir [will] bring music.
+            distractors: [[is going to, are going to]]
+      - type: language-task
+        id: will-oder-going-to-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch. Der deutsche Satz sagt dir, ob du will oder going to brauchst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Ellie hat vor, einen Kuchen mitzubringen. Sie hat ihn schon gebacken.
+            target: Ellie is going to bring a cake.
+            mistakes:
+              - answer: Ellie will bring a cake.
+                message: Der Kuchen ist schon gebacken, der Plan steht. Das ist der Pfeil, going to.
+              - answer: Ellie going to bring a cake.
+                message: Dir fehlt das be. Zu Ellie gehört is.
+          - source: Es ist kalt. Ich hole gleich eine Jacke.
+            target: (I will|I'll) get a jacket.
+            mistakes:
+              - answer: I am going to get a jacket.
+                message: Du entscheidest gerade erst. Das ist der Punkt ohne Pfeil, will.
+          - source: Sophie hat gerade erst beschlossen, Wasser mitzubringen.
+            target: Sophie will bring water.
+            mistakes:
+              - answer: Sophie is going to bring water.
+                message: Sophie beschließt gerade erst. Einen Plan gab es nicht, also will.
+      - type: true-false
+        id: will-oder-going-to-richtig
+        text: Peter hat die Tickets für einen Film schon gekauft und sagt „I will watch a film on Saturday.“ Passt der Satz?
+        answer: false
+        explanation: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to.
+        links:
+          - title: Lernlandkarte Englisch · Will oder going to
+            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
+      - type: language-task
+        id: will-oder-going-to-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe die Sätze richtig.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: It is cold. I am going to close the window.
+            target: It is cold. (I will|I'll) close the window.
+            mistakes:
+              - answer: It is cold. I am going to close the window.
+                message: Noch nicht ganz. Der Einfall ist neu, einen Plan gab es nicht. Das ist will.
+              - answer: It is cold. I going to close the window.
+                message: Dir fehlt das be, und der Einfall ist neu. Nimm will.
+          - cue: Amir has a ticket. He will watch the game on Friday.
+            target: Amir has a ticket. He is going to watch the game on Friday.
+            mistakes:
+              - answer: Amir has a ticket. He will watch the game on Friday.
+                message: Noch nicht ganz. Das Ticket zeigt, dass der Plan schon steht. Das ist going to.
+      - type: language-task
+        id: will-oder-going-to-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: amir-is-hungry-so-he-will-eat-a-pizza.mp3
+            target: Amir is hungry, so he will eat a pizza.
+          - audio: sophie-has-a-new-bike-and-she-is-going-to-ride-it-to-school.mp3
+            target: Sophie has a new bike and she is going to ride it to school.
+          - audio: it-is-raining-so-peter-will-take-the-bus.mp3
+            target: It is raining, so Peter will take the bus.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: will-oder-going-to-nachsprechen
+        language: en
+        items:
+          - audio: we-are-going-to-dance-on-10-july.mp3
+            text: We are going to dance on 10 July.
+          - audio: we-are-going-to-cook-dinner-on-friday.mp3
+            text: We are going to cook dinner on Friday.
+          - audio: amir-will-open-the-door.mp3
+            text: Amir will open the door.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: will-oder-going-to-schreiben
+        task: "Sophie hängt zwei Karten an den Zeitstrahl, eine mit Pfeil und eine mit Punkt. Schreibe zwei Sätze: einen Plan mit going to und einen spontanen Einfall mit will."
+        points:
+          - text: Der erste Satz nennt einen Plan mit der richtigen Form von be, going to und einem Verb.
+            source: /morgen-und-spaeter/going-to/#neu
+          - text: Der zweite Satz nennt einen spontanen Einfall mit will und einem Verb in der Grundform.
+            source: /morgen-und-spaeter/will/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Peter is going to watch a film on Saturday. I will bring a cake.
+  - type: section
+    id: weiter
+    title: Rückblick auf den ganzen Zeitstrahl
+    blocks:
+      - type: text
+        text: Mr Hill tritt einen Schritt zurück. Der Zeitstrahl ist fertig. Links liegt, was war, in der Mitte das jetzt, rechts, was kommt.
+      - type: figure
+        image: images/zeitstrahl-ganz.svg
+        alt: Ein Zeitstrahl von links nach rechts mit einem roten Strich bei now. Links davon liegen ein blauer Punkt und ein grüner Bogen, der bis now reicht. Bei now liegen drei blaue Punkte unter der Linie und eine lila Welle darüber. Rechts davon läuft ein oranger Pfeil von now zu einem Punkt, und ein zweiter orangefarbener Punkt liegt ohne Pfeil weiter rechts.
+        caption: "Alle Zeichen am Zeitstrahl: der Punkt links, der Bogen, die Punktreihe unter der Linie, die Welle, der Pfeil und der Punkt rechts. Die Tabelle darunter sagt, welches Zeichen zu welcher Zeitform gehört."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Zeitformen
+        header: [Zeichen, Zeitform, Beispiel]
+        rows:
+          - [Punkt links von now, simple past, Peter played football yesterday.]
+          - [Bogen bis now, present perfect, Peter has played football.]
+          - [Punktreihe, simple present, Peter plays football every Saturday.]
+          - [Welle über now, present progressive, Peter is playing football.]
+          - [Pfeil von now, going to, Peter is going to play football.]
+          - ["Punkt rechts, ohne Pfeil", will, Peter will play football.]
+      - type: text
+        text: Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon geschehen ist und was kommt. In der Klasse hängt der Strahl noch eine Weile an der Wand. Neue Karten kommen dazu, wenn du weiterlernst.

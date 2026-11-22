@@ -1,0 +1,228 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was morgen wird: das will-future"
+description: "Amir und Ellie sprechen über morgen. Du lernst, mit will zu vermuten und spontan zu entscheiden, und siehst das Zeichen dafür auf dem Zeitstrahl."
+competencies: [will-future]
+scope: Die Seite führt das will-future ein. Es drückt Vermutungen, Vorhersagen und spontane Entschlüsse aus. Auf dem Zeitstrahl ist es ein einzelner Punkt rechts von now, ohne Pfeil, weil noch nichts begonnen hat. Die Form ist will plus Verb in der Grundform, für alle Personen gleich, ohne s und ohne to. Dazu die Wörter I think, maybe und probably, die Zeitangaben tomorrow, next week, soon und in two days und die Kurzform ’ll als Hinweis. Nicht hier, weil es spätere Seiten sind. Going to für Pläne und Anzeichen und die Entscheidung zwischen will und going to.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was morgen wird
+    blocks:
+      - type: figure
+        image: images/szene-will.svg
+        alt: "Sophie, Peter, Ellie und Amir stehen im Klassenzimmer. Amir sagt in der oberen Sprechblase: „It will be sunny tomorrow.“ Ellie sagt in der unteren: „Maybe it will rain.“ Rechts steht eine gelbe Sonne."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Amir (Brille). Ellie und Amir sprechen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Mr Hill fragt die Klasse, wie das Wetter wird. Amir sagt: „It will be sunny tomorrow.“ Sunny heißt sonnig, tomorrow heißt morgen. Ellie sagt: „Maybe it will rain.“ Maybe heißt vielleicht, rain heißt regnen.
+      - type: single-choice
+        id: will-start
+        text: Amir sagt „It will be sunny tomorrow.“ und Ellie sagt „Maybe it will rain.“ Von welcher Zeit sprechen beide?
+        options:
+          - text: Von morgen, also von etwas, das noch kommt.
+            correct: true
+            info: tomorrow heißt „morgen“. Beide sagen, was sie über etwas denken, das noch nicht da ist.
+          - text: Von gestern, also von etwas, das vorbei ist.
+            correct: false
+            info: Gestern heißt auf Englisch yesterday. In den Sätzen steht tomorrow.
+          - text: Von jetzt, also von etwas, das gerade passiert.
+            correct: false
+            info: Das Wetter von morgen ist noch nicht da. Beide Sätze sagen, wie es werden soll.
+        explanation: Mit will sprichst du über etwas, das noch kommt.
+        links:
+          - title: Lernlandkarte Englisch · Will-Future
+            url: https://lernapps.net/apps/map/englisch/c/will-future/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, was du über morgen vermutest, und was du spontan beschließt. Und du bildest will mit einem Verb."
+  - type: section
+    id: neu
+    title: Ein einzelner Punkt rechts von now
+    blocks:
+      - type: text
+        text: "Rechts von **now** liegt, was noch kommt. Wenn du nur vermutest oder gerade erst entscheidest, ist noch nichts losgegangen. Darum ist das Zeichen ein **einzelner Punkt** rechts von now, ohne Pfeil. Das gehört zu **will**. Das Fähnchen sagt, wann es passiert. Du kannst auch erst beim Sprechen beschließen, zum Beispiel jemandem zu helfen: I will help you."
+      - type: figure
+        image: images/zeitstrahl-will.svg
+        alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Rechts davon liegt ein einzelner oranger Punkt. An ihm hängt ein Fähnchen mit dem Wort tomorrow. Ein Pfeil ist nicht zu sehen.
+        caption: Der Punkt liegt rechts von now. Vom jetzt aus führt kein Pfeil zu ihm.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Die Bau-Karte heißt **will + Verb**. Das Verb bleibt in der Grundform, bei allen Personen.
+      - type: table
+        caption: Klassenzimmer-Poster · will mit play
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I, will play, I will play football.]
+          - [you, will play, You will play football.]
+          - [he / she / it, will play, She will play football.]
+          - [we / you / they, will play, They will play football.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Nach will kommt kein s und kein to.** Es heißt she will play, nicht she wills play und nicht she will to play. In Gesprächen hörst du oft die Kurzform **’ll**: I’ll help you heißt I will help you.
+      - type: table
+        caption: Schulkalender · Zeitangaben
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [tomorrow, morgen]
+          - [next week, nächste Woche]
+          - [soon, bald]
+          - [I think, ich glaube]
+          - [in two days, in zwei Tagen]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: will-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ich glaube, Amir kommt bald.
+            target: I think Amir [will] come soon.
+            distractors: [[wills, is]]
+          - cue: Vielleicht regnet es morgen.
+            target: Maybe it [will] rain tomorrow.
+            distractors: [[wills, will be]]
+          - cue: Sophie hilft dir wahrscheinlich.
+            target: Sophie [will] probably help you.
+            distractors: [[wills, is]]
+          - cue: Ich glaube, wir spielen nächste Woche Fußball.
+            target: I think we [will] play football next week.
+            distractors: [[wills, will to]]
+      - type: matching
+        id: will-situation
+        text: Welcher Satz passt zu welcher Situation?
+        pairs:
+          - left: Sophie sieht, dass Peters Tasche schwer ist. Sie bietet gleich ihre Hilfe an.
+            right: I will take your bag.
+          - left: Amir glaubt, dass Peter das Spiel gewinnt.
+            right: I think Peter will win.
+          - left: Ellie vermutet, dass Peter bald kommt.
+            right: Maybe Peter will come soon.
+        distractors: [Peter plays football every Saturday.]
+        explanation: Bei will geht es um das, was noch kommt, als Vermutung oder als Einfall in diesem Moment. Der Satz mit every Saturday erzählt von einer Gewohnheit.
+        links:
+          - title: Lernlandkarte Englisch · Will-Future
+            url: https://lernapps.net/apps/map/englisch/c/will-future/
+      - type: language-task
+        id: will-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz mit will.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Mr Hill · help · you
+            target: Mr Hill will help you.
+            mistakes:
+              - answer: Mr Hill wills help you.
+                message: Nach will bleibt das Verb gleich, bei jeder Person. Es gibt kein wills.
+              - answer: Mr Hill will helps you.
+                message: Nach will steht das Verb in der Grundform, ohne s.
+          - cue: Amir · come · tomorrow
+            target: Amir will come tomorrow.
+            mistakes:
+              - answer: Amir will to come tomorrow.
+                message: Nach will steht kein to.
+              - answer: Amir come tomorrow.
+                message: Dir fehlt will. Das Zeichen für das, was noch kommt, ist will plus Verb.
+          - cue: they · win · next week
+            target: They will win next week.
+            mistakes:
+              - answer: They win next week.
+                message: Ohne will klingt es wie eine Gewohnheit. Für das, was noch kommt, brauchst du will.
+          - cue: I think · it · rain · tomorrow
+            target: I think (it will|it'll) rain tomorrow.
+            mistakes:
+              - answer: I think it rain tomorrow.
+                message: Dir fehlt will. Es heißt it will rain.
+      - type: single-choice
+        id: will-zeichen
+        text: Welches Zeichen am Zeitstrahl gehört zu „Peter will probably win.“?
+        options:
+          - text: Ein Punkt rechts von now, kein Pfeil.
+            correct: true
+            info: Der Satz vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
+          - text: Eine Punktreihe links und rechts von now.
+            correct: false
+            info: Eine Punktreihe ist das Zeichen für Gewohnheiten, also für das simple present.
+          - text: Ein roter Strich bei now.
+            correct: false
+            info: Der Strich bei now ist das jetzt. Das Spiel, das kommt, liegt rechts davon.
+        explanation: Will hat das Zeichen des einzelnen Punktes rechts von now, ohne Pfeil.
+        links:
+          - title: Lernlandkarte Englisch · Will-Future
+            url: https://lernapps.net/apps/map/englisch/c/will-future/
+      - type: language-task
+        id: will-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter wills win tomorrow.
+            target: Peter will win tomorrow.
+            mistakes:
+              - answer: Peter wills win tomorrow.
+                message: Noch nicht ganz. Nach will gibt es kein s.
+          - cue: Ellie will to come soon.
+            target: Ellie will come soon.
+            mistakes:
+              - answer: Ellie will to come soon.
+                message: Noch nicht ganz. Nach will steht kein to.
+          - cue: Amir will plays football next week.
+            target: Amir will play football next week.
+            mistakes:
+              - answer: Amir will plays football next week.
+                message: Noch nicht ganz. Nach will bleibt das Verb in der Grundform.
+      - type: language-task
+        id: will-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: mr-hill-will-probably-be-late.mp3
+            target: Mr Hill will probably be late.
+          - audio: maybe-peter-will-bring-his-bike.mp3
+            target: Maybe Peter will bring his bike.
+          - audio: it-will-be-cold-on-sunday.mp3
+            target: It will be cold on Sunday.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: will-nachsprechen
+        language: en
+        items:
+          - audio: i-think-she-will-like-the-cake.mp3
+            text: I think she will like the cake.
+          - audio: sophie-will-be-here-soon.mp3
+            text: Sophie will be here soon.
+          - audio: we-will-see-you-soon.mp3
+            text: We will see you soon.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das will, das du kaum betonst.
+      - type: open-task
+        id: will-karte
+        task: "Sophie schreibt zwei Karten für den Punkt rechts von now. Schreibe zwei Sätze mit will: einen über morgen mit I think, maybe oder probably und einen, mit dem du spontan jemandem hilfst."
+        points:
+          - text: Beide Sätze haben will plus Verb in der Grundform, ohne s und ohne to.
+            source: /morgen-und-spaeter/will/#neu
+          - text: Ein Satz sagt, was du über morgen vermutest, mit I think, maybe oder probably.
+            source: /morgen-und-spaeter/will/#neu
+          - text: Der andere Satz bietet spontan Hilfe an.
+            source: /morgen-und-spaeter/will/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I think it will be sunny tomorrow. I will help you.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben etwas anderes aufgehängt: einen Pfeil, der schon bei now beginnt. Er hat seinen Geburtstag am 5. Mai geplant. Auf der nächsten Seite lernst du, was dieser Pfeil bedeutet."

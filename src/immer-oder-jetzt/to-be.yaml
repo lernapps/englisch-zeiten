@@ -1,0 +1,247 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wer bist du? Das Verb be"
+description: "Sophie hängt die ersten Karten an den Zeitstrahl. Du lernst am, is und are für Aussagen, Verneinungen und Fragen."
+competencies: [to-be]
+scope: Die Seite führt die Formen des Verbs be ein (am, is, are) und die Kurzformen (I'm, she's, we're). be sagt, wer oder wie jemand jetzt ist, darum hängt seine Karte auf dem Zeitstrahl bei now. Die Verneinung steht mit not hinter be (is not, isn't, I'm not), die Frage entsteht, indem be und die Person die Plätze tauschen (Is she eleven? Are you late?). Bei be steht kein do. Nicht hier, weil es spätere Seiten sind. have got, simple present, present progressive und Fragen mit do.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer ist wer am Zeitstrahl?
+    blocks:
+      - type: figure
+        image: images/szene-to-be.svg
+        alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. In einer Sprechblase über Sophie steht „I am Sophie. I am eleven.“
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Sophie spricht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie hängt die erste Karte an den Zeitstrahl: „I am Sophie. I am eleven.“ Eleven ist die Zahl elf. Jede Karte sagt, wer jemand ist."
+      - type: single-choice
+        id: to-be-start
+        text: Ellie schreibt eine Karte über Peter. Er ist neun (nine). Welcher Satz passt?
+        options:
+          - text: He is nine.
+            correct: true
+            info: He ist „er“, und zu he gehört is.
+          - text: He am nine.
+            correct: false
+            info: am gehört nur zu I. Sophie sagt „I am“, weil sie von sich selbst spricht.
+          - text: He are nine.
+            correct: false
+            info: are gehört zu you, we und they, nicht zu he.
+        explanation: Zu jeder Person gehört eine eigene Form von be.
+        links:
+          - title: Lernlandkarte Englisch · Verb to be
+            url: https://lernapps.net/apps/map/englisch/c/to-be/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, wer jemand ist und wie jemand ist, und du verneinst und fragst mit be."
+  - type: section
+    id: neu
+    title: am, is, are und die Karte bei now
+    blocks:
+      - type: text
+        text: Das Verb **be** (sein) hat drei Formen, **am**, **is** und **are**. Es sagt, wie jemand **jetzt** ist. Auf dem Zeitstrahl hängt die Karte darum genau bei now.
+      - type: figure
+        image: images/zeitstrahl-to-be.svg
+        alt: Ein Zeitstrahl von links nach rechts. Bei dem roten Strich now hängt eine Karte mit den Worten I am Sophie. Sonst ist der Strahl leer.
+        caption: Sophie ist jetzt hier. Darum hängt die Karte bei now.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Formen von be
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I, am, I am Sophie.]
+          - [you, are, You are my friend.]
+          - [he / she / it, is, Peter is my brother.]
+          - [we, are, We are in class five.]
+          - [they, are, They are Ellie and Peter.]
+      - type: table
+        caption: Klassenzimmer-Poster · Aussage, Verneinung, Frage
+        header: [Aussage, Verneinung, Frage]
+        rows:
+          - [She is tired., She is not tired. / She isn't tired., Is she tired?]
+          - [He is hungry., He is not hungry. / He isn't hungry., Is he hungry?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Die **Verneinung** hängt **not** hinter be. Die **Frage** entsteht, wenn be und die Person die Plätze tauschen. Bei be brauchst du kein do. Kurz sagst du auch **I'm**, **you're**, **he's**, **she's**, **we're** und **they're**.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [in the classroom, im Klassenzimmer]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: to-be-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form von be.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ich bin froh.
+            target: I [am] happy.
+            distractors: [[is, are]]
+          - cue: Mr Hill ist Lehrer.
+            target: Mr Hill [is] a teacher.
+            distractors: [[am, are]]
+          - cue: Sophie und Ellie sind in der Schule.
+            target: Sophie and Ellie [are] at school.
+            distractors: [[is, am]]
+          - cue: Du bist spät dran, Amir.
+            target: You [are] late, Amir.
+            distractors: [[is, am]]
+        hint: Schau, wer gemeint ist. I bekommt am, he, she und it bekommen is, alle anderen bekommen are.
+      - type: matching
+        id: to-be-wer
+        text: Wer spricht, und wer ist gemeint? Ordne jedem Satz die Situation zu.
+        pairs:
+          - left: Peter spricht über sich selbst.
+            right: I am nine.
+          - left: Mr Hill spricht mit Amir.
+            right: You are late.
+          - left: Ellie spricht über Sophie.
+            right: She is eleven.
+          - left: Sophie und Ellie sprechen über sich.
+            right: We are friends.
+          - left: Amir spricht über Peter und Ellie.
+            right: They are at school.
+        distractors: [I is nine.]
+        explanation: Die Person bestimmt die Form. Wer von sich spricht, sagt I am. Wer zu einer Person spricht, sagt you are.
+        hint: Frag dich bei jedem Satz, ob es um mich, dich, ihn, sie oder mehrere geht.
+        links:
+          - title: "Verb to be: Verneinung und Frage (Lernlandkarte)"
+            url: https://lernapps.net/apps/map/englisch/c/to-be/
+      - type: language-task
+        id: to-be-verneinung-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Verneinung von be.
+        form: { case: hint, apostrophe: ok }
+        table:
+          caption: be · Verneinung
+          header: [Person, Verneinung, Kurzform]
+          rows:
+            - [I, "[am not]", "[I'm not]"]
+            - [you, "[are not]", "[aren't|you're not]"]
+            - [we, "[are not]", "[aren't|we're not]"]
+            - [they, "[are not]", "[aren't|they're not]"]
+        hint: not hängt hinter be. Die Kurzform von are not ist aren't.
+      - type: language-task
+        id: to-be-frage
+        languages: { source: de, target: en }
+        task: Schreibe die Frage.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: she · eleven
+            target: Is she eleven?
+            mistakes:
+              - answer: She is eleven?
+                message: In der Frage tauschen be und die Person die Plätze. Das Verb is steht vorn.
+          - cue: you · late
+            target: Are you late?
+            mistakes:
+              - answer: Do you late?
+                message: Bei be brauchst du kein do. Tausche be und you.
+          - cue: Peter · at school
+            target: Is Peter at school?
+            mistakes:
+              - answer: Does Peter at school?
+                message: Bei be brauchst du kein do. Das Verb is steht vorn.
+          - cue: they · tired
+            target: Are they tired?
+            mistakes:
+              - answer: They are tired?
+                message: In der Frage tauschen be und die Person die Plätze.
+        hint: Das Verb be kommt an den Anfang, danach die Person.
+      - type: language-task
+        id: to-be-verneinen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz mit not.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir · tired · today
+            target: (Amir is not tired today|Amir isn't tired today|Amir's not tired today).
+            mistakes:
+              - answer: Amir not is tired today.
+                message: not steht hinter is, nicht davor.
+              - answer: Amir doesn't tired today.
+                message: Bei be brauchst du kein do. Nimm is not oder isn't.
+          - cue: we · late
+            target: (We are not late|We aren't late|We're not late).
+            mistakes:
+              - answer: We not are late.
+                message: not steht hinter are, nicht davor.
+          - cue: Sophie · at school · today
+            target: (Sophie is not at school today|Sophie isn't at school today|Sophie's not at school today).
+            mistakes:
+              - answer: Sophie am not at school today.
+                message: Sophie ist „sie“, also brauchst du is, nicht am.
+        hint: Setze not direkt hinter die richtige Form von be.
+      - type: single-choice
+        id: to-be-nicht
+        text: Ich bin nicht wütend. Welcher Satz ist richtig?
+        options:
+          - text: I am not angry.
+            correct: true
+            info: Not steht hinter am. Es gibt auch die Kurzform I'm not.
+          - text: I not am angry.
+            correct: false
+            info: Not steht hinter be, nicht davor.
+          - text: I amn't angry.
+            correct: false
+            info: Am not wird nicht zu amn't. Kurz sagst du I'm not.
+        explanation: Die Verneinung hängt not hinter be.
+        links:
+          - title: "Verb to be: Verneinung und Frage (Lernlandkarte)"
+            url: https://lernapps.net/apps/map/englisch/c/to-be/
+      - type: language-task
+        id: to-be-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: amir-is-happy-today.mp3
+            target: Amir is happy today.
+          - audio: mr-hill-is-in-the-classroom.mp3
+            target: Mr Hill is in the classroom.
+          - audio: are-sophie-and-ellie-tired.mp3
+            target: Are Sophie and Ellie tired?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: to-be-nachsprechen
+        language: en
+        items:
+          - audio: my-name-is-sophie-and-i-like-music.mp3
+            text: My name is Sophie and I like music.
+          - audio: ellie-is-a-good-friend.mp3
+            text: Ellie is a good friend.
+          - audio: the-children-are-not-at-home.mp3
+            text: The children are not at home.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf am, is und are.
+      - type: open-task
+        id: to-be-karte
+        task: "Sophie schreibt Karten für den Zeitstrahl. Schreibe zwei Sätze mit am, is oder are über dich oder über eine Figur: Wer ist es, wie ist die Person, wo ist sie?"
+        points:
+          - text: Jeder Satz hat die passende Form von be (am, is oder are).
+            source: /immer-oder-jetzt/to-be/#neu
+          - text: "Die Sätze sagen, wer oder wie jemand ist, zum Beispiel happy, tired oder at school."
+            source: /immer-oder-jetzt/to-be/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I am happy. Peter is at school.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was die Kinder in ihren Taschen haben. Auf der nächsten Seite lernst du, wie du das auf Englisch sagst.

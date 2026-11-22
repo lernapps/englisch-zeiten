@@ -1,0 +1,255 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was gerade passiert: das present progressive"
+description: Sophie liest, Ellie schreibt, Peter malt. Du lernst, mit be und der -ing-Form zu sagen, was gerade passiert.
+competencies: [present-progressive]
+scope: Die Seite führt das present progressive ein. Es sagt, was gerade jetzt passiert, und ist auf dem Zeitstrahl eine Welle über now. Die Form besteht aus am, is oder are und dem Verb mit -ing (I am reading, Sophie is reading, they are reading). Dazu die Schreibung der -ing-Form, bei dance fällt das e weg und bei swim wird das m doppelt, und die Frage mit be (Is Peter drawing?). Die Signalwörter now und at the moment. Nicht hier, weil es spätere Seiten sind. Die Entscheidung zwischen simple present und present progressive, die Verneinung, Fragen mit do und Verben, die keine -ing-Form haben.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was die Klasse gerade tut
+    blocks:
+      - type: figure
+        image: images/szene-present-progressive.svg
+        alt: Im Klassenzimmer sitzen Sophie, Ellie, Amir und Peter an Tischen. Sophie hat ein Buch, Ellie schreibt auf ein Blatt, Amir sitzt am Computer und Peter malt ein Bild. Ellie sagt in der Sprechblase „Sophie is reading a book.“
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Ellie spricht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Im Klassenzimmer ist es ruhig. Ellie erzählt Mr Hill, was die anderen tun: „Sophie is reading a book.“ **Reading** heißt „liest“."
+      - type: single-choice
+        id: present-progressive-start
+        text: Ellie sagt „Sophie is reading a book.“ Wann liest Sophie?
+        options:
+          - text: Gerade jetzt.
+            correct: true
+            info: Ellie sieht Sophie beim Lesen. Der Satz erzählt, was in diesem Moment passiert.
+          - text: Jeden Tag.
+            correct: false
+            info: Von jedem Tag steht im Satz nichts. Dafür gibt es die Punktreihe mit Wörtern wie every day.
+          - text: Nie.
+            correct: false
+            info: Nie heißt never. Das Wort steht nicht im Satz.
+        explanation: Dieser Satz erzählt von einem Moment. Er sagt, was Sophie gerade tut.
+        links:
+          - title: Lernlandkarte Englisch · Present progressive
+            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, was gerade passiert, und bildest die Form mit be und -ing."
+  - type: section
+    id: neu
+    title: Eine Welle über now
+    blocks:
+      - type: text
+        text: Was **gerade jetzt** passiert, ist am Zeitstrahl eine **Welle** über **now**. Die Zeitform heißt **present progressive**. Du bildest sie aus **be** und dem Verb mit **-ing**. Das be hat drei Formen, **am** (I), **is** (he, she, it) und **are** (we, you, they).
+      - type: figure
+        image: images/zeitstrahl-welle.svg
+        alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Über dem Strich liegt eine violette Welle mit einem Fähnchen at the moment.
+        caption: Die Welle liegt über now. Sie zeigt, dass es gerade im Gang ist.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Bau-Karte present progressive
+        header: [Person, Form, Beispiel]
+        rows:
+          - [I, am reading, I am reading a book.]
+          - [he / she / it, is reading, Sophie is reading a book.]
+          - [we / you / they, are reading, They are reading.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Das **-ing** hängt hinten am Verb. Endet es auf **e**, fällt das e weg: dance – danc**ing**. Steht vor dem letzten Konsonanten genau ein Vokal (swim), wird der Konsonant doppelt: swim – swim**m**ing. Bei zwei Vokalen (eat) bleibt es: eating.
+      - type: table
+        caption: Klassenzimmer-Poster · Zeitformen
+        header: [Zeichen, Form, Beispiel]
+        rows:
+          - [Punktreihe, "play / play**s**", Peter plays football every Saturday.]
+          - [Welle, am / is / are + -ing, Sophie is reading a book.]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: present-progressive-be
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form von be.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie schreibt gerade einen Brief.
+            target: Ellie [is] writing a letter.
+            distractors: [[are, am]]
+          - cue: Ich zeichne gerade ein Bild.
+            target: I [am] drawing a picture.
+            distractors: [[is, are]]
+          - cue: Peter und Amir schauen gerade einen Film an.
+            target: Peter and Amir [are] watching a film.
+            distractors: [[is, am]]
+          - cue: Wir spielen gerade Fußball.
+            target: We [are] playing football.
+            distractors: [[is, am]]
+      - type: language-task
+        id: present-progressive-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Tabelle für das Verb draw.
+        form: { case: hint }
+        table:
+          caption: present progressive · draw
+          header: [Person, Form]
+          rows:
+            - [I, "[am drawing]"]
+            - [he / she / it, "[is drawing]"]
+            - [we / you / they, "[are drawing]"]
+      - type: language-task
+        id: present-progressive-schreibung
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige -ing-Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir macht gerade ein Bild.
+            target: Amir is [making] a picture.
+            distractors: [[makeing, make]]
+          - cue: Peter sitzt gerade auf einem Stuhl.
+            target: Peter is [sitting] on a chair.
+            distractors: [[siting, sit]]
+          - cue: Sophie nimmt gerade ein Buch.
+            target: Sophie is [taking] a book.
+            distractors: [[takeing, take]]
+          - cue: Amir spielt gerade Fußball.
+            target: Amir is [playing] football.
+            distractors: [[play, plays]]
+        hint: Endet das Verb auf e, fällt das e weg. Steht vor dem letzten Konsonanten nur ein Vokal, wird der Konsonant doppelt.
+      - type: language-task
+        id: present-progressive-bilden
+        languages: { source: de, target: en }
+        task: Schreibe, was gerade passiert. Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter · draw · a picture
+            target: Peter is drawing a picture.
+            mistakes:
+              - answer: Peter drawing a picture.
+                message: Du brauchst be vor der -ing-Form. Peter ist „er“, also is.
+              - answer: Peter is draw a picture.
+                message: Nach is kommt die -ing-Form, also drawing.
+              - answer: Peter draws a picture.
+                message: Hier passiert es gerade jetzt, das ist die Welle. Du brauchst is und -ing.
+          - cue: Ellie · watch · a film
+            target: Ellie is watching a film.
+            mistakes:
+              - answer: Ellie watching a film.
+                message: Du brauchst be vor der -ing-Form, also is watching.
+          - cue: Amir and Peter · run
+            target: Amir and Peter are running.
+            mistakes:
+              - answer: Amir and Peter are runing.
+                message: Bei run wird das n doppelt, also running.
+              - answer: Amir and Peter is running.
+                message: Amir und Peter sind zwei Personen, also they. Dazu gehört are.
+          - cue: I · write · a letter
+            target: (I am|I'm) writing a letter.
+            mistakes:
+              - answer: I am writeing a letter.
+                message: Bei write fällt das e weg, also writing.
+              - answer: I writing a letter.
+                message: Du brauchst be vor der -ing-Form, bei I ist das am.
+      - type: language-task
+        id: present-progressive-frage
+        languages: { source: de, target: en }
+        task: Schreibe die Frage mit be.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter · draw
+            target: Is Peter drawing?
+            mistakes:
+              - answer: Peter is drawing?
+                message: In der Frage steht is vor Peter.
+              - answer: Is Peter draw?
+                message: Nach Peter kommt die -ing-Form, also drawing.
+          - cue: Sophie and Ellie · read
+            target: Are Sophie and Ellie reading?
+            mistakes:
+              - answer: Is Sophie and Ellie reading?
+                message: Sophie und Ellie sind zwei Personen, also they. Dazu gehört are.
+      - type: matching
+        id: present-progressive-paare
+        text: Was passiert gerade? Ordne den Satz zu.
+        pairs:
+          - left: Amir isst gerade einen Apfel.
+            right: Amir is eating an apple.
+          - left: Mr Hill trinkt gerade Kaffee.
+            right: Mr Hill is drinking coffee.
+          - left: Ellie putzt gerade ihr Zimmer.
+            right: Ellie is cleaning her room.
+          - left: Peter und Sophie kochen gerade das Essen.
+            right: Peter and Sophie are cooking dinner.
+        distractors: [Amir eats an apple.]
+        explanation: Die Welle über now braucht be und die -ing-Form.
+        links:
+          - title: Lernlandkarte Englisch · Present progressive
+            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
+      - type: single-choice
+        id: present-progressive-tanzen
+        text: Sophie tanzt gerade. Welcher Satz ist richtig?
+        options:
+          - text: Sophie is dancing.
+            correct: true
+            info: Dance endet auf e. Das e fällt weg, dann kommt -ing.
+          - text: Sophie is danceing.
+            correct: false
+            info: Bei Verben auf e fällt das e vor -ing weg.
+          - text: Sophie dancing.
+            correct: false
+            info: Dir fehlt das be. Zur Welle gehört is und die -ing-Form.
+        explanation: Bei dance fällt das e vor -ing weg.
+        links:
+          - title: Lernlandkarte Englisch · Present progressive
+            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
+      - type: language-task
+        id: present-progressive-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: amir-is-waiting-for-the-bus.mp3
+            target: Amir is waiting for the bus.
+          - audio: sophie-is-listening-to-music.mp3
+            target: Sophie is listening to music.
+          - audio: ellie-is-eating-breakfast.mp3
+            target: Ellie is eating breakfast.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: present-progressive-nachsprechen
+        language: en
+        items:
+          - audio: i-am-drinking-a-cup-of-tea.mp3
+            text: I am drinking a cup of tea.
+          - audio: they-are-making-a-cake.mp3
+            text: They are making a cake.
+          - audio: peter-is-swimming-in-the-pool.mp3
+            text: Peter is swimming in the pool.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das be und das -ing.
+      - type: open-task
+        id: present-progressive-karte
+        task: "Sophie hängt eine Welle über now am Zeitstrahl. Schreibe zwei Sätze: Was tust du gerade, und was tut ein Freund oder eine Freundin gerade?"
+        points:
+          - text: Beide Sätze haben eine Form von be (am, is oder are) und ein Verb mit -ing.
+            source: /immer-oder-jetzt/present-progressive/#neu
+          - text: Die Form von be passt zur Person, am bei I und is bei he oder she.
+            source: /immer-oder-jetzt/present-progressive/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I am reading a book. My friend is drawing a picture.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte geschrieben: Er spielt jeden Samstag Fußball, und gerade spielt er auch. Gehört die Karte zur Punktreihe oder zur Welle? Auf der nächsten Seite lernst du, wie du das entscheidest."

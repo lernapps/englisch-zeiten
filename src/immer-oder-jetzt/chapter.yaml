@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Immer oder gerade jetzt?
+summary: Mr Hill hängt in Millbrook einen Zeitstrahl an die Wand. Du lernst, mit be, have got, dem simple present und dem present progressive zu sagen, wer du bist, was du hast, was du immer tust und was gerade passiert.
+pages: [das-brauchst-du, to-be, have-got, simple-present, haeufigkeit, present-progressive, simple-oder-progressive]
+selfAssessment:
+  pages:
+    - exercises:
+        - /immer-oder-jetzt/to-be/#to-be-form
+        - /immer-oder-jetzt/to-be/#to-be-frage
+    - exercises:
+        - /immer-oder-jetzt/have-got/#have-got-form
+        - /immer-oder-jetzt/have-got/#have-got-frage
+    - exercises:
+        - /immer-oder-jetzt/simple-present/#simple-present-form
+        - /immer-oder-jetzt/simple-present/#simple-present-bilden
+    - exercises:
+        - /immer-oder-jetzt/haeufigkeit/#haeufigkeit-reihe
+        - /immer-oder-jetzt/haeufigkeit/#haeufigkeit-bilden
+    - exercises:
+        - /immer-oder-jetzt/present-progressive/#present-progressive-be
+        - /immer-oder-jetzt/present-progressive/#present-progressive-bilden
+    - exercises:
+        - /immer-oder-jetzt/simple-oder-progressive/#simple-oder-progressive-form
+        - /immer-oder-jetzt/simple-oder-progressive/#simple-oder-progressive-bilden

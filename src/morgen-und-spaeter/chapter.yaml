@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Morgen und später
+summary: Am Zeitstrahl in Millbrook geht es nach rechts. Du lernst, mit will zu vermuten und spontan zu entscheiden, mit going to Pläne und Anzeichen zu nennen, und wählst, wann du was nimmst.
+pages: [will, going-to, will-oder-going-to]
+selfAssessment:
+  pages:
+    - exercises:
+        - /morgen-und-spaeter/will/#will-form
+        - /morgen-und-spaeter/will/#will-bilden
+    - exercises:
+        - /morgen-und-spaeter/going-to/#going-to-form
+        - /morgen-und-spaeter/going-to/#going-to-bilden
+    - exercises:
+        - /morgen-und-spaeter/will-oder-going-to/#will-oder-going-to-form
+        - /morgen-und-spaeter/will-oder-going-to/#will-oder-going-to-bilden

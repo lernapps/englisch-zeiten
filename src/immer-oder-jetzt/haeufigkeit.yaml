@@ -1,0 +1,231 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wie oft? Von always bis never
+description: Amir kommt nie zu spät, Peter manchmal. Du lernst die Häufigkeitswörter von always bis never und wo sie im Satz stehen.
+competencies: [adverbien-haeufigkeit]
+scope: Die Seite führt die Häufigkeitswörter always, usually, often, sometimes und never ein. Auf dem Zeitstrahl sind sie Fähnchen über der Punktreihe des simple present, und je mehr Punkte ausgefüllt sind, desto öfter passiert es. Das Wort steht vor dem Verb (Sophie usually takes the bus) und nach am, is und are (Amir is usually tired). Nicht hier, weil es spätere Seiten sind. Die Verlaufsform für das, was gerade passiert, Fragen und Verneinung mit do, Häufigkeitswörter wie twice a week.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer kommt wann zur Schule?
+    blocks:
+      - type: figure
+        image: images/szene-haeufigkeit.svg
+        alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. An der Wand hängen eine Uhr und ein leerer Rahmen. Ellie sagt in der Sprechblase „Amir is never late.“
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Ellie spricht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Der Schultag in Millbrook beginnt um Viertel vor neun. Ellie erzählt Sophie, wer wann kommt: „Amir is never late.“ **Late** heißt „zu spät“."
+      - type: single-choice
+        id: haeufigkeit-start
+        text: Ellie sagt „Amir is never late.“ Wie oft kommt Amir zu spät?
+        options:
+          - text: Nie.
+            correct: true
+            info: never heißt „nie“. Amir kommt kein einziges Mal zu spät.
+          - text: Immer.
+            correct: false
+            info: Immer heißt auf Englisch always. Das steht nicht im Satz.
+          - text: Manchmal.
+            correct: false
+            info: Manchmal heißt sometimes. Das steht nicht im Satz.
+        explanation: Das Wort never sagt, wie oft etwas passiert. Hier passiert es nie.
+        links:
+          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, wie oft jemand etwas tut, und setzt das Wort an die richtige Stelle im Satz."
+  - type: section
+    id: neu
+    title: Das Wochenraster
+    blocks:
+      - type: text
+        text: "Wie oft etwas passiert, sagen die **Häufigkeitswörter**. Mr Hill zeichnet dafür ein Raster: Jede Reihe ist ein Häufigkeitswort, jeder Punkt ein Tag der Woche. Je mehr Punkte ausgefüllt sind, desto öfter passiert es. Am Zeitstrahl hängen die Wörter dann als Fähnchen über der Punktreihe vom simple present."
+      - type: figure
+        image: images/zeitstrahl-haeufigkeit.svg
+        alt: Fünf Reihen aus je sieben Punkten für die Tage von Montag bis Sonntag. Bei always sind alle Punkte ausgefüllt, bei usually sechs, bei often vier, bei sometimes zwei und bei never keiner.
+        caption: Jede Reihe ist eine Woche. Ein ausgefüllter Punkt heißt, dass die Person es an diesem Tag tut.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Wie oft?
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [always, immer]
+          - [usually, meistens]
+          - [often, oft]
+          - [sometimes, manchmal]
+          - [never, nie]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. Bei **am**, **is** und **are** steht es **danach**: Amir is **usually** tired. Das -s bei he, she und it bleibt: Sophie usually takes.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: haeufigkeit-wort
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das passende Häufigkeitswort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Sophie isst immer Frühstück.
+            target: Sophie [always] eats breakfast.
+            distractors: [[never, sometimes]]
+          - cue: Amir spielt oft Tennis.
+            target: Amir [often] plays tennis.
+            distractors: [[usually, never]]
+          - cue: Ellie nimmt nie den Bus.
+            target: Ellie [never] takes the bus.
+            distractors: [[always, often]]
+          - cue: Peter ist manchmal zu spät.
+            target: Peter is [sometimes] late.
+            distractors: [[usually, always]]
+      - type: single-choice
+        id: haeufigkeit-stellung
+        text: Welcher Satz ist richtig?
+        options:
+          - text: Peter often plays football.
+            correct: true
+            info: Das Häufigkeitswort steht vor dem Verb plays.
+          - text: Peter plays often football.
+            correct: false
+            info: Das Wort often steht nicht zwischen Verb und football. Es gehört vor das Verb.
+          - text: Peter often play football.
+            correct: false
+            info: Das Wort steht richtig, aber bei he, she und it fehlt das s am Verb.
+        explanation: Das Häufigkeitswort kommt vor das Verb, und bei he, she und it bleibt das s.
+        links:
+          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
+      - type: single-choice
+        id: haeufigkeit-stellung-be
+        text: Welcher Satz ist richtig?
+        options:
+          - text: Ellie is always happy.
+            correct: true
+            info: Bei is steht das Häufigkeitswort danach.
+          - text: Ellie always is happy.
+            correct: false
+            info: Bei is, am und are steht das Wort nach dem Verb, nicht davor.
+          - text: Ellie is happy always.
+            correct: false
+            info: Das Wort steht nicht am Ende, sondern direkt nach is.
+        explanation: Bei am, is und are steht das Häufigkeitswort danach.
+        links:
+          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
+      - type: ordering
+        id: haeufigkeit-reihe
+        text: Wer geht am häufigsten zu Fuß zur Schule? Ordne von immer (oben) bis nie (unten).
+        items:
+          - Ellie always walks to school.
+          - Amir usually walks to school.
+          - Peter often walks to school.
+          - Sophie sometimes walks to school.
+          - Mr Hill never walks to school.
+        explanation: Die Reihenfolge ist always, usually, often, sometimes, never. Das Wort steht jedes Mal vor walks.
+        links:
+          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
+      - type: language-task
+        id: haeufigkeit-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz. Setze das Häufigkeitswort an die richtige Stelle.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Mr Hill · drink tea · always
+            target: Mr Hill always drinks tea.
+            mistakes:
+              - answer: Mr Hill drinks always tea.
+                message: Das Häufigkeitswort steht vor dem Verb, also always drinks.
+              - answer: Mr Hill always drink tea.
+                message: "He, she, it – das s muss mit."
+          - cue: Sophie · is · tired · sometimes
+            target: Sophie is sometimes tired.
+            mistakes:
+              - answer: Sophie sometimes is tired.
+                message: Bei is steht das Häufigkeitswort danach, also is sometimes.
+              - answer: Sophie is tired sometimes.
+                message: Das Häufigkeitswort steht direkt nach is.
+          - cue: Ellie · take the bus · sometimes
+            target: Ellie sometimes takes the bus.
+            mistakes:
+              - answer: Ellie sometimes take the bus.
+                message: "Ellie ist „sie“: He, she, it – das s muss mit."
+          - cue: Amir · eat lunch · usually · at school
+            target: Amir usually eats lunch at school.
+            mistakes:
+              - answer: Amir eats usually lunch at school.
+                message: Das Häufigkeitswort steht vor dem Verb eats.
+        hint: Frag dich, ob im Satz is vorkommt. Dann steht das Wort danach, sonst davor.
+      - type: language-task
+        id: haeufigkeit-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Wir spielen oft Fußball.
+            target: We often play football.
+            mistakes:
+              - answer: We play often football.
+                message: Das Häufigkeitswort steht vor dem Verb, also often play.
+          - source: Peter ist nie müde.
+            target: Peter is never tired.
+            mistakes:
+              - answer: Peter never is tired.
+                message: Bei is steht never danach.
+          - source: Amir isst nie Frühstück.
+            target: Amir never eats breakfast.
+            mistakes:
+              - answer: Amir never eat breakfast.
+                message: "Amir ist „er“: He, she, it – das s muss mit."
+      - type: language-task
+        id: haeufigkeit-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: mr-hill-is-never-angry-in-class.mp3
+            target: Mr Hill is never angry in class.
+          - audio: sophie-sometimes-writes-to-her-friends.mp3
+            target: Sophie sometimes writes to her friends.
+          - audio: ellie-often-visits-her-grandmother.mp3
+            target: Ellie often visits her grandmother.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: haeufigkeit-nachsprechen
+        language: en
+        items:
+          - audio: we-usually-have-breakfast-at-eight.mp3
+            text: We usually have breakfast at eight.
+          - audio: we-usually-walk-to-school.mp3
+            text: We usually walk to school.
+          - audio: peter-always-drinks-milk-in-the-morning.mp3
+            text: Peter always drinks milk in the morning.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte darauf, wo das Häufigkeitswort steht.
+      - type: open-task
+        id: haeufigkeit-karte
+        task: "Sophie hängt zwei Karten über die Punktreihe am Zeitstrahl. Schreibe zwei Sätze über dich: Was tust du immer, oft, manchmal oder nie? Benutze in jedem Satz ein Häufigkeitswort."
+        points:
+          - text: Beide Sätze haben ein Häufigkeitswort wie always, often, sometimes oder never.
+            source: /immer-oder-jetzt/haeufigkeit/#neu
+          - text: Das Wort steht vor dem Verb und bei am, is und are danach.
+            source: /immer-oder-jetzt/haeufigkeit/#neu
+          - text: Es sind ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          I always eat breakfast. I am never late.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Über der Punktreihe am Zeitstrahl hängen jetzt Fähnchen. Amir kommt nie zu spät, Peter manchmal. Da zeigt Mr Hill zum Fenster: Was tun die Kinder gerade? Auf der nächsten Seite lernst du, wie du sagst, was gerade passiert."
