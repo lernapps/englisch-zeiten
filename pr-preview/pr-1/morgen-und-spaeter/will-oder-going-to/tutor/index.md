@@ -72,18 +72,7 @@ Auf dieser Seite sind die Fälle klar. Manchmal passen beide Formen, und es hän
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
-- bring | mitbringen
-- cake | Kuchen
-- phone | Telefon / Handy
 - ring | klingeln
-- watch a film | einen Film anschauen
-- ticket | Eintrittskarte
-- hungry | hungrig
-- so | deshalb
-- eat | essen
-- pizza | Pizza
-- rain | regnen
-- answer the phone | ans Telefon gehen
 - on 10 July | am 10. Juli
 
 ### Übung
@@ -139,7 +128,7 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 
 - Aufgabe: Warum steht in dem Satz will oder going to? Ordne den Grund zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Peter is going to watch a film on Saturday. – Der Plan steht schon.; The phone rings. I will answer it. – Es wird gerade erst beschlossen.; I think it will rain. – Es ist nur eine Vermutung.
+- Lösung: We are going to eat pizza on Saturday. – Vorher geplant.; The phone rings. I will answer it. – Spontaner Einfall.; I think it will rain. – Nur eine Vermutung.
 - Erklärung: Ein Plan oder ein Anzeichen gehört zum Pfeil, going to. Ein Entschluss im Moment und eine Vermutung gehören zum Punkt ohne Pfeil, will.
 - Link: [../?via=tutor#will-oder-going-to-grund](../?via=tutor#will-oder-going-to-grund)
 
@@ -159,12 +148,12 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 
 - Aufgabe: Wähle will oder going to. Der deutsche Satz sagt dir, warum.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ellie hat ihre Party schon lange geplant. → Ellie is going to have a party on 10 July.
-2. Amir ist hungrig und beschließt gleich, eine Pizza zu essen. → Amir is hungry. He will eat a pizza.
-3. Amir und Peter haben schon Tickets für einen Film. → Amir and Peter have tickets. They are going to watch a film.
-4. Amir hört von der Party und beschließt gleich, etwas mitzubringen. → Amir will bring a cake.
+1. Sophie hat schon lange geplant, am 10. Juli Pizza zu essen. → Sophie is going to eat pizza on 10 July.
+2. Ellie ist hungrig und beschließt gleich, einen Kuchen zu essen. → Ellie is hungry. She will eat a cake.
+3. Ellie und Sophie haben schon Tickets für einen Film. → Ellie and Sophie have tickets. They are going to watch a film.
+4. Amir hört von der Party und beschließt gleich, Musik mitzubringen. → Amir will bring music.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#will-oder-going-to-form](../?via=tutor#will-oder-going-to-form)
 
@@ -172,15 +161,15 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 
 - Aufgabe: Schreibe den Satz auf Englisch. Der deutsche Satz sagt dir, ob du will oder going to brauchst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter hat vor, einen Film anzuschauen. Die Karten sind schon gekauft. → Peter is going to watch a film.
-     - Peter will watch a film.: Die Karten sind schon gekauft, der Plan steht. Das ist der Pfeil, going to.
-     - Peter going to watch a film.: Dir fehlt das be. Zu Peter gehört is.
+1. Ellie hat vor, einen Kuchen mitzubringen. Sie hat ihn schon gebacken. → Ellie is going to bring a cake.
+     - Ellie will bring a cake.: Der Kuchen ist schon gebacken, der Plan steht. Das ist der Pfeil, going to.
+     - Ellie going to bring a cake.: Dir fehlt das be. Zu Ellie gehört is.
 2. Das Telefon klingelt. Ich nehme es gleich ab. → I will answer it. (auch richtig: I'll answer it.)
      - I am going to answer it.: Du entscheidest gerade erst, im Moment des Sprechens. Das ist der Punkt ohne Pfeil, will.
-3. Amir hat gerade erst beschlossen, einen Kuchen mitzubringen. → Amir will bring a cake.
-     - Amir is going to bring a cake.: Amir beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
+3. Sophie hat gerade erst beschlossen, Wasser mitzubringen. → Sophie will bring water.
+     - Sophie is going to bring water.: Sophie beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#will-oder-going-to-bilden](../?via=tutor#will-oder-going-to-bilden)
 
@@ -196,11 +185,11 @@ Du kannst jetzt sagen, was immer ist, was gerade passiert, was war, was schon ge
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Amir is hungry, so he will eat a pizza.
 2. Audio → Peter has a ticket and he is going to watch a film.
-3. Audio → Sophie will answer the phone.
+3. Audio → It is raining, so Peter will take the bus.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#will-oder-going-to-hoeren](../?via=tutor#will-oder-going-to-hoeren)

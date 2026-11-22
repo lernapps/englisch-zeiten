@@ -83,16 +83,7 @@ Schulkalender · Geburtstage:
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
-- have a party | eine Feier machen
-- invite | einladen
-- visit | besuchen
-- watch a film | einen Film anschauen
-- eat | essen
-- pizza | Pizza
-- hungry | hungrig
-- ticket | Eintrittskarte
-- cloud | Wolke
-- look at | anschauen
+- fall | fallen
 - on 10 July | am 10. Juli
 
 ### Übung
@@ -137,12 +128,12 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 
 - Aufgabe: Wähle die richtige Form von be.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter hat vor, Amir einzuladen. → Peter is going to invite Amir.
 2. Ich habe vor, einen Film anzuschauen. → I am going to watch a film.
 3. Wir haben vor, Peter zu besuchen. → We are going to visit Peter.
-4. Gleich fängt es an zu regnen. → It is going to rain.
+4. Ellie hat vor, ein Buch zu lesen. → Ellie is going to read a book.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#going-to-form](../?via=tutor#going-to-form)
 
@@ -163,7 +154,7 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 
 - Aufgabe: Ein Plan oder ein Anzeichen. Was sagt der Satz voraus? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Am Himmel sind dunkle Wolken. – It is going to rain.; Peter hat eine Eintrittskarte für einen Film. – He is going to watch a film.; Ellie hat die Gäste schon ausgesucht. – She is going to invite Amir.
+- Lösung: Peter steht auf einem Stuhl, und der Stuhl wackelt. – He is going to fall.; Peter hat eine Eintrittskarte für einen Film. – He is going to watch a film.; Ellie hat die Gäste schon ausgesucht. – She is going to invite Amir.
 - Erklärung: Wer einen Plan hat oder ein Anzeichen sieht, sagt mit going to, was bald passiert. Der Satz mit every Saturday erzählt von einer Gewohnheit.
 - Tipp der App: Frag dich, was man nach dem Satz links als Nächstes erwartet.
 - Link: [../?via=tutor#going-to-anzeichen](../?via=tutor#going-to-anzeichen)
@@ -172,7 +163,7 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 
 - Aufgabe: Schreibe den ganzen Satz mit going to.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter · have · a party → Peter is going to have a party.
      - Peter going to have a party.: Dir fehlt das be. Zu Peter gehört is.
@@ -190,7 +181,7 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 
 - Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie going to visit Peter. → Sophie is going to visit Peter.
      - Sophie going to visit Peter.: Noch nicht ganz. Dir fehlt das be vor going to.
@@ -215,7 +206,7 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → We are going to watch a film.
 2. Audio → Peter is going to look at the ticket.
@@ -229,9 +220,9 @@ Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Ellie is going to have a party in July.
+1. Audio → Ellie is going to be twelve in July.
 2. Audio → I am going to eat a pizza.
-3. Audio → They are going to visit Amir on 10 July.
+3. Audio → They are going to see Amir on Saturday.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
 - Link: [../?via=tutor#going-to-nachsprechen](../?via=tutor#going-to-nachsprechen)
 

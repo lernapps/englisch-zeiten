@@ -77,22 +77,8 @@ Schulkalender · Zeitangaben:
 - tomorrow | morgen
 - next week | nächste Woche
 - soon | bald
-- here | hier
-- in two days | in zwei Tagen
-
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
 - I think | ich glaube
-- maybe | vielleicht
-- probably | wahrscheinlich
-- win | gewinnen
-- help | helfen
-- come | kommen
-- rain | regnen
-- sunny | sonnig
-- be | sein
-- play | spielen
-- football | Fußball
+- in two days | in zwei Tagen
 
 ### Übung
 
@@ -134,7 +120,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 
 - Aufgabe: Wähle die richtige Form.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich glaube, Amir kommt bald. → I think Amir will come soon.
 2. Vielleicht regnet es morgen. → Maybe it will rain tomorrow.
@@ -147,7 +133,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 
 - Aufgabe: Welcher Satz passt zu welcher Situation?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Sophie sieht, dass Peters Tasche schwer ist. Sie bietet gleich ihre Hilfe an. – I will help you.; Amir glaubt, dass Peter das Spiel gewinnt. – I think Peter will win.; Ellie vermutet, dass es regnet. – Maybe it will rain.
+- Lösung: Sophie sieht, dass Peters Tasche schwer ist. Sie bietet gleich ihre Hilfe an. – I will take your bag.; Amir glaubt, dass Peter das Spiel gewinnt. – I think Peter will win.; Ellie vermutet, dass Peter bald kommt. – Maybe Peter will come soon.
 - Erklärung: Bei will geht es um das, was noch kommt, als Vermutung oder als Einfall in diesem Moment. Der Satz mit every Saturday erzählt von einer Gewohnheit.
 - Link: [../?via=tutor#will-situation](../?via=tutor#will-situation)
 
@@ -155,7 +141,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 
 - Aufgabe: Schreibe den ganzen Satz mit will.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Mr Hill · help · you → Mr Hill will help you.
      - Mr Hill wills help you.: Nach will bleibt das Verb gleich, bei jeder Person. Es gibt kein wills.
@@ -172,13 +158,13 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 
 ### Aufgabe will-zeichen
 
-- Aufgabe: Welches Zeichen am Zeitstrahl gehört zu „Maybe it will rain.“?
+- Aufgabe: Welches Zeichen am Zeitstrahl gehört zu „Peter will probably win.“?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Ein einzelner Punkt rechts von now, ohne Pfeil. – Ellie vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
+  - ✓ Ein Punkt rechts von now, kein Pfeil. – Der Satz vermutet, was kommt. Noch hat nichts begonnen, darum gibt es keinen Pfeil.
   - ✗ Eine Punktreihe links und rechts von now. – Eine Punktreihe ist das Zeichen für Gewohnheiten, also für das simple present.
   - ✗ Ein roter Strich bei now. – Der Strich bei now ist das jetzt. Das Wetter von morgen liegt rechts davon.
-- Lösung: Ein einzelner Punkt rechts von now, ohne Pfeil.
+- Lösung: Ein Punkt rechts von now, kein Pfeil.
 - Erklärung: Will hat das Zeichen des einzelnen Punktes rechts von now, ohne Pfeil.
 - Link: [../?via=tutor#will-zeichen](../?via=tutor#will-zeichen)
 
@@ -186,7 +172,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 
 - Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter wills win tomorrow. → Peter will win tomorrow.
      - Peter wills win tomorrow.: Noch nicht ganz. Nach will gibt es kein s.
@@ -201,7 +187,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Ellie will probably come next week.
 2. Audio → Maybe they will play football tomorrow.
@@ -217,7 +203,7 @@ Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben
 - Sätze:
 1. Audio → We will probably win.
 2. Audio → Sophie will be here soon.
-3. Audio → I will help you soon.
+3. Audio → We will see you soon.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das will, das du kaum betonst.
 - Link: [../?via=tutor#will-nachsprechen](../?via=tutor#will-nachsprechen)
 

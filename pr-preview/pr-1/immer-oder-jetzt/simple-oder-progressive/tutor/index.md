@@ -68,29 +68,6 @@ Klassenzimmer-Poster · Zeitformen:
 
 Frag dich zuerst: Passiert es **immer wieder** oder **gerade jetzt**? Immer wieder ist die Punktreihe, also **plays**. Gerade jetzt ist die Welle, also **is playing**. Das Fähnchen hilft dir dabei.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- play | spielen
-- watch | anschauen
-- read | lesen
-- eat | essen
-- go | gehen
-- every day | jeden Tag
-- always | immer
-- often | oft
-- now | jetzt
-- at the moment | im Moment
-- football | Fußball
-- film | Film
-- book | Buch
-- breakfast | Frühstück
-- lunch | Mittagessen
-- sit | sitzen
-- chair | Stuhl
-- on | auf
-- every Saturday | jeden Samstag
-- school | Schule
-
 ### Übung
 
 - Aufgabe `simple-oder-progressive-form` (unten)
@@ -117,12 +94,13 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 ### Aufgabe simple-oder-progressive-start
 
-- Aufgabe: Welcher Satz sagt, was Peter gerade jetzt tut?
+- Aufgabe: Welcher Satz sagt, was Amir gerade jetzt tut?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Peter is playing football at the moment. – at the moment heißt „im Moment“. Der Satz erzählt, was in diesem Moment passiert.
-  - ✗ Peter often plays football. – often heißt „oft“. Der Satz erzählt, was immer wieder passiert, nicht, was gerade passiert.
-- Lösung: Peter is playing football at the moment.
+  - ✓ Amir is eating lunch at the moment. – at the moment heißt „im Moment“. Der Satz erzählt, was in diesem Moment passiert.
+  - ✗ Amir often eats lunch at school. – often heißt „oft“. Der Satz erzählt, was immer wieder passiert, nicht, was gerade passiert.
+  - ✗ Amir eats lunch every day. – every day heißt „jeden Tag“. Auch dieser Satz erzählt von etwas, das sich wiederholt.
+- Lösung: Amir is eating lunch at the moment.
 - Erklärung: Ein Satz kann von etwas erzählen, das oft passiert, oder von etwas, das gerade passiert. Du brauchst für jedes eine andere Form.
 - Link: [../?via=tutor#simple-oder-progressive-start](../?via=tutor#simple-oder-progressive-start)
 
@@ -130,14 +108,13 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 - Aufgabe: Wähle die richtige Form. Das Fähnchen im Satz hilft dir.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ellie isst immer Frühstück. → Ellie always eats breakfast.
 2. Ellie schaut gerade einen Film an. → Ellie is watching a film now.
 3. Peter geht jeden Tag zur Schule. → Peter goes to school every day.
 4. Sophie liest im Moment ein Buch. → Sophie is reading a book at the moment.
 5. Wir spielen gerade Fußball. → We are playing football now.
-6. Amir liest oft. → Amir often reads.
 - Tipp der App: Immer wieder ist die Punktreihe. Gerade jetzt ist die Welle.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#simple-oder-progressive-form](../?via=tutor#simple-oder-progressive-form)
@@ -155,7 +132,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 - Aufgabe: Schreibe den ganzen Satz. Wähle selbst die richtige Form.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter · play football · every Saturday → Peter plays football every Saturday.
      - Peter is playing football every Saturday.: every Saturday ist ein Fähnchen der Punktreihe. Dann brauchst du das simple present, also plays.
@@ -175,7 +152,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 - Aufgabe: In jedem Satz ist die falsche Form. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie reads a book now. → Sophie is reading a book now.
      - Sophie reads a book now.: Noch nicht ganz. now gehört zur Welle, also is reading.
@@ -188,7 +165,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ellie isst gerade Frühstück. → Ellie is eating breakfast now. (auch richtig: Ellie is eating breakfast at the moment.; Ellie is eating breakfast.)
      - Ellie eats breakfast now.: gerade jetzt ist die Welle. Du brauchst is und -ing.
@@ -203,7 +180,7 @@ Der Zeitstrahl hängt jetzt an der Wand. Du kannst sagen, wer jemand ist, was er
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie reads a book every day.
 2. Audio → Peter is eating lunch now.

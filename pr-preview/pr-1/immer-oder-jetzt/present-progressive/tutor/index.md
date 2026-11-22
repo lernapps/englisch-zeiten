@@ -74,36 +74,6 @@ Klassenzimmer-Poster · Zeitformen:
 - Punktreihe | play / play**s** | Peter plays football every Saturday.
 - Welle | am / is / are + -ing | Sophie is reading a book.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- read | lesen
-- write | schreiben
-- draw | zeichnen
-- run | rennen
-- dance | tanzen
-- swim | schwimmen
-- make | machen
-- sit | sitzen
-- play | spielen
-- watch | anschauen
-- listen to | zuhören
-- eat | essen
-- now | jetzt
-- at the moment | im Moment
-- book | Buch
-- letter | Brief
-- picture | Bild
-- film | Film
-- football | Fußball
-- computer | Computer
-- chair | Stuhl
-- music | Musik
-- breakfast | Frühstück
-- story | Geschichte
-- cake | Kuchen
-- friend | Freund / Freundin
-- on | auf
-
 ### Übung
 
 - Aufgabe `present-progressive-be` (unten)
@@ -146,7 +116,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Wähle die richtige Form von be.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ellie schreibt gerade einen Brief. → Ellie is writing a letter.
 2. Ich zeichne gerade ein Bild. → I am drawing a picture.
@@ -172,11 +142,11 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Wähle die richtige -ing-Form.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir macht gerade ein Bild. → Amir is making a picture.
 2. Peter sitzt gerade auf einem Stuhl. → Peter is sitting on a chair.
-3. Ellie liest gerade. → Ellie is reading.
+3. Sophie nimmt gerade ein Buch. → Sophie is taking a book.
 4. Amir spielt gerade Fußball. → Amir is playing football.
 - Tipp der App: Endet das Verb auf e, fällt das e weg. Steht vor dem letzten Konsonanten nur ein Vokal, wird der Konsonant doppelt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -186,7 +156,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Schreibe, was gerade passiert. Schreibe den ganzen Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter · draw · a picture → Peter is drawing a picture.
      - Peter drawing a picture.: Du brauchst be vor der -ing-Form. Peter ist „er“, also is.
@@ -208,7 +178,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Schreibe die Frage mit be.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter · draw → Is Peter drawing?
      - Peter is drawing?: In der Frage steht is vor Peter.
@@ -223,7 +193,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Was passiert gerade? Ordne den Satz zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Sophie liest gerade ein Buch. – Sophie is reading a book.; Ellie schreibt gerade einen Brief. – Ellie is writing a letter.; Peter malt gerade ein Bild. – Peter is drawing a picture.; Amir und Peter laufen gerade. – Amir and Peter are running.
+- Lösung: Amir sitzt gerade am Computer. – Amir is sitting at a computer.; Ellie schreibt gerade einen Brief. – Ellie is writing a letter.; Peter malt gerade ein Bild. – Peter is drawing a picture.; Amir und Peter laufen gerade. – Amir and Peter are running.
 - Erklärung: Was gerade passiert, ist die Welle über now. Dafür brauchst du be und die -ing-Form.
 - Tipp der App: Achte auf die Person. Bei einer Person nimmst du is, bei zwei Personen are.
 - Link: [../?via=tutor#present-progressive-paare](../?via=tutor#present-progressive-paare)
@@ -232,7 +202,7 @@ Am Zeitstrahl hängt jetzt eine Welle über now. Peter hat auch eine Karte gesch
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Amir is writing a story.
 2. Audio → Sophie is listening to music.

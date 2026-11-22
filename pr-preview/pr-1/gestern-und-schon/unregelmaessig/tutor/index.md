@@ -182,7 +182,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 
 - Aufgabe: Wähle die richtige Form.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie ist gestern zur Schule gegangen. → Yesterday Sophie went to school.
 2. Peter hat letzte Woche Pizza gegessen. → Peter ate pizza last week.
@@ -209,7 +209,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 
 - Aufgabe: Schreibe den ganzen Satz im simple past.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir · take · a book · last week → Amir took a book last week.
      - Amir taked a book last week.: Take ist unregelmäßig. Du brauchst die 2. Form, nicht -ed.
@@ -229,7 +229,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 
 - Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie swimmed two days ago. → Sophie swam two days ago.
      - Sophie swimmed two days ago.: Noch nicht ganz. Swim hat die Form swam.
@@ -245,7 +245,7 @@ Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mi
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Mr Hill gave Peter a book.
 2. Audio → We drank water at home.

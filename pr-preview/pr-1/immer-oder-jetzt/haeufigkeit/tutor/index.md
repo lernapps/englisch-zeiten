@@ -66,19 +66,6 @@ Klassenzimmer-Poster · Wie oft?:
 - often | oft
 - sometimes | manchmal
 - never | nie
-- late | zu spät
-- happy | froh
-- tired | müde
-- breakfast | Frühstück
-- lunch | Mittagessen
-- eat | essen
-- walk | zu Fuß gehen
-- take the bus | den Bus nehmen
-- at school | in der Schule
-- to school | zur Schule
-- with | mit
-- play | spielen
-- football | Fußball
 
 **Merke: Merke**
 
@@ -126,7 +113,7 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 
 - Aufgabe: Wähle das passende Häufigkeitswort.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie isst immer Frühstück. → Sophie always eats breakfast.
 2. Peter geht oft zu Fuß zur Schule. → Peter often walks to school.
@@ -171,7 +158,7 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 
 - Aufgabe: Schreibe den ganzen Satz. Setze das Häufigkeitswort an die richtige Stelle.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter · play football · often → Peter often plays football.
      - Peter plays often football.: Das Häufigkeitswort steht vor dem Verb, also often plays.
@@ -191,7 +178,7 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Wir spielen oft Fußball. → We often play football.
      - We play often football.: Das Häufigkeitswort steht vor dem Verb, also often play.
@@ -206,7 +193,7 @@ Das Häufigkeitswort steht **vor dem Verb**: Sophie **usually** takes the bus. B
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Ellie is usually happy.
 2. Audio → Amir sometimes eats lunch at school.

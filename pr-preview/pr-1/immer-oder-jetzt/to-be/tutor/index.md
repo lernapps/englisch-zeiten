@@ -61,11 +61,11 @@ Bild: Ein Zeitstrahl von links nach rechts. Bei dem roten Strich now hängt eine
 
 Klassenzimmer-Poster · Die Formen von be:
 - Person | Form | Beispiel
-- I | am | I am happy.
-- you | are | You are late.
-- he / she / it | is | Mr Hill is a teacher.
-- we | are | We are friends.
-- they | are | They are at school.
+- I | am | I am Sophie.
+- you | are | You are my friend.
+- he / she / it | is | Peter is my brother.
+- we | are | We are in class five.
+- they | are | They are Ellie and Peter.
 
 Klassenzimmer-Poster · Aussage, Verneinung, Frage:
 - Aussage | Verneinung | Frage
@@ -78,17 +78,6 @@ Die **Verneinung** hängt **not** hinter be. Die **Frage** entsteht, wenn be und
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
-- be | sein
-- eleven | elf
-- nine | neun
-- happy | froh
-- tired | müde
-- late | spät dran
-- today | heute
-- teacher | Lehrer
-- friend | Freund
-- good | gut
-- at school | in der Schule
 - in the classroom | im Klassenzimmer
 
 ### Übung
@@ -131,7 +120,7 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 
 - Aufgabe: Wähle die richtige Form von be.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich bin froh. → I am happy.
 2. Mr Hill ist Lehrer. → Mr Hill is a teacher.
@@ -168,7 +157,7 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 
 - Aufgabe: Schreibe die Frage.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. she · eleven → Is she eleven?
      - She is eleven?: In der Frage tauschen be und die Person die Plätze. Das Verb is steht vorn.
@@ -186,7 +175,7 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 
 - Aufgabe: Schreibe den Satz mit not.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir · tired · today → Amir is not tired today. (auch richtig: Amir isn't tired today.; Amir's not tired today.)
      - Amir not is tired today.: not steht hinter is, nicht davor.
@@ -203,7 +192,7 @@ Die ersten Karten hängen am Zeitstrahl, jede bei now. Mr Hill fragt jetzt, was 
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Amir is happy today.
 2. Audio → Mr Hill is in the classroom.

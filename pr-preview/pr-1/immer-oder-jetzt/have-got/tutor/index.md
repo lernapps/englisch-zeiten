@@ -77,14 +77,7 @@ Klassenzimmer-Poster · Aussage, Verneinung, Frage:
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
 - have got | haben
-- pen | Stift
-- book | Buch
-- bag | Tasche
-- dog | Hund
 - bike | Fahrrad
-- phone | Telefon / Handy
-- brother | Bruder
-- sister | Schwester
 - pencil case | Federtasche
 
 ### Übung
@@ -113,13 +106,13 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 
 ### Aufgabe have-got-start
 
-- Aufgabe: Welcher Satz sagt, dass Ellie einen Hund hat?
+- Aufgabe: Welcher Satz sagt, dass Peter einen Stift hat?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Ellie has got a dog. – Ellie ist „sie“, und zu she gehört has got.
-  - ✗ Ellie have got a dog. – have got gehört zu I, you, we und they. Bei Ellie fehlt das s.
-  - ✗ Ellie is got a dog. – is gehört zum Verb be und sagt, wie jemand ist, nicht, was er hat.
-- Lösung: Ellie has got a dog.
+  - ✓ Peter has got a pen. – Peter ist „er“, und zu he gehört has got.
+  - ✗ Peter have got a pen. – have got gehört zu I, you, we und they. Bei Peter fehlt das s.
+  - ✗ Peter is got a pen. – is gehört zum Verb be und sagt, wie jemand ist, nicht, was er hat.
+- Lösung: Peter has got a pen.
 - Erklärung: Was jemand hat, sagst du mit have got. Bei he, she und it heißt es has got.
 - Link: [../?via=tutor#have-got-start](../?via=tutor#have-got-start)
 
@@ -127,10 +120,10 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 
 - Aufgabe: Wähle have oder has.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ich habe einen Stift. → I have got a pen.
-2. Ellie hat einen Hund. → Ellie has got a dog.
+1. Ich habe ein Telefon. → I have got a phone.
+2. Sophie hat einen Bruder. → Sophie has got a brother.
 3. Amir und Peter haben ein Fahrrad. → Amir and Peter have got a bike.
 4. Amir hat eine Federtasche. → Amir has got a pencil case.
 - Tipp der App: Schau, wer etwas hat. Nur he, she und it bekommen has.
@@ -141,7 +134,7 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 
 - Aufgabe: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
 - Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
-- Lösung: 1. She, 2. has, 3. got, 4. a sister
+- Lösung: 1. Amir, 2. has, 3. got, 4. a, 5. bag
 - Erklärung: Zuerst kommt die Person, dann has got, dann das, was sie hat.
 - Tipp der App: Der Satz beginnt mit der Person. Danach kommt die Form von have got.
 - Link: [../?via=tutor#have-got-reihenfolge](../?via=tutor#have-got-reihenfolge)
@@ -164,15 +157,15 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 
 - Aufgabe: Schreibe die Frage.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. you · a pen → Have you got a pen?
+1. you · a phone → Have you got a phone?
      - Do you have got a pen?: Bei have got brauchst du kein do. Tausche have und you.
      - You have got a pen?: In der Frage tauschen have und die Person die Plätze.
-2. Ellie · a dog → Has Ellie got a dog?
-     - Have Ellie got a dog?: He, she, it – das s muss mit. Ellie ist „sie“, also has.
-3. they · a bike → Have they got a bike?
-     - Do they have got a bike?: Bei have got brauchst du kein do. Tausche have und they.
+2. Sophie · a bag → Has Sophie got a bag?
+     - Have Sophie got a bag?: He, she, it – das s muss mit. Sophie ist „sie“, also has.
+3. they · a book → Have they got a book?
+     - Do they have got a book?: Bei have got brauchst du kein do. Tausche have und they.
 4. Amir · a sister → Has Amir got a sister?
      - Have Amir got a sister?: Amir ist „er“, also has statt have.
 - Tipp der App: have oder has kommt an den Anfang, danach die Person, dann got.
@@ -183,13 +176,13 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Amir hat keinen Hund. → Amir hasn't got a dog. (auch richtig: Amir has not got a dog.)
-     - Amir haven't got a dog.: Amir ist „er“. He, she, it – das s muss mit: hasn't.
-     - Amir doesn't got a dog.: Mit got brauchst du kein do. Nimm hasn't got.
-2. Wir haben kein Fahrrad. → We haven't got a bike. (auch richtig: We have not got a bike.)
-     - We hasn't got a bike.: Zu we gehört have, nicht has.
+1. Amir hat keinen Stift. → Amir hasn't got a pen. (auch richtig: Amir has not got a pen.)
+     - Amir haven't got a pen.: Amir ist „er“. He, she, it – das s muss mit: hasn't.
+     - Amir doesn't got a pen.: Mit got brauchst du kein do. Nimm hasn't got.
+2. Wir haben kein Telefon. → We haven't got a phone. (auch richtig: We have not got a phone.)
+     - We hasn't got a phone.: Zu we gehört have, nicht has.
 3. Amir hat keine Schwester. → Amir hasn't got a sister. (auch richtig: Amir has not got a sister.)
      - Amir haven't got a sister.: Amir ist „er“, also hasn't got.
 - Tipp der App: not hängt hinter have oder has, vor got.
@@ -200,9 +193,9 @@ Mr Hill hat notiert, wer was hat. Jetzt will er wissen, was die Kinder in ihrer 
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Sophie has got a sister.
+1. Audio → Sophie has got a red jacket.
 2. Audio → Has Amir got a bike?
 3. Audio → They have got a dog.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

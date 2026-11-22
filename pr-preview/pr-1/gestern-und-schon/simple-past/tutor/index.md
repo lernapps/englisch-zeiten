@@ -79,24 +79,6 @@ Klassenzimmer-Poster · Das simple past:
 
 Ein Verb mit **e** am Ende bekommt nur ein **d**: like – liked. Nach einem Konsonanten wird aus **y** ein **ied**: study – studied. Ein kurzes Verb mit einem Vokal und einem Konsonanten am Ende verdoppelt den Konsonanten: stop – stopped.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- dance | tanzen
-- help | helfen
-- cry | weinen
-- shop | einkaufen
-- watch | anschauen
-- football | Fußball
-- film | Film
-- homework | Hausaufgaben
-- home | nach Hause / zu Hause
-- to | zu / nach
-- and | und
-- a | ein / eine
-- with | mit
-- bus | Bus
-- English | Englisch
-
 ### Übung
 
 - Aufgabe `simple-past-form` (unten)
@@ -137,9 +119,9 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 
 - Aufgabe: Wähle die richtige Form des Verbs.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter hat gestern Fußball gespielt. → Peter played football yesterday.
+1. Peter hat gestern mit Amir gespielt. → Peter played with Amir yesterday.
 2. Ellie hat letzte Woche einen Film angeschaut. → Ellie watched a film last week.
 3. Wir sind vor zwei Tagen nach Hause gegangen. → We walked home two days ago.
 4. Amir hat gestern Sophie geholfen. → Amir helped Sophie yesterday.
@@ -165,11 +147,11 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 
 - Aufgabe: Schreibe den ganzen Satz im simple past.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Sophie · play · football · yesterday → Sophie played football yesterday.
-     - Sophie plays football yesterday.: Yesterday ist vorbei. Links von now brauchst du das simple past mit -ed.
-     - Sophie playd football yesterday.: Nach einem Vokal bleibt das y. Aus play wird played.
+1. Sophie · shop · with Ellie · yesterday → Sophie shopped with Ellie yesterday.
+     - Sophie shops with Ellie yesterday.: Yesterday ist vorbei. Links von now brauchst du das simple past mit -ed.
+     - Sophie shoped with Ellie yesterday.: Shop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
 2. Ellie · watch · a film · last week → Ellie watched a film last week.
      - Ellie watchs a film last week.: Das s gehört in die Gegenwart. Bei last week brauchst du watched.
 3. Amir · cry · yesterday → Amir cried yesterday.
@@ -184,10 +166,10 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 
 - Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter plays football yesterday. → Peter played football yesterday.
-     - Peter plays football yesterday.: Noch nicht ganz. Gestern ist vorbei, also braucht das Verb -ed.
+1. Ellie plays with Peter yesterday. → Ellie played with Peter yesterday.
+     - Ellie plays with Peter yesterday.: Noch nicht ganz. Gestern ist vorbei, also braucht das Verb -ed.
 2. The bus stopd two days ago. → The bus stopped two days ago.
      - The bus stopd two days ago.: Noch nicht ganz. Stop verdoppelt das p vor ed.
 3. Amir studyed English last week. → Amir studied English last week.
@@ -199,10 +181,10 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Gestern habe ich Fußball gespielt. → I played football yesterday. (auch richtig: Yesterday I played football.)
-     - I play football yesterday.: Yesterday ist vorbei. Das Verb braucht -ed.
+1. Gestern habe ich mit Peter gespielt. → I played with Peter yesterday. (auch richtig: Yesterday I played with Peter.)
+     - I play with Peter yesterday.: Yesterday ist vorbei. Das Verb braucht -ed.
 2. Ellie hat letzte Woche getanzt. → Ellie danced last week. (auch richtig: Last week Ellie danced.)
      - Ellie dancied last week.: Dance endet schon auf e. Du hängst nur ein d an.
 3. Wir haben vor zwei Tagen Peter geholfen. → We helped Peter two days ago. (auch richtig: Two days ago we helped Peter.)
@@ -215,7 +197,7 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie walked home yesterday.
 2. Audio → Peter and Amir played football last week.
@@ -230,7 +212,7 @@ Am Zeitstrahl hängen jetzt links von now einzelne Punkte mit Fähnchen. Sophie 
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Ellie danced with Sophie.
-2. Audio → We helped Mr Hill yesterday.
+2. Audio → We danced at school yesterday.
 3. Audio → Sophie helped Peter with homework.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende der Verben.
 - Link: [../?via=tutor#simple-past-nachsprechen](../?via=tutor#simple-past-nachsprechen)

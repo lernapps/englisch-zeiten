@@ -72,30 +72,6 @@ Klassenzimmer-Poster · Das simple present mit play:
 
 **He, she, it – das s muss mit.** Die Endung ist das, was hinten am Verb hängt. Nach s, sh, ch, x und o hängst du **es** an: teach – teach**es**. Nach einem Konsonanten (b, c, d …) wird aus **y** ein **ies**: fly – fl**ies**. Nach einem Vokal (a, e, i, o, u) bleibt das y: play – plays.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- play | spielen
-- like | mögen
-- live | wohnen
-- watch | anschauen
-- go | gehen
-- study | lernen
-- fly | fliegen
-- every day | jeden Tag
-- every Saturday | jeden Samstag
-- football | Fußball
-- pizza | Pizza
-- film | Film
-- teach | unterrichten
-- English | Englisch
-- school | Schule
-- after school | nach der Schule
-- at home | zu Hause
-- with | mit
-- to | zu / nach
-- a | ein / eine
-- and | und
-
 ### Übung
 
 - Aufgabe `simple-present-form` (unten)
@@ -136,7 +112,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 
 - Aufgabe: Wähle die richtige Form des Verbs.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir mag Pizza. → Amir likes pizza.
 2. Wir spielen jeden Samstag Fußball. → We play football every Saturday.
@@ -164,7 +140,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 
 - Aufgabe: Schreibe den ganzen Satz mit der richtigen Form des Verbs.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie · go · to school · every day → Sophie goes to school every day.
      - Sophie go to school every day.: He, she, it – das s muss mit. Sophie ist „sie“, also brauchst du die Form mit -s. Nach o ist das es.
@@ -185,10 +161,10 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 
 - Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ellie play football every Saturday. → Ellie plays football every Saturday.
-     - Ellie play football every Saturday.: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
+1. Sophie watch a film every Saturday. → Sophie watches a film every Saturday.
+     - Sophie watch a film every Saturday.: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
 2. Peter and Amir plays football every day. → Peter and Amir play football every day.
      - Peter and Amir plays football every day.: Zwei Personen sind they, also kein s.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -198,11 +174,11 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter spielt jeden Samstag Fußball. → Peter plays football every Saturday. (auch richtig: Every Saturday Peter plays football.)
-     - Peter play football every Saturday.: He, she, it – das s muss mit. Peter ist „er“.
-     - Peter plays soccer every Saturday.: In Großbritannien heißt der Sport football.
+1. Mr Hill geht jeden Tag nach Hause. → Mr Hill goes home every day. (auch richtig: Every day Mr Hill goes home.)
+     - Mr Hill go home every day.: He, she, it – das s muss mit. Mr Hill ist „er“.
+     - Mr Hill gos home every day.: Nach o hängst du es an, also goes.
 2. Sophie und Ellie schauen jeden Tag einen Film an. → Sophie and Ellie watch a film every day.
      - Sophie and Ellie watches a film every day.: Sophie und Ellie sind zwei Personen, also they. Bei they kommt kein s an das Verb.
 3. Amir wohnt zu Hause. → Amir lives at home.
@@ -214,7 +190,7 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter watches football every Saturday.
 2. Audio → Ellie watches a film after school.

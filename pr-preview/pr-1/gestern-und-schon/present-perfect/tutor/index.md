@@ -80,19 +80,6 @@ Schulkalender · Signalwörter für das present perfect:
 
 Steht eine **Zeitangabe** wie yesterday oder last week im Satz, nimmst du das **simple past**: ein Punkt. Zählt das **Ergebnis jetzt** und es steht keine Zeitangabe da, nimmst du das **present perfect**: ein Bogen. Der Kuchen steht jetzt da, also: I have made a cake.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- cake | Kuchen
-- finish | fertig machen
-- late | zu spät
-- homework | Hausaufgaben
-- his / her / your | sein / ihr / dein
-- pizza | Pizza
-- film | Film
-- book | Buch
-- home | nach Hause
-- to | zu / nach
-
 ### Übung
 
 - Aufgabe `present-perfect-form` (unten)
@@ -140,12 +127,11 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 - Aufgabe: Wähle die richtige Form des Verbs.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ellie hat einen Kuchen gemacht. → Ellie has made a cake.
+1. Amir hat Ellie ein Buch gegeben. → Amir has given Ellie a book.
 2. Peter hat Pizza gegessen. → Peter has eaten pizza.
 3. Sophie hat den Film gesehen. → Sophie has seen the film.
-4. Amir hat seine Hausaufgaben gemacht. → Amir has done his homework.
 - Tipp der App: Nimm die 3. Spalte der Karten.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-form](../?via=tutor#present-perfect-form)
@@ -163,12 +149,11 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 - Aufgabe: Punkt oder Bogen? Wähle die Zeitform, die zum Satz passt.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie hat gestern einen Film gesehen. → Sophie saw a film yesterday.
 2. Ellie hat ihre Hausaufgaben schon gemacht. → Ellie has done her homework already.
-3. Peter hat vor zwei Tagen ein Buch gelesen. → Peter read a book two days ago.
-4. Amir ist noch nie zu spät gewesen. → Amir has never been late.
+3. Amir ist noch nie zu spät gewesen. → Amir has never been late.
 - Tipp der App: Eine Zeitangabe wie yesterday ist ein Punkt. Zählt das Ergebnis jetzt, ist es ein Bogen.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-waehlen](../?via=tutor#present-perfect-waehlen)
@@ -177,16 +162,14 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 - Aufgabe: Schreibe den ganzen Satz im present perfect.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie · already · eat · pizza → Sophie has already eaten pizza. (auch richtig: Sophie has eaten pizza already.)
      - Sophie have already eaten pizza.: Bei she brauchst du has.
      - Sophie has already ate pizza.: Ate ist das simple past. Nach has brauchst du die 3. Form, eaten.
 2. Ellie · never · be · late → Ellie has never been late.
      - Ellie has never be late.: Nach has brauchst du die 3. Form von be, also been.
-3. we · just · finish · the cake → We have just finished the cake.
-     - We have just finish the cake.: Nach have brauchst du die 3. Form. Bei finish ist sie finished, mit -ed.
-4. Peter · already · do · his homework → Peter has already done his homework. (auch richtig: Peter has done his homework already.)
+3. Peter · already · do · his homework → Peter has already done his homework. (auch richtig: Peter has done his homework already.)
      - Peter has already did his homework.: Did ist das simple past. Nach has brauchst du die 3. Form, done.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-bilden](../?via=tutor#present-perfect-bilden)
@@ -195,14 +178,12 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 - Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter has played football yesterday. → Peter played football yesterday. (auch richtig: Peter has played football.)
-     - Peter has played football yesterday.: Noch nicht ganz. Zu yesterday passt das simple past.
+1. Amir has finished the cake yesterday. → Amir finished the cake yesterday. (auch richtig: Amir has finished the cake.)
+     - Amir has finished the cake yesterday.: Noch nicht ganz. Zu yesterday passt das simple past.
 2. Sophie have seen the film. → Sophie has seen the film.
      - Sophie have seen the film.: Noch nicht ganz. Bei she brauchst du has.
-3. Amir has ate pizza. → Amir has eaten pizza.
-     - Amir has ate pizza.: Noch nicht ganz. Nach has brauchst du die 3. Form.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#present-perfect-korrektur](../?via=tutor#present-perfect-korrektur)
 
@@ -210,12 +191,12 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich habe nie Pizza gegessen. → I have never eaten pizza.
      - I never have eaten pizza.: Never steht zwischen have und der 3. Form.
-2. Hast du jemals ein Buch geschrieben? → Have you ever written a book?
-     - Have you ever wrote a book?: Nach have brauchst du die 3. Form, written.
+2. Hast du jemals ein Buch gelesen? → Have you ever read a book?
+     - Have you ever readed a book?: Read ist unregelmäßig. Die 3. Form schreibst du wieder read.
 3. Hast du schon deine Hausaufgaben gemacht? → Have you done your homework yet? (auch richtig: Have you already done your homework?)
      - Have you did your homework yet?: Did ist das simple past. Nach have brauchst du die 3. Form, done.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -225,7 +206,7 @@ Klassenzimmer-Poster · Zeitformen links von now:
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie has taken a book home.
 2. Audio → Peter has already written to Ellie.
