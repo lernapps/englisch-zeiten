@@ -228,10 +228,10 @@ Am Zeitstrahl hängt jetzt eine Punktreihe. Peter hat seine Karte aufgehängt. M
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Sophie lives with Ellie.
+1. Audio → Sophie likes football.
 2. Audio → Mr Hill teaches English.
 3. Audio → They play football every day.
-- Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von lives und teaches.
+- Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von likes und teaches.
 - Link: [../?via=tutor#simple-present-nachsprechen](../?via=tutor#simple-present-nachsprechen)
 
 ### Aufgabe simple-present-karte
