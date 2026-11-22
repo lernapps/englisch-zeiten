@@ -73,6 +73,7 @@ blocks:
           - [watch a film, einen Film anschauen]
           - [ticket, Eintrittskarte]
           - [hungry, hungrig]
+          - [so, deshalb]
           - [eat, essen]
           - [pizza, Pizza]
           - [rain, regnen]
@@ -170,10 +171,10 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: amir-will-bring-a-cake.mp3
-            target: Amir will bring a cake.
-          - audio: ellie-is-going-to-have-a-party.mp3
-            target: Ellie is going to have a party.
+          - audio: amir-is-hungry-so-he-will-eat-a-pizza.mp3
+            target: Amir is hungry, so he will eat a pizza.
+          - audio: peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3
+            target: Peter has a ticket and he is going to watch a film.
           - audio: sophie-will-answer-the-phone.mp3
             target: Sophie will answer the phone.
   - type: section
@@ -184,12 +185,12 @@ blocks:
         id: will-oder-going-to-nachsprechen
         language: en
         items:
-          - audio: i-will-bring-a-cake.mp3
-            text: I will bring a cake.
+          - audio: we-are-going-to-eat-cake-on-10-july.mp3
+            text: We are going to eat cake on 10 July.
           - audio: we-are-going-to-have-a-party.mp3
             text: We are going to have a party.
-          - audio: i-will-answer-it.mp3
-            text: I will answer it.
+          - audio: sophie-will-eat-a-cake-on-10-july.mp3
+            text: Sophie will eat a cake on 10 July.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: will-oder-going-to-schreiben

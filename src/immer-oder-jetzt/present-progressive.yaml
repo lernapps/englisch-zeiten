@@ -232,8 +232,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: amir-is-sitting-on-a-chair.mp3
-            target: Amir is sitting on a chair.
+          - audio: amir-is-writing-a-story.mp3
+            target: Amir is writing a story.
           - audio: sophie-is-listening-to-music.mp3
             target: Sophie is listening to music.
           - audio: ellie-is-eating-breakfast.mp3

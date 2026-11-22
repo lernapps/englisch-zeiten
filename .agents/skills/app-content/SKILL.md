@@ -79,13 +79,58 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 
 Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur sink (Poster-Eintrag in `unregelmaessig`) und friends (Mehrzahl von friend); `yet` ist A2). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
+## Hörliste
+
+Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` schneidet das Ausklingen der Stimme am Satzende ab. Diese 38 Sätze enden auf ein einsilbiges Wort; sie sind die gezielte Hörprobe der Ersteller:in (Datei in `src/audio/` · Satz · Seite):
+
+| Datei | Satz | Seite |
+|---|---|---|
+| `we-are-going-to-watch-a-film.mp3` | We are going to watch a film. | `morgen-und-spaeter/going-to` |
+| `amir-sometimes-eats-lunch-at-school.mp3` | Amir sometimes eats lunch at school. | `immer-oder-jetzt/haeufigkeit` |
+| `peter-and-ellie-often-take-the-bus.mp3` | Peter and Ellie often take the bus. | `immer-oder-jetzt/haeufigkeit` |
+| `we-often-play-football-at-school.mp3` | We often play football at school. | `immer-oder-jetzt/haeufigkeit` |
+| `we-usually-walk-to-school.mp3` | We usually walk to school. | `immer-oder-jetzt/haeufigkeit` |
+| `has-amir-got-a-bike.mp3` | Has Amir got a bike? | `immer-oder-jetzt/have-got` |
+| `he-has-not-got-a-phone.mp3` | He has not got a phone. | `immer-oder-jetzt/have-got` |
+| `she-has-got-a-bike.mp3` | She has got a bike. | `immer-oder-jetzt/have-got` |
+| `they-have-got-a-dog.mp3` | They have got a dog. | `immer-oder-jetzt/have-got` |
+| `amir-has-just-come-home.mp3` | Amir has just come home. | `gestern-und-schon/present-perfect` |
+| `ellie-has-never-run-to-school.mp3` | Ellie has never run to school. | `gestern-und-schon/present-perfect` |
+| `sophie-has-taken-a-book-home.mp3` | Sophie has taken a book home. | `gestern-und-schon/present-perfect` |
+| `we-have-just-seen-mr-hill.mp3` | We have just seen Mr Hill. | `gestern-und-schon/present-perfect` |
+| `peter-is-running-now.mp3` | Peter is running now. | `immer-oder-jetzt/present-progressive` |
+| `they-are-making-a-cake.mp3` | They are making a cake. | `immer-oder-jetzt/present-progressive` |
+| `amir-always-eats-lunch.mp3` | Amir always eats lunch. | `immer-oder-jetzt/simple-oder-progressive` |
+| `mr-hill-often-reads-a-book.mp3` | Mr Hill often reads a book. | `immer-oder-jetzt/simple-oder-progressive` |
+| `peter-is-eating-lunch-now.mp3` | Peter is eating lunch now. | `immer-oder-jetzt/simple-oder-progressive` |
+| `sophie-reads-a-book-every-day.mp3` | Sophie reads a book every day. | `immer-oder-jetzt/simple-oder-progressive` |
+| `we-are-watching-a-film-now.mp3` | We are watching a film now. | `immer-oder-jetzt/simple-oder-progressive` |
+| `ellie-studied-english-two-days-ago.mp3` | Ellie studied English two days ago. | `gestern-und-schon/simple-past` |
+| `peter-and-amir-played-football-last-week.mp3` | Peter and Amir played football last week. | `gestern-und-schon/simple-past` |
+| `amir-studies-english-at-home.mp3` | Amir studies English at home. | `immer-oder-jetzt/simple-present` |
+| `ellie-watches-a-film-after-school.mp3` | Ellie watches a film after school. | `immer-oder-jetzt/simple-present` |
+| `they-play-football-every-day.mp3` | They play football every day. | `immer-oder-jetzt/simple-present` |
+| `are-sophie-and-ellie-tired.mp3` | Are Sophie and Ellie tired? | `immer-oder-jetzt/to-be` |
+| `ellie-is-a-good-friend.mp3` | Ellie is a good friend. | `immer-oder-jetzt/to-be` |
+| `we-are-not-tired.mp3` | We are not tired. | `immer-oder-jetzt/to-be` |
+| `mr-hill-gave-peter-a-book.mp3` | Mr Hill gave Peter a book. | `gestern-und-schon/unregelmaessig` |
+| `we-drank-water-at-home.mp3` | We drank water at home. | `gestern-und-schon/unregelmaessig` |
+| `we-saw-a-film-at-home.mp3` | We saw a film at home. | `gestern-und-schon/unregelmaessig` |
+| `ellie-will-probably-come-next-week.mp3` | Ellie will probably come next week. | `morgen-und-spaeter/will` |
+| `i-will-help-you-soon.mp3` | I will help you soon. | `morgen-und-spaeter/will` |
+| `it-will-rain-soon.mp3` | It will rain soon. | `morgen-und-spaeter/will` |
+| `sophie-will-be-here-soon.mp3` | Sophie will be here soon. | `morgen-und-spaeter/will` |
+| `we-will-probably-win.mp3` | We will probably win. | `morgen-und-spaeter/will` |
+| `peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3` | Peter has a ticket and he is going to watch a film. | `morgen-und-spaeter/will-oder-going-to` |
+| `sophie-will-answer-the-phone.mp3` | Sophie will answer the phone. | `morgen-und-spaeter/will-oder-going-to` |
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Strahl-SVG um die neuen Zeichen erweitern (Inkremente: Welle in der Vergangenheit, Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben, Punktreihe in der Vergangenheit für used to) und das Poster um die Zeilen der Seite.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, alle 72 Sätze der App, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, alle 72 Sätze der App, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen und nicht wörtlich (auch nicht mit getauschtem Namen) auf derselben Seite verwenden; Hörsätze bleiben natürlich (ein Name steht nur, wenn der Satz ihn braucht, zum Beispiel als Anrede); einsilbig endende Sätze in die Hörliste eintragen.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
@@ -96,7 +141,7 @@ Aus #470 übernommen (hello-millbrook):
 - Englische Aufgaben enthalten kein deutsches Wort.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
 - Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich geschrieben.
-- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`); kein Name nur für den Klang anhängen, Hörsätze bleiben natürlich, einsilbig endende stehen in der Hörliste.
 - Bilder: Beschriftungen innerhalb des `viewBox` halten.
 Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
 - Die Antwort einer Frage steht nie im Absatz direkt darüber; die Einstiegsfrage fragt, was der Text noch nicht sagt.
@@ -107,4 +152,5 @@ Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
 - Gleichwertige Kurzformen zulassen (I'm not, you're not, Amir's not; `accepted` oder `(a|b)`); Stellen mit „already“ und Zeitangabe so bauen, dass es nur eine richtige Zeit gibt.
 - Der englische Cue enthält kein deutsches Wort; der deutsche Hinweis steht in `source` oder in der Aufgabe.
 - Audio: Wörter, die die Stimme falsch liest, nicht in Hörsätzen verwenden: „lives“ klang wie das Nomen „leives“ (Mehrzahl von life) → der Satz heißt jetzt „Sophie likes football.“. Neue Hörsätze anhören; bei Verben, die auch Nomen sind (lives, leaves, close, wind), ein anderes Verb nehmen.
+- Hörsätze sind neue Sätze: keiner steht wörtlich oder mit getauschtem Namen im Einstieg, Poster, Merke, Bildtext oder in einer Übung derselben Seite (Prüfskript über alle Seiten vor jedem Checkpoint).
 - Einheitliche Wörter: Punktreihe, Welle über now, Poster, happy = froh, phone = Telefon / Handy.

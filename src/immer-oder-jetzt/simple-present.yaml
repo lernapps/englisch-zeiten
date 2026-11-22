@@ -207,8 +207,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: peter-plays-football-every-saturday.mp3
-            target: Peter plays football every Saturday.
+          - audio: peter-watches-football-every-saturday.mp3
+            target: Peter watches football every Saturday.
           - audio: ellie-watches-a-film-after-school.mp3
             target: Ellie watches a film after school.
           - audio: amir-studies-english-at-home.mp3

@@ -71,6 +71,7 @@ blocks:
           - [tomorrow, morgen]
           - [next week, nächste Woche]
           - [soon, bald]
+          - [here, hier]
           - [in two days, in zwei Tagen]
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
@@ -215,8 +216,8 @@ blocks:
         items:
           - audio: we-will-probably-win.mp3
             text: We will probably win.
-          - audio: it-will-be-sunny-tomorrow.mp3
-            text: It will be sunny tomorrow.
+          - audio: sophie-will-be-here-soon.mp3
+            text: Sophie will be here soon.
           - audio: i-will-help-you-soon.mp3
             text: I will help you soon.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das will, das du kaum betonst.

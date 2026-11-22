@@ -205,8 +205,8 @@ blocks:
             target: Sophie reads a book every day.
           - audio: peter-is-eating-lunch-now.mp3
             target: Peter is eating lunch now.
-          - audio: amir-often-goes-to-school.mp3
-            target: Amir often goes to school.
+          - audio: amir-always-eats-lunch.mp3
+            target: Amir always eats lunch.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -219,8 +219,8 @@ blocks:
             text: We are playing football at the moment.
           - audio: mr-hill-often-reads-a-book.mp3
             text: Mr Hill often reads a book.
-          - audio: sophie-and-amir-are-going-to-school.mp3
-            text: Sophie and Amir are going to school.
+          - audio: we-are-watching-a-film-now.mp3
+            text: We are watching a film now.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Form des Verbs.
       - type: open-task
         id: simple-oder-progressive-karte

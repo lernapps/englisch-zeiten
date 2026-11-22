@@ -228,8 +228,8 @@ blocks:
             text: Ellie danced with Sophie.
           - audio: we-helped-mr-hill-yesterday.mp3
             text: We helped Mr Hill yesterday.
-          - audio: amir-liked-the-film.mp3
-            text: Amir liked the film.
+          - audio: sophie-helped-peter-with-homework.mp3
+            text: Sophie helped Peter with homework.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende der Verben.
       - type: open-task
         id: simple-past-karte

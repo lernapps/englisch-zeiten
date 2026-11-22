@@ -217,8 +217,8 @@ blocks:
         id: haeufigkeit-nachsprechen
         language: en
         items:
-          - audio: mr-hill-is-always-happy.mp3
-            text: Mr Hill is always happy.
+          - audio: we-often-play-football-at-school.mp3
+            text: We often play football at school.
           - audio: we-usually-walk-to-school.mp3
             text: We usually walk to school.
           - audio: amir-always-eats-lunch-with-sophie.mp3

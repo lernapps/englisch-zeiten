@@ -211,10 +211,10 @@ blocks:
         items:
           - audio: we-are-going-to-watch-a-film.mp3
             target: We are going to watch a film.
-          - audio: sophie-is-going-to-visit-peter.mp3
-            target: Sophie is going to visit Peter.
-          - audio: ellie-is-going-to-invite-amir.mp3
-            target: Ellie is going to invite Amir.
+          - audio: peter-is-going-to-look-at-the-ticket.mp3
+            target: Peter is going to look at the ticket.
+          - audio: we-are-going-to-eat-pizza-at-the-party.mp3
+            target: We are going to eat pizza at the party.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -227,8 +227,8 @@ blocks:
             text: Ellie is going to have a party in July.
           - audio: i-am-going-to-eat-a-pizza.mp3
             text: I am going to eat a pizza.
-          - audio: look-at-the-clouds-it-is-going-to-rain.mp3
-            text: Look at the clouds, it is going to rain.
+          - audio: they-are-going-to-visit-amir-on-10-july.mp3
+            text: They are going to visit Amir on 10 July.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
       - type: open-task
         id: going-to-karte

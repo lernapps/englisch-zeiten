@@ -261,8 +261,8 @@ blocks:
             text: Peter ran home yesterday.
           - audio: ellie-sat-with-amir.mp3
             text: Ellie sat with Amir.
-          - audio: sophie-came-to-school-last-week.mp3
-            text: Sophie came to school last week.
+          - audio: we-saw-a-film-at-home.mp3
+            text: We saw a film at home.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Verbform, die kein -ed hat.
       - type: open-task
         id: unregelmaessig-karte
