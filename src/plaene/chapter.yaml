@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Pläne, Fahrpläne und Zeitpunkte"
 summary: "Die Klasse plant eine Klassenfahrt und fragt sich, was nächsten Samstag um acht los ist. Du liest einen Chat und ein Interview und lernst, wie du feste Verabredungen, Fahrpläne und genaue Zeitpunkte in der Zukunft sagst."
-pages: [present-fuer-zukunft]
+pages: [present-fuer-zukunft, future-progressive-perfect]
