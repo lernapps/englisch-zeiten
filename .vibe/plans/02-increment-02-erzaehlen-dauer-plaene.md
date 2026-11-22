@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -73,6 +73,8 @@ Jugendliche der Klassen 7-8 erzählen auf Englisch, ordnen Hintergrund, Handlung
 
 **Lerner-Check der Musterseite `erzaehlen/past-progressive` (Sub-Agent, Kind 7-8, 1280 und 360 px) und was behoben wurde:** Die Einstiegsfrage fragte nach einem Satz, den die Seite noch nicht erklärt hatte → jetzt Frage vom Zeitstrahl aus (Welle). Glossar stand unter dem Text und enthielt nur 9 Wörter → Vokabelblock „Wörter zum Tagebuch“ vor dem Text mit 17 Einträgen (get off, count, still, flew …). -ing-Regeln (Verdopplung, e fällt weg) fehlten → im Merke mit anderen Verben als in den Übungen; Frage und Verneinung (What were you doing?, wasn't) dort ergänzt. Mehrfachauswahl zu „while“ war mehrdeutig → Frage nach Zeilen mit while, eindeutig. Distraktor „Peter hielt den Schalter schon in der Hand“ war plausibel → Vogelsatz. Übung 3: Satz mit verratendem was singing ersetzt, Tipp gestrichen (dreifache Wiederholung). Übung 4, Satz 3: while my brother cooked schrieb vor den Rest → when the rain started. Übung 5: Mistake für is/are ergänzt. Offene Aufgabe: Satzanfang angeboten, Beispiel vereinfacht. Nicht im Inhalt behebbar (Vorlage): generische Meldung bei freien Antworten, keine Teilprüfung einzelner Zeilen, Mikrofon-Text.
 **Update:** tooling 0.18.3 → 0.18.4, app-templates 0.11.0 → 0.14.0 (neuer Vokabelblock `vocabulary`); alle Wörtertabellen der ersten Version (9) sind jetzt Vokabelblöcke (Commit „feat: Vokabelblock statt Wörtertabellen“), `lernapps check` ohne Fehler.
+
+**Sprachprüfung und Gesamtcheck der neun Seiten (Sub-Agenten, Kind 7-8) und was behoben wurde (Commit `021604e`):** Sprachprüfung 54 Funde, Gesamtcheck rund 30 Funde, alle geprüft und behoben bis auf die unten genannten. Wichtigste: Richtige englische Sätze galten als Fehler (will für Pläne und Fahrpläne, After she finished …, Korrekturaufgaben ohne Fehler) → Form in der Aufgabe vorgegeben, Cues mit (Zukunft)/(Vergangenheit), echte Fehler in den Korrekturaufgaben, Meldungen „Möglich, aber hier üben wir …“, Kurzformen als `(a|b)`. Widersprüche der Geschichte: Sophie wohnt seit der ersten Version bei den Parkers (since I came to England, kein Übernachten bei Ellie, Peter wohnt dort), school trip, Burg, torch statt Schalter in der Hand. Zeichnungen: past-perfect (kein Pfeil mehr, der wie going to aussah), zeitenfolge (Flagge when it stops), dynamic-stative (Welle bis zum Stoppschild), present-fuer-zukunft (Fahrplan als Punktreihe der Abfahrten). Letzte Seite ohne falsche Versprechen („Kapitel 7 folgt später“). Selbsteinschätzung: Cues allein verständlich. Hörsätze: 54 neue, 0 Treffer der Fuzzy-Prüfung, 126 Dateien und Einträge. Bewusst nicht geändert: Kino-Szenen und Interview-Form kehren auf mehreren Seiten wieder (Umbau zu groß); A1-Wörter wie wind, bird, window stehen nicht im Vokabelblock; Wikipedia-Links in den `links` sind englisch, das Schema verlangt einen Link. Nicht im Inhalt behebbar (Vorlage): generische Meldung bei freien Antworten, Selbsteinschätzung zeigt dieselben Aufgaben wie die Seiten.
 
 ## Explore
 
@@ -177,7 +179,7 @@ page, which a link. -->
       Creator: Ja, die anderen acht Seiten dürfen nach dem Muster von past-progressive folgen, drei Sub-Agenten sind ok. Vokabelblock-Auftrag mitgeben. Kein Push, bis die Erlaubnis der Ersteller:in vorliegt.
 - [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
 - [x] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
