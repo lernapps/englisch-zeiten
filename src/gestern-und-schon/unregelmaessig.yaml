@@ -109,13 +109,16 @@ blocks:
           - type: text
             text: |
               Im simple past nimmst du die **2. Spalte**: Yesterday I went to school. Die **3. Form** ist eine andere Karte: gone gehört nicht zu yesterday. Hänge bei diesen Verben **kein ed** an: goed, eated und buyed gibt es nicht.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [break, kaputt machen]
-          - [speak, sprechen]
-          - [sink, sinken]
+        languages: { source: de, target: en }
+        entries:
+          - target: break ...
+            source: kaputt machen ...
+          - target: speak ...
+            source: sprechen ...
+          - target: sink ...
+            source: sinken ...
   - type: section
     id: uebung
     title: Übung
