@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wann passiert was? when, after, before, as soon as"
+description: "Sophie interviewt Mr Hill zum Schulfest. Du erkennst, welche Zeit nach when, after, before und as soon as steht, und stimmst die Zeiten richtig ab."
+competencies: [zeitenfolge-temporalsaetze]
+scope: Die Seite zeigt, wie die Zeiten in Sätzen mit when, after, before und as soon as zusammenpassen. Spricht der Satz über die Zukunft, steht im Nebensatz das simple present, nicht will, und im Hauptsatz will plus Grundform. Spricht der Satz über die Vergangenheit, steht nach after das past perfect für das frühere Ereignis und im Hauptsatz das simple past. Als Lesestück dient ein Interview. Nicht hier, weil es spätere Seiten oder andere Explainer sind. Bedingungssätze mit if, indirekte Rede, das Passiv und die Entscheidung zwischen present perfect und simple past.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was kommt zuerst?
+    blocks:
+      - type: single-choice
+        id: zeitenfolge-start
+        text: "Du kennst vom Zeitstrahl zwei Zeichen für die Zukunft: einen Punkt für will und einen Pfeil für going to. Welche Form steht bei will nach dem Wort will?"
+        options:
+          - text: Die Grundform des Verbs.
+            correct: true
+            info: Nach will steht die Grundform, zum Beispiel will come. Das gilt für alle Personen.
+          - text: Die Form mit -s.
+            correct: false
+            info: Nach will gibt es kein -s, auch nicht bei he, she und it.
+          - text: Die Form mit -ing.
+            correct: false
+            info: Die -ing-Form steht nach is, are oder was, nicht nach will.
+        explanation: Nach will steht immer die Grundform. Gleich siehst du, was in einem Nebensatz mit when oder after dazukommt.
+        links:
+          - title: Lernlandkarte Englisch · Zeitenfolge in Temporalsätzen
+            url: https://lernapps.net/apps/map/englisch/c/zeitenfolge-temporalsaetze/
+      - type: text
+        text: "**Das kannst du danach:** Du stimmst in Sätzen mit when, after, before und as soon as die Zeiten richtig ab, über die Zukunft und über die Vergangenheit."
+  - type: section
+    id: lesestueck
+    title: Das Interview mit Mr Hill
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Interview
+        languages: { source: de, target: en }
+        entries:
+          - target: school fair
+            source: Schulfest
+          - target: stall
+            source: Stand, Bude
+          - target: sign
+            source: Schild
+          - target: paint
+            source: malen, anstreichen
+          - target: visitor
+            source: Besucher, Besucherin
+          - target: welcome
+            source: begrüßen
+          - target: choose
+            source: wählen
+            forms: [chose, chosen]
+      - type: text
+        text: |
+          **[1]** Sophie: Mr Hill, the school fair is on Saturday. How did you prepare for it?
+
+          **[2]** Mr Hill: After we had finished the lessons on Friday, the students built the stalls in the hall. Before they went home, they had painted all the signs.
+
+          **[3]** Sophie: And what will happen when the doors open?
+      - type: text
+        text: |
+          **[4]** Mr Hill: As soon as the doors open, the music will start. When the first visitors arrive, Amir will welcome them at the gate.
+
+          **[5]** Sophie: What will happen after the visitors buy their tickets?
+
+          **[6]** Mr Hill: They will walk through the hall. Before they leave, they will choose the best cake.
+
+          **[7]** Sophie: Who will win?
+
+          **[8]** Mr Hill: I don't know yet. I will tell you as soon as I know the winner.
+  - type: section
+    id: neu
+    title: Wenn du von der Zukunft sprichst
+    blocks:
+      - type: text
+        text: Auf dem Zeitstrahl liegen jetzt Gegenwart, Vergangenheit und Zukunft. In einem Satz mit **when**, **after**, **before** oder **as soon as** gibt es zwei Teile, einen Nebensatz mit dem Signalwort und einen Hauptsatz. Beide Teile liegen oft auf verschiedenen Punkten des Strahls.
+      - type: figure
+        image: images/zeitstrahl-zeitenfolge.svg
+        alt: Ein Zeitstrahl mit dem roten Strich now in der Mitte. Links davon liegen zwei blaue Punkte mit den Fähnchen had done und did. Rechts davon liegen zwei orangefarbene Punkte mit den Fähnchen does und will do.
+        caption: Links die Vergangenheit, rechts die Zukunft. Das Fähnchen am linken Punkt eines Paares nennt jeweils das, was zuerst geschieht.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Zeiten nach when, after, before und as soon as
+        header: [Satzteil, Zeit, Beispiel]
+        rows:
+          - [Zukunft, Nebensatz im simple present, "Before the lesson starts, …"]
+          - [Zukunft, Hauptsatz mit will, "… the teacher will open the window."]
+          - [
+              Vergangenheit,
+              "after + past perfect, Hauptsatz simple past",
+              "After he had washed the car, he drove home.",
+            ]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach **when**, **after**, **before** und **as soon as** steht für die Zukunft **kein will**, sondern das **simple present**. Das will steht nur im Hauptsatz. In der Vergangenheit steht nach **after** das **past perfect** für das frühere Ereignis, im Hauptsatz folgt das simple past.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: zeitenfolge-verstehen
+        text: "Was passiert nach dem Interview, sobald die Türen des Schulfests aufgehen?"
+        options:
+          - text: Die Musik beginnt.
+            correct: true
+            info: Das sagt Mr Hill in Zeile 4.
+          - text: Die Besucher wählen den besten Kuchen.
+            correct: false
+            info: Das passiert erst später, kurz bevor die Besucher gehen (Zeile 6).
+          - text: Amir sagt den Gewinner an.
+            correct: false
+            info: Den Gewinner kennt Mr Hill noch nicht (Zeile 8).
+        explanation: Die Musik beginnt, sobald die Türen aufgehen.
+        links:
+          - title: Sequence of tenses (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Sequence_of_tenses
+      - type: multiple-choice
+        id: zeitenfolge-zeilen
+        text: "In welchen Zeilen spricht Mr Hill über die Zukunft und benutzt im Nebensatz das simple present?"
+        options:
+          - text: Zeile 4
+            correct: true
+            info: Dort stehen as soon as the doors open und when the first visitors arrive.
+          - text: Zeile 8
+            correct: true
+            info: Dort steht as soon as I know, das will steht nur im Hauptsatz.
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 spricht über die Vergangenheit, mit dem past perfect und dem simple past.
+          - text: Zeile 1
+            correct: false
+            info: In Zeile 1 stellt Sophie eine Frage über die Vergangenheit, im simple past.
+        explanation: Für die Zukunft steht im Nebensatz mit when, before, after und as soon as das simple present.
+        links:
+          - title: Sequence of tenses (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Sequence_of_tenses
+      - type: language-task
+        id: zeitenfolge-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Sobald es klingelt, fangen wir an.
+            target: As soon as the bell [rings], we will start.
+            distractors: [[will ring, rang]]
+          - cue: Wenn Peter ankommt, spielen wir Fußball.
+            target: When Peter [arrives], we will play football.
+            distractors: [[will arrive, arrived]]
+          - cue: Bevor du gehst, rufe ich dich an.
+            target: Before you [leave], I will call you.
+            distractors: [[will leave, left]]
+          - cue: Nachdem sie das Essen gekocht hatte, aß sie mit ihrer Mutter.
+            target: After she [had cooked] the dinner, she ate it with her mother.
+            distractors: [[cooked, has cooked]]
+        hint: Für die Zukunft steht im Nebensatz das simple present. Das frühere Ereignis in der Vergangenheit steht im past perfect.
+      - type: language-task
+        id: zeitenfolge-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz. Achte auf die Zeit im Nebensatz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: as soon as · I · finish · my homework · I · call · you
+            target: As soon as I finish my homework, I will call you.
+            mistakes:
+              - answer: As soon as I will finish my homework, I will call you.
+                message: Nach as soon as steht für die Zukunft das simple present. Das will gehört nur in den Hauptsatz.
+              - answer: As soon as I finish my homework, I call you.
+                message: Der Hauptsatz spricht über die Zukunft. Dort brauchst du will und die Grundform.
+          - cue: before · we · leave · we · clean · the room
+            target: Before we leave, we will clean the room.
+            mistakes:
+              - answer: Before we will leave, we will clean the room.
+                message: Nach before steht für die Zukunft das simple present, nicht will.
+              - answer: Before we left, we will clean the room.
+                message: Der Satz spricht über die Zukunft. Im Nebensatz steht das simple present, nicht das simple past.
+          - cue: after · the film · end · we · go · home
+            target: After the film ends, we will go home.
+            mistakes:
+              - answer: After the film will end, we will go home.
+                message: Nach after steht für die Zukunft das simple present, ends mit -s.
+              - answer: After the film end, we will go home.
+                message: The film ist „es“, also braucht end ein -s im simple present.
+          - cue: after · she · finish · her book · she · go · to bed
+            target: After she had finished her book, she went to bed.
+            mistakes:
+              - answer: After she finished her book, she went to bed.
+                message: Das Lesen war das frühere Ereignis. Dafür steht nach after das past perfect, had finished.
+              - answer: After she had finished her book, she had gone to bed.
+                message: Im Hauptsatz steht das spätere Ereignis im simple past, also went.
+        hint: Erst die Zeit des Satzes bestimmen, dann Nebensatz und Hauptsatz einzeln bilden.
+      - type: language-task
+        id: zeitenfolge-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: When it will stop raining, we will go out.
+            target: When it stops raining, we will go out.
+            mistakes:
+              - answer: When it will stop raining, we will go out.
+                message: Noch nicht ganz. Nach when steht für die Zukunft das simple present.
+          - cue: As soon as she will arrive, I will tell her.
+            target: As soon as she arrives, I will tell her.
+            mistakes:
+              - answer: As soon as she will arrive, I will tell her.
+                message: Noch nicht ganz. Nach as soon as steht kein will, sondern das simple present mit -s bei she.
+        hint: Prüfe die Zeit im Nebensatz.
+      - type: language-task
+        id: zeitenfolge-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: when-the-music-stops-everybody-will-clap.mp3
+            target: When the music stops, everybody will clap.
+          - audio: after-they-had-cleaned-the-hall-the-teachers-went-home.mp3
+            target: After they had cleaned the hall, the teachers went home.
+          - audio: before-you-leave-please-turn-off-the-lights.mp3
+            target: Before you leave, please turn off the lights.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: zeitenfolge-nachsprechen
+        language: en
+        items:
+          - audio: as-soon-as-the-shop-opens-i-will-buy-some-bread.mp3
+            text: As soon as the shop opens, I will buy some bread.
+          - audio: we-will-have-lunch-after-the-match-ends.mp3
+            text: We will have lunch after the match ends.
+          - audio: before-she-went-out-she-had-finished-her-work.mp3
+            text: Before she went out, she had finished her work.
+        hint: Hör den Satz zuerst. Sprich langsam nach und achte auf die Zeiten im Nebensatz.
+      - type: open-task
+        id: zeitenfolge-plan
+        task: "Schreibe drei bis vier Sätze über einen Plan für das Wochenende. Benutze mindestens zwei Signalwörter aus when, after, before und as soon as. Du kannst so beginnen: As soon as school finishes, I will …"
+        points:
+          - text: Im Nebensatz mit when, after, before oder as soon as steht das simple present, kein will.
+            source: /erzaehlen/zeitenfolge-temporalsaetze/#neu
+          - text: Im Hauptsatz steht will mit der Grundform.
+            source: /erzaehlen/zeitenfolge-temporalsaetze/#neu
+          - text: Ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          As soon as school finishes on Friday, I will go to the library. After I choose a book, I will meet my friends. Before I go home, we will buy some ice cream.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Am Wandbild liegen jetzt Punkte in der Vergangenheit und in der Zukunft. Die Schülerzeitung bringt einen Artikel über die neue Bibliothek, und ein Satz darin spielt mit der Zeit. Auf der nächsten Seite lernst du, wann du das present perfect und wann du das simple past brauchst.
