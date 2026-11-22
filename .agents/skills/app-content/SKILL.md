@@ -85,6 +85,7 @@ Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` sc
 
 | Datei | Satz | Seite |
 |---|---|---|
+| `we-will-probably-win.mp3` | We will probably win. | `morgen-und-spaeter/will` (von der Ersteller:in beanstandet: Fehllaut nach „win“; zuerst neu erzeugen) |
 | `amir-has-just-come-home.mp3` | Amir has just come home. | `gestern-und-schon/present-perfect` |
 | `ellie-has-never-run-to-school.mp3` | Ellie has never run to school. | `gestern-und-schon/present-perfect` |
 | `sophie-has-taken-a-book-home.mp3` | Sophie has taken a book home. | `gestern-und-schon/present-perfect` |
@@ -118,7 +119,6 @@ Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` sc
 | `ellie-will-probably-come-next-week.mp3` | Ellie will probably come next week. | `morgen-und-spaeter/will` |
 | `it-will-rain-soon.mp3` | It will rain soon. | `morgen-und-spaeter/will` |
 | `sophie-will-be-here-soon.mp3` | Sophie will be here soon. | `morgen-und-spaeter/will` |
-| `we-will-probably-win.mp3` | We will probably win. | `morgen-und-spaeter/will` |
 | `we-will-see-you-soon.mp3` | We will see you soon. | `morgen-und-spaeter/will` |
 | `it-is-raining-so-peter-will-take-the-bus.mp3` | It is raining, so Peter will take the bus. | `morgen-und-spaeter/will-oder-going-to` |
 | `peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3` | Peter has a ticket and he is going to watch a film. | `morgen-und-spaeter/will-oder-going-to` |
