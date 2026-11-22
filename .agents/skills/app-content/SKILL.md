@@ -66,6 +66,13 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 - Keine Komponente (`prefer-built-in-block`); eine Ziehen-Übung auf dem Strahl wäre ein Wunsch für ein Inkrement.
 - Keine Datendateien: jede Tatsache steht einmal in ihrer Seite.
 
+### Stufe 7-8: Seite mit Lesestück (Kapitel 4 bis 6, Muster `erzaehlen/past-progressive`)
+
+- Abschnitte: `einstieg` (Vorwissens-Frage zum Zeitstrahl, „Das kannst du danach“), `lesestueck` (Titel nennt die Sorte, z. B. „Sophies Tagebuch“; zuerst der Vokabelblock „Wörter zum Tagebuch“, dann der Text in `text`-Blöcken mit nummerierten Zeilen „**[1]** …“, 150 bis 300 Wörter, eigener erfundener Text der Figuren, keine realen Faktenangaben), `neu` (Zeichen am Strahl, Bau-Karte, Merke; kein Satz des Lesestücks wörtlich), `uebung` in drei Stufen (Verstehen: `single-choice`/`multiple-choice` zum Inhalt; Belegen mit Zeile: `multiple-choice` „In welchen Zeilen steht …?“, `language-task` zum Bilden; Meinung/Schreiben im Abschnitt `anwenden` als `open-task`), `anwenden`, `weiter`.
+- **Vokabelblock** (`type: vocabulary`, app-templates ab 0.14): ersetzt jede Tabelle, in der nur Wörter und Bedeutungen stehen (Ausdruck · Bedeutung, Wort · Bedeutung, Zeitangabe · Bedeutung). Felder: `caption`, `languages: { source: de, target: en }`, `entries` (`target`, `source`, optional `forms`, `example`, `note`). Eine Wörterliste je Seite (Konventionen Abschnitt 7). Formen-Tabellen (Person · Form) und Zeitformen-Poster bleiben `table`.
+- Hinweis `explainer-text-load` (mehr als 350 Wörter zu lesen) ist bei diesen Seiten **bewusst**: Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext (Konventionen Abschnitt 8, Ersteller:in bestätigt).
+- Lerner-Check der Musterseite (Kind 7-8): Vorwissens-Frage vom Zeitstrahl aus (nicht ein Satz, den die Seite noch nicht erklärt hat), Glossar vor dem Text, -ing-Regel mit anderen Verben als die Übungen, Frage und Verneinung kurz im Merke, Übungen mit eigener Meldung je Fehler.
+
 ## Figures
 
 - Zeichen des Zeitstrahls (eine SVG-Familie `src/images/zeitstrahl-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox; Farben: now #c0392b, Punkte #2c6fd8, Welle #8e44ad, Bogen #138d75, Pfeil und will #d35400): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.

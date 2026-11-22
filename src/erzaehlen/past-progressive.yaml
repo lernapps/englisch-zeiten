@@ -12,27 +12,69 @@ blocks:
         text: Sophie ist jetzt 13 und lebt noch immer bei den Parkers. Ellie (13), Peter (11) und Amir (13) sind in ihrer Nähe, und Mr Hill hängt am Wandbild neue Zeichen auf. Heute war Schulausflug, und Sophie schreibt abends Tagebuch.
       - type: single-choice
         id: past-progressive-start
-        text: Sophie schreibt „I was reading a book when you called.“ Was war zuerst im Gang?
+        text: Du kennst vom Zeitstrahl Zeichen für die Zeiten. Welches Zeichen steht für etwas, das gerade im Gang ist?
         options:
-          - text: Sie las schon, als der Anruf kam.
+          - text: Die Welle
             correct: true
-            info: Das Lesen war schon im Gang. Der Anruf hat es unterbrochen.
-          - text: Sie hat das Lesen erst nach dem Anruf begonnen.
+            info: Die Welle zeigt, dass etwas läuft, zum Beispiel bei I am reading.
+          - text: Die Punktreihe
             correct: false
-            info: Dann würde der Satz erst den Anruf nennen und danach das Lesen. Hier läuft das Lesen schon, als der Anruf kommt.
-          - text: Sie hat das Buch am Ende des Anrufs gelesen.
+            info: Die Punktreihe steht für Gewohnheiten, die sich wiederholen (simple present).
+          - text: Ein einzelner Punkt
             correct: false
-            info: Beim Anruf las sie schon. Er kommt als Unterbrechung, nicht als Beginn.
-        explanation: Das Lesen läuft, und der Anruf passiert mitten darin.
+            info: Ein Punkt ist ein einzelnes Ereignis, zum Beispiel im simple past.
+          - text: Der Bogen
+            correct: false
+            info: Der Bogen reicht von früher bis now und gehört zum present perfect.
+        explanation: Die Welle steht für etwas, das im Gang ist. Diese Seite verschiebt sie in die Vergangenheit.
         links:
           - title: Lernlandkarte Englisch · Past progressive
             url: https://lernapps.net/apps/map/englisch/c/past-progressive/
       - type: text
-        text: "**Das kannst du danach:** Du erkennst in einem Text, was in der Vergangenheit im Hintergrund lief und was plötzlich passierte. Und du bildest das past progressive mit was und were."
+        text: "**Das kannst du danach:** Du erkennst in einem Text, was schon lief und was dann passierte. Und du bildest das past progressive mit was und were."
   - type: section
     id: lesestueck
     title: Sophies Tagebuch
     blocks:
+      - type: vocabulary
+        caption: Wörter zum Tagebuch
+        languages: { source: de, target: en }
+        entries:
+          - target: get off
+            source: aussteigen
+          - target: castle
+            source: Burg
+          - target: gate
+            source: Tor
+          - target: guide
+            source: Führer / Führerin
+          - target: count
+            source: zählen
+          - target: still
+            source: noch immer
+          - target: hurry up
+            source: sich beeilen
+          - target: nobody
+            source: niemand
+          - target: the lights went out
+            source: das Licht ging aus
+          - target: switch
+            source: Schalter
+          - target: hold
+            source: halten
+          - target: strange
+            source: seltsam
+          - target: noise
+            source: Geräusch
+          - target: carefully
+            source: vorsichtig, genau
+          - target: suddenly
+            source: plötzlich
+          - target: scream
+            source: schreien
+          - target: fly
+            source: fliegen
+            forms: [flew]
       - type: text
         text: |
           **[1]** Dear diary, today we went on a school trip to the old castle at Harlow Bay. It was raining when we got off the bus, and a cold wind was blowing from the sea.
@@ -46,28 +88,6 @@ blocks:
       - type: text
         text: |
           **[5]** In the evening, while the bus was driving home, everybody was sleeping. Only I was writing this. It was a perfect day.
-      - type: vocabulary
-        caption: Randglossar
-        languages: { source: de, target: en }
-        entries:
-          - target: castle
-            source: Burg
-          - target: gate
-            source: Tor
-          - target: guide
-            source: Führer / Führerin
-          - target: switch
-            source: Schalter
-          - target: scream
-            source: schreien
-          - target: noise
-            source: Geräusch
-          - target: hall
-            source: Halle
-          - target: search
-            source: suchen
-          - target: king
-            source: König
   - type: section
     id: neu
     title: Die Welle und der Punkt
@@ -94,6 +114,8 @@ blocks:
           - type: text
             text: |
               **was / were + Verb mit -ing.** Bei I, he, she und it steht **was**, bei you, we und they **were**. Das past progressive nennt, was im Hintergrund lief. Was plötzlich geschah, steht im simple past.
+
+              Das -ing bildest du wie im present progressive: bei einem kurzen Verb mit einem Vokal vor dem letzten Konsonanten verdoppelt sich der Konsonant (swim – swimming), ein stummes e fällt weg (make – making). Verneinung: **wasn't** und **weren't**. Frage: **Were you sleeping?** und **What were you doing?**
   - type: section
     id: uebung
     title: Übung
@@ -105,9 +127,9 @@ blocks:
           - text: Die Klasse ging durch eine dunkle Halle.
             correct: true
             info: Das war die Welle. Das Licht ging aus, der Punkt kam dazu.
-          - text: Peter hielt den Schalter schon in der Hand.
+          - text: Ein Vogel flog gerade durchs Fenster.
             correct: false
-            info: Das sagt der Text erst, nachdem das Licht aus war. Es war nicht der Hintergrund.
+            info: Das passierte später, in Zeile 4. Mit dem Licht hat es nichts zu tun.
           - text: Mr Hill zählte die Kinder am Tor.
             correct: false
             info: Das war am Tor, bevor die Klasse im Schloss war.
@@ -117,21 +139,21 @@ blocks:
             url: https://en.wikipedia.org/wiki/Past_continuous
       - type: multiple-choice
         id: past-progressive-zeilen
-        text: "In welchen Zeilen des Tagebuchs steht etwas, das gleichzeitig mit etwas anderem lief (while)?"
+        text: "In welchen Zeilen des Tagebuchs steht ein Satz mit while?"
         options:
-          - text: Zeile 2 (Mr Hill und Ellie am Tor)
+          - text: Zeile 2
             correct: true
-            info: Zwei Wellen laufen gleichzeitig, das zeigt while.
-          - text: Zeile 5 (die Fahrt im Bus am Abend)
+            info: In Zeile 2 steht while Ellie was looking for her ticket.
+          - text: Zeile 5
             correct: true
-            info: Auch hier laufen zwei Wellen gleichzeitig, das Fahren und das Schlafen.
-          - text: Zeile 3 (die dunkle Halle)
+            info: In Zeile 5 steht while the bus was driving home.
+          - text: Zeile 3
             correct: false
-            info: Dort unterbricht ein Punkt die Welle. Es steht when, nicht while.
-          - text: Zeile 1 (die Ankunft)
+            info: In Zeile 3 steht when the lights went out, nicht while.
+          - text: Zeile 4
             correct: false
-            info: Dort unterbricht die Ankunft den Regen. Auch das ist when.
-        explanation: While zeigt zwei Wellen, die zur selben Zeit liefen.
+            info: In Zeile 4 stehen zwei Sätze mit when, nicht mit while.
+        explanation: While verbindet zwei Wellen, die zur selben Zeit liefen. When bringt meist einen Punkt, der eine Welle unterbricht.
         links:
           - title: Past continuous (Wikipedia)
             url: https://en.wikipedia.org/wiki/Past_continuous
@@ -148,13 +170,12 @@ blocks:
           - cue: Wir warteten im Regen, als der Bus kam.
             target: We [were waiting] in the rain when the bus came.
             distractors: [[was waiting, waited]]
-          - cue: Peter sang laut, während Ellie kochte.
-            target: Peter was singing loudly while Ellie [was cooking].
-            distractors: [[were cooking, cooked]]
+          - cue: Meine Eltern sahen fern, als ich nach Hause kam.
+            target: My parents [were watching] TV when I came home.
+            distractors: [[was watching, watched]]
           - cue: Die Kinder spielten Fußball, als es zu regnen begann.
             target: The children [were playing] football when it began to rain.
             distractors: [[was playing, played]]
-        hint: Bei I, he, she, it steht was, bei you, we, they steht were. Das Verb endet auf -ing.
       - type: language-task
         id: past-progressive-bilden
         languages: { source: de, target: en }
@@ -177,12 +198,12 @@ blocks:
                 message: They gehört zu were, nicht zu was.
               - answer: They were run in the park when it rained.
                 message: Nach were kommt die -ing-Form. Bei run verdoppelt sich das n, es heißt running.
-          - cue: I · sit · in the garden · while my brother cooked
-            target: I was sitting in the garden while my brother cooked.
+          - cue: I · sit · in the garden · when the rain started
+            target: I was sitting in the garden when the rain started.
             mistakes:
-              - answer: I were sitting in the garden while my brother cooked.
+              - answer: I were sitting in the garden when the rain started.
                 message: Zu I gehört was.
-              - answer: I was siting in the garden while my brother cooked.
+              - answer: I was siting in the garden when the rain started.
                 message: Bei sit verdoppelt sich das t, es heißt sitting.
           - cue: we · talk · about music · when you called
             target: We were talking about music when you called.
@@ -210,6 +231,8 @@ blocks:
             mistakes:
               - answer: The dog was sleeping while the children was playing.
                 message: The children sind mehrere, also were.
+              - answer: The dog is sleeping while the children are playing.
+                message: Das war in der Vergangenheit. Du brauchst was und were, nicht is und are.
               - answer: The dog was sleep while the children were playing.
                 message: "Nach was kommt das Verb mit -ing: sleeping."
         hint: "Zwei Wellen mit while: zweimal was oder were mit der -ing-Form."
@@ -259,7 +282,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich langsam nach und achte auf was und were.
       - type: open-task
         id: past-progressive-tagebuch
-        task: "Schreibe einen kurzen Tagebucheintrag von drei bis vier Sätzen über einen Tag, an dem etwas Unerwartetes passierte. Nenne, was gerade im Gang war, und was dann passierte."
+        task: "Schreibe einen kurzen Tagebucheintrag von drei bis vier Sätzen über einen Tag, an dem etwas Unerwartetes passierte. Nenne, was gerade im Gang war, und was dann passierte. Du kannst so beginnen: I was … when …"
         points:
           - text: Mindestens ein Satz mit was oder were und dem Verb mit -ing (die Welle).
             source: /erzaehlen/past-progressive/#neu
@@ -270,7 +293,7 @@ blocks:
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          I was walking home from school when it started to rain. My friend was waiting at the bus stop, and we were talking while the rain was getting heavier. Then the bus arrived.
+          I was walking home from school when it started to rain. My friend was waiting at the bus stop, and we were talking while we were waiting. Then the bus arrived.
   - type: section
     id: weiter
     title: Wie es weitergeht
