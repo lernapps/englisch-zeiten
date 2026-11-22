@@ -50,7 +50,7 @@ blocks:
             source: Leseecke
       - type: text
         text: |
-          **[1]** New library is a big success. Last Monday, the new school library opened its doors. Mr Hill cut a ribbon, and the whole school clapped.
+          **[1]** New library is a big success. Last Monday, the new school library opened. Mr Hill welcomed the students, and the whole school clapped.
 
           **[2]** The library has changed a lot. The old shelves are gone, and there are now comfortable chairs and a quiet reading corner. A group of students painted the walls in summer.
       - type: text
@@ -120,7 +120,7 @@ blocks:
             info: In Zeile 5 steht Have you visited the library yet? Das ist eine Frage nach dem Ergebnis.
           - text: Zeile 1
             correct: false
-            info: In Zeile 1 stehen opened, cut und clapped, dazu last Monday. Das ist nur simple past.
+            info: In Zeile 1 stehen opened, welcomed und clapped, dazu last Monday. Das ist nur simple past.
         explanation: Das present perfect steht ohne genaue Zeitangabe, wenn das Ergebnis jetzt zählt.
         links:
           - title: Uses of English verb forms (Wikipedia)
