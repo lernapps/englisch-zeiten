@@ -175,8 +175,8 @@ page, which a link. -->
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
       Creator: Ja, die anderen acht Seiten dürfen nach dem Muster von past-progressive folgen, drei Sub-Agenten sind ok. Vokabelblock-Auftrag mitgeben. Kein Push, bis die Erlaubnis der Ersteller:in vorliegt.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
