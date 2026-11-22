@@ -123,11 +123,13 @@ blocks:
                 message: Yesterday ist vorbei. Links von now brauchst du das simple past mit -ed.
               - answer: Sophie shoped with Ellie yesterday.
                 message: Shop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
-          - cue: Ellie · watch · a film · last week
-            target: Ellie watched a film last week.
+          - cue: Ellie · clean · her room · last week
+            target: Ellie cleaned her room last week.
             mistakes:
-              - answer: Ellie watchs a film last week.
-                message: Das s gehört in die Gegenwart. Bei last week brauchst du watched.
+              - answer: Ellie cleans her room last week.
+                message: Last week ist vorbei. Links von now brauchst du das simple past mit -ed.
+              - answer: Ellie cleanned her room last week.
+                message: In clean steht vor dem n ein langer Vokal (ea). Dann wird nichts verdoppelt, du hängst nur ed an.
           - cue: Amir · cry · yesterday
             target: Amir cried yesterday.
             mistakes:
@@ -138,7 +140,6 @@ blocks:
             mistakes:
               - answer: The bus stoped two days ago.
                 message: Stop ist kurz und endet auf einen Konsonanten. Der Konsonant wird verdoppelt.
-        hint: Frag dich, welches Fähnchen am Punkt hängt. Dann bildest du die Form mit -ed.
       - type: language-task
         id: simple-past-korrektur
         languages: { source: de, target: en }
@@ -188,12 +189,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: sophie-walked-home-yesterday.mp3
-            target: Sophie walked home yesterday.
-          - audio: peter-and-amir-played-football-last-week.mp3
-            target: Peter and Amir played football last week.
-          - audio: ellie-studied-english-two-days-ago.mp3
-            target: Ellie studied English two days ago.
+          - audio: sophie-called-her-mother-on-monday.mp3
+            target: Sophie called her mother on Monday.
+          - audio: we-listened-to-music-last-night.mp3
+            target: We listened to music last night.
+          - audio: amir-cleaned-his-room-on-sunday.mp3
+            target: Amir cleaned his room on Sunday.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben

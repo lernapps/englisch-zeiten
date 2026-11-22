@@ -146,7 +146,7 @@ blocks:
             target: Sophie watches a film every Saturday.
             mistakes:
               - answer: Sophie watch a film every Saturday.
-                message: Noch nicht ganz. Ellie ist „sie“, schau in den Kasten „Merke“.
+                message: Noch nicht ganz. Sophie ist „sie“, schau in den Kasten „Merke“.
           - cue: Peter and Amir plays football every day.
             target: Peter and Amir play football every day.
             mistakes:
@@ -183,8 +183,8 @@ blocks:
         items:
           - audio: peter-watches-football-every-saturday.mp3
             target: Peter watches football every Saturday.
-          - audio: ellie-watches-a-film-after-school.mp3
-            target: Ellie watches a film after school.
+          - audio: ellie-listens-to-music-after-school.mp3
+            target: Ellie listens to music after school.
           - audio: amir-studies-english-at-home.mp3
             target: Amir studies English at home.
   - type: section
@@ -199,8 +199,8 @@ blocks:
             text: Sophie likes football.
           - audio: mr-hill-teaches-english.mp3
             text: Mr Hill teaches English.
-          - audio: they-play-football-every-day.mp3
-            text: They play football every day.
+          - audio: they-go-to-the-park-on-sunday.mp3
+            text: They go to the park on Sunday.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von likes und teaches.
       - type: open-task
         id: simple-present-karte

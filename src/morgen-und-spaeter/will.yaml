@@ -89,13 +89,13 @@ blocks:
             distractors: [[wills, is]]
           - cue: Vielleicht regnet es morgen.
             target: Maybe it [will] rain tomorrow.
-            distractors: [[wills, are]]
+            distractors: [[wills, will be]]
           - cue: Sophie hilft dir wahrscheinlich.
             target: Sophie [will] probably help you.
             distractors: [[wills, is]]
           - cue: Ich glaube, wir spielen nächste Woche Fußball.
             target: I think we [will] play football next week.
-            distractors: [[wills, are]]
+            distractors: [[wills, will to]]
       - type: matching
         id: will-situation
         text: Welcher Satz passt zu welcher Situation?
@@ -153,7 +153,7 @@ blocks:
             info: Eine Punktreihe ist das Zeichen für Gewohnheiten, also für das simple present.
           - text: Ein roter Strich bei now.
             correct: false
-            info: Der Strich bei now ist das jetzt. Das Wetter von morgen liegt rechts davon.
+            info: Der Strich bei now ist das jetzt. Das Spiel, das kommt, liegt rechts davon.
         explanation: Will hat das Zeichen des einzelnen Punktes rechts von now, ohne Pfeil.
         links:
           - title: Lernlandkarte Englisch · Will-Future
@@ -185,12 +185,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: ellie-will-probably-come-next-week.mp3
-            target: Ellie will probably come next week.
-          - audio: maybe-they-will-play-football-tomorrow.mp3
-            target: Maybe they will play football tomorrow.
-          - audio: it-will-rain-soon.mp3
-            target: It will rain soon.
+          - audio: mr-hill-will-probably-be-late.mp3
+            target: Mr Hill will probably be late.
+          - audio: maybe-peter-will-bring-his-bike.mp3
+            target: Maybe Peter will bring his bike.
+          - audio: it-will-be-cold-on-sunday.mp3
+            target: It will be cold on Sunday.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -199,8 +199,8 @@ blocks:
         id: will-nachsprechen
         language: en
         items:
-          - audio: we-will-probably-win.mp3
-            text: We will probably win.
+          - audio: i-think-she-will-like-the-cake.mp3
+            text: I think she will like the cake.
           - audio: sophie-will-be-here-soon.mp3
             text: Sophie will be here soon.
           - audio: we-will-see-you-soon.mp3

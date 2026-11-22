@@ -102,21 +102,24 @@ blocks:
         links:
           - title: Lernlandkarte Englisch · have got und has got
             url: https://lernapps.net/apps/map/englisch/c/have-got/
-      - type: language-task
-        id: have-got-verneinung-tabelle
-        languages: { source: de, target: en }
-        mode: table
-        task: Ergänze die Verneinung von have got.
-        form: { case: hint, apostrophe: ok }
-        table:
-          caption: have got · Verneinung
-          header: [Person, Verneinung, Kurzform mit n't]
-          rows:
-            - [you, "[have not got]", "[haven't got]"]
-            - [he / she / it, "[has not got]", "[hasn't got]"]
-            - [we, "[have not got]", "[haven't got]"]
-            - [they, "[have not got]", "[haven't got]"]
-        hint: not hängt hinter have oder has. Die Kurzform ist haven't oder hasn't.
+      - type: single-choice
+        id: have-got-verneinung
+        text: Mr Hill hat kein Auto. Welcher Satz sagt das richtig?
+        options:
+          - text: Mr Hill hasn't got a car.
+            correct: true
+            info: Bei he, she und it gehört hasn't hinter die Person, danach got.
+          - text: Mr Hill haven't got a car.
+            correct: false
+            info: Haven't gehört zu I, you, we und they. Zu Mr Hill passt hasn't.
+          - text: Mr Hill doesn't got a car.
+            correct: false
+            info: Bei have got brauchst du kein do. Die Verneinung hängt nicht an do, sondern an has.
+        explanation: Die Verneinung hängt not oder n't an have oder has.
+        hint: Mr Hill ist „er“. Dann brauchst du has, nicht have.
+        links:
+          - title: Lernlandkarte Englisch · Have got und has got
+            url: https://lernapps.net/apps/map/englisch/c/have-got/
       - type: language-task
         id: have-got-frage
         languages: { source: de, target: en }
@@ -126,9 +129,9 @@ blocks:
           - cue: you · a phone
             target: Have you got a phone?
             mistakes:
-              - answer: Do you have got a pen?
+              - answer: Do you have got a phone?
                 message: Bei have got brauchst du kein do. Tausche have und you.
-              - answer: You have got a pen?
+              - answer: You have got a phone?
                 message: In der Frage tauschen have und die Person die Plätze.
           - cue: Sophie · a bag
             target: Has Sophie got a bag?
@@ -178,10 +181,10 @@ blocks:
         items:
           - audio: sophie-has-got-a-red-jacket.mp3
             target: Sophie has got a red jacket.
-          - audio: has-amir-got-a-bike.mp3
-            target: Has Amir got a bike?
-          - audio: they-have-got-a-dog.mp3
-            target: They have got a dog.
+          - audio: has-mr-hill-got-any-children.mp3
+            target: Has Mr Hill got any children?
+          - audio: they-have-got-a-very-old-house.mp3
+            target: They have got a very old house.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -190,8 +193,8 @@ blocks:
         id: have-got-nachsprechen
         language: en
         items:
-          - audio: i-have-got-a-brother.mp3
-            text: I have got a brother.
+          - audio: i-have-got-a-big-family.mp3
+            text: I have got a big family.
           - audio: she-has-got-a-bike.mp3
             text: She has got a bike.
           - audio: he-has-not-got-a-phone.mp3

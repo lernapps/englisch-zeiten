@@ -48,7 +48,7 @@ Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Kart
 - Zeitstrahl-Wörter: Strahl, now, Punkt, Punktreihe, Welle, Bogen, Pfeil, Fähnchen (Signalwort), Bau-Karte. Immer dieselben.
 - Merksatz: „He, she, it – das s muss mit.“
 - Britisches Englisch (favourite, colour). Englische Aufgaben enthalten kein deutsches Wort. Englisches immer mit deutscher Bedeutung, wo ein Wort neu ist.
-- Aussprache: keine Lesehilfe und keine Lautschrift hier (IPA gehört zu #482); Hörtexte nur als Sätze.
+- Aussprache: keine Lesehilfe und keine Lautschrift auf diesen Seiten, weil Aussprache und Schrift in einem eigenen Explainer stehen („Klang und Schrift“, #482, mit Lautschrift); hier hören die Kinder ganze Sätze (Diktat, Nachsprechen) und lernen die Form, nicht den Klang von -s und -ed.
 
 ## Exercise patterns
 
@@ -70,7 +70,7 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 
 - Zeichen des Zeitstrahls (eine SVG-Familie `src/images/zeitstrahl-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox; Farben: now #c0392b, Punkte #2c6fd8, Welle #8e44ad, Bogen #138d75, Pfeil und will #d35400): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.
 - Bau-Karten: be + -ing, have + 3. Form, be + going to + Grundform, will + Grundform.
-- Gebaut: `zeitstrahl-leer` (das-brauchst-du), `-to-be`, `-punktreihe` (simple-present), `-haeufigkeit`, `-welle`, `-beides` (simple-oder-progressive), `-punkt-links`, `-punkt-und-bogen`, `-bogen` (nicht benutzt, Reserve), `-will`, `-going-to`, `-will-oder-going-to`, `-ganz` (Rückblick K3, alle Zeichen). `zeitstrahl-ganz.svg` wächst mit jedem Inkrement.
+- Gebaut: `zeitstrahl-leer` (das-brauchst-du), `-to-be`, `-punktreihe` (simple-present), `-haeufigkeit`, `-welle`, `-beides` (simple-oder-progressive), `-punkt-links`, `-punkt-und-bogen`, `-will`, `-going-to`, `-will-oder-going-to`, `-ganz` (Rückblick K3, alle Zeichen). `zeitstrahl-ganz.svg` wächst mit jedem Inkrement.
 - Szenen: je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; in Aufgaben zeigt der Strahl nur die Legende, nie das Ergebnis.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb); Skizzen liegen in `.vibe/sketches/`.
 - Poster und Kalender sind `table`-Blöcke, wachsen von Seite zu Seite.
@@ -81,67 +81,73 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 
 ## Hörliste
 
-Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` schneidet das Ausklingen der Stimme am Satzende ab. Diese 37 Sätze enden auf ein einsilbiges Wort; sie sind die gezielte Hörprobe der Ersteller:in (Datei in `src/audio/` · Satz · Seite):
+Hörsätze bleiben natürlich; kein Name nur für den Klang. `regen_audio.py` (mit Fehllaut-Schnitt `valley_cut`) schneidet das Ausklingen der Stimme am Satzende ab. Die Ersteller:in hört gezielt diese Sätze an. Die neuesten Dateien sind nicht angehört. Prüfung der Sätze: `python3 .agents/skills/app-content/scripts/pruefe_hoersaetze.py` (kein Hörsatz gleicht einem Satz derselben Seite; Namen, Adverbien und Zeitangaben zählen nicht als Unterschied).
+
+### Sätze mit einsilbigem Ende (38)
 
 | Datei | Satz | Seite |
 |---|---|---|
-| `we-will-probably-win.mp3` | We will probably win. | `morgen-und-spaeter/will` (von der Ersteller:in beanstandet: Fehllaut nach „win“; zuerst neu erzeugen) |
 | `amir-has-just-come-home.mp3` | Amir has just come home. | `gestern-und-schon/present-perfect` |
+| `ellie-has-cleaned-her-room.mp3` | Ellie has cleaned her room. | `gestern-und-schon/present-perfect` |
 | `ellie-has-never-run-to-school.mp3` | Ellie has never run to school. | `gestern-und-schon/present-perfect` |
 | `sophie-has-taken-a-book-home.mp3` | Sophie has taken a book home. | `gestern-und-schon/present-perfect` |
 | `we-have-just-seen-mr-hill.mp3` | We have just seen Mr Hill. | `gestern-und-schon/present-perfect` |
-| `peter-and-amir-played-football-last-week.mp3` | Peter and Amir played football last week. | `gestern-und-schon/simple-past` |
-| `mr-hill-gave-peter-a-book.mp3` | Mr Hill gave Peter a book. | `gestern-und-schon/unregelmaessig` |
+| `we-listened-to-music-last-night.mp3` | We listened to music last night. | `gestern-und-schon/simple-past` |
+| `amir-bought-a-drink-at-the-shop.mp3` | Amir bought a drink at the shop. | `gestern-und-schon/unregelmaessig` |
 | `we-drank-water-at-home.mp3` | We drank water at home. | `gestern-und-schon/unregelmaessig` |
-| `we-saw-a-film-at-home.mp3` | We saw a film at home. | `gestern-und-schon/unregelmaessig` |
-| `amir-sometimes-eats-lunch-at-school.mp3` | Amir sometimes eats lunch at school. | `immer-oder-jetzt/haeufigkeit` |
-| `peter-and-ellie-often-take-the-bus.mp3` | Peter and Ellie often take the bus. | `immer-oder-jetzt/haeufigkeit` |
-| `we-often-play-football-at-school.mp3` | We often play football at school. | `immer-oder-jetzt/haeufigkeit` |
+| `mr-hill-is-never-angry-in-class.mp3` | Mr Hill is never angry in class. | `immer-oder-jetzt/haeufigkeit` |
+| `sophie-sometimes-writes-to-her-friends.mp3` | Sophie sometimes writes to her friends. | `immer-oder-jetzt/haeufigkeit` |
+| `we-usually-have-breakfast-at-eight.mp3` | We usually have breakfast at eight. | `immer-oder-jetzt/haeufigkeit` |
 | `we-usually-walk-to-school.mp3` | We usually walk to school. | `immer-oder-jetzt/haeufigkeit` |
-| `has-amir-got-a-bike.mp3` | Has Amir got a bike? | `immer-oder-jetzt/have-got` |
 | `he-has-not-got-a-phone.mp3` | He has not got a phone. | `immer-oder-jetzt/have-got` |
 | `she-has-got-a-bike.mp3` | She has got a bike. | `immer-oder-jetzt/have-got` |
-| `they-have-got-a-dog.mp3` | They have got a dog. | `immer-oder-jetzt/have-got` |
-| `peter-is-running-now.mp3` | Peter is running now. | `immer-oder-jetzt/present-progressive` |
+| `they-have-got-a-very-old-house.mp3` | They have got a very old house. | `immer-oder-jetzt/have-got` |
+| `amir-is-waiting-for-the-bus.mp3` | Amir is waiting for the bus. | `immer-oder-jetzt/present-progressive` |
+| `i-am-drinking-a-cup-of-tea.mp3` | I am drinking a cup of tea. | `immer-oder-jetzt/present-progressive` |
+| `peter-is-swimming-in-the-pool.mp3` | Peter is swimming in the pool. | `immer-oder-jetzt/present-progressive` |
 | `they-are-making-a-cake.mp3` | They are making a cake. | `immer-oder-jetzt/present-progressive` |
-| `amir-always-eats-lunch.mp3` | Amir always eats lunch. | `immer-oder-jetzt/simple-oder-progressive` |
-| `mr-hill-often-reads-a-book.mp3` | Mr Hill often reads a book. | `immer-oder-jetzt/simple-oder-progressive` |
-| `peter-is-eating-lunch-now.mp3` | Peter is eating lunch now. | `immer-oder-jetzt/simple-oder-progressive` |
-| `sophie-reads-a-book-every-day.mp3` | Sophie reads a book every day. | `immer-oder-jetzt/simple-oder-progressive` |
+| `ellie-always-has-a-sandwich-at-lunch.mp3` | Ellie always has a sandwich at lunch. | `immer-oder-jetzt/simple-oder-progressive` |
+| `peter-is-making-a-sandwich-now.mp3` | Peter is making a sandwich now. | `immer-oder-jetzt/simple-oder-progressive` |
+| `sophie-plays-the-piano-every-day.mp3` | Sophie plays the piano every day. | `immer-oder-jetzt/simple-oder-progressive` |
 | `we-are-watching-a-film-now.mp3` | We are watching a film now. | `immer-oder-jetzt/simple-oder-progressive` |
 | `amir-studies-english-at-home.mp3` | Amir studies English at home. | `immer-oder-jetzt/simple-present` |
-| `ellie-watches-a-film-after-school.mp3` | Ellie watches a film after school. | `immer-oder-jetzt/simple-present` |
-| `they-play-football-every-day.mp3` | They play football every day. | `immer-oder-jetzt/simple-present` |
-| `are-sophie-and-ellie-tired.mp3` | Are Sophie and Ellie tired? | `immer-oder-jetzt/to-be` |
+| `ellie-listens-to-music-after-school.mp3` | Ellie listens to music after school. | `immer-oder-jetzt/simple-present` |
 | `ellie-is-a-good-friend.mp3` | Ellie is a good friend. | `immer-oder-jetzt/to-be` |
-| `we-are-not-tired.mp3` | We are not tired. | `immer-oder-jetzt/to-be` |
-| `we-are-going-to-watch-a-film.mp3` | We are going to watch a film. | `morgen-und-spaeter/going-to` |
-| `ellie-will-probably-come-next-week.mp3` | Ellie will probably come next week. | `morgen-und-spaeter/will` |
-| `it-will-rain-soon.mp3` | It will rain soon. | `morgen-und-spaeter/will` |
+| `the-children-are-not-at-home.mp3` | The children are not at home. | `immer-oder-jetzt/to-be` |
+| `ellie-and-sophie-are-going-to-swim-after-lunch.mp3` | Ellie and Sophie are going to swim after lunch. | `morgen-und-spaeter/going-to` |
+| `i-am-going-to-buy-a-new-bag.mp3` | I am going to buy a new bag. | `morgen-und-spaeter/going-to` |
+| `we-are-going-to-wash-the-car.mp3` | We are going to wash the car. | `morgen-und-spaeter/going-to` |
+| `i-think-she-will-like-the-cake.mp3` | I think she will like the cake. | `morgen-und-spaeter/will` |
+| `maybe-peter-will-bring-his-bike.mp3` | Maybe Peter will bring his bike. | `morgen-und-spaeter/will` |
+| `mr-hill-will-probably-be-late.mp3` | Mr Hill will probably be late. | `morgen-und-spaeter/will` |
 | `sophie-will-be-here-soon.mp3` | Sophie will be here soon. | `morgen-und-spaeter/will` |
 | `we-will-see-you-soon.mp3` | We will see you soon. | `morgen-und-spaeter/will` |
+| `amir-will-open-the-door.mp3` | Amir will open the door. | `morgen-und-spaeter/will-oder-going-to` |
 | `it-is-raining-so-peter-will-take-the-bus.mp3` | It is raining, so Peter will take the bus. | `morgen-und-spaeter/will-oder-going-to` |
-| `peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3` | Peter has a ticket and he is going to watch a film. | `morgen-und-spaeter/will-oder-going-to` |
+| `sophie-has-a-new-bike-and-she-is-going-to-ride-it-to-school.mp3` | Sophie has a new bike and she is going to ride it to school. | `morgen-und-spaeter/will-oder-going-to` |
 
-### Fehllaut-Schnitt (`regen_audio.py` mit `valley_cut`)
+### Fehllaut-Schnitt: Dateien, bei denen er gegriffen hat (14)
 
-Alle 72 Dateien sind mit dem Skript neu erzeugt (Ausklingen abgeschnitten). Bei diesen 9 hat zusätzlich der Schnitt an der letzten Senke gegriffen (Regel: `orchestrierung/audio/README-schnitt.md` der Orchestrator-Session); die Ersteller:in hört sie gezielt:
+| Datei | entfernt |
+|---|---|
+| `ellie-is-a-good-friend.mp3` | 45 ms |
+| `she-has-got-a-bike.mp3` | 45 ms |
+| `they-are-making-a-cake.mp3` | 55 ms |
+| `peter-is-going-to-look-at-the-ticket.mp3` | 65 ms |
+| `sophie-has-got-a-red-jacket.mp3` | 35 ms |
+| `we-listened-to-music-last-night.mp3` | 55 ms |
+| `amir-bought-a-drink-at-the-shop.mp3` | 75 ms |
+| `sophie-sometimes-writes-to-her-friends.mp3` | 45 ms |
+| `we-usually-have-breakfast-at-eight.mp3` | 55 ms |
+| `ellie-always-has-a-sandwich-at-lunch.mp3` | 85 ms |
+| `we-are-cleaning-the-classroom-at-the-moment.mp3` | 55 ms |
+| `ellie-and-sophie-are-going-to-swim-after-lunch.mp3` | 95 ms |
+| `amir-will-open-the-door.mp3` | 25 ms |
+| `mr-hill-will-probably-be-late.mp3` | 75 ms |
 
-| Datei | Satz | entfernt |
-|---|---|---|
-| `ellie-is-a-good-friend.mp3` | Ellie is a good friend. | 45 ms |
-| `they-have-got-a-dog.mp3` | They have got a dog. | 35 ms |
-| `she-has-got-a-bike.mp3` | She has got a bike. | 45 ms |
-| `they-are-making-a-cake.mp3` | They are making a cake. | 55 ms |
-| `mr-hill-gave-peter-a-book.mp3` | Mr Hill gave Peter a book. | 55 ms |
-| `we-will-probably-win.mp3` | We will probably win. | 35 ms |
-| `we-are-not-tired.mp3` | We are not tired. | 65 ms |
-| `peter-is-going-to-look-at-the-ticket.mp3` | Peter is going to look at the ticket. | 65 ms |
-| `sophie-has-got-a-red-jacket.mp3` | Sophie has got a red jacket. | 35 ms |
+### Sätze mit mehrsilbigem Ende (34)
 
-Sätze, die auf ein Wort mit mehr als einer Silbe enden (Risiko: eine Silbe wird angeschnitten), ebenfalls gezielt anhören:
-
-`amir-always-eats-lunch-with-sophie.mp3`, `amir-is-happy-today.mp3`, `amir-is-hungry-so-he-will-eat-a-pizza.mp3`, `amir-is-writing-a-story.mp3`, `are-sophie-and-ellie-tired.mp3`, `ellie-danced-with-sophie.mp3`, `ellie-is-eating-breakfast.mp3`, `ellie-is-going-to-be-twelve-in-july.mp3`, `ellie-is-usually-happy.mp3`, `ellie-sat-with-amir.mp3`, `ellie-studied-english-two-days-ago.mp3`, `i-am-going-to-eat-a-pizza.mp3`, `i-am-reading-a-story.mp3`, `i-am-sophie-and-i-am-eleven.mp3`, `i-have-got-a-brother.mp3`, `maybe-they-will-play-football-tomorrow.mp3`, `mr-hill-has-given-peter-homework.mp3`, `mr-hill-is-in-the-classroom.mp3`, `mr-hill-teaches-english.mp3`, `peter-has-already-written-to-ellie.mp3`, `peter-is-going-to-look-at-the-ticket.mp3`, `peter-ran-home-yesterday.mp3`, `peter-watches-football-every-saturday.mp3`, `sophie-has-got-a-red-jacket.mp3`, `sophie-helped-peter-with-homework.mp3`, `sophie-is-listening-to-music.mp3`, `sophie-likes-football.mp3`, `sophie-sang-at-home-yesterday.mp3`, `sophie-walked-home-yesterday.mp3`, `sophie-will-eat-a-cake-on-10-july.mp3`, `they-are-going-to-see-amir-on-saturday.mp3`, `we-are-going-to-eat-cake-on-10-july.mp3`, `we-are-going-to-eat-pizza-at-the-party.mp3`, `we-are-going-to-have-a-party.mp3`, `we-are-not-tired.mp3`, `we-are-playing-football-at-the-moment.mp3`, `we-danced-at-school-yesterday.mp3`.
+Risiko: eine Silbe wird angeschnitten. Gezielt anhören: `amir-cleaned-his-room-on-sunday.mp3`, `amir-is-happy-today.mp3`, `amir-is-hungry-so-he-will-eat-a-pizza.mp3`, `are-sophie-and-ellie-tired.mp3`, `ellie-danced-with-sophie.mp3`, `ellie-is-eating-breakfast.mp3`, `ellie-is-going-to-be-twelve-in-july.mp3`, `ellie-often-visits-her-grandmother.mp3`, `ellie-sat-with-amir.mp3`, `has-mr-hill-got-any-children.mp3`, `i-have-got-a-big-family.mp3`, `it-will-be-cold-on-sunday.mp3`, `mr-hill-is-in-the-classroom.mp3`, `mr-hill-often-drinks-coffee.mp3`, `mr-hill-teaches-english.mp3`, `my-name-is-sophie-and-i-like-music.mp3`, `peter-always-drinks-milk-in-the-morning.mp3`, `peter-has-already-written-to-ellie.mp3`, `peter-is-going-to-look-at-the-ticket.mp3`, `peter-ran-home-yesterday.mp3`, `peter-sang-a-song-at-the-party.mp3`, `peter-watches-football-every-saturday.mp3`, `sophie-called-her-mother-on-monday.mp3`, `sophie-has-got-a-red-jacket.mp3`, `sophie-helped-peter-with-homework.mp3`, `sophie-is-listening-to-music.mp3`, `sophie-likes-football.mp3`, `sophie-sang-at-home-yesterday.mp3`, `they-go-to-the-park-on-sunday.mp3`, `we-are-cleaning-the-classroom-at-the-moment.mp3`, `we-are-going-to-cook-dinner-on-friday.mp3`, `we-are-going-to-dance-at-the-party.mp3`, `we-are-going-to-dance-on-10-july.mp3`, `we-danced-at-school-yesterday.mp3`.
 
 ## Adding a chapter or round
 
@@ -174,4 +180,7 @@ Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
 - Der englische Cue enthält kein deutsches Wort; der deutsche Hinweis steht in `source` oder in der Aufgabe.
 - Audio: Wörter, die die Stimme falsch liest, nicht in Hörsätzen verwenden: „lives“ klang wie das Nomen „leives“ (Mehrzahl von life) → der Satz heißt jetzt „Sophie likes football.“. Neue Hörsätze anhören; bei Verben, die auch Nomen sind (lives, leaves, close, wind), ein anderes Verb nehmen.
 - Hörsätze sind neue Sätze: keiner steht wörtlich oder mit getauschtem Namen im Einstieg, Poster, Merke, Bildtext oder in einer Übung derselben Seite (Prüfskript über alle Seiten vor jedem Checkpoint).
+- Ein Hörsatz unterscheidet sich von jedem Satz derselben Seite (Einstieg, Poster, Merke, Bildtext, Übungen, Meldungen) in mehr als Name, Adverb, Zeitangabe oder einem Wort. Prüfung: `python3 .agents/skills/app-content/scripts/pruefe_hoersaetze.py` (Treffer 0) vor jedem Commit mit neuem Audio.
+- Die Lösung einer Übung steht nicht wörtlich im Text darüber und nicht in einer anderen Übung derselben Seite (Poster zeigen andere Beispielwörter als die Übungen; Auswahl- und Schreibübung nehmen nie dieselben Sätze). Hinweis: `python3 .agents/skills/app-content/scripts/pruefe_doppelte.py` (Doppelte zwischen Cue und Fehlerantworten derselben Übung sind in Ordnung, ebenso die Zusammenfassung im Abschnitt `weiter`).
+- Jede Seite hat mindestens vier Übungen, bei denen eine falsche Antwort eine eigene Rückmeldung bekommt: Schreibübungen mit `mistakes` je Item oder `single-choice` mit `info` je Option. `language-task` im Modus `choice` zeigt die Meldungen aus `mistakes` nicht; dort zählt nur der `hint`.
 - Einheitliche Wörter: Punktreihe, Welle über now, Poster, happy = froh, phone = Telefon / Handy.

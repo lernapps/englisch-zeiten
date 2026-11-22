@@ -90,14 +90,14 @@ blocks:
         id: simple-oder-progressive-paare
         text: Welcher englische Satz passt zu welchem deutschen Satz?
         pairs:
-          - left: Ellie schaut jeden Tag einen Film an.
-            right: Ellie watches a film every day.
-          - left: Ellie schaut gerade einen Film an.
-            right: Ellie is watching a film now.
-          - left: Amir liest im Moment.
-            right: Amir is reading at the moment.
-          - left: Amir liest oft.
-            right: Amir often reads.
+          - left: Amir malt jeden Tag ein Bild.
+            right: Amir draws a picture every day.
+          - left: Amir malt gerade ein Bild.
+            right: Amir is drawing a picture now.
+          - left: Sophie singt im Moment.
+            right: Sophie is singing at the moment.
+          - left: Sophie singt oft.
+            right: Sophie often sings.
         explanation: Wiederholung ist die Punktreihe, dann steht das simple present. Gerade jetzt ist die Welle, dann steht is und -ing.
         hint: Suche zuerst in jedem Satz das Fähnchen. Gehört es zur Punktreihe oder zur Welle?
         links:
@@ -177,12 +177,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: sophie-reads-a-book-every-day.mp3
-            target: Sophie reads a book every day.
-          - audio: peter-is-eating-lunch-now.mp3
-            target: Peter is eating lunch now.
-          - audio: amir-always-eats-lunch.mp3
-            target: Amir always eats lunch.
+          - audio: sophie-plays-the-piano-every-day.mp3
+            target: Sophie plays the piano every day.
+          - audio: peter-is-making-a-sandwich-now.mp3
+            target: Peter is making a sandwich now.
+          - audio: ellie-always-has-a-sandwich-at-lunch.mp3
+            target: Ellie always has a sandwich at lunch.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -191,10 +191,10 @@ blocks:
         id: simple-oder-progressive-nachsprechen
         language: en
         items:
-          - audio: we-are-playing-football-at-the-moment.mp3
-            text: We are playing football at the moment.
-          - audio: mr-hill-often-reads-a-book.mp3
-            text: Mr Hill often reads a book.
+          - audio: we-are-cleaning-the-classroom-at-the-moment.mp3
+            text: We are cleaning the classroom at the moment.
+          - audio: mr-hill-often-drinks-coffee.mp3
+            text: Mr Hill often drinks coffee.
           - audio: we-are-watching-a-film-now.mp3
             text: We are watching a film now.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Form des Verbs.

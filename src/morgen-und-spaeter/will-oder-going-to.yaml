@@ -26,10 +26,10 @@ blocks:
             info: Amir hat die Party gerade erst erfahren. Er entscheidet beim Sprechen.
           - text: Schon letzte Woche.
             correct: false
-            info: Dann hätte er schon vorher von der Party gewusst. Amir hört aber zum ersten Mal davon.
+            info: Dann hätte er es schon vorher gewusst. Er hört aber zum ersten Mal davon.
           - text: Gestern.
             correct: false
-            info: Gestern heißt yesterday. Amir hat es sich nicht gestern überlegt, sondern gerade eben.
+            info: Amir hat es sich nicht gestern überlegt, sondern gerade eben.
         explanation: Amir beschließt im Moment des Sprechens. Ellies Plan steht dagegen schon lange.
         links:
           - title: Lernlandkarte Englisch · Will oder going to
@@ -78,12 +78,12 @@ blocks:
         pairs:
           - left: We are going to eat pizza on Saturday.
             right: Vorher geplant.
-          - left: The phone rings. I will answer it.
+          - left: Ellie is sad. I will help her.
             right: Spontaner Einfall.
           - left: I think it will rain.
             right: Nur eine Vermutung.
         distractors: [Eine Gewohnheit.]
-        explanation: Ein Plan oder ein Anzeichen gehört zum Pfeil, going to. Ein Entschluss im Moment und eine Vermutung gehören zum Punkt ohne Pfeil, will.
+        explanation: "Plan oder Anzeichen: Pfeil, going to. Entschluss im Moment oder Vermutung: Punkt ohne Pfeil, will."
         links:
           - title: Lernlandkarte Englisch · Will oder going to
             url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
@@ -96,7 +96,7 @@ blocks:
             info: Sophie entscheidet erst jetzt. Es gibt keinen Pfeil, sondern den Punkt, will.
           - text: I am going to answer it.
             correct: false
-            info: Das hieße, dass Sophie es schon vorher geplant hat. Sie entscheidet aber gerade erst.
+            info: Das hieße, dass der Plan schon stand. Sophie entscheidet aber gerade erst.
           - text: I answer it every day.
             correct: false
             info: Every day erzählt von einer Gewohnheit. Das Telefon klingelt jetzt einmal.
@@ -136,24 +136,42 @@ blocks:
                 message: Der Kuchen ist schon gebacken, der Plan steht. Das ist der Pfeil, going to.
               - answer: Ellie going to bring a cake.
                 message: Dir fehlt das be. Zu Ellie gehört is.
-          - source: Das Telefon klingelt. Ich nehme es gleich ab.
-            target: (I will|I'll) answer it.
+          - source: Es ist kalt. Ich hole gleich eine Jacke.
+            target: (I will|I'll) get a jacket.
             mistakes:
-              - answer: I am going to answer it.
-                message: Du entscheidest gerade erst, im Moment des Sprechens. Das ist der Punkt ohne Pfeil, will.
+              - answer: I am going to get a jacket.
+                message: Du entscheidest gerade erst. Das ist der Punkt ohne Pfeil, will.
           - source: Sophie hat gerade erst beschlossen, Wasser mitzubringen.
             target: Sophie will bring water.
             mistakes:
               - answer: Sophie is going to bring water.
-                message: Sophie beschließt gerade erst, es gibt keinen Plan vorher. Das ist will.
+                message: Sophie beschließt gerade erst. Einen Plan gab es nicht, also will.
       - type: true-false
         id: will-oder-going-to-richtig
         text: Peter hat die Tickets für einen Film schon gekauft und sagt „I will watch a film on Saturday.“ Passt der Satz?
         answer: false
-        explanation: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to. Richtig ist „I am going to watch a film on Saturday.“
+        explanation: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to.
         links:
           - title: Lernlandkarte Englisch · Will oder going to
             url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
+      - type: language-task
+        id: will-oder-going-to-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe die Sätze richtig.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: It is cold. I am going to close the window.
+            target: It is cold. (I will|I'll) close the window.
+            mistakes:
+              - answer: It is cold. I am going to close the window.
+                message: Noch nicht ganz. Der Einfall ist neu, einen Plan gab es nicht. Das ist will.
+              - answer: It is cold. I going to close the window.
+                message: Dir fehlt das be, und der Einfall ist neu. Nimm will.
+          - cue: Amir has a ticket. He will watch the game on Friday.
+            target: Amir has a ticket. He is going to watch the game on Friday.
+            mistakes:
+              - answer: Amir has a ticket. He will watch the game on Friday.
+                message: Noch nicht ganz. Das Ticket zeigt, dass der Plan schon steht. Das ist going to.
       - type: language-task
         id: will-oder-going-to-hoeren
         languages: { source: de, target: en }
@@ -162,8 +180,8 @@ blocks:
         items:
           - audio: amir-is-hungry-so-he-will-eat-a-pizza.mp3
             target: Amir is hungry, so he will eat a pizza.
-          - audio: peter-has-a-ticket-and-he-is-going-to-watch-a-film.mp3
-            target: Peter has a ticket and he is going to watch a film.
+          - audio: sophie-has-a-new-bike-and-she-is-going-to-ride-it-to-school.mp3
+            target: Sophie has a new bike and she is going to ride it to school.
           - audio: it-is-raining-so-peter-will-take-the-bus.mp3
             target: It is raining, so Peter will take the bus.
   - type: section
@@ -174,12 +192,12 @@ blocks:
         id: will-oder-going-to-nachsprechen
         language: en
         items:
-          - audio: we-are-going-to-eat-cake-on-10-july.mp3
-            text: We are going to eat cake on 10 July.
-          - audio: we-are-going-to-have-a-party.mp3
-            text: We are going to have a party.
-          - audio: sophie-will-eat-a-cake-on-10-july.mp3
-            text: Sophie will eat a cake on 10 July.
+          - audio: we-are-going-to-dance-on-10-july.mp3
+            text: We are going to dance on 10 July.
+          - audio: we-are-going-to-cook-dinner-on-friday.mp3
+            text: We are going to cook dinner on Friday.
+          - audio: amir-will-open-the-door.mp3
+            text: Amir will open the door.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: will-oder-going-to-schreiben

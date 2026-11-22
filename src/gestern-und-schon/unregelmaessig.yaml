@@ -116,16 +116,6 @@ blocks:
           - [break, kaputt machen]
           - [speak, sprechen]
           - [sink, sinken]
-          - [pizza, Pizza]
-          - [film, Film]
-          - [book, Buch]
-          - [water, Wasser]
-          - [school, Schule]
-          - [home, nach Hause]
-          - [at home, zu Hause]
-          - [to, zu / nach]
-          - [a, ein / eine]
-          - [with, mit]
   - type: section
     id: uebung
     title: Übung
@@ -145,8 +135,7 @@ blocks:
           - left: take
             right: took
         distractors: [eated, goed]
-        explanation: Diese Verben haben eine eigene Form im simple past. Ein -ed gibt es hier nicht.
-        hint: Schau auf die Karten im Poster. Die 2. Spalte ist das simple past.
+        explanation: Diese Verben haben eine eigene Form im simple past.
         links:
           - title: Lernlandkarte Englisch · Unregelmäßige Verben
             url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
@@ -157,9 +146,9 @@ blocks:
         task: Wähle die richtige Form.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Sophie ist gestern zur Schule gegangen.
-            target: Yesterday Sophie [went] to school.
-            distractors: [[goed, gone]]
+          - cue: Peter hat gestern einen Brief geschrieben.
+            target: Yesterday Peter [wrote] a letter.
+            distractors: [[writed, written]]
           - cue: Peter hat letzte Woche Pizza gegessen.
             target: Peter [ate] pizza last week.
             distractors: [[eated, eaten]]
@@ -169,7 +158,6 @@ blocks:
           - cue: Wir haben vor zwei Tagen ein Buch gekauft.
             target: We [bought] a book two days ago.
             distractors: [[buyed, buy]]
-        hint: Yesterday, last week und two days ago sind vorbei. Nimm die 2. Form des Verbs, das simple past.
       - type: language-task
         id: unregelmaessig-tabelle
         languages: { source: de, target: en }
@@ -214,7 +202,6 @@ blocks:
             mistakes:
               - answer: Peter comed to school last week.
                 message: Come ist unregelmäßig. Die Form im simple past heißt came.
-        hint: Nimm die 2. Form des Verbs, nicht -ed.
       - type: language-task
         id: unregelmaessig-korrektur
         languages: { source: de, target: en }
@@ -236,15 +223,31 @@ blocks:
             mistakes:
               - answer: Ellie writed to Sophie last week.
                 message: Noch nicht ganz. Write hat die Form wrote.
-        hint: Such das Verb auf dem Poster und nimm die 2. Spalte.
+      - type: single-choice
+        id: unregelmaessig-trinken
+        text: Sophie hat gestern Tee getrunken. Welcher Satz ist richtig?
+        options:
+          - text: Sophie drank tea yesterday.
+            correct: true
+            info: Drink ist unregelmäßig. Im simple past heißt es drank.
+          - text: Sophie drunk tea yesterday.
+            correct: false
+            info: Drunk ist die 3. Form. Die brauchst du erst auf der nächsten Seite, nicht für yesterday.
+          - text: Sophie drinked tea yesterday.
+            correct: false
+            info: Bei drink hängst du kein ed an. Die Form ändert sich im Wort.
+        explanation: Bei yesterday steht die 2. Form.
+        links:
+          - title: Lernlandkarte Englisch · Unregelmäßige Verben
+            url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
       - type: language-task
         id: unregelmaessig-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: mr-hill-gave-peter-a-book.mp3
-            target: Mr Hill gave Peter a book.
+          - audio: peter-sang-a-song-at-the-party.mp3
+            target: Peter sang a song at the party.
           - audio: we-drank-water-at-home.mp3
             target: We drank water at home.
           - audio: sophie-sang-at-home-yesterday.mp3
@@ -261,8 +264,8 @@ blocks:
             text: Peter ran home yesterday.
           - audio: ellie-sat-with-amir.mp3
             text: Ellie sat with Amir.
-          - audio: we-saw-a-film-at-home.mp3
-            text: We saw a film at home.
+          - audio: amir-bought-a-drink-at-the-shop.mp3
+            text: Amir bought a drink at the shop.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Verbform, die kein -ed hat.
       - type: open-task
         id: unregelmaessig-karte

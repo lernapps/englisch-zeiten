@@ -61,7 +61,7 @@ blocks:
         header: [Aussage, Verneinung, Frage]
         rows:
           - [She is tired., She is not tired. / She isn't tired., Is she tired?]
-          - [I am late., I am not late. / I'm not late., Am I late?]
+          - [He is hungry., He is not hungry. / He isn't hungry., Is he hungry?]
       - type: note
         title: Merke
         blocks:
@@ -183,6 +183,23 @@ blocks:
               - answer: Sophie am not at school today.
                 message: Sophie ist „sie“, also brauchst du is, nicht am.
         hint: Setze not direkt hinter die richtige Form von be.
+      - type: single-choice
+        id: to-be-nicht
+        text: Ich bin nicht wütend. Welcher Satz ist richtig?
+        options:
+          - text: I am not angry.
+            correct: true
+            info: Not steht hinter am. Es gibt auch die Kurzform I'm not.
+          - text: I not am angry.
+            correct: false
+            info: Not steht hinter be, nicht davor.
+          - text: I amn't angry.
+            correct: false
+            info: Am not wird nicht zu amn't. Kurz sagst du I'm not.
+        explanation: Die Verneinung hängt not hinter be.
+        links:
+          - title: "Verb to be: Verneinung und Frage (Lernlandkarte)"
+            url: https://lernapps.net/apps/map/englisch/c/to-be/
       - type: language-task
         id: to-be-hoeren
         languages: { source: de, target: en }
@@ -203,12 +220,12 @@ blocks:
         id: to-be-nachsprechen
         language: en
         items:
-          - audio: i-am-sophie-and-i-am-eleven.mp3
-            text: I am Sophie, and I am eleven.
+          - audio: my-name-is-sophie-and-i-like-music.mp3
+            text: My name is Sophie and I like music.
           - audio: ellie-is-a-good-friend.mp3
             text: Ellie is a good friend.
-          - audio: we-are-not-tired.mp3
-            text: We are not tired.
+          - audio: the-children-are-not-at-home.mp3
+            text: The children are not at home.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf am, is und are.
       - type: open-task
         id: to-be-karte

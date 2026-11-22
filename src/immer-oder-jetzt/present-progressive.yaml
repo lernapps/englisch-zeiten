@@ -89,7 +89,6 @@ blocks:
           - cue: Wir spielen gerade Fußball.
             target: We [are] playing football.
             distractors: [[is, am]]
-        hint: I gehört zu am, he, she und it zu is, we, you und they zu are.
       - type: language-task
         id: present-progressive-tabelle
         languages: { source: de, target: en }
@@ -121,7 +120,7 @@ blocks:
             distractors: [[takeing, take]]
           - cue: Amir spielt gerade Fußball.
             target: Amir is [playing] football.
-            distractors: [[play, playeing]]
+            distractors: [[play, plays]]
         hint: Endet das Verb auf e, fällt das e weg. Steht vor dem letzten Konsonanten nur ein Vokal, wird der Konsonant doppelt.
       - type: language-task
         id: present-progressive-bilden
@@ -157,7 +156,6 @@ blocks:
                 message: Bei write fällt das e weg, also writing.
               - answer: I writing a letter.
                 message: Du brauchst be vor der -ing-Form, bei I ist das am.
-        hint: Wer tut etwas? Wähle am, is oder are. Dann hängst du -ing an das Verb.
       - type: language-task
         id: present-progressive-frage
         languages: { source: de, target: en }
@@ -176,22 +174,37 @@ blocks:
             mistakes:
               - answer: Is Sophie and Ellie reading?
                 message: Sophie und Ellie sind zwei Personen, also they. Dazu gehört are.
-        hint: In der Frage steht be am Anfang.
       - type: matching
         id: present-progressive-paare
         text: Was passiert gerade? Ordne den Satz zu.
         pairs:
-          - left: Amir sitzt gerade am Computer.
-            right: Amir is sitting at a computer.
-          - left: Ellie schreibt gerade einen Brief.
-            right: Ellie is writing a letter.
-          - left: Peter malt gerade ein Bild.
-            right: Peter is drawing a picture.
-          - left: Amir und Peter laufen gerade.
-            right: Amir and Peter are running.
-        distractors: [Amir sits at a computer.]
-        explanation: Was gerade passiert, ist die Welle über now. Dafür brauchst du be und die -ing-Form.
-        hint: Achte auf die Person. Bei einer Person nimmst du is, bei zwei Personen are.
+          - left: Amir isst gerade einen Apfel.
+            right: Amir is eating an apple.
+          - left: Mr Hill trinkt gerade Kaffee.
+            right: Mr Hill is drinking coffee.
+          - left: Ellie putzt gerade ihr Zimmer.
+            right: Ellie is cleaning her room.
+          - left: Peter und Sophie kochen gerade das Essen.
+            right: Peter and Sophie are cooking dinner.
+        distractors: [Amir eats an apple.]
+        explanation: Die Welle über now braucht be und die -ing-Form.
+        links:
+          - title: Lernlandkarte Englisch · Present progressive
+            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
+      - type: single-choice
+        id: present-progressive-tanzen
+        text: Sophie tanzt gerade. Welcher Satz ist richtig?
+        options:
+          - text: Sophie is dancing.
+            correct: true
+            info: Dance endet auf e. Das e fällt weg, dann kommt -ing.
+          - text: Sophie is danceing.
+            correct: false
+            info: Bei Verben auf e fällt das e vor -ing weg.
+          - text: Sophie dancing.
+            correct: false
+            info: Dir fehlt das be. Zur Welle gehört is und die -ing-Form.
+        explanation: Bei dance fällt das e vor -ing weg.
         links:
           - title: Lernlandkarte Englisch · Present progressive
             url: https://lernapps.net/apps/map/englisch/c/present-progressive/
@@ -201,8 +214,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: amir-is-writing-a-story.mp3
-            target: Amir is writing a story.
+          - audio: amir-is-waiting-for-the-bus.mp3
+            target: Amir is waiting for the bus.
           - audio: sophie-is-listening-to-music.mp3
             target: Sophie is listening to music.
           - audio: ellie-is-eating-breakfast.mp3
@@ -215,12 +228,12 @@ blocks:
         id: present-progressive-nachsprechen
         language: en
         items:
-          - audio: i-am-reading-a-story.mp3
-            text: I am reading a story.
+          - audio: i-am-drinking-a-cup-of-tea.mp3
+            text: I am drinking a cup of tea.
           - audio: they-are-making-a-cake.mp3
             text: They are making a cake.
-          - audio: peter-is-running-now.mp3
-            text: Peter is running now.
+          - audio: peter-is-swimming-in-the-pool.mp3
+            text: Peter is swimming in the pool.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das be und das -ing.
       - type: open-task
         id: present-progressive-karte

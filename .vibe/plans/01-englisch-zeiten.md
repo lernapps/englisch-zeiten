@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 5 }
+failedChecks: { checks-pass: 7 }
 ---
 
 # Plan: englisch-zeiten, first version
@@ -25,7 +25,7 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-<!-- 1–2 sentences: what learners do, what they learn. -->
+Kinder der Klassen 5-6 setzen englische Zeitformen auf einen Zeitstrahl und bilden sie selbst: Gewohnheiten (simple present, Punktreihe), was gerade passiert (present progressive, Welle), Vergangenes (simple past, unregelmäßige Verben), was schon geschehen ist (present perfect, Bogen) und Zukünftiges (will, going to, Punkt und Pfeil). Sie wissen danach, welche Zeitform sie brauchen, und können sie bilden. Die erste Version baut Kapitel 1 bis 3 (Issue lernapps/apps#472); Kapitel 4 bis 7 folgen als Inkremente.
 
 ## Key decisions
 
@@ -349,7 +349,7 @@ Explore, Plan und Code abgeschlossen; Commit nur bis zum Vorschau-Pull-Request (
 
 ### Creator turns after the plan
 
-Drei Nachrichten der Orchestrator-Session nach der Bestätigung des Plans: (1) Musterseite bestätigt und Update tooling 0.18.3 verlangt, (2) Hinweis zu gh-pages und Anschlussarbeit, (3) Antwort zum Checkpoint „Veröffentlichen“ (Retrospektive und Entwurf ausfüllen, am Inhalt nichts ändern). Davor kam eine Pause zum Grundwortschatz, die den Plan nicht änderte.
+Zwei Rückmeldungen von Menschen nach der Bestätigung des Plans: (1) das Hörurteil zu `we-will-probably-win.mp3` (Fehllaut am Satzende, über die Orchestrator-Session weitergegeben), (2) die Beanstandung von `sophie-lives-with-ellie.mp3` („leives“ statt lives), woraufhin der Satz ersetzt wurde. Die Checkpoints wurden von der Orchestrator-Session (in der Rolle der Ersteller:in) beantwortet; sie zählen hier nicht als Ersteller:in-Turns (drei Antworten zu Musterseite, Veröffentlichen und Prüfbericht, dazu Hinweise zu Tooling, Hörsätzen und Konventionen).
 
 ### Where I had to guess
 

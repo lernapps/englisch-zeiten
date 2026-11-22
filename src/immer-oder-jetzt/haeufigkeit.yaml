@@ -76,8 +76,8 @@ blocks:
           - cue: Sophie isst immer Frühstück.
             target: Sophie [always] eats breakfast.
             distractors: [[never, sometimes]]
-          - cue: Peter geht oft zu Fuß zur Schule.
-            target: Peter [often] walks to school.
+          - cue: Amir spielt oft Tennis.
+            target: Amir [often] plays tennis.
             distractors: [[usually, never]]
           - cue: Ellie nimmt nie den Bus.
             target: Ellie [never] takes the bus.
@@ -138,19 +138,19 @@ blocks:
         task: Schreibe den ganzen Satz. Setze das Häufigkeitswort an die richtige Stelle.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter · play football · often
-            target: Peter often plays football.
+          - cue: Mr Hill · drink tea · always
+            target: Mr Hill always drinks tea.
             mistakes:
-              - answer: Peter plays often football.
-                message: Das Häufigkeitswort steht vor dem Verb, also often plays.
-              - answer: Peter often play football.
+              - answer: Mr Hill drinks always tea.
+                message: Das Häufigkeitswort steht vor dem Verb, also always drinks.
+              - answer: Mr Hill always drink tea.
                 message: "He, she, it – das s muss mit."
-          - cue: Ellie · is · happy · always
-            target: Ellie is always happy.
+          - cue: Sophie · is · tired · sometimes
+            target: Sophie is sometimes tired.
             mistakes:
-              - answer: Ellie always is happy.
-                message: Bei is steht das Häufigkeitswort danach, also is always.
-              - answer: Ellie is happy always.
+              - answer: Sophie sometimes is tired.
+                message: Bei is steht das Häufigkeitswort danach, also is sometimes.
+              - answer: Sophie is tired sometimes.
                 message: Das Häufigkeitswort steht direkt nach is.
           - cue: Ellie · take the bus · sometimes
             target: Ellie sometimes takes the bus.
@@ -190,12 +190,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: ellie-is-usually-happy.mp3
-            target: Ellie is usually happy.
-          - audio: amir-sometimes-eats-lunch-at-school.mp3
-            target: Amir sometimes eats lunch at school.
-          - audio: peter-and-ellie-often-take-the-bus.mp3
-            target: Peter and Ellie often take the bus.
+          - audio: mr-hill-is-never-angry-in-class.mp3
+            target: Mr Hill is never angry in class.
+          - audio: sophie-sometimes-writes-to-her-friends.mp3
+            target: Sophie sometimes writes to her friends.
+          - audio: ellie-often-visits-her-grandmother.mp3
+            target: Ellie often visits her grandmother.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -204,12 +204,12 @@ blocks:
         id: haeufigkeit-nachsprechen
         language: en
         items:
-          - audio: we-often-play-football-at-school.mp3
-            text: We often play football at school.
+          - audio: we-usually-have-breakfast-at-eight.mp3
+            text: We usually have breakfast at eight.
           - audio: we-usually-walk-to-school.mp3
             text: We usually walk to school.
-          - audio: amir-always-eats-lunch-with-sophie.mp3
-            text: Amir always eats lunch with Sophie.
+          - audio: peter-always-drinks-milk-in-the-morning.mp3
+            text: Peter always drinks milk in the morning.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte darauf, wo das Häufigkeitswort steht.
       - type: open-task
         id: haeufigkeit-karte

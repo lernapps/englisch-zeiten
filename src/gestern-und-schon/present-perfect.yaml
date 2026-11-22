@@ -95,18 +95,18 @@ blocks:
         hint: Nimm die 3. Spalte der Karten.
       - type: matching
         id: present-perfect-signale
-        text: Welches kleine Wort passt zu welcher Bedeutung?
+        text: Welcher englische Satz passt zu welchem deutschen Satz?
         pairs:
-          - left: already
-            right: schon
-          - left: just
-            right: gerade eben
-          - left: never
-            right: nie
-          - left: ever
-            right: jemals
+          - left: Peter hat schon gegessen.
+            right: Peter has already eaten.
+          - left: Ich habe gerade geschrieben.
+            right: I have just written.
+          - left: Er hat nie Fisch gegessen.
+            right: He has never eaten fish.
+          - left: Hast du jemals Kaffee getrunken?
+            right: Have you ever drunk coffee?
         explanation: Diese Wörter zeigen den Bogen bis now. Sie stehen zwischen have oder has und der 3. Form.
-        hint: Schau in den Schulkalender. Dort steht jedes Wort mit seiner Bedeutung.
+        hint: Such in jedem deutschen Satz das Wort, das schon, gerade eben, nie oder jemals heißt.
         links:
           - title: Lernlandkarte Englisch · Present perfect
             url: https://lernapps.net/apps/map/englisch/c/present-perfect/
@@ -161,11 +161,13 @@ blocks:
             mistakes:
               - answer: Amir has finished the cake yesterday.
                 message: Noch nicht ganz. Zu yesterday passt das simple past.
-          - cue: Sophie have seen the film.
-            target: Sophie has seen the film.
+          - cue: Peter have written a letter.
+            target: Peter has written a letter.
             mistakes:
-              - answer: Sophie have seen the film.
-                message: Noch nicht ganz. Bei she brauchst du has.
+              - answer: Peter have written a letter.
+                message: Noch nicht ganz. Bei he brauchst du has.
+              - answer: Peter has wrote a letter.
+                message: Wrote ist das simple past. Nach has brauchst du die 3. Form, written.
       - type: language-task
         id: present-perfect-uebersetzen
         languages: { source: de, target: en }
@@ -211,8 +213,8 @@ blocks:
             text: Amir has just come home.
           - audio: ellie-has-never-run-to-school.mp3
             text: Ellie has never run to school.
-          - audio: mr-hill-has-given-peter-homework.mp3
-            text: Mr Hill has given Peter homework.
+          - audio: ellie-has-cleaned-her-room.mp3
+            text: Ellie has cleaned her room.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf have oder has vor der 3. Form.
       - type: open-task
         id: present-perfect-karte

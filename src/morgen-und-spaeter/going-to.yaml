@@ -67,19 +67,15 @@ blocks:
             text: |
               **Das be darfst du nicht vergessen.** Es heißt Peter is going to play, nicht Peter going to play. Nach going to steht das Verb ohne s und ohne weiteres to.
       - type: table
-        caption: Schulkalender · Geburtstage
-        header: [Person, Geburtstag]
+        caption: Schulkalender · Geburtstage und Wörter
+        header: [Eintrag, Bedeutung]
         rows:
-          - [Peter, 5 May]
-          - [Ellie, 10 July]
-          - [Amir, 12 October]
-          - [Sophie, 14 October]
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [fall, fallen]
+          - [Peter · 5 May, Peters Geburtstag]
+          - [Ellie · 10 July, Ellies Geburtstag]
+          - [Amir · 12 October, Amirs Geburtstag]
+          - [Sophie · 14 October, Sophies Geburtstag]
           - [on 10 July, am 10. Juli]
+          - [fall, fallen]
   - type: section
     id: uebung
     title: Übung
@@ -151,8 +147,8 @@ blocks:
             mistakes:
               - answer: Ellie is going invite Amir.
                 message: Dir fehlt das to. Es heißt going to.
-          - cue: I · watch · a film
-            target: I am going to watch a film.
+          - cue: I · read · a story
+            target: I am going to read a story.
             mistakes:
               - answer: I is going to watch a film.
                 message: Zu I gehört am, nicht is.
@@ -200,12 +196,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: we-are-going-to-watch-a-film.mp3
-            target: We are going to watch a film.
+          - audio: we-are-going-to-wash-the-car.mp3
+            target: We are going to wash the car.
           - audio: peter-is-going-to-look-at-the-ticket.mp3
             target: Peter is going to look at the ticket.
-          - audio: we-are-going-to-eat-pizza-at-the-party.mp3
-            target: We are going to eat pizza at the party.
+          - audio: we-are-going-to-dance-at-the-party.mp3
+            target: We are going to dance at the party.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -216,10 +212,10 @@ blocks:
         items:
           - audio: ellie-is-going-to-be-twelve-in-july.mp3
             text: Ellie is going to be twelve in July.
-          - audio: i-am-going-to-eat-a-pizza.mp3
-            text: I am going to eat a pizza.
-          - audio: they-are-going-to-see-amir-on-saturday.mp3
-            text: They are going to see Amir on Saturday.
+          - audio: i-am-going-to-buy-a-new-bag.mp3
+            text: I am going to buy a new bag.
+          - audio: ellie-and-sophie-are-going-to-swim-after-lunch.mp3
+            text: Ellie and Sophie are going to swim after lunch.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Going to sprichst du schnell und leise, die wichtigen Wörter betonst du.
       - type: open-task
         id: going-to-karte
