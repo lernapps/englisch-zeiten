@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -87,8 +87,9 @@ Jugendliche der Klassen 7-8 erzählen auf Englisch, ordnen Hintergrund, Handlung
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, passt (neun Seiten, Lesestück je Seite, eigene Texte, Musterseite past-progressive). Glossar als Tabelle unter dem Absatz ist ok, solange es die Regel höchstens eine kurze Wörtertabelle je Seite erfüllt (es ersetzt die Wörter-Tabelle). Weiter zu Plan und Inhaltsmethode. Push von increment/02 und zweiter Vorschau-PR muss die Ersteller:in erlauben; bis dahin lokal arbeiten.
 
 ### Answers
 
@@ -110,13 +111,13 @@ Jugendliche der Klassen 7-8 erzählen auf Englisch, ordnen Hintergrund, Handlung
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] (skipped: keine neue Komponente und keine interaktive Übung; Skizzen der Seite und des Strahls liegen in .vibe/sketches) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -128,6 +129,12 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+**Aufbau je Seite (Muster Lesestück):** Abschnitte `einstieg` (Vorwissen-Frage als erste leichte Aufgabe, „Das kannst du danach“), `lesestueck` (Titel nennt die Sorte, z. B. „Sophies Tagebuch“; Text in 2 bis 4 `text`-Blöcken mit nummerierten Zeilen „[1] …“, nach jedem Block eine kurze `table` „Randglossar“: schwere Wörter, Wort · Bedeutung; die einzige Wörtertabelle der Seite), `neu` (Zeichen am Strahl, Bau-Karte, Merke, Zeitformen-Poster; kein Satz des Lesestücks wörtlich), `uebung` (drei Stufen, höchstens etwa 25 Items; mindestens vier Übungen mit eigener Meldung, davon `single-choice` mit `info`/`write` mit `mistakes`), `anwenden` (`speaking-task` und `open-task`), `weiter`. Titel sagen, was der Abschnitt tut. Lesestück 150 bis 300 Wörter (zählen nicht zu den 350 Wörtern Erklärtext; der Check meldet einen Hinweis `explainer-text-load`, bewusst).
+**Stufen der Aufgaben:** (1) Verstehen: `single-choice`/`matching`/`true-false` mit Begründung, Fragen zum Inhalt des Lesestücks. (2) Belegen mit Zeile: `single-choice` „In welcher Zeile steht …?“ und `matching` Zeile ↔ Zeichen am Strahl; dazu `language-task` write (`mistakes`) für das Bilden der Zeitform. (3) Meinung: `open-task` (Schreib- oder Sprechauftrag, 2 bis 5 Punkte, `scope` je Seite).
+**Zeichen:** Zeitstrahl-SVG je Seite (`zeitstrahl-<seite>.svg`, Farben der ersten Version: now #c0392b, Punkte #2c6fd8, Welle #8e44ad, Bogen #138d75, Pfeil/will #d35400, Hintergrund #f4efe2). Neu: Welle in der Vergangenheit (Hintergrund) mit unterbrechendem Punkt (K4), Punkt vor dem Punkt (past perfect, ein Schritt weiter links), Bogen als Welle (present perfect progressive), Fähnchen since (Startpunkt) und for (Länge, Klammer), Stoppschild an der Welle (Zustandsverben, K5), Kalendereintrag (Punkt in der Zukunft mit Datum) und Fahrplan (Tabelle), Welle über einem Zeitpunkt der Zukunft und Bogen bis zu einem Zeitpunkt der Zukunft (K6). Szenen nur wo sie etwas zeigen (Peter kleiner gezeichnet; Mrs Parker nicht gezeichnet). Bilder der Figuren (Sophie 13 bis 14): gleiche `<g id>`-Zeichnungen wie in der ersten Version.
+**Übungsarten je Seite** (mindestens vier mit eigener Meldung; keine `punctuation: hint`, keine `accepted`): past-progressive: Lesestück markieren (`matching` Satz ↔ Welle/Punkt), `language-task` choice (was/were + -ing, when/while), write mit Cue, Korrektur, Satzbau `ordering` nur bei eindeutiger Reihenfolge; past-perfect: `matching` Ereignis ↔ früher/später, choice had + 3. Form, write, Korrektur; zeitenfolge: choice (Zeit im Nebensatz), write, Satzteile verbinden; present-perfect-oder-simple-past: Lesestück-Zeilen sortieren (Punkt oder Bogen), choice mit Signalwort, Korrektur, Begründungsfrage; since-for: choice since/for, `ordering` Startpunkt/Länge, write; present-perfect-progressive: choice have/has been, write, Zustandsverb-Korrektur; dynamic-stative: `matching` Verb ↔ Welle/Stoppschild, choice, Korrektur; present-fuer-zukunft: Fahrplan lesen (`table`), choice Verabredung/Fahrplan, write; future-progressive-perfect: choice will be doing/will have done, write. Jede Übung mit Hörsatz-Regeln der ersten Version (Fuzzy-Prüfung `pruefe_hoersaetze.py`, Hörliste im Inhaltsführer, `regen_audio.py` mit Fehllaut-Schnitt, keine Namen nur für den Klang, nur wenige kurze Sätze je Seite, Lesestück nicht gesprochen).
+**Wie ein späterer Agent weitermacht:** Kapitel 7 (Stufe 9-10) nach demselben Muster, Strahl um Welle+Bogen in der Vergangenheit (past perfect progressive) und Punktreihe in der Vergangenheit (used to) erweitern; die Ziele und Wörter stehen im Inhaltsführer.
 
 ## Code
 
@@ -150,7 +157,11 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Slice 1 (ich, Muster): Kapitel 4 `erzaehlen` (chapter.yaml, in app.yaml), Seite `past-progressive` (Kompetenz past-progressive): Lesestück Sophies Tagebuch (150 bis 300 Wörter, nummerierte Zeilen, Randglossar-Tabelle), Strahl-SVG mit Welle in der Vergangenheit, Szene nur wo sie etwas zeigt, Übungen in drei Stufen, Diktat/Nachsprechen, open-task, Hörsätze mit regen_audio.py; neues Lesestück-Muster in den Inhaltsführer
+- [ ] Slice 2 (Sub-Agent A, eigenes Worktree): Kapitel 4 Rest, Seiten `past-perfect`, `zeitenfolge-temporalsaetze`, `present-perfect-oder-simple-past` nach dem Muster von Slice 1 (nur diese Seitendateien, Bilder, Audio und eigene audio-texte-Datei; chapter.yaml und app.yaml führe ich zusammen)
+- [ ] Slice 3 (Sub-Agent B, eigenes Worktree): Kapitel 5 `dauer`, Seiten `since-for`, `present-perfect-progressive`, `dynamic-stative` (chapter.yaml des Kapitels und die Seiten; Strahl: Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben)
+- [ ] Slice 4 (Sub-Agent C, eigenes Worktree): Kapitel 6 `plaene`, Seiten `present-fuer-zukunft` (Kalender und Fahrplan als table) und `future-progressive-perfect` (Welle und Bogen in die Zukunft)
+<!-- tasks: slices (4 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
