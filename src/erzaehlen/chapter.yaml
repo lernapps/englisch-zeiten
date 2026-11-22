@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Erzählen: Hintergrund, Handlung, vorher"
 summary: "Zwei Jahre später: Sophie (13) schreibt Tagebuch, Peter und Ellie chatten, Mr Hill gibt ein Interview. Du liest kurze Texte der Figuren und erkennst, was im Hintergrund lief, was passierte und was schon vorher geschehen war."
-pages: [past-progressive]
+pages: [past-progressive, past-perfect]
