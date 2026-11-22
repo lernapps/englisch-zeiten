@@ -33,6 +33,11 @@ Jugendliche der Klassen 7-8 erzählen auf Englisch, ordnen Hintergrund, Handlung
 
 <!-- One line each: decision and reason. Your own choice without the creator: mark "(guess)". -->
 
+- `scope` bleibt wie in der ersten Version (ja): jede Seite hat `open-task` und `scope`.
+- Lesestücke sind eigene erfundene Texte der Figuren (guess), keine VOA-/Wikinews-/African-Storybook-Texte.
+- Randglossar als Vokabelblock (`type: vocabulary`, app-templates ab 0.14) vor dem Lesestück, eine Wörterliste je Seite.
+- Der Hinweis `explainer-text-load` bei Lesestück-Seiten ist bewusst (Konventionen Abschnitt 8).
+
 ## Notes
 
 <!-- New competencies by chapter (ids of the strand), didactic approach, scope, sources and licences, open questions. -->
@@ -159,9 +164,9 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1 (ich, Muster): Kapitel 4 `erzaehlen` (chapter.yaml, in app.yaml), Seite `past-progressive` (Kompetenz past-progressive): Lesestück Sophies Tagebuch (150 bis 300 Wörter, nummerierte Zeilen, Randglossar-Tabelle), Strahl-SVG mit Welle in der Vergangenheit, Szene nur wo sie etwas zeigt, Übungen in drei Stufen, Diktat/Nachsprechen, open-task, Hörsätze mit regen_audio.py; neues Lesestück-Muster in den Inhaltsführer
+- [x] Slice 1 (ich, Muster): Kapitel 4 `erzaehlen` (chapter.yaml, in app.yaml), Seite `past-progressive` (Kompetenz past-progressive): Lesestück Sophies Tagebuch (150 bis 300 Wörter, nummerierte Zeilen, Randglossar-Tabelle), Strahl-SVG mit Welle in der Vergangenheit, Szene nur wo sie etwas zeigt, Übungen in drei Stufen, Diktat/Nachsprechen, open-task, Hörsätze mit regen_audio.py; neues Lesestück-Muster in den Inhaltsführer
 - [ ] Slice 2 (Sub-Agent A, eigenes Worktree): Kapitel 4 Rest, Seiten `past-perfect`, `zeitenfolge-temporalsaetze`, `present-perfect-oder-simple-past` nach dem Muster von Slice 1 (nur diese Seitendateien, Bilder, Audio und eigene audio-texte-Datei; chapter.yaml und app.yaml führe ich zusammen)
 - [ ] Slice 3 (Sub-Agent B, eigenes Worktree): Kapitel 5 `dauer`, Seiten `since-for`, `present-perfect-progressive`, `dynamic-stative` (chapter.yaml des Kapitels und die Seiten; Strahl: Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben)
 - [ ] Slice 4 (Sub-Agent C, eigenes Worktree): Kapitel 6 `plaene`, Seiten `present-fuer-zukunft` (Kalender und Fahrplan als table) und `future-progressive-perfect` (Welle und Bogen in die Zukunft)
