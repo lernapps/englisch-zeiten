@@ -221,8 +221,8 @@ blocks:
             text: I am Sophie, and I am eleven.
           - audio: ellie-is-a-good-friend.mp3
             text: Ellie is a good friend.
-          - audio: we-are-not-tired-peter.mp3
-            text: We are not tired, Peter.
+          - audio: we-are-not-tired.mp3
+            text: We are not tired.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf am, is und are.
       - type: open-task
         id: to-be-karte

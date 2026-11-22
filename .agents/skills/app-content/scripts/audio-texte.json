@@ -9,9 +9,7 @@
   "src/audio/are-sophie-and-ellie-tired.mp3": "Are Sophie and Ellie tired?",
   "src/audio/i-am-sophie-and-i-am-eleven.mp3": "I am Sophie, and I am eleven.",
   "src/audio/ellie-is-a-good-friend.mp3": "Ellie is a good friend.",
-  "src/audio/we-are-not-tired-peter.mp3": "We are not tired, Peter.",
   "src/audio/amir-has-got-a-pencil-case.mp3": "Amir has got a pencil case.",
-  "src/audio/have-you-got-a-pen-sophie.mp3": "Have you got a pen, Sophie?",
   "src/audio/they-have-got-a-dog.mp3": "They have got a dog.",
   "src/audio/i-have-got-a-brother.mp3": "I have got a brother.",
   "src/audio/she-has-got-a-bike.mp3": "She has got a bike.",
@@ -69,6 +67,8 @@
   "src/audio/we-are-going-to-have-a-party.mp3": "We are going to have a party.",
   "src/audio/i-will-answer-it.mp3": "I will answer it.",
   "src/audio/mr-hill-has-given-peter-homework.mp3": "Mr Hill has given Peter homework.",
-  "src/audio/we-have-just-seen-peter.mp3": "We have just seen Peter.",
-  "src/audio/sophie-likes-football.mp3": "Sophie likes football."
+  "src/audio/sophie-likes-football.mp3": "Sophie likes football.",
+  "src/audio/we-have-just-seen-mr-hill.mp3": "We have just seen Mr Hill.",
+  "src/audio/we-are-not-tired.mp3": "We are not tired.",
+  "src/audio/has-amir-got-a-bike.mp3": "Has Amir got a bike?"
 }

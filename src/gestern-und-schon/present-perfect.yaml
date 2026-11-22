@@ -231,8 +231,8 @@ blocks:
             target: Sophie has taken a book home.
           - audio: peter-has-already-written-to-ellie.mp3
             target: Peter has already written to Ellie.
-          - audio: we-have-just-seen-peter.mp3
-            target: We have just seen Peter.
+          - audio: we-have-just-seen-mr-hill.mp3
+            target: We have just seen Mr Hill.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben

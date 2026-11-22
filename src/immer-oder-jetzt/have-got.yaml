@@ -185,8 +185,8 @@ blocks:
         items:
           - audio: amir-has-got-a-pencil-case.mp3
             target: Amir has got a pencil case.
-          - audio: have-you-got-a-pen-sophie.mp3
-            target: Have you got a pen, Sophie?
+          - audio: has-amir-got-a-bike.mp3
+            target: Has Amir got a bike?
           - audio: they-have-got-a-dog.mp3
             target: They have got a dog.
   - type: section
