@@ -53,6 +53,8 @@ blocks:
             source: ehrlich gesagt
           - target: even
             source: sogar
+          - target: family tree
+            source: Stammbaum
       - type: text
         text: |
           **[1]** **Amir:** So, how was the film? I want to hear everything!
@@ -69,6 +71,10 @@ blocks:
           **[6]** **Sophie:** I prefer the first part, to be honest. At the moment I am reading the book, and it is even better.
 
           **[7]** **Amir:** You are always reading! I want the book, too. Can I have it when you are ready?
+
+          **[8]** **Sophie:** Of course! But first tell me your idea about the old man. You always have the best ideas.
+
+          **[9]** **Amir:** I will explain it on the bus tomorrow. I want to draw the family tree, because I need to see all the names in one picture.
   - type: section
     id: neu
     title: Das Stoppschild für die Welle
