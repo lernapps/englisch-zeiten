@@ -106,4 +106,5 @@ Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
 - Eine Übung für die Selbsteinschätzung nennt in Hinweis und Meldung weder „Spalte“ noch „Poster“ noch „oben“.
 - Gleichwertige Kurzformen zulassen (I'm not, you're not, Amir's not; `accepted` oder `(a|b)`); Stellen mit „already“ und Zeitangabe so bauen, dass es nur eine richtige Zeit gibt.
 - Der englische Cue enthält kein deutsches Wort; der deutsche Hinweis steht in `source` oder in der Aufgabe.
+- Audio: Wörter, die die Stimme falsch liest, nicht in Hörsätzen verwenden: „lives“ klang wie das Nomen „leives“ (Mehrzahl von life) → der Satz heißt jetzt „Sophie likes football.“. Neue Hörsätze anhören; bei Verben, die auch Nomen sind (lives, leaves, close, wind), ein anderes Verb nehmen.
 - Einheitliche Wörter: Punktreihe, Welle über now, Poster, happy = froh, phone = Telefon / Handy.

@@ -221,13 +221,13 @@ blocks:
         id: simple-present-nachsprechen
         language: en
         items:
-          - audio: sophie-lives-with-ellie.mp3
-            text: Sophie lives with Ellie.
+          - audio: sophie-likes-football.mp3
+            text: Sophie likes football.
           - audio: mr-hill-teaches-english.mp3
             text: Mr Hill teaches English.
           - audio: they-play-football-every-day.mp3
             text: They play football every day.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von lives und teaches.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das s am Ende von likes und teaches.
       - type: open-task
         id: simple-present-karte
         task: "Sophie schreibt eine Karte, die an der Punktreihe am Zeitstrahl hängt. Schreibe zwei Sätze über Ellie, Peter oder Amir: Was tut die Person jeden Tag oder jeden Samstag?"

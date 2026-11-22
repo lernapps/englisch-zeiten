@@ -2,7 +2,6 @@
   "src/audio/peter-plays-football-every-saturday.mp3": "Peter plays football every Saturday.",
   "src/audio/ellie-watches-a-film-after-school.mp3": "Ellie watches a film after school.",
   "src/audio/amir-studies-english-at-home.mp3": "Amir studies English at home.",
-  "src/audio/sophie-lives-with-ellie.mp3": "Sophie lives with Ellie.",
   "src/audio/mr-hill-teaches-english.mp3": "Mr Hill teaches English.",
   "src/audio/they-play-football-every-day.mp3": "They play football every day.",
   "src/audio/amir-is-happy-today.mp3": "Amir is happy today.",
@@ -70,5 +69,6 @@
   "src/audio/we-are-going-to-have-a-party.mp3": "We are going to have a party.",
   "src/audio/i-will-answer-it.mp3": "I will answer it.",
   "src/audio/mr-hill-has-given-peter-homework.mp3": "Mr Hill has given Peter homework.",
-  "src/audio/we-have-just-seen-peter.mp3": "We have just seen Peter."
+  "src/audio/we-have-just-seen-peter.mp3": "We have just seen Peter.",
+  "src/audio/sophie-likes-football.mp3": "Sophie likes football."
 }
