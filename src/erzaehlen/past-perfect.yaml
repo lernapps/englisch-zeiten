@@ -230,8 +230,8 @@ blocks:
             text: We had already eaten when Dad came home.
           - audio: sophie-had-lost-her-pen-before-the-lesson.mp3
             text: Sophie had lost her pen before the lesson.
-          - audio: he-hadn-t-seen-the-film-before.mp3
-            text: He hadn't seen the film before.
+          - audio: he-hadn-t-visited-the-museum-before.mp3
+            text: He hadn't visited the museum before.
         hint: Hör den Satz zuerst. Sprich langsam nach und achte auf had und hadn't.
       - type: open-task
         id: past-perfect-chat
