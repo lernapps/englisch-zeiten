@@ -214,12 +214,18 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan und Code abgeschlossen; Commit bis zum Vorschau-Pull-Request (lernapps/englisch-zeiten#3, `increment/02-erzaehlen-dauer-plaene` → `main`). Checkpoints bestanden: Recherche, Plan und Inhaltsmethode, Musterseite (jeweils von der Orchestrator-Session in der Rolle der Ersteller:in beantwortet). Der Checkpoint „Veröffentlichen“ steht aus; Merge und Katalogeintrag sind nicht Teil dieser Session.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Drei Rückmeldungen von Menschen nach der Bestätigung des Plans, zum Teil über die Orchestrator-Session weitergegeben: (1) Auftrag der Ersteller:in, den neuen Vokabelblock (app-templates 0.14) für alle reinen Vokabeltabellen zu nutzen, (2) Erlaubnis der Ersteller:in zum Push („alle pushen“), (3) die Freigabe des Pushs in der App („du darfst pushen“). Die Antworten auf die Checkpoints und die Hinweise zu Tooling, Hörsätzen und Konventionen kamen von der Orchestrator-Session und zählen hier nicht.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Lesestücke sind eigene erfundene Texte der Figuren (keine VOA-, Wikinews- oder African-Storybook-Texte); Kapitel 4 bis 6 bleiben ohne reale Faktenangaben.
+- Glossar als Vokabelblock vor dem Lesestück (statt Randglossar am Rand); der Hinweis `explainer-text-load` bei den Lesestück-Seiten ist bewusst.
+- Sophie 13, Ellie 13, Peter 11, Amir 13; keine neuen Szenen, Mrs Parker nicht gezeichnet.
+- Neun Seiten mit je zwei Übungen in der Selbsteinschätzung, nach Prüfung, dass sie ohne die Seite verständlich sind.
+- Die Seiten wurden parallel von Sub-Agenten in eigenen Worktrees gebaut; Zusammenführung, Gesamtcheck, Sprachprüfung und Behebung der Funde durch mich.
+- Kino-Szenen und Interview-Form kehren auf mehreren Seiten wieder (Umbau zu groß); A1-Wörter wie wind, bird, window stehen nicht im Vokabelblock.
+- Die neuen Hörsätze (54) sind nicht angehört; die Hörliste nennt die Sätze mit Schnitt und kurzem Ende.
