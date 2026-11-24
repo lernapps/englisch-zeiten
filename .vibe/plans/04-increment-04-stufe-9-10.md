@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -106,8 +106,9 @@ Jugendliche der Klassen 9-10 ordnen alle Zeitformen auf dem Zeitstrahl ein, drü
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, bestätigt, so bauen. Weiter mit der Musterseite.
 
 ### Content method
 
@@ -130,15 +131,15 @@ Muster der Stufe 7-8 (Inhaltsführer, Abschnitt „Stufe 7-8: Seite mit Lesestü
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Slice 1 (ich, Muster): Kapitel 7 ueberblick (chapter.yaml, in app.yaml), Seite past-perfect-progressive: Lesestück Eiffelturm 300 bis 600 Wörter nach den geprüften Daten, Vokabelblock, Zeichen, Übungen in drei Stufen, Hörsätze, open-task; Lesestück-9-10-Muster im Inhaltsführer
 - [ ] Slice 2 (Sub-Agent A, eigenes Worktree): Seite used-to (Lesestück Concorde, graue Punktreihe in der Vergangenheit)
