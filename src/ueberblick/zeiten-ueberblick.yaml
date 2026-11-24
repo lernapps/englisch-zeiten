@@ -1,0 +1,338 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Welche Zeit passt? Alle Zeiten im Überblick"
+description: "Du liest einen Sachtext über den Eiffelturm und die Concorde und wählst für jede Aussage die passende Zeit. Dein Werkzeug ist der ganze Zeitstrahl mit allen Zeichen."
+competencies: [zeiten-ueberblick]
+scope: Die Seite bringt alle Zeiten der Kapitel 1 bis 7 zusammen und zeigt, wie man in einem Text für jede Aussage die passende Zeit wählt. Werkzeug ist der ganze Zeitstrahl mit 13 Zeichen, eine Zeile je Zeit, und ein Poster mit Zeichen, Zeit und Beispiel. Der Sachtext über den Eiffelturm und die Concorde nutzt simple present, simple past, present perfect, past progressive, past perfect progressive, used to, going to und will. Drei Fragen führen zur Zeit, nämlich wo es liegt, welches Zeichen es ist und welches Signalwort im Satz steht. Nicht hier, weil sie in früheren Kapiteln stehen. Die Bildung der einzelnen Zeiten im Einzelnen, Fragen und Verneinung mit do und did, Passiv und indirekte Rede.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was du schon kennst
+    blocks:
+      - type: single-choice
+        id: zeiten-ueberblick-start
+        text: Du kennst viele Zeichen vom Zeitstrahl. Welches Zeichen gehört zu dem Satz I have been learning Spanish since May?
+        options:
+          - text: Eine Welle von früher bis now
+            correct: true
+            info: Die Tätigkeit hat im Mai begonnen und läuft bis jetzt. Das ist die Welle, die bis zum roten Strich now reicht.
+          - text: Ein einzelner Punkt links von now
+            correct: false
+            info: Ein einzelner Punkt wäre etwas, das einmal war und vorbei ist. Der Satz sagt aber, dass es bis jetzt andauert.
+          - text: Eine Punktreihe über now hinweg
+            correct: false
+            info: Eine Punktreihe erzählt von Gewohnheiten wie every Saturday. Hier geht es um eine Tätigkeit, die ohne Pause läuft.
+        explanation: since und have been learning zeigen die Welle bis now. So liest du jedes Zeichen am Strahl.
+      - type: text
+        text: "**Das kannst du danach:** Du wählst in einem Text für jede Aussage die passende Zeit. Dazu prüfst du, wo etwas auf dem Strahl liegt, welches Zeichen es ist und welches Signalwort im Satz steht."
+  - type: section
+    id: lesestueck
+    title: "Sachtext: Zwei Bauwerke, ein Strahl"
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: doubt
+            source: bezweifeln
+          - target: sketch
+            source: Skizze
+          - target: building work
+            source: Bauarbeiten
+          - target: structure
+            source: Bauwerk
+          - target: lift
+            source: Aufzug
+          - target: step
+            source: Stufe
+          - target: study
+            source: Untersuchung, Studie
+          - target: treaty
+            source: Vertrag zwischen Staaten
+          - target: take off
+            source: abheben, starten
+          - target: aircraft
+            source: Flugzeug
+          - target: maker
+            source: Hersteller
+          - target: customer
+            source: Kunde
+          - target: height
+            source: Höhe
+          - target: maximum speed
+            source: Höchstgeschwindigkeit
+          - target: retire
+            source: aus dem Dienst nehmen
+          - target: fleet
+            source: Flotte
+          - target: preserved
+            source: erhalten, aufbewahrt
+          - target: tallest
+            source: höchste
+      - type: text
+        text: |
+          **[1]** The Eiffel Tower and Concorde belong to different centuries, but both began as ideas that many people doubted. The first sketch of the tower was ready in May 1884. The building work began on 28 January 1887, and the tower was finished on 31 March 1889. It opened to visitors on 15 May 1889. The tower used to be the tallest structure in the world, but in 1930 the Chrysler Building became taller.
+
+          **[2]** Today the tower stands in Paris, and it has been there for more than 130 years. The lifts started on 26 May 1889. Before that, nearly 30,000 people had climbed the steps to the top.
+      - type: text
+        text: |
+          **[3]** The story of Concorde is also long. Studies began in 1954, and in 1962 Britain and France signed a treaty. When the first Concorde took off from Toulouse on 2 March 1969, people had been working on the plane for fifteen years. The makers were going to sell 350 aircraft, but only twenty were built.
+
+          **[4]** Concorde entered service on 21 January 1976. Before that, a flight from Paris to New York used to take about eight hours. Concorde needed just under three and a half hours. It could fly at a height of up to 18,300 metres.
+      - type: text
+        text: |
+          **[5]** During a test flight on 26 March 1974, a Concorde was flying at 2,370 km/h, its maximum speed. British Airways retired its fleet on 24 October 2003, twenty-seven years after the first passenger flights. Concorde has not carried passengers since 2003.
+
+          **[6]** Eighteen of the twenty aircraft are preserved in museums in Europe and North America. Nobody knows if a passenger plane will ever fly that fast again.
+  - type: section
+    id: neu
+    title: Der ganze Zeitstrahl
+    blocks:
+      - type: text
+        text: "Auf dem Zeitstrahl hast du Zeichen für alle Zeiten gelernt. Hier hängen sie alle untereinander, jedes in seiner eigenen Zeile. Die Zahl vor der Zeile steht auch auf dem Poster. So findest du zu jedem Zeichen die Zeit."
+      - type: figure
+        image: images/zeitstrahl-alle-zeichen.svg
+        alt: Dreizehn Zeitstrahlen untereinander, jeder mit einem roten Strich now in der Mitte und einer Zahl von 1 bis 13 am linken Rand. 1 eine Reihe blauer Punkte links und rechts von now. 2 eine kurze violette Welle über now. 3 ein einzelner blauer Punkt links. 4 ein grüner Bogen von einem Punkt links bis now. 5 eine violette Welle von einem Punkt links bis now. 6 eine violette Welle links von now mit einem Punkt darauf. 7 zwei blaue Punkte links, mit einer grauen gestrichelten Linie verbunden. 8 eine violette Welle links, die an einem blauen Punkt endet, mit einem grünen Bogen darüber. 9 eine Reihe grauer Punkte links, die vor now endet. 10 ein oranger Punkt rechts. 11 ein oranger Pfeil von now zu einem orangen Punkt rechts. 12 eine violette Welle rechts von now. 13 ein grüner Bogen von now bis zu einem orangen Punkt rechts.
+        caption: Alle Zeichen am Strahl. Die Zahlen gehören zu den Zeilen im Poster darunter.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Alle Zeichen
+        header: [Zeichen, Zeit, Beispiel]
+        rows:
+          - [1 · Punktreihe, simple present, Peter plays football every Saturday.]
+          - [2 · Welle bei now, present progressive, Sophie is reading a book now.]
+          - [3 · Punkt links von now, simple past, Peter played football yesterday.]
+          - [4 · Bogen bis now, present perfect, They have made a cake.]
+          - [5 · Welle bis now, present perfect progressive, She has been learning French since May.]
+          - [6 · Welle links von now, past progressive, He was playing chess when the phone rang.]
+          - [7 · zwei Punkte mit grauer Linie, past perfect, She had opened the window before the lesson started.]
+          - [
+              8 · Welle bis zu einem Punkt mit Bogen,
+              past perfect progressive,
+              We had been waiting for an hour when the bus came.,
+            ]
+          - [9 · graue Punktreihe vor now, used to, We used to go to the park on Sundays.]
+          - [10 · Punkt rechts von now, will, I will call you tomorrow.]
+          - [11 · Pfeil zu einem Punkt, going to, Peter is going to play football on 5 May.]
+          - [12 · Welle rechts von now, will be doing, At eight tomorrow I will be sitting in the train.]
+          - [13 · Bogen bis zu einem Punkt rechts, will have done, By eight tomorrow I will have finished the book.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Drei Fragen führen zur Zeit.** Erstens: Wo liegt es, vor now, bei now oder nach now? Zweitens: Welches Zeichen ist es, ein Punkt, eine Punktreihe, eine Welle oder ein Bogen? Drittens: Welches Signalwort steht im Satz, zum Beispiel every Saturday, yesterday, since, by then oder tomorrow? Aus Ort, Zeichen und Signalwort ergibt sich die Zeit. Sagt ein Satz zwei Dinge, wählst du für jedes Ding seine eigene Zeit.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: zeiten-ueberblick-verstehen
+        text: "Zeile 3 sagt: When the first Concorde took off, people had been working on the plane for fifteen years. Was sagt der Satz über die Arbeit am Flugzeug?"
+        options:
+          - text: Sie lief schon fünfzehn Jahre, als das Flugzeug abhob.
+            correct: true
+            info: Had been working ist die Welle bis zu einem Punkt der Vergangenheit. Der Punkt ist der Start am 2. März 1969.
+          - text: Sie läuft bis heute weiter.
+            correct: false
+            info: Das wäre have been working, die Welle bis now. Der Satz steht aber mit had been in der Vergangenheit.
+          - text: Sie begann erst nach dem Abheben.
+            correct: false
+            info: Der Satz sagt das Gegenteil. Die Arbeit lief schon fünfzehn Jahre vor dem Abheben.
+        explanation: Die Welle endet am Punkt der Vergangenheit, nicht bei now.
+        links:
+          - title: Concorde (Wikipedia, englisch)
+            url: https://en.wikipedia.org/wiki/Concorde
+      - type: matching
+        id: zeiten-ueberblick-zuordnen
+        text: Welche Zeit steht in dem Satz aus dem Text? Ordne zu.
+        pairs:
+          - left: The tower used to be the tallest structure in the world.
+            right: used to
+          - left: Studies began in 1954.
+            right: simple past
+          - left: It has been there for more than 130 years.
+            right: present perfect
+          - left: The makers were going to sell 350 aircraft.
+            right: going to
+          - left: A Concorde was flying at 2,370 km/h.
+            right: past progressive
+        distractors: [will be doing, past perfect]
+        explanation: Jede Zeit hat ihr Zeichen. Suche in jedem Satz das Signal, zum Beispiel used to, die Jahreszahl, since, going to oder was flying.
+        hint: Achte auf die kleinen Wörter vor dem Verb, zum Beispiel used to, has been, were going to und was.
+        links:
+          - title: Concorde (Wikipedia, englisch)
+            url: https://en.wikipedia.org/wiki/Concorde
+      - type: multiple-choice
+        id: zeiten-ueberblick-zeilen-used-to
+        text: In welchen Zeilen steht used to, die graue Punktreihe, die heute endet?
+        options:
+          - text: Zeile 1
+            correct: true
+            info: The tower used to be the tallest structure. Das war früher so und gilt heute nicht mehr.
+          - text: Zeile 4
+            correct: true
+            info: A flight used to take about eight hours. Früher dauerte der Flug so lange, mit Concorde nicht mehr.
+          - text: Zeile 3
+            correct: false
+            info: In Zeile 3 stehen simple past, past perfect progressive und going to, aber kein used to.
+          - text: Zeile 5
+            correct: false
+            info: Zeile 5 hat past progressive, simple past und present perfect, aber kein used to.
+        explanation: Used to sagt, dass etwas früher oft oder lange so war und heute nicht mehr gilt.
+        links:
+          - title: Eiffelturm (Wikipedia, englisch)
+            url: https://en.wikipedia.org/wiki/Eiffel_Tower
+      - type: multiple-choice
+        id: zeiten-ueberblick-zeilen-bogen
+        text: In welchen Zeilen steht das present perfect, der Bogen bis now?
+        options:
+          - text: Zeile 2
+            correct: true
+            info: It has been there for more than 130 years. Der Bogen reicht von 1889 bis now.
+          - text: Zeile 5
+            correct: true
+            info: Concorde has not carried passengers since 2003. Der Bogen reicht von 2003 bis now.
+          - text: Zeile 3
+            correct: false
+            info: Had been working endet an einem Punkt der Vergangenheit, nicht bei now.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 hat simple present und will. Dort gibt es keinen Bogen bis now.
+        explanation: Das present perfect hat have oder has und die 3. Form. Der Bogen reicht bis now.
+      - type: language-task
+        id: zeiten-ueberblick-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die Zeit, die zum Zeichen und zum Signalwort passt.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: British Airways nahm die Concorde 2003 aus dem Dienst.
+            target: British Airways [retired] its Concordes in 2003.
+            distractors: [[has retired, was retiring]]
+          - cue: Der Turm steht seit mehr als 130 Jahren in Paris.
+            target: The tower [has been] in Paris for more than 130 years.
+            distractors: [[was, is being]]
+          - cue: Früher dauerte der Flug nach New York acht Stunden.
+            target: A flight to New York [used to take] eight hours.
+            distractors: [[used to took, was taking]]
+          - cue: Als das Flugzeug abhob, arbeiteten sie schon seit fünfzehn Jahren daran.
+            target: When the plane took off, they [had been working] on it for fifteen years.
+            distractors: [[were working, have been working]]
+          - cue: Wer weiß, ob wieder ein Flugzeug so schnell fliegen wird?
+            target: Who knows if a plane [will fly] that fast again?
+            distractors: [[flew, has flown]]
+        hint: Frag dich bei jedem Satz, wo er auf dem Strahl liegt und welches Signalwort darin steht.
+      - type: language-task
+        id: zeiten-ueberblick-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz in der Zeit, die zum Signalwort passt.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: my grandfather · used to · walk · to school
+            target: My grandfather used to walk to school.
+            mistakes:
+              - answer: My grandfather use to walk to school.
+                message: Es geht um früher, darum used to mit d.
+              - answer: My grandfather used to walked to school.
+                message: Nach used to steht die Grundform des Verbs, also walk.
+          - cue: the team · train · for two hours · when the rain started
+            target: The team had been training for two hours when the rain started.
+            mistakes:
+              - answer: The team has been training for two hours when the rain started.
+                message: Der Regen begann in der Vergangenheit. Dann braucht die Dauer had been, nicht has been.
+              - answer: The team was training for two hours when the rain started.
+                message: Die zwei Stunden lagen schon vor dem Regen. Mit for two hours braucht die Welle had been.
+          - cue: we · visit · the museum · yesterday
+            target: We visited the museum yesterday.
+            mistakes:
+              - answer: We have visited the museum yesterday.
+                message: Yesterday ist ein Punkt links von now. Dafür brauchst du das simple past.
+              - answer: We visit the museum yesterday.
+                message: Yesterday liegt in der Vergangenheit, also visited.
+          - cue: I · finish · the book · by eight tomorrow
+            target: I will have finished the book by eight tomorrow.
+            mistakes:
+              - answer: I will finish the book by eight tomorrow.
+                message: By eight tomorrow zeigt den Bogen bis zu einem Punkt in der Zukunft. Dafür brauchst du will have und die 3. Form.
+              - answer: I will have finish the book by eight tomorrow.
+                message: Nach will have kommt die 3. Form, also finished.
+        hint: Prüfe das Signalwort. Es sagt, ob es ein Punkt, eine Welle oder ein Bogen ist.
+      - type: single-choice
+        id: zeiten-ueberblick-entscheidung
+        text: "Amir wohnt seit 2020 in Leeds. Welcher Satz sagt das richtig, und warum?"
+        options:
+          - text: Amir has lived in Leeds since 2020.
+            correct: true
+            info: Since 2020 setzt den Anfang, und der Bogen reicht bis now. Das ist das present perfect.
+          - text: Amir lived in Leeds since 2020.
+            correct: false
+            info: Das simple past ist ein Punkt, der vorbei ist. Mit since bis jetzt passt es nicht.
+          - text: Amir lives in Leeds since 2020.
+            correct: false
+            info: Das simple present zeigt eine Gewohnheit oder Tatsache. Mit since brauchst du den Bogen bis now.
+        explanation: Since sagt, seit wann etwas gilt. Dazu gehört der Bogen bis now.
+      - type: language-task
+        id: zeiten-ueberblick-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: When the film started, we have been waiting for an hour.
+            target: When the film started, we had been waiting for an hour.
+            mistakes:
+              - answer: When the film started, we have been waiting for an hour.
+                message: Noch nicht ganz. Der Filmstart liegt in der Vergangenheit, also had been.
+          - cue: Last year the family has moved to Leeds.
+            target: Last year the family moved to Leeds.
+            mistakes:
+              - answer: Last year the family has moved to Leeds.
+                message: Noch nicht ganz. Last year ist ein Punkt links von now, das ist das simple past.
+        hint: Prüfe das Signalwort und die Zeit, die dazu gehört.
+      - type: language-task
+        id: zeiten-ueberblick-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-train-had-left-before-we-reached-the-station.mp3
+            target: The train had left before we reached the station.
+          - audio: she-was-cooking-when-the-lights-went-out.mp3
+            target: She was cooking when the lights went out.
+          - audio: we-have-been-waiting-since-noon.mp3
+            target: We have been waiting since noon.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: zeiten-ueberblick-nachsprechen
+        language: en
+        items:
+          - audio: grandpa-used-to-ride-a-bike-to-work.mp3
+            text: Grandpa used to ride a bike to work.
+          - audio: are-you-going-to-watch-the-match-tonight.mp3
+            text: Are you going to watch the match tonight?
+          - audio: i-have-never-visited-a-castle.mp3
+            text: I have never visited a castle.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die kleinen Wörter vor dem Verb.
+      - type: open-task
+        id: zeiten-ueberblick-schreiben
+        task: "Schreibe fünf Sätze über ein Bauwerk oder ein Fahrzeug, zum Beispiel einen Zug, ein Schiff oder ein Hochhaus. Nimm fünf verschiedene Zeiten. Nenne bei jedem Satz das Zeichen auf dem Strahl."
+        points:
+          - text: Mindestens vier verschiedene Zeiten aus dem Poster kommen vor.
+            source: /ueberblick/zeiten-ueberblick/#neu
+          - text: Bei jedem Satz passt die Zeit zum Signalwort, zum Beispiel since, yesterday, by then oder tomorrow.
+            source: /ueberblick/zeiten-ueberblick/#neu
+          - text: Bei jedem Satz steht das Zeichen, zum Beispiel Punkt, Welle oder Bogen.
+            source: /ueberblick/zeiten-ueberblick/#neu
+          - text: Ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          The old bridge was built in 1930. (Punkt links von now, simple past) It has crossed the river for almost a hundred years. (Bogen bis now, present perfect) Cars used to use it every day. (graue Punktreihe, used to) Today only people on foot walk over it. (Punktreihe, simple present) Next year the town is going to repair it. (Pfeil zu einem Punkt, going to)
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Am Zeitstrahl hängen jetzt alle Zeichen. Du kennst die Zeiten und weißt, wie du sie wählst. Jetzt kannst du in jedem Text zu jedem Satz sagen, wo er auf dem Strahl liegt.
