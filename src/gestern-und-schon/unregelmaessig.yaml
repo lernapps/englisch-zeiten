@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-unregelmaessig.svg
         alt: Mr Hill steht neben der Tafel. Auf der Tafel hängen zwei Karten mit den Aufschriften go – went und see – saw. Sophie und Peter schauen zu.
-        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und rechts Mr Hill (graue Haare). Auf der Tafel hängen zwei Karten.
+        caption: Mr Hill (graue Haare) hängt zwei Karten an die Tafel.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -278,4 +278,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill hat auch die 3. Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."
+        text: "Mr Hill hat auch die 3. Form auf die Karten geschrieben. Dann bringt Ellie einen fertigen Kuchen mit. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."

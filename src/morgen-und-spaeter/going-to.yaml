@@ -6,17 +6,17 @@ scope: Die Seite führt going to ein. Es nennt Pläne, die schon feststehen, und
 blocks:
   - type: section
     id: einstieg
-    title: Peters Plan für den 5. Mai
+    title: Peters Plan
     blocks:
       - type: figure
         image: images/szene-going-to.svg
         alt: "Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 5 May. Peter sagt in der Sprechblase: „I am going to have a party.“"
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Peter spricht."
+        caption: Peter (gelbe Jacke) spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Peter hat am 5. Mai Geburtstag. Er erzählt der Klasse: „I am going to have a party.“ Party heißt Feier, have a party heißt eine Feier machen.
+          Peter erzählt der Klasse: „I am going to have a party.“ Party heißt Feier, have a party heißt eine Feier machen.
       - type: single-choice
         id: going-to-start
         text: Peter sagt „I am going to have a party.“ Wann hat er sich die Feier überlegt?
@@ -225,4 +225,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters Pfeil. Ellie hat am 10. Juli Geburtstag und erzählt ihre Pläne. Amir hört zu und hat gleich eine Idee. Auf der nächsten Seite entscheidest du, wann du will und wann du going to nimmst."
+        text: "Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters Pfeil. Ellie erzählt ihre Pläne. Amir hört zu und hat gleich eine Idee. Auf der nächsten Seite entscheidest du, wann du will und wann du going to nimmst."
