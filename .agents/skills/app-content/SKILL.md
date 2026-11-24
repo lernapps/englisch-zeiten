@@ -240,7 +240,7 @@ Alle 54 Hörsätze sind mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt. Sätze 
 
 ### Hörliste Inkrement 04 (Stufe 9-10, Kapitel 7)
 
-Alle 18 Hörsätze mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt; je Seite 3 Diktat- und 3 Nachsprechsätze. Markiert sind Schnitte an der Senke (ms). Bei `use to` (didn't use to, did … use to) liest die Stimme ggf. /juːz/ statt /juːs/: die Ersteller:in hört diese Sätze gezielt. Hörurteile der 6 Sätze der Musterseite bestätigt der Orchestrator in Namen der Ersteller:in.
+Alle 18 Hörsätze mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt; je Seite 3 Diktat- und 3 Nachsprechsätze. Markiert sind Schnitte an der Senke (ms). Bei `use to` (didn't use to, did … use to) liest die Stimme ggf. /juːz/ statt /juːs/: die Ersteller:in hört diese Sätze gezielt. Alle übrigen Hörsätze sind vom Orchestrator in Namen der Ersteller:in bestätigt. **Offen: Aussprache von `use to` prüfen** bei „My brother didn't use to eat fish.“, „Did your grandmother use to sing?“ und „I didn't use to like tea.“ (kein Hörurteil; blockiert den Merge nicht).
 
 | Seite | Datei | Satz | Ende | Schnitt |
 |---|---|---|---|---|
