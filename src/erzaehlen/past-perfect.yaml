@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Dann wäre der Bus noch da gewesen, als Peter ankam. Er war aber schon weg.
         explanation: Was früher passiert ist, liegt auf dem Strahl weiter links.
-        links:
-          - title: Lernlandkarte Englisch · Past perfect
-            url: https://lernapps.net/apps/map/englisch/c/past-perfect/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was vor einem anderen Ereignis in der Vergangenheit schon geschehen war. Und du bildest das past perfect mit had und der 3. Form."
   - type: section

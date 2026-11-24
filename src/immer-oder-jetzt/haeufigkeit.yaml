@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Manchmal heißt sometimes. Das steht nicht im Satz.
         explanation: Das Wort never sagt, wie oft etwas passiert. Hier passiert es nie.
-        links:
-          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
-            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wie oft jemand etwas tut, und setzt das Wort an die richtige Stelle im Satz."
   - type: section
@@ -104,9 +101,6 @@ blocks:
             correct: false
             info: Das Wort steht richtig, aber bei he, she und it fehlt das s am Verb.
         explanation: Das Häufigkeitswort kommt vor das Verb, und bei he, she und it bleibt das s.
-        links:
-          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
-            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
       - type: single-choice
         id: haeufigkeit-stellung-be
         text: Welcher Satz ist richtig?
@@ -121,9 +115,6 @@ blocks:
             correct: false
             info: Das Wort steht nicht am Ende, sondern direkt nach is.
         explanation: Bei am, is und are steht das Häufigkeitswort danach.
-        links:
-          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
-            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
       - type: ordering
         id: haeufigkeit-reihe
         text: Wer geht am häufigsten zu Fuß zur Schule? Ordne von immer (oben) bis nie (unten).
@@ -134,9 +125,6 @@ blocks:
           - Sophie sometimes walks to school.
           - Mr Hill never walks to school.
         explanation: Die Reihenfolge ist always, usually, often, sometimes, never. Das Wort steht jedes Mal vor walks.
-        links:
-          - title: Lernlandkarte Englisch · Häufigkeitsadverbien
-            url: https://lernapps.net/apps/map/englisch/c/adverbien-haeufigkeit/
       - type: language-task
         id: haeufigkeit-bilden
         languages: { source: de, target: en }

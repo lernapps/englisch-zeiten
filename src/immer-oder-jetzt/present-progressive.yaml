@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Nie heißt never. Das Wort steht nicht im Satz.
         explanation: Dieser Satz erzählt von einem Moment. Er sagt, was Sophie gerade tut.
-        links:
-          - title: Lernlandkarte Englisch · Present progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was gerade passiert, und bildest die Form mit be und -ing."
   - type: section
@@ -188,9 +185,6 @@ blocks:
             right: Peter and Sophie are cooking dinner.
         distractors: [Amir eats an apple.]
         explanation: Die Welle über now braucht be und die -ing-Form.
-        links:
-          - title: Lernlandkarte Englisch · Present progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
       - type: single-choice
         id: present-progressive-tanzen
         text: Sophie tanzt gerade. Welcher Satz ist richtig?
@@ -205,9 +199,6 @@ blocks:
             correct: false
             info: Dir fehlt das be. Zur Welle gehört is und die -ing-Form.
         explanation: Bei dance fällt das e vor -ing weg.
-        links:
-          - title: Lernlandkarte Englisch · Present progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
       - type: language-task
         id: present-progressive-hoeren
         languages: { source: de, target: en }

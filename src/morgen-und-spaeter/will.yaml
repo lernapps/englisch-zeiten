@@ -31,9 +31,6 @@ blocks:
             correct: false
             info: Das Wetter von morgen ist noch nicht da. Beide Sätze sagen, wie es werden soll.
         explanation: Mit will sprichst du über etwas, das noch kommt.
-        links:
-          - title: Lernlandkarte Englisch · Will-Future
-            url: https://lernapps.net/apps/map/englisch/c/will-future/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was du über morgen vermutest, und was du spontan beschließt. Und du bildest will mit einem Verb."
   - type: section
@@ -113,9 +110,6 @@ blocks:
             right: Maybe Peter will come soon.
         distractors: [Peter plays football every Saturday.]
         explanation: Bei will geht es um das, was noch kommt, als Vermutung oder als Einfall in diesem Moment. Der Satz mit every Saturday erzählt von einer Gewohnheit.
-        links:
-          - title: Lernlandkarte Englisch · Will-Future
-            url: https://lernapps.net/apps/map/englisch/c/will-future/
       - type: language-task
         id: will-bilden
         languages: { source: de, target: en }
@@ -160,9 +154,6 @@ blocks:
             correct: false
             info: Der Strich bei now ist das jetzt. Das Spiel, das kommt, liegt rechts davon.
         explanation: Will hat das Zeichen des einzelnen Punktes rechts von now, ohne Pfeil.
-        links:
-          - title: Lernlandkarte Englisch · Will-Future
-            url: https://lernapps.net/apps/map/englisch/c/will-future/
       - type: language-task
         id: will-korrektur
         languages: { source: de, target: en }

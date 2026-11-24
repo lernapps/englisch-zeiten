@@ -22,9 +22,6 @@ blocks:
             correct: false
             info: Die Welle zeigt, dass etwas im Gang ist. Bei yesterday ist ein einzelner Zeitpunkt gemeint.
         explanation: Yesterday ist eine Zeitangabe in der Vergangenheit. Dazu passt der Punkt.
-        links:
-          - title: Lernlandkarte Englisch · Present perfect oder simple past
-            url: https://lernapps.net/apps/map/englisch/c/present-perfect-oder-simple-past/
       - type: text
         text: "**Das kannst du danach:** Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl."
   - type: section

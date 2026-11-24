@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Das sagt die Punktreihe beim simple present.
         explanation: Die Welle steht für etwas, das läuft. Auf dieser Seite liegt sie in der Zukunft.
-        links:
-          - title: Lernlandkarte Englisch · Future progressive und future perfect
-            url: https://lernapps.net/apps/map/englisch/c/future-progressive-perfect/
       - type: text
         text: "**Das kannst du danach:** Du erkennst im Interview, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist. Und du sagst beides auf Englisch."
   - type: section
@@ -115,9 +112,6 @@ blocks:
             correct: false
             info: Das tut Amir. Er sagt es in Zeile 2.
         explanation: Peter spielt den ganzen Tag Fußball und schläft um acht.
-        links:
-          - title: Lernlandkarte Englisch · Future progressive und future perfect
-            url: https://lernapps.net/apps/map/englisch/c/future-progressive-perfect/
       - type: single-choice
         id: future-progressive-perfect-satz
         text: Welcher Satz sagt, dass etwas bis zu einem Zeitpunkt schon fertig ist?

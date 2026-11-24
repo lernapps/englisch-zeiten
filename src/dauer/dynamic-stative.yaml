@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Wiederholungen sind eine Punktreihe. Das ist das simple present.
         explanation: Die Welle steht für etwas, das läuft. Für Zustände wie Wissen oder Besitz passt sie meistens nicht.
-        links:
-          - title: Lernlandkarte Englisch · Zustandsverben
-            url: https://lernapps.net/apps/map/englisch/c/dynamic-stative/
       - type: text
         text: "**Das kannst du danach:** Du erkennst Zustandsverben wie know, like und belong. Und du weißt, dass sie meistens keine Verlaufsform bilden."
   - type: section

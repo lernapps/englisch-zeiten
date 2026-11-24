@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: are gehört zu you, we und they, nicht zu he.
         explanation: Zu jeder Person gehört eine eigene Form von be.
-        links:
-          - title: Lernlandkarte Englisch · Verb to be
-            url: https://lernapps.net/apps/map/englisch/c/to-be/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wer jemand ist und wie jemand ist, und du verneinst und fragst mit be."
   - type: section
@@ -115,9 +112,6 @@ blocks:
         distractors: [I is nine.]
         explanation: Die Person bestimmt die Form. Wer von sich spricht, sagt I am. Wer zu einer Person spricht, sagt you are.
         hint: Frag dich bei jedem Satz, ob es um mich, dich, ihn, sie oder mehrere geht.
-        links:
-          - title: "Verb to be: Verneinung und Frage (Lernlandkarte)"
-            url: https://lernapps.net/apps/map/englisch/c/to-be/
       - type: language-task
         id: to-be-verneinung-tabelle
         languages: { source: de, target: en }
@@ -198,9 +192,6 @@ blocks:
             correct: false
             info: Am not wird nicht zu amn't. Kurz sagst du I'm not.
         explanation: Die Verneinung hängt not hinter be.
-        links:
-          - title: "Verb to be: Verneinung und Frage (Lernlandkarte)"
-            url: https://lernapps.net/apps/map/englisch/c/to-be/
       - type: language-task
         id: to-be-hoeren
         languages: { source: de, target: en }

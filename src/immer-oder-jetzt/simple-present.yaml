@@ -31,9 +31,6 @@ blocks:
             correct: false
             info: Von einem Wunsch steht im Satz nichts. Er sagt, dass Peter es tut.
         explanation: Das simple present erzählt von Gewohnheiten, also von Dingen, die sich wiederholen.
-        links:
-          - title: Lernlandkarte Englisch · Simple present
-            url: https://lernapps.net/apps/map/englisch/c/simple-present/
       - type: text
         text: "**Das kannst du danach:** Du erzählst auf Englisch, was jemand immer tut. Und du weißt, wann das -s an das Verb muss."
   - type: section

@@ -27,9 +27,6 @@ blocks:
             correct: false
             info: Der Punkt ist ein einzelnes Ereignis, der Bogen gehört zum present perfect.
         explanation: Beide Zeichen kennst du schon. Auf dieser Seite siehst du sie an einer neuen Stelle, in der Zukunft.
-        links:
-          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
-            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
       - type: text
         text: "**Das kannst du danach:** Du erkennst im Chat, ob jemand eine feste Verabredung oder einen Fahrplan meint, und sagst beides richtig auf Englisch."
   - type: section
@@ -131,9 +128,6 @@ blocks:
             correct: false
             info: Um 10:30 beginnt die Führung im Museum.
         explanation: Die Abfahrt ist um 7:45, die Ankunft um 9:10.
-        links:
-          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
-            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
       - type: single-choice
         id: present-fuer-zukunft-wer
         text: Wer bringt belegte Brote für alle mit?
@@ -148,9 +142,6 @@ blocks:
             correct: false
             info: Mr Hill sammelt die Fahrkarten ein, er bringt nichts zu essen mit.
         explanation: Amirs Vater bringt die Brote mit, Amir trifft Ellie und Sophie am Bahnhof.
-        links:
-          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
-            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
       - type: multiple-choice
         id: present-fuer-zukunft-zeilen
         text: In welchen Zeilen steht ein Fahrplan oder ein festes Programm für alle?

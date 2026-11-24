@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Die -ing-Form steht nach is, are oder was, nicht nach will.
         explanation: Nach will steht immer die Grundform. Gleich siehst du, was in einem Nebensatz mit when oder after dazukommt.
-        links:
-          - title: Lernlandkarte Englisch · Zeitenfolge in Temporalsätzen
-            url: https://lernapps.net/apps/map/englisch/c/zeitenfolge-temporalsaetze/
       - type: text
         text: "**Das kannst du danach:** Du stimmst in Sätzen mit when, after, before und as soon as die Zeiten richtig ab, über die Zukunft und über die Vergangenheit."
   - type: section

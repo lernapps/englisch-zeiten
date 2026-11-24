@@ -27,9 +27,6 @@ blocks:
             correct: false
             info: Der Bogen reicht von früher bis now und gehört zum present perfect.
         explanation: Die Welle steht für etwas, das im Gang ist. Diese Seite verschiebt sie in die Vergangenheit.
-        links:
-          - title: Lernlandkarte Englisch · Past progressive
-            url: https://lernapps.net/apps/map/englisch/c/past-progressive/
       - type: text
         text: "**Das kannst du danach:** Du erkennst in einem Text, was schon lief und was dann passierte. Und du bildest das past progressive mit was und were."
   - type: section

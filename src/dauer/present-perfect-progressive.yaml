@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Ein Punkt ist ein einzelnes Ereignis. Eine Welle zeigt etwas, das über längere Zeit läuft.
         explanation: Die Welle von einem Startpunkt bis now zeigt, dass die Tätigkeit bis jetzt andauert.
-        links:
-          - title: Lernlandkarte Englisch · Present perfect progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-perfect-progressive/
       - type: text
         text: "**Das kannst du danach:** Du erkennst im Chat, was bis jetzt andauert. Und du bildest das present perfect progressive mit have been oder has been und der -ing-Form."
   - type: section

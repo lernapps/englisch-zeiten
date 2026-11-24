@@ -31,9 +31,6 @@ blocks:
             correct: false
             info: Amir hat es sich nicht gestern überlegt, sondern gerade eben.
         explanation: Amir beschließt im Moment des Sprechens. Ellies Plan steht dagegen schon lange.
-        links:
-          - title: Lernlandkarte Englisch · Will oder going to
-            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
       - type: text
         text: "**Das kannst du danach:** Du entscheidest in klaren Fällen, ob du will oder going to brauchst, und sagst, warum."
   - type: section
@@ -86,9 +83,6 @@ blocks:
             right: Nur eine Vermutung.
         distractors: [Eine Gewohnheit.]
         explanation: "Plan oder Anzeichen: Pfeil, going to. Entschluss im Moment oder Vermutung: Punkt ohne Pfeil, will."
-        links:
-          - title: Lernlandkarte Englisch · Will oder going to
-            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
       - type: single-choice
         id: will-oder-going-to-telefon
         text: Das Telefon klingelt. Sophie ist allein im Zimmer und sagt gleich, was sie tut. Welcher Satz passt?
@@ -103,9 +97,6 @@ blocks:
             correct: false
             info: Every day erzählt von einer Gewohnheit. Das Telefon klingelt jetzt einmal.
         explanation: Wer im Moment des Sprechens entscheidet, nimmt will.
-        links:
-          - title: Lernlandkarte Englisch · Will oder going to
-            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
       - type: language-task
         id: will-oder-going-to-form
         languages: { source: de, target: en }
@@ -153,9 +144,6 @@ blocks:
         text: Peter hat die Tickets für einen Film schon gekauft und sagt „I will watch a film on Saturday.“ Passt der Satz?
         answer: false
         explanation: Die Tickets sind schon gekauft, der Plan steht. Dafür nimmst du going to.
-        links:
-          - title: Lernlandkarte Englisch · Will oder going to
-            url: https://lernapps.net/apps/map/englisch/c/will-oder-going-to/
       - type: language-task
         id: will-oder-going-to-korrektur
         languages: { source: de, target: en }

@@ -24,9 +24,6 @@ blocks:
             correct: false
             info: Die Zukunft liegt rechts von now. Der Bogen des present perfect reicht nicht dorthin.
         explanation: Der Bogen endet bei now. Neu ist heute, wie du den Anfang und die Länge des Bogens sagst.
-        links:
-          - title: Lernlandkarte Englisch · Since und for
-            url: https://lernapps.net/apps/map/englisch/c/since-for/
       - type: text
         text: "**Das kannst du danach:** Du erkennst, was ein Startpunkt und was eine Länge ist. Und du sagst mit since und for, wie lange etwas schon dauert."
   - type: section
