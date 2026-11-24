@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -38,6 +38,8 @@ Die Seiten steigen ohne lange Vorstellung der Figuren ein: keine Altersangaben, 
 <!-- New competencies by chapter (ids of the strand), didactic approach, scope, sources and licences, open questions. -->
 
 Korrektur ohne neue Kompetenzen: Alle 22 Seiten (13 der ersten Version, 9 des Inkrements 02) werden auf Vorstellungen der Figuren, Altersangaben, Verwandtschaftserklärungen und überflüssige Datumsangaben im Fließtext, in Einstiegs-, Szenen- und Lesestück-Texten, Bildunterschriften und Alt-Texten durchsucht und gekürzt. Eine Figur wird nur benannt, wo die Aufgabe es braucht (wer in der Chatzeile spricht, wer spricht in der Szene). Die Vorstellung (Alter, Beziehungen, Mr Hill) bleibt einmal auf der Seite `das-brauchst-du` und im `intro` der App, dort aber kurz. Geprüft wird auch das Lesestück (keine Einleitungssätze vor dem Text, die Figuren erklären), die Einstiegsfrage und `weiter`. Neu in der Vorlage (app-templates 0.19.0, update vor dem Inkrement): `links` an Fragen ist optional, Links auf die Lernlandkarte verbietet der Build; alle 44 Karten-Links an den Fragen sind entfernt (Commit „fix: keine Links zur Lernlandkarte …“). Keine neuen Quellen.
+
+**Ergebnis (Sub-Agenten, drei Slices, zusammengeführt):** Alle 22 Seiten und alle 6 `chapter.yaml` plus das `intro` der App geprüft, Texte gekürzt: immer-oder-jetzt (7 Seiten: Vorstellung auf `das-brauchst-du` auf zwei Sätze ohne Alter und Verwandtschaft, „Ellie erzählt Sophie von ihrem Bruder“ → „Ellie sagt“, Bildunterschriften auf das Nötige), gestern-und-schon und morgen-und-spaeter (6 Seiten: Bildunterschriften, Datum ohne Aufgabenbezug), erzaehlen, dauer, plaene (9 Seiten: Vorspann vor der Einstiegsfrage weg, `description`, Abschnitts- und Lesestück-Titel neutral, `weiter`, Alter und „bei den Parkers“ aus den Lesestücken). Alle 22 Seiten betroffen. Hörsätze nicht geändert (Fuzzy-Prüfung 0 Treffer). `lernapps check` ohne Fehler (Hinweise wie zuvor). Bewusst geblieben: Namen als Sprecher in Chat-, Interview- und Dialogzeilen, Datum und Zeitangaben, die Aufgabeninhalt sind (Seit September, Geburtstage als Pläne in `going-to`), Alt-Texte, die beschreiben, wer was tut. Vorher in diesem Inkrement: `lernapps update` (tooling 0.18.6, app-templates 0.19.0: `links` an Fragen optional, Links zur Lernlandkarte verboten; 44 entfernt).
 
 ## Explore
 
@@ -112,26 +114,27 @@ Keine neuen Muster, Zeichnungen oder Komponenten. Regel für alle Seiten: Im Fli
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1 (Sub-Agent A, eigenes Worktree): Kapitel immer-oder-jetzt, 7 Seiten (das-brauchst-du, to-be, have-got, simple-present, haeufigkeit, present-progressive, simple-oder-progressive): Vorstellungen, Alter, Verwandtschaft, Datum aus Fließtext, Einstieg, Szenen-Bildunterschriften, alt und Lesestück-Einleitungen kürzen; Vorstellung bleibt kurz einmal auf das-brauchst-du
-- [ ] Slice 2 (Sub-Agent B, eigenes Worktree): Kapitel gestern-und-schon und morgen-und-spaeter, 6 Seiten, gleiche Kürzung
-- [ ] Slice 3 (Sub-Agent C, eigenes Worktree): Kapitel erzaehlen, dauer und plaene, 9 Seiten (Lesestücke ohne Einleitungen, die Figuren erklären; Einstieg und weiter), gleiche Kürzung
+- [x] Slice 1 (Sub-Agent A, eigenes Worktree): Kapitel immer-oder-jetzt, 7 Seiten (das-brauchst-du, to-be, have-got, simple-present, haeufigkeit, present-progressive, simple-oder-progressive): Vorstellungen, Alter, Verwandtschaft, Datum aus Fließtext, Einstieg, Szenen-Bildunterschriften, alt und Lesestück-Einleitungen kürzen; Vorstellung bleibt kurz einmal auf das-brauchst-du
+- [x] Slice 2 (Sub-Agent B, eigenes Worktree): Kapitel gestern-und-schon und morgen-und-spaeter, 6 Seiten, gleiche Kürzung
+- [x] Slice 3 (Sub-Agent C, eigenes Worktree): Kapitel erzaehlen, dauer und plaene, 9 Seiten (Lesestücke ohne Einleitungen, die Figuren erklären; Einstieg und weiter), gleiche Kürzung
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+      Creator: Auftrag der Ersteller:in: alle Seiten kürzen; kein neues Muster, daher weiter.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
@@ -142,7 +145,7 @@ Keine neuen Muster, Zeichnungen oder Komponenten. Regel für alle Seiten: Im Fli
 
 ### Tasks
 
-- [ ] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
+- [x] (skipped: nur Texte gekürzt, Übungen unverändert) If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
 - [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
@@ -166,12 +169,15 @@ Keine neuen Muster, Zeichnungen oder Komponenten. Regel für alle Seiten: Im Fli
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan und Code abgeschlossen; Commit bis zum Vorschau-Pull-Request. Die Checkpoints der Explore- und Plan-Phase wurden mit dem Auftrag der Ersteller:in als Antwort abgehakt (die Orchestrator-Session wollte eine einzige Meldung am Ende); der Checkpoint „Veröffentlichen“ steht aus.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Eine Rückmeldung der Ersteller:in (über die Orchestrator-Session): die Einführungen der Figuren auf allen Seiten kürzen. Sie stand vor dem Plan; danach kam keine weitere Nachricht eines Menschen.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Die Checkpoints Recherche und Plan mit dem Auftrag der Ersteller:in beantwortet, statt auf eine eigene Antwort zu warten.
+- Bildunterschriften der Szenen: der Sprecher bleibt genannt (mit Merkmal, z. B. „Ellie (roter Pferdeschwanz) spricht“), weil sonst unklar wäre, wer spricht.
+- Namen als Sprecher in Chat-, Interview- und Dialogzeilen bleiben; Daten und Zeitangaben bleiben, wo sie Aufgabeninhalt sind.
+- Die kurze Vorstellung auf `das-brauchst-du` (zwei Sätze) bleibt, die der App-Startseite im `intro` ist auf Namen ohne Alter gekürzt.
