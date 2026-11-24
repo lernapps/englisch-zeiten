@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -76,8 +76,9 @@ Jugendliche der Klassen 9-10 ordnen alle Zeitformen auf dem Zeitstrahl ein, drü
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, passt so (Eiffelturm und Concorde sind gute reale Fälle; Fakten und Daten gegen die Quellen prüfen, keine Sätze übernehmen). Weiter mit Musterseite past-perfect-progressive, Lerner-Check, dann melden.
 
 ### Answers
 
@@ -97,12 +98,12 @@ Jugendliche der Klassen 9-10 ordnen alle Zeitformen auf dem Zeitstrahl ein, drü
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] (skipped: keine neue Komponente und keine interaktive Übung) Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
@@ -115,6 +116,8 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+Muster der Stufe 7-8 (Inhaltsführer, Abschnitt „Stufe 7-8: Seite mit Lesestück“) gilt weiter, mit den Unterschieden der Stufe 9-10: Abschnitte `einstieg` (Vorwissens-Frage vom Zeitstrahl aus), `lesestueck` (Titel nennt die Sorte, z. B. „Sachtext: Der Eiffelturm“; Vokabelblock davor, höchstens eine Wörterliste; Text 300 bis 600 Wörter in 3 bis 5 `text`-Blöcken mit nummerierten Zeilen `**[1]**`; reale Daten, eigene Sätze, Quelle im Inhaltsführer unter „Sources“ und als `links` nur, wo sie genau zur Frage passt), `neu` (Zeichen, Bau-Karte, Merke; kein Satz des Lesestücks wörtlich), `uebung` (Verstehen, Belegen mit Zeile als `multiple-choice`/`single-choice`, Bilden und Korrektur mit `language-task`, Entscheidung mit Begründung: `single-choice` mit `info` je Option; höchstens etwa 25 Items; mindestens vier Übungen mit eigener Rückmeldung), `anwenden` (`speaking-task` mit 3 kurzen Sätzen, `open-task` als Schreibauftrag mit `scope`), `weiter`. Kein Vorstellen von Figuren, keine Altersangaben, keine Sophie-Szene (9-10: reale Fälle). Keine Links zur Lernlandkarte (Vorlage verbietet sie). Zeichnungen `zeitstrahl-<seite>.svg` mit den Farben des Inhaltsführers; neu: Welle bis zu einem Punkt der Vergangenheit (past perfect progressive), graue Punktreihe, die heute endet (used to), ganzer Strahl mit allen 13 Zeichen als Werkzeug (zeiten-ueberblick). Hörsätze: natürliche, ganze Sätze, nicht das Lesestück, 3 plus 3 je Seite, Fuzzy-Prüfung 0 Treffer, `regen_audio.py` mit Fehllaut-Schnitt, Hörliste im Inhaltsführer; die Hörurteile bestätigt der Orchestrator. `scope` je Seite (open-task). Selbsteinschätzung: 2 allein verständliche Übungen je Seite.
 
 ## Code
 
@@ -137,7 +140,10 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Slice 1 (ich, Muster): Kapitel 7 ueberblick (chapter.yaml, in app.yaml), Seite past-perfect-progressive: Lesestück Eiffelturm 300 bis 600 Wörter nach den geprüften Daten, Vokabelblock, Zeichen, Übungen in drei Stufen, Hörsätze, open-task; Lesestück-9-10-Muster im Inhaltsführer
+- [ ] Slice 2 (Sub-Agent A, eigenes Worktree): Seite used-to (Lesestück Concorde, graue Punktreihe in der Vergangenheit)
+- [ ] Slice 3 (Sub-Agent B, eigenes Worktree): Seite zeiten-ueberblick (Sachtext, Tabelle aller Zeichen, Markieren und Begründen)
+<!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
