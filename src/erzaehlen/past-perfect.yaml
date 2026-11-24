@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Was schon vorher geschehen war: das past perfect"
-description: "Peter verpasst den Bus und chattet mit Ellie. Du erkennst, was vor einem anderen Ereignis in der Vergangenheit passiert war, und bildest das past perfect."
+description: "Du erkennst in einem Chat, was vor einem anderen Ereignis in der Vergangenheit passiert war, und bildest das past perfect."
 competencies: [past-perfect]
 scope: Die Seite führt das past perfect ein, mit einem Chat als Lesestück. Es sagt, dass etwas vor einem anderen Ereignis in der Vergangenheit geschah. Auf dem Zeitstrahl rückt es einen Schritt nach links, es ist ein Punkt vor dem Punkt des simple past. Die Form ist had plus die 3. Form des Verbs, dazu die Verneinung hadn't und die Frage Had you …? Signalwörter sind already, before und when. Nicht hier, weil es spätere Seiten sind. Die Zeitenfolge in Sätzen mit after, before und as soon as, die Entscheidung zwischen present perfect und simple past und since und for.
 blocks:
@@ -8,8 +8,6 @@ blocks:
     id: einstieg
     title: Zwei Ereignisse, ein Zeitstrahl
     blocks:
-      - type: text
-        text: Peter hat auf dem Ausflug seinen Geldbeutel vergessen. Am Wandbild hat er noch einen Platz frei, für etwas, das schon vorher passiert war. Er chattet mit Ellie, weil er zu spät kommt.
       - type: single-choice
         id: past-perfect-start
         text: "Peter kommt an die Bushaltestelle, aber der Bus ist schon weg. Zwei Ereignisse liegen auf dem Zeitstrahl in der Vergangenheit: Peters Ankunft und die Abfahrt des Busses. Welches liegt weiter links?"
@@ -28,7 +26,7 @@ blocks:
         text: "**Das kannst du danach:** Du sagst auf Englisch, was vor einem anderen Ereignis in der Vergangenheit schon geschehen war. Und du bildest das past perfect mit had und der 3. Form."
   - type: section
     id: lesestueck
-    title: Peters Chat mit Ellie
+    title: Ein Chat
     blocks:
       - type: vocabulary
         caption: Wörter zum Chat
@@ -250,4 +248,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Wandbild liegen jetzt zwei Punkte in der Vergangenheit, der frühere und der spätere. Mr Hill plant das Schulfest und erzählt, was vorher geschehen sein muss. Auf der nächsten Seite lernst du, wie du mit when, after, before und as soon as die Zeiten richtig abstimmst.
+        text: Am Wandbild liegen jetzt zwei Punkte in der Vergangenheit, der frühere und der spätere. Auf der nächsten Seite lernst du, wie du mit when, after, before und as soon as die Zeiten richtig abstimmst.

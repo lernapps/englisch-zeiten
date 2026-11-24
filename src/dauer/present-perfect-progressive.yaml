@@ -1,15 +1,13 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Was bis jetzt andauert: das present perfect progressive"
-description: "Sophie wartet vor dem Kino, und Ellie ist zu spät. Du erkennst im Chat, was bis jetzt andauert, und bildest das present perfect progressive mit have been und -ing."
+description: "Du erkennst im Chat, was bis jetzt andauert, und bildest das present perfect progressive mit have been und -ing."
 competencies: [present-perfect-progressive]
-scope: Die Seite führt das present perfect progressive ein, mit einem Lesestück als Chat von Sophie und Ellie. Es sagt, dass eine Tätigkeit in der Vergangenheit begann und bis jetzt andauert (oder gerade erst aufgehört hat). Auf dem Zeitstrahl wird der Bogen des present perfect zur Welle, die an einem Startpunkt beginnt und bis now läuft. Die Form ist have oder has plus been plus das Verb mit -ing. Dazu since und for für Startpunkt und Länge und die Frage How long have you been …? Im Unterschied zum present perfect stehen die Tätigkeit selbst und ihre Dauer im Vordergrund, nicht das Ergebnis. Nicht hier, weil es spätere Seiten sind. Die Zustandsverben, die keine Verlaufsform bilden, und alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu.
+scope: Die Seite führt das present perfect progressive ein, mit einem Lesestück als Chat. Es sagt, dass eine Tätigkeit in der Vergangenheit begann und bis jetzt andauert (oder gerade erst aufgehört hat). Auf dem Zeitstrahl wird der Bogen des present perfect zur Welle, die an einem Startpunkt beginnt und bis now läuft. Die Form ist have oder has plus been plus das Verb mit -ing. Dazu since und for für Startpunkt und Länge und die Frage How long have you been …? Im Unterschied zum present perfect stehen die Tätigkeit selbst und ihre Dauer im Vordergrund, nicht das Ergebnis. Nicht hier, weil es spätere Seiten sind. Die Zustandsverben, die keine Verlaufsform bilden, und alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu.
 blocks:
   - type: section
     id: einstieg
-    title: Sophie wartet
+    title: Bis jetzt
     blocks:
-      - type: text
-        text: Sophie und Ellie wollen ins Kino. Ellie ist nicht da, und Sophie schreibt ihr. Mr Hill hat am Wandbild neben den Bogen eine Welle gehängt.
       - type: single-choice
         id: present-perfect-progressive-start
         text: Du kennst vom Zeitstrahl die Welle (etwas läuft) und den Bogen von einem Startpunkt bis now. Was glaubst du, wie die Welle bis now aussieht?
@@ -277,4 +275,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Wandbild hängt jetzt eine Welle, die von einem Startpunkt bis now läuft. Am Abend sitzen Sophie und Amir im Kino. Auf der nächsten Seite siehst du, bei welchen Verben die Welle nicht möglich ist.
+        text: Am Wandbild hängt jetzt eine Welle, die von einem Startpunkt bis now läuft. Auf der nächsten Seite siehst du, bei welchen Verben die Welle nicht möglich ist.
