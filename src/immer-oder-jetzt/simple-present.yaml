@@ -11,12 +11,12 @@ blocks:
       - type: figure
         image: images/szene-simple-present.svg
         alt: "Peter kickt auf einer Wiese einen Fußball. Sophie, Ellie und Amir stehen daneben und schauen zu. Ellie sagt in der Sprechblase: „Peter plays football every Saturday.“"
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Ellie spricht."
+        caption: Ellie spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Ellie erzählt Sophie von ihrem Bruder: „Peter plays football every Saturday.“ Saturday ist der Samstag, football der Fußball.
+          Ellie sagt: „Peter plays football every Saturday.“ Saturday ist der Samstag, football der Fußball.
       - type: single-choice
         id: simple-present-start
         text: Ellie sagt „Peter plays football every Saturday.“ Was erzählt sie damit?
@@ -38,7 +38,7 @@ blocks:
     title: Die Punktreihe und das -s
     blocks:
       - type: text
-        text: "Mr Hill hat einen langen Streifen an die Wand gehängt, den Zeitstrahl. Links liegt das Frühere, rechts das Spätere, und in der Mitte steht **now**, das heißt „jetzt“. Jeder Samstag, an dem Peter spielt, ist ein Punkt. Heute ist kein Samstag, darum liegt now zwischen zwei Punkten. Viele Samstage sind eine **Punktreihe**: Was sich so wiederholt, ist eine Gewohnheit. Die Zeitform dafür heißt **simple present**, und die Punktreihe ist ihr Zeichen."
+        text: "Auf dem Zeitstrahl liegt links das Frühere, rechts das Spätere, und in der Mitte steht **now**, das heißt „jetzt“. Jeder Samstag, an dem Peter spielt, ist ein Punkt. Heute ist kein Samstag, darum liegt now zwischen zwei Punkten. Viele Samstage sind eine **Punktreihe**: Was sich so wiederholt, ist eine Gewohnheit. Die Zeitform dafür heißt **simple present**, und die Punktreihe ist ihr Zeichen."
       - type: figure
         image: images/zeitstrahl-punktreihe.svg
         alt: Ein Zeitstrahl von links nach rechts. In der Mitte steht ein roter Strich mit der Beschriftung now. Links und rechts davon liegt eine gleichmäßige Reihe blauer Punkte. An einem Punkt hängt ein Fähnchen mit den Worten every Saturday.

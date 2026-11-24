@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-haeufigkeit.svg
         alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. An der Wand hängen eine Uhr und ein leerer Rahmen. Ellie sagt in der Sprechblase „Amir is never late.“
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Ellie spricht."
+        caption: Ellie spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Der Schultag in Millbrook beginnt um Viertel vor neun. Ellie erzählt Sophie, wer wann kommt: „Amir is never late.“ **Late** heißt „zu spät“."
+        text: "Ellie sagt: „Amir is never late.“ **Late** heißt „zu spät“."
       - type: single-choice
         id: haeufigkeit-start
         text: Ellie sagt „Amir is never late.“ Wie oft kommt Amir zu spät?

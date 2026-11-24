@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-to-be.svg
         alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. In einer Sprechblase über Sophie steht „I am Sophie. I am eleven.“
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Sophie spricht."
+        caption: Sophie spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -50,7 +50,7 @@ blocks:
         rows:
           - [I, am, I am Sophie.]
           - [you, are, You are my friend.]
-          - [he / she / it, is, Peter is my brother.]
+          - [he / she / it, is, Peter is in my class.]
           - [we, are, We are in class five.]
           - [they, are, They are Ellie and Peter.]
       - type: table

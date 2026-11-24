@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-simple-oder-progressive.svg
         alt: Sophie, Ellie, Amir und Peter stehen vor dem Wandbild. Auf dem Wandbild liegt ein Zeitstrahl mit blauen Punkten, einem roten Strich in der Mitte und einer violetten Welle über dem Strich.
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Hinter ihnen hängt der Zeitstrahl von der Klasse."
+        caption: Hinter den Kindern hängt der Zeitstrahl.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie zeigt auf den Zeitstrahl und sagt zwei Sätze über ihren Bruder: „Peter often plays football.“ und „Peter is playing football at the moment.“ **At the moment** heißt „im Moment“."
+        text: "Ellie zeigt auf den Zeitstrahl und sagt zwei Sätze über Peter: „Peter often plays football.“ und „Peter is playing football at the moment.“ **At the moment** heißt „im Moment“."
       - type: single-choice
         id: simple-oder-progressive-start
         text: Welcher Satz sagt, was Amir gerade jetzt tut?
