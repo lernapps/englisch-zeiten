@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 1
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -149,9 +149,9 @@ Muster der Stufe 7-8 (Inhaltsführer, Abschnitt „Stufe 7-8: Seite mit Lesestü
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
       Creator: Ja, used-to (Concorde) und zeiten-ueberblick dürfen nach diesem Muster in zwei Sub-Agenten gebaut werden. Die Hörurteile für die 6 neuen Sätze bestätige ich in Namen der Ersteller:in.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
