@@ -12,12 +12,12 @@ blocks:
         id: zeiten-ueberblick-start
         text: Du kennst viele Zeichen vom Zeitstrahl. Welches Zeichen gehört zu dem Satz I have been learning Spanish since May?
         options:
-          - text: Eine Welle von früher bis now
-            correct: true
-            info: Die Tätigkeit hat im Mai begonnen und läuft bis jetzt. Das ist die Welle, die bis zum roten Strich now reicht.
           - text: Ein einzelner Punkt links von now
             correct: false
             info: Ein einzelner Punkt wäre etwas, das einmal war und vorbei ist. Der Satz sagt aber, dass es bis jetzt andauert.
+          - text: Eine Welle von früher bis now
+            correct: true
+            info: Die Tätigkeit hat im Mai begonnen und läuft bis jetzt. Das ist die Welle, die bis zum roten Strich now reicht.
           - text: Eine Punktreihe über now hinweg
             correct: false
             info: Eine Punktreihe erzählt von Gewohnheiten wie every Saturday. Hier geht es um eine Tätigkeit, die ohne Pause läuft.
@@ -34,6 +34,18 @@ blocks:
         entries:
           - target: doubt
             source: bezweifeln
+          - target: belong to
+            source: gehören zu
+          - target: century
+            source: Jahrhundert
+          - target: visitor
+            source: Besucher
+          - target: sonic boom
+            source: Überschallknall
+          - target: ocean
+            source: Ozean, Meer
+          - target: full speed
+            source: volle Geschwindigkeit
           - target: sketch
             source: Skizze
           - target: building work
@@ -130,12 +142,12 @@ blocks:
         id: zeiten-ueberblick-verstehen
         text: "Zeile 3 sagt: When the first Concorde took off, people had been working on the plane for fifteen years. Was sagt der Satz über die Arbeit am Flugzeug?"
         options:
-          - text: Sie lief schon fünfzehn Jahre, als das Flugzeug abhob.
-            correct: true
-            info: Had been working ist die Welle bis zu einem Punkt der Vergangenheit. Der Punkt ist der Start am 2. März 1969.
           - text: Sie läuft bis heute weiter.
             correct: false
             info: Das wäre have been working, die Welle bis now. Der Satz steht aber mit had been in der Vergangenheit.
+          - text: Sie lief schon fünfzehn Jahre, als das Flugzeug abhob.
+            correct: true
+            info: Had been working ist die Welle bis zu einem Punkt der Vergangenheit. Der Punkt ist der Start am 2. März 1969.
           - text: Sie begann erst nach dem Abheben.
             correct: false
             info: Der Satz sagt das Gegenteil. Die Arbeit lief schon fünfzehn Jahre vor dem Abheben.
@@ -198,7 +210,7 @@ blocks:
             info: Had been working endet an einem Punkt der Vergangenheit, nicht bei now.
           - text: Zeile 6
             correct: false
-            info: Zeile 6 hat simple present und will. Dort gibt es keinen Bogen bis now.
+            info: Zeile 6 hat kein present perfect. Dort gibt es keinen Bogen bis now.
         explanation: Das present perfect hat have oder has und die 3. Form. Der Bogen reicht bis now.
       - type: language-task
         id: zeiten-ueberblick-waehlen
@@ -237,21 +249,21 @@ blocks:
               - answer: My grandfather used to walked to school.
                 message: Nach used to steht die Grundform des Verbs, also walk.
           - cue: the team · train · for two hours · when the rain started
-            target: The team had been training for two hours when the rain started.
+            target: (The team had been training for two hours when the rain started|When the rain started, the team had been training for two hours).
             mistakes:
               - answer: The team has been training for two hours when the rain started.
                 message: Der Regen begann in der Vergangenheit. Dann braucht die Dauer had been, nicht has been.
               - answer: The team was training for two hours when the rain started.
                 message: Die zwei Stunden lagen schon vor dem Regen. Mit for two hours braucht die Welle had been.
           - cue: we · visit · the museum · yesterday
-            target: We visited the museum yesterday.
+            target: (We visited the museum yesterday|Yesterday we visited the museum).
             mistakes:
               - answer: We have visited the museum yesterday.
                 message: Yesterday ist ein Punkt links von now. Dafür brauchst du das simple past.
               - answer: We visit the museum yesterday.
                 message: Yesterday liegt in der Vergangenheit, also visited.
           - cue: I · finish · the book · by eight tomorrow
-            target: I will have finished the book by eight tomorrow.
+            target: (I will have finished the book by eight tomorrow|I'll have finished the book by eight tomorrow|By eight tomorrow I will have finished the book|By eight tomorrow I'll have finished the book).
             mistakes:
               - answer: I will finish the book by eight tomorrow.
                 message: By eight tomorrow zeigt den Bogen bis zu einem Punkt in der Zukunft. Dafür brauchst du will have und die 3. Form.
@@ -262,12 +274,12 @@ blocks:
         id: zeiten-ueberblick-entscheidung
         text: "Amir wohnt seit 2020 in Leeds. Welcher Satz sagt das richtig, und warum?"
         options:
-          - text: Amir has lived in Leeds since 2020.
-            correct: true
-            info: Since 2020 setzt den Anfang, und der Bogen reicht bis now. Das ist das present perfect.
           - text: Amir lived in Leeds since 2020.
             correct: false
             info: Das simple past ist ein Punkt, der vorbei ist. Mit since bis jetzt passt es nicht.
+          - text: Amir has lived in Leeds since 2020.
+            correct: true
+            info: Since 2020 setzt den Anfang, und der Bogen reicht bis now. Das ist das present perfect.
           - text: Amir lives in Leeds since 2020.
             correct: false
             info: Das simple present zeigt eine Gewohnheit oder Tatsache. Mit since brauchst du den Bogen bis now.
@@ -279,12 +291,12 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: When the film started, we have been waiting for an hour.
-            target: When the film started, we had been waiting for an hour.
+            target: (When the film started, we had been waiting for an hour|We had been waiting for an hour when the film started).
             mistakes:
               - answer: When the film started, we have been waiting for an hour.
                 message: Noch nicht ganz. Der Filmstart liegt in der Vergangenheit, also had been.
           - cue: Last year the family has moved to Leeds.
-            target: Last year the family moved to Leeds.
+            target: (Last year the family moved to Leeds|The family moved to Leeds last year).
             mistakes:
               - answer: Last year the family has moved to Leeds.
                 message: Noch nicht ganz. Last year ist ein Punkt links von now, das ist das simple past.
@@ -318,7 +330,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die kleinen Wörter vor dem Verb.
       - type: open-task
         id: zeiten-ueberblick-schreiben
-        task: "Schreibe fünf Sätze über ein Bauwerk oder ein Fahrzeug, zum Beispiel einen Zug, ein Schiff oder ein Hochhaus. Nimm fünf verschiedene Zeiten. Nenne bei jedem Satz das Zeichen auf dem Strahl."
+        task: "Schreibe fünf Sätze über ein Bauwerk oder ein Fahrzeug, zum Beispiel einen Zug, ein Schiff oder ein Hochhaus. Nimm mindestens vier verschiedene Zeiten. Nenne bei jedem Satz das Zeichen auf dem Strahl."
         points:
           - text: Mindestens vier verschiedene Zeiten aus dem Poster kommen vor.
             source: /ueberblick/zeiten-ueberblick/#neu
@@ -329,7 +341,7 @@ blocks:
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          The old bridge was built in 1930. (Punkt links von now, simple past) It has crossed the river for almost a hundred years. (Bogen bis now, present perfect) Cars used to use it every day. (graue Punktreihe, used to) Today only people on foot walk over it. (Punktreihe, simple present) Next year the town is going to repair it. (Pfeil zu einem Punkt, going to)
+          The old bridge was built in 1930. (Punkt links von now, simple past) It has stood over the river for almost a hundred years. (Bogen bis now, present perfect) Lorries used to drive over it every day. (graue Punktreihe, used to) Today only people on foot walk over it. (Punktreihe, simple present) Next year the town is going to repair it. (Pfeil zu einem Punkt, going to)
   - type: section
     id: weiter
     title: Wie es weitergeht

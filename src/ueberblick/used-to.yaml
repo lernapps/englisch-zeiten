@@ -12,12 +12,12 @@ blocks:
         id: used-to-start
         text: Du kennst das simple past, zum Beispiel I played football every Sunday. Was sagt der Satz I used to play football every Sunday zusätzlich?
         options:
-          - text: Das war früher eine Gewohnheit und gilt heute nicht mehr.
-            correct: true
-            info: Used to nennt eine Gewohnheit der Vergangenheit und zeigt zugleich, dass sie heute vorbei ist.
           - text: Das ist eine Gewohnheit, die auch heute noch gilt.
             correct: false
             info: Dafür steht das simple present, zum Beispiel I play football every Sunday.
+          - text: Das war früher eine Gewohnheit und gilt heute nicht mehr.
+            correct: true
+            info: Used to nennt eine Gewohnheit der Vergangenheit und zeigt zugleich, dass sie heute vorbei ist.
           - text: Das ist nur ein einziges Mal passiert.
             correct: false
             info: Every Sunday heißt jeden Sonntag. Es geht um viele Sonntage, nicht um einen.
@@ -62,18 +62,36 @@ blocks:
             source: tödlich
           - target: commercial flight
             source: Linienflug
-          - target: museum
-            source: Museum
+          - target: airline
+            source: Fluggesellschaft
+          - target: supersonic
+            source: schneller als der Schall
+          - target: engine
+            source: Triebwerk, Motor
+          - target: thin
+            source: dünn
+          - target: narrow
+            source: eng, schmal
+          - target: ocean
+            source: Ozean, Meer
+          - target: market
+            source: Markt, Absatzgebiet
+          - target: accident
+            source: Unfall
+          - target: bang
+            source: Knall
+          - target: look up
+            source: nach oben schauen
       - type: text
         text: |
-          **[1]** Concorde was a passenger plane that France and Britain built together. The two countries started to study the idea in 1954 and signed a treaty in 1962. Its first flight was on 2 March 1969, and it entered service on 21 January 1976. In the end, only twenty of them were built.
+          **[1]** Concorde was a passenger plane that France and Britain built together. People started to study the idea in 1954, and the two countries signed a treaty in 1962. Its first flight was on 2 March 1969, and it entered service on 21 January 1976. In the end, only twenty of them were built.
 
-          **[2]** Before Concorde, a flight from Paris to New York used to take about eight hours. Concorde did the same trip in just under three and a half hours, because it flew at about twice the speed of sound. It used to fly at a height of 18,300 metres, where the air is thin. Its four engines used to push it along at about 2,150 kilometres an hour.
+          **[2]** Before Concorde, a flight from Paris to New York used to take about eight hours. Concorde did the same trip in just under three and a half hours, because it flew at about twice the speed of sound. It flew at a height of up to 18,300 metres, where the air is thin. Its four engines pushed it along at about 2,150 kilometres an hour.
       - type: text
         text: |
-          **[3]** The plane was narrow inside, and it used to carry between 92 and 128 passengers. Its main market was the Atlantic. Only two airlines, Air France and British Airways, ever became its customers. Flights to New York began on 17 October 1977.
+          **[3]** The plane was narrow inside, and it used to carry between 92 and 128 passengers, depending on the seating. Its main market was the Atlantic. Only two airlines, Air France and British Airways, ever became its customers. Flights to New York began on 17 October 1977.
 
-          **[4]** There was one big problem. A supersonic plane makes a loud bang, the sonic boom. Because of this, Concorde did not use to fly fast over land, so it was limited to routes over the ocean.
+          **[4]** There was one big problem. A supersonic plane makes a loud bang, the sonic boom. Because of this, Concorde could not fly fast over land, so it was limited to routes over the ocean.
       - type: text
         text: |
           **[5]** On 25 July 2000, a Concorde of Air France crashed shortly after take-off near Paris. All 109 people on board and four people on the ground died. It was the only deadly accident in the history of the plane, and the flights stopped until November 2001.
@@ -84,7 +102,7 @@ blocks:
     title: Die graue Punktreihe
     blocks:
       - type: text
-        text: Eine Gewohnheit der Gegenwart ist beim simple present eine Punktreihe über now hinaus. **Used to** malt die Punktreihe nur in die Vergangenheit. Sie ist **grau** und endet vor now. Was in den Punkten passierte, war oft so, gilt aber heute nicht mehr.
+        text: Beim simple present ist eine Gewohnheit eine Punktreihe, die über now hinausgeht. **Used to** malt die Punktreihe nur in die Vergangenheit. Sie ist **grau** und endet vor now. Was in den Punkten passierte, war oft so, gilt aber heute nicht mehr.
       - type: figure
         image: images/zeitstrahl-used-to.svg
         alt: Ein Zeitstrahl von links nach rechts. Rechts steht ein roter Strich mit now. Links davon liegt eine Reihe grauer Punkte, die weit vor now endet. Über dem Strahl hängt ein Fähnchen mit used to fly, unter dem Strahl steht heute nicht mehr.
@@ -96,14 +114,14 @@ blocks:
         header: [Satzart, Form, Beispiel]
         rows:
           - [Aussage, used to + Grundform, The plane used to cross the ocean in less than four hours.]
-          - [Verneinung, didn't use to + Grundform, Concorde didn't use to fly fast over land.]
-          - [Frage, Did … use to + Grundform …?, Did Concorde use to fly to New York?]
+          - [Verneinung, didn't use to + Grundform, People didn't use to cross the Atlantic in three hours.]
+          - [Frage, Did … use to + Grundform …?, Did flights to New York use to take eight hours?]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **used to + Grundform**, für alle Personen gleich. In Verneinung und Frage zeigt **did** schon die Vergangenheit, darum heißt es dort **use to** ohne d (didn't use to, Did you use to …?). Used to passt zu Gewohnheiten und zu Zuständen: He used to be shy, She used to have a dog. **Would** kann dasselbe nur bei wiederholten Handlungen sagen: We would play football every Sunday. Bei Zuständen bleibt es bei used to: We used to be shy, nicht We would be shy.
+              **used to + Grundform**, für alle Personen gleich. Es heißt „früher“ oder „pflegte zu“ und ist nicht be used to („an etwas gewöhnt sein“). In Verneinung und Frage zeigt **did** schon die Vergangenheit, darum heißt es dort **use to** ohne d (didn't use to, Did you use to …?). Used to passt zu Gewohnheiten und zu Zuständen: He used to be shy, She used to have a dog. **Would** kann dasselbe nur bei wiederholten Handlungen sagen: We would play football every Sunday. Bei Zuständen bleibt es bei used to: We used to be shy, nicht We would be shy.
   - type: section
     id: uebung
     title: Übung
@@ -112,42 +130,42 @@ blocks:
         id: used-to-verstehen
         text: Welcher Satz sagt richtig, wie lange ein Flug von Paris nach New York früher ohne Concorde dauerte?
         options:
-          - text: A flight from Paris to New York used to take about eight hours.
-            correct: true
-            info: Das steht in Zeile 2. Normale Flugzeuge brauchten etwa acht Stunden.
           - text: A flight from Paris to New York used to take about three and a half hours.
             correct: false
             info: Das ist die Zeit der Concorde, nicht die der normalen Flugzeuge. Die Concorde ist der Vergleich in Zeile 2.
           - text: A flight from Paris to New York used to take about twenty-seven years.
             correct: false
             info: Die 27 Jahre in Zeile 6 sind die Zeit, in der die Concorde im Dienst war, keine Flugzeit.
+          - text: A flight from Paris to New York used to take about eight hours.
+            correct: true
+            info: Das steht in Zeile 2. Normale Flugzeuge brauchten etwa acht Stunden.
         explanation: Zeile 2 nennt acht Stunden für normale Flugzeuge und knapp dreieinhalb für die Concorde.
         links:
           - title: Concorde (Wikipedia, englisch)
             url: https://en.wikipedia.org/wiki/Concorde
       - type: multiple-choice
         id: used-to-zeilen
-        text: In welchen Zeilen steht used to oder use to?
+        text: In welchen Zeilen steht used to?
         options:
           - text: Zeile 1
             correct: false
             info: Zeile 1 steht im simple past (was, entered), ohne used to.
           - text: Zeile 2
             correct: true
-            info: Ein Flug used to take acht Stunden, und die Concorde used to fly in 18,300 Metern Höhe.
+            info: Ein Flug used to take acht Stunden, das war früher so.
           - text: Zeile 3
             correct: true
             info: Die Concorde used to carry zwischen 92 und 128 Passagiere, das war früher so.
           - text: Zeile 4
-            correct: true
-            info: Did not use to fly zeigt, dass die Concorde früher nicht schnell über Land flog.
+            correct: false
+            info: Zeile 4 erklärt, warum die Concorde nur über dem Meer schnell fliegen konnte. Used to steht dort nicht.
           - text: Zeile 5
             correct: false
             info: Zeile 5 erzählt einen einzelnen Unfall im simple past. Eine Gewohnheit ist das nicht.
           - text: Zeile 6
             correct: true
             info: People used to look up beschreibt eine frühere Gewohnheit, die heute nicht mehr geht.
-        explanation: In den Zeilen 2, 3, 4 und 6 steht used to oder use to.
+        explanation: In den Zeilen 2, 3 und 6 steht used to.
         links:
           - title: Concorde (Wikipedia, englisch)
             url: https://en.wikipedia.org/wiki/Concorde
@@ -167,8 +185,8 @@ blocks:
           - cue: Früher dauerte ein Flug acht Stunden.
             target: Flights [used to] take eight hours.
             distractors: [[use to, are used to]]
-          - cue: Die Concorde flog früher nicht schnell über Land.
-            target: Concorde [didn't use to] fly fast over land.
+          - cue: Früher flogen die Menschen nicht in drei Stunden über den Atlantik.
+            target: People [didn't use to] cross the Atlantic in three hours.
             distractors: [[didn't used to, doesn't use to]]
           - cue: Flogen sie früher von Paris nach New York?
             target: "[Did] they use to fly from Paris to New York?"
@@ -184,7 +202,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: my grandfather · play football · on Sundays
-            target: My grandfather used to play football on Sundays.
+            target: My grandfather used to play football on (Sundays|Sunday).
             mistakes:
               - answer: My grandfather used to played football on Sundays.
                 message: Nach used to steht die Grundform des Verbs, also play.
@@ -193,14 +211,16 @@ blocks:
               - answer: My grandfather plays football on Sundays.
                 message: Das simple present nennt eine Gewohnheit von heute. Du willst eine frühere Gewohnheit, darum used to.
           - cue: we · not · live in London
-            target: We (didn't|did not) use to live in London.
+            target: We (didn't use to|did not use to|never used to) live in London.
             mistakes:
               - answer: We didn't used to live in London.
                 message: Nach didn't zeigt did schon die Vergangenheit, darum use to ohne d.
               - answer: We not used to live in London.
                 message: Für die Verneinung brauchst du didn't, nicht not allein.
+              - answer: We did not used to live in London.
+                message: Nach did not zeigt did schon die Vergangenheit, darum use to ohne d.
               - answer: We used to not live in London.
-                message: Das ist unüblich. Sag didn't use to.
+                message: Das klingt ungewöhnlich. Sag didn't use to.
           - cue: Concorde · fly · to Washington
             target: Concorde used to fly to Washington.
             mistakes:
@@ -208,6 +228,8 @@ blocks:
                 message: Nach used to steht die Grundform, also fly.
               - answer: Concorde use to fly to Washington.
                 message: In der Aussage heißt es used to mit d.
+              - answer: Concorde would fly to Washington.
+                message: Would passt nur zu Handlungen, die sich oft wiederholten. Hier ist used to gefragt.
           - cue: you · walk to school · Frage
             target: Did you use to walk to school?
             mistakes:
@@ -215,18 +237,20 @@ blocks:
                 message: Nach Did heißt es use to ohne d.
               - answer: You use to walk to school?
                 message: Für die Frage brauchst du Did am Anfang und use to ohne d.
+              - answer: Do you use to walk to school?
+                message: Es geht um früher, darum brauchst du Did, nicht Do.
         hint: Frag dich, ob es früher so war und heute nicht mehr. Dann kommt used to vor die Grundform des Verbs.
       - type: single-choice
         id: used-to-entscheidung
-        text: Peter spielte als Kind jeden Samstag Fußball, heute spielt er nicht mehr. Welcher Satz sagt das?
+        text: Peter spielte als Kind jeden Samstag Tennis, heute spielt er nicht mehr. Welcher Satz sagt das?
         options:
+          - text: Peter plays tennis every Saturday.
+            correct: false
+            info: Das simple present nennt eine Gewohnheit von heute.
           - text: Peter used to play tennis on Saturdays.
             correct: true
             info: Used to sagt, dass es früher eine Gewohnheit war und heute nicht mehr gilt.
-          - text: Peter plays football every Saturday.
-            correct: false
-            info: Das simple present nennt eine Gewohnheit von heute.
-          - text: Peter is playing football every Saturday.
+          - text: Peter is playing tennis every Saturday.
             correct: false
             info: Das present progressive sagt, was gerade passiert. Eine Gewohnheit der Vergangenheit sagt es nicht.
         explanation: Die graue Punktreihe endet vor now, darum used to play.
@@ -236,11 +260,13 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Concorde didn't used to fly fast over land.
-            target: Concorde (didn't|did not) use to fly fast over land.
+          - cue: People didn't used to cross the Atlantic in three hours.
+            target: People (didn't|did not) use to cross the Atlantic in three hours.
             mistakes:
-              - answer: Concorde didn't used to fly fast over land.
+              - answer: People didn't used to cross the Atlantic in three hours.
                 message: Noch nicht ganz. Nach didn't steht use ohne d.
+              - answer: People did not used to cross the Atlantic in three hours.
+                message: Noch nicht ganz. Nach did not steht use ohne d.
           - cue: Did Concorde used to land at Heathrow?
             target: Did Concorde use to land at Heathrow?
             mistakes:
