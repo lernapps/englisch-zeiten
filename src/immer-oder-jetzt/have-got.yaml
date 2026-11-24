@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-have-got.svg
         alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. Ellie steht neben einem braunen Hund. Auf dem Boden liegen eine rote Federtasche und ein blauer Stift.
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Rechts steht Ellies Hund."
+        caption: Rechts steht Ellies Hund.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
