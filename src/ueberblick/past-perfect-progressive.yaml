@@ -32,6 +32,28 @@ blocks:
         caption: Wörter zum Text
         languages: { source: de, target: en }
         entries:
+          - target: celebrate
+            source: feiern, an etwas erinnern
+          - target: petition
+            source: Protestbrief, Unterschriftenliste
+          - target: go mad
+            source: verrückt werden
+          - target: nevertheless
+            source: trotzdem
+          - target: carry on
+            source: weitermachen
+          - target: put up
+            source: aufbauen
+          - target: detailed drawing
+            source: Detailzeichnung
+          - target: horse-drawn
+            source: von Pferden gezogen
+          - target: drill
+            source: bohren
+          - target: not … until
+            source: erst (ab)
+          - target: be allowed to keep
+            source: behalten dürfen
           - target: World's Fair
             source: Weltausstellung
           - target: sketch
@@ -81,8 +103,8 @@ blocks:
         text: Beim present perfect progressive reicht die **Welle** bis now. Das **past perfect progressive** rückt sie in die Vergangenheit. Die Welle beginnt früher und reicht nur bis zu einem **Punkt** der Vergangenheit. Der **Bogen** darüber zeigt, wie lange sie schon lief.
       - type: figure
         image: images/zeitstrahl-ppp.svg
-        alt: Ein Zeitstrahl von links nach rechts. Rechts steht ein roter Strich mit now. Links davon liegt eine violette Welle, die bis zu einem blauen Punkt reicht. Über der Welle spannt sich ein grüner Bogen. Unter dem Strahl steht eine Klammer mit for two years, am Punkt hängt das Fähnchen when it opened.
-        caption: Die Welle endet am Punkt, nicht bei now. Die Klammer misst die Dauer, das Fähnchen nennt den Zeitpunkt.
+        alt: Ein Zeitstrahl von links nach rechts. Rechts steht ein roter Strich mit now. Links davon liegt eine violette Welle, die bis zu einem blauen Punkt reicht. Über der Welle spannt sich ein grüner Bogen. Unter dem Strahl steht eine Klammer mit for two years, am Punkt hängt das Fähnchen tower finished.
+        caption: Die Welle endet am Punkt, nicht bei now. Die Klammer misst die Dauer, das Fähnchen nennt den Zeitpunkt. So war es beim Eiffelturm, zwei Jahre Bau und dann war er fertig.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -91,12 +113,13 @@ blocks:
         rows:
           - [alle Personen, had been working, She had been waiting for an hour when the bus came.]
           - [Verneinung, hadn't been working, They hadn't been sleeping well.]
+          - [Frage, Had … been working?, Had she been working for long?]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **had been + Verb mit -ing**, für alle Personen gleich. Die Dauer steht oft mit **for** (for an hour) oder **since** (since Monday). Der Zeitpunkt der Vergangenheit steht im simple past (when the bus came). Das **past perfect** ohne -ing (had finished) zeigt dagegen, dass etwas fertig war, das past perfect progressive, wie lange es lief. Zustandsverben wie know bilden keine Verlaufsform.
+              **had been + Verb mit -ing**, für alle Personen gleich. Die Dauer steht oft mit **for** (for an hour) oder **since** (since Monday). Der Zeitpunkt der Vergangenheit steht im simple past (when the bus came). Das **past perfect** ohne -ing zeigt dagegen, dass etwas fertig war (She had finished her homework). Das past perfect progressive zeigt, wie lange etwas lief (She had been doing her homework for an hour). Zustandsverben wie know bilden keine Verlaufsform: I had known him for years, nicht had been knowing.
   - type: section
     id: uebung
     title: Übung
@@ -140,10 +163,10 @@ blocks:
             url: https://en.wikipedia.org/wiki/Eiffel_Tower
       - type: true-false
         id: ppp-wahr
-        text: "Die Weltausstellung hatte am 6. Mai begonnen, und der Turm war am selben Tag für Besucher geöffnet."
+        text: "Der Satz „By then, they had been building for more than two years“ (Zeile 3) sagt: Die Arbeiter bauen auch heute noch am Turm."
         answer: false
-        hint: Vergleiche die beiden Daten in Zeile 4.
-        explanation: Die Ausstellung begann am 6. Mai, der Turm öffnete erst am 15. Mai für Besucher.
+        hint: Wo endet die Welle beim past perfect progressive?
+        explanation: Die Welle endet am Punkt in der Vergangenheit (By then = 31. März 1889). Danach war der Turm fertig.
       - type: language-task
         id: ppp-form
         languages: { source: de, target: en }
@@ -193,7 +216,7 @@ blocks:
               - answer: I had been worked in the garden since morning when it started to rain.
                 message: Nach been steht das Verb mit -ing, working.
           - cue: they · not · sleep · well · before the storm
-            target: They hadn't been sleeping well before the storm.
+            target: They (hadn't|had not) been sleeping well before the storm.
             mistakes:
               - answer: They hadn't sleeping well before the storm.
                 message: Bei der Verneinung brauchst du hadn't been und die -ing-Form.
@@ -275,4 +298,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Zeitstrahl hängt jetzt eine Welle, die in der Vergangenheit bis zu einem Punkt reicht. Auf der nächsten Seite geht es um etwas, das früher oft passierte und heute nicht mehr gilt.
+        text: Am Zeitstrahl hängt jetzt eine Welle, die in der Vergangenheit bis zu einem Punkt reicht. Auf der nächsten Seite geht es um etwas, das früher oft passierte und heute nicht mehr gilt, eine graue Punktreihe, die heute endet.
