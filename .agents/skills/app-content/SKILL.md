@@ -79,6 +79,16 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 - Hinweis `explainer-text-load` (mehr als 350 Wörter zu lesen) ist bei diesen Seiten **bewusst**: Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext (Konventionen Abschnitt 8, Ersteller:in bestätigt).
 - Lerner-Check der Musterseite (Kind 7-8): Vorwissens-Frage vom Zeitstrahl aus (nicht ein Satz, den die Seite noch nicht erklärt hat), Glossar vor dem Text, -ing-Regel mit anderen Verben als die Übungen, Frage und Verneinung kurz im Merke, Übungen mit eigener Meldung je Fehler.
 
+### Stufe 9-10: Seite mit Sachtext (Kapitel 7, Muster `ueberblick/past-perfect-progressive`)
+
+- Aufbau wie bei 7-8 (`einstieg`, `lesestueck`, `neu`, `uebung`, `anwenden`, `weiter`), aber das Lesestück ist ein **Sachtext** über einen echten Fall mit Daten (300 bis 600 Wörter, nummerierte Zeilen, sachlicher Ton, keine erfundenen Kinder, keine wörtlichen Sätze aus der Quelle). Vokabelblock vor dem Text, auch für Wörter wie petition, nevertheless, carry on, put up.
+- Eiffelturm-Zahlen stammen aus Wikipedia „Eiffel_Tower“ (geöffnet und geprüft): Skizze Mai 1884, Baubeginn 28. Januar 1887, fertig 31. März 1889, Weltausstellung 6. Mai 1889, Turm für Besucher ab 15. Mai, Aufzüge ab 26. Mai.
+- Übungen in drei Stufen: Verstehen, Belegen mit Zeile, Entscheidung/Meinung. Aufgaben müssen das Thema der Seite prüfen, nicht nur das Lesen (eine Datums-Wahr/Falsch-Frage ohne Bezug zur Zeitform wurde im Lerner-Check ersetzt).
+- Bild: Welle bis zu einem Punkt der Vergangenheit mit grünem Bogen und Klammer (`images/zeitstrahl-ppp.svg`), Fähnchen „tower finished“ bindet es an den Text.
+- Verneinung in `language-task`: beide Formen zulassen, `(hadn't|had not)`.
+- Hörsätze (Diktat und Nachsprechen): wenige und kurz, nie das Lesestück.
+- Lerner-Check Musterseite (Kind 9-10): Wörterblock vollständig, Bild ohne Überlappung (später/now), Tabelle mit Frageform, Merke mit Beispielpaaren.
+
 ## Figures
 
 - Zeichen des Zeitstrahls (eine SVG-Familie `src/images/zeitstrahl-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox; Farben: now #c0392b, Punkte #2c6fd8, Welle #8e44ad, Bogen #138d75, Pfeil und will #d35400): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.

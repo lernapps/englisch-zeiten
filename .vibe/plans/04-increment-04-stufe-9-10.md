@@ -141,7 +141,7 @@ Muster der Stufe 7-8 (Inhaltsführer, Abschnitt „Stufe 7-8: Seite mit Lesestü
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1 (ich, Muster): Kapitel 7 ueberblick (chapter.yaml, in app.yaml), Seite past-perfect-progressive: Lesestück Eiffelturm 300 bis 600 Wörter nach den geprüften Daten, Vokabelblock, Zeichen, Übungen in drei Stufen, Hörsätze, open-task; Lesestück-9-10-Muster im Inhaltsführer
+- [x] Slice 1 (ich, Muster): Kapitel 7 ueberblick (chapter.yaml, in app.yaml), Seite past-perfect-progressive: Lesestück Eiffelturm 300 bis 600 Wörter nach den geprüften Daten, Vokabelblock, Zeichen, Übungen in drei Stufen, Hörsätze, open-task; Lesestück-9-10-Muster im Inhaltsführer
 - [ ] Slice 2 (Sub-Agent A, eigenes Worktree): Seite used-to (Lesestück Concorde, graue Punktreihe in der Vergangenheit)
 - [ ] Slice 3 (Sub-Agent B, eigenes Worktree): Seite zeiten-ueberblick (Sachtext, Tabelle aller Zeichen, Markieren und Begründen)
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
