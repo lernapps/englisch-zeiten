@@ -142,12 +142,13 @@ Muster der Stufe 7-8 (Inhaltsführer, Abschnitt „Stufe 7-8: Seite mit Lesestü
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Slice 1 (ich, Muster): Kapitel 7 ueberblick (chapter.yaml, in app.yaml), Seite past-perfect-progressive: Lesestück Eiffelturm 300 bis 600 Wörter nach den geprüften Daten, Vokabelblock, Zeichen, Übungen in drei Stufen, Hörsätze, open-task; Lesestück-9-10-Muster im Inhaltsführer
-- [ ] Slice 2 (Sub-Agent A, eigenes Worktree): Seite used-to (Lesestück Concorde, graue Punktreihe in der Vergangenheit)
-- [ ] Slice 3 (Sub-Agent B, eigenes Worktree): Seite zeiten-ueberblick (Sachtext, Tabelle aller Zeichen, Markieren und Begründen)
+- [x] Slice 2 (Sub-Agent A, eigenes Worktree): Seite used-to (Lesestück Concorde, graue Punktreihe in der Vergangenheit)
+- [x] Slice 3 (Sub-Agent B, eigenes Worktree): Seite zeiten-ueberblick (Sachtext, Tabelle aller Zeichen, Markieren und Begründen)
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
+      Creator: Ja, used-to (Concorde) und zeiten-ueberblick dürfen nach diesem Muster in zwei Sub-Agenten gebaut werden. Die Hörurteile für die 6 neuen Sätze bestätige ich in Namen der Ersteller:in.
 - [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.

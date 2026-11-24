@@ -95,7 +95,7 @@ blocks:
         caption: Klassenzimmer-Poster · used to
         header: [Satzart, Form, Beispiel]
         rows:
-          - [Aussage, used to + Grundform, Concorde used to fly very fast.]
+          - [Aussage, used to + Grundform, The plane used to cross the ocean in less than four hours.]
           - [Verneinung, didn't use to + Grundform, Concorde didn't use to fly fast over land.]
           - [Frage, Did … use to + Grundform …?, Did Concorde use to fly to New York?]
       - type: note
@@ -220,7 +220,7 @@ blocks:
         id: used-to-entscheidung
         text: Peter spielte als Kind jeden Samstag Fußball, heute spielt er nicht mehr. Welcher Satz sagt das?
         options:
-          - text: Peter used to play football every Saturday.
+          - text: Peter used to play tennis on Saturdays.
             correct: true
             info: Used to sagt, dass es früher eine Gewohnheit war und heute nicht mehr gilt.
           - text: Peter plays football every Saturday.
@@ -285,7 +285,7 @@ blocks:
           - text: Ganze Sätze mit Verb und Punkt am Ende.
             kind: form
         solution: |
-          I used to play with toy cars every day. I used to be afraid of dogs. I didn't use to like vegetables.
+          I used to play with toy cars every day. I used to be afraid of dogs. I didn't use to eat cabbage.
   - type: section
     id: weiter
     title: Wie es weitergeht
