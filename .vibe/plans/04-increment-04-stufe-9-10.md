@@ -104,7 +104,7 @@ Jugendliche der Klassen 9-10 ordnen alle Zeitformen auf dem Zeitstrahl ein, drü
 - [x] (skipped: keine neue Komponente und keine interaktive Übung) Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
