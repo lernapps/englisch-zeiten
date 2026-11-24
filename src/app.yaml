@@ -2,14 +2,14 @@
 format: 2
 strand: englisch/grammatik
 title: Zeiten auf dem Zeitstrahl
-intro: In der Millbrook School hängt Mr Hill einen Zeitstrahl an die Wand. Sophie (11, aus Deutschland), Ellie (11), ihr Bruder Peter (9) und Amir (11) hängen Karten darauf. Du lernst, welche englische Zeitform du für Gewohnheiten, für das, was gerade passiert, für Vergangenes und für Pläne brauchst, und wie du sie bildest.
+intro: "In der Millbrook School hängt Mr Hill einen Zeitstrahl an die Wand. Sophie (11, aus Deutschland), Ellie (11), ihr Bruder Peter (9) und Amir (11) hängen Karten darauf. Du lernst, welche englische Zeitform du für Gewohnheiten, für das, was gerade passiert, für Vergangenes und für Pläne brauchst, und wie du sie bildest. Zwei Jahre später sind sie 13 und 11 Jahre alt: Dann lernst du, in Tagebüchern, Chats und Interviews zu erzählen, zu sagen, wie lange etwas dauert, und über feste Pläne zu sprechen."
 languages: [de]
 scope:
-  text: Die App erklärt die englischen Zeitformen auf einem Zeitstrahl für Kinder im ersten und zweiten Lernjahr. Jede Zeitform hat ein festes Zeichen, ein Signalwort und eine Bau-Karte. Gelernt werden to be, have got, simple present, Häufigkeitswörter, present progressive, simple past, unregelmäßige Verben, present perfect, will und going to. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir.
+  text: Die App erklärt die englischen Zeitformen auf einem Zeitstrahl für Kinder im ersten bis vierten Lernjahr (Stufe 5-6 und 7-8). Jede Zeitform hat ein festes Zeichen, ein Signalwort und eine Bau-Karte. Gelernt werden to be, have got, simple present, Häufigkeitswörter, present progressive, simple past, unregelmäßige Verben, present perfect, will und going to, dazu past progressive, past perfect, Zeitenfolge, present perfect progressive, Zustandsverben und Zeiten für Pläne und Zeitpunkte der Zukunft. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir.
   out:
     - Fragen und Verneinung mit do und did (steht im Explainer „Sätze bauen“)
     - Bedingungssätze und indirekte Rede
     - Passiv
     - Aussprache von -s und -ed
-    - Zeiten für Klasse 7 bis 10 (Erzählen, since und for, Zukunft mit Plänen, used to)
-chapters: [immer-oder-jetzt, gestern-und-schon, morgen-und-spaeter]
+    - Zeiten für Klasse 9 und 10 (alle Zeiten im Überblick, past perfect progressive, used to und would)
+chapters: [immer-oder-jetzt, gestern-und-schon, morgen-und-spaeter, erzaehlen, dauer, plaene]

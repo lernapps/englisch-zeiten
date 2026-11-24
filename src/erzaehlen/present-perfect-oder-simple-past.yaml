@@ -1,0 +1,272 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Punkt oder Bogen? present perfect oder simple past"
+description: "Die Schülerzeitung schreibt über die neue Bibliothek. Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl."
+competencies: [present-perfect-oder-simple-past]
+scope: Die Seite hilft bei der Wahl zwischen present perfect und simple past, mit einem Zeitungsartikel als Lesestück. Auf dem Zeitstrahl ist das simple past ein Punkt mit einer Zeitangabe in der Vergangenheit, das present perfect ein Bogen bis now, bei dem das Ergebnis jetzt zählt. Signalwörter für das simple past sind yesterday, last Monday, ago und on Monday. Signalwörter für das present perfect sind already, yet, just, ever und never. Nicht hier, weil es spätere Seiten sind. Since und for und das present perfect progressive. Fragen mit did gehören nicht dazu.
+blocks:
+  - type: section
+    id: einstieg
+    title: Punkt und Bogen
+    blocks:
+      - type: single-choice
+        id: ppsp-start
+        text: "Du kennst vom Zeitstrahl zwei Zeichen für Vergangenes: einen Punkt mit Zeitangabe und einen Bogen, der bis now reicht. Welches Zeichen gehört zu „yesterday“?"
+        options:
+          - text: Der Punkt.
+            correct: true
+            info: Yesterday nennt einen Zeitpunkt in der Vergangenheit. Dafür steht der Punkt, also das simple past.
+          - text: Der Bogen.
+            correct: false
+            info: Der Bogen reicht bis now und hat keine Zeitangabe wie yesterday.
+          - text: Die Welle.
+            correct: false
+            info: Die Welle zeigt, dass etwas im Gang ist. Bei yesterday ist ein einzelner Zeitpunkt gemeint.
+        explanation: Yesterday ist eine Zeitangabe in der Vergangenheit. Dazu passt der Punkt.
+        links:
+          - title: Lernlandkarte Englisch · Present perfect oder simple past
+            url: https://lernapps.net/apps/map/englisch/c/present-perfect-oder-simple-past/
+      - type: text
+        text: "**Das kannst du danach:** Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl."
+  - type: section
+    id: lesestueck
+    title: Die Schülerzeitung berichtet
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Artikel
+        languages: { source: de, target: en }
+        entries:
+          - target: library
+            source: Bibliothek
+          - target: shelf
+            source: Regal
+            forms: [shelves]
+          - target: borrow
+            source: ausleihen
+          - target: comfortable
+            source: bequem
+          - target: join
+            source: beitreten, mitmachen
+          - target: reading corner
+            source: Leseecke
+          - target: success
+            source: Erfolg
+          - target: clap
+            source: klatschen
+          - target: quiet
+            source: ruhig
+          - target: club
+            source: Klub, AG
+      - type: text
+        text: |
+          **The new library is a big success**
+
+          **[1]** Last Monday, the new school library opened. Mr Hill welcomed the students, and the whole school clapped.
+
+          **[2]** The library has changed a lot. The old shelves are gone, and there are now comfortable chairs and a quiet reading corner. A group of students painted the walls in summer.
+      - type: text
+        text: |
+          **[3]** "It's wonderful," says Ellie, 13. "I have already read three books, and I borrowed the first one on Monday."
+
+          **[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter, 11, has never liked reading before, but yesterday he found a story he loves.
+
+          **[5]** Have you visited the library yet? The doors are open every day after school. Come and see it!
+  - type: section
+    id: neu
+    title: Zeitpunkt oder Ergebnis?
+    blocks:
+      - type: text
+        text: Beide Zeiten sprechen über die Vergangenheit, aber sie zeigen etwas anderes. Das **simple past** ist ein **Punkt** mit einer genauen Zeitangabe. Das **present perfect** ist ein **Bogen** bis now. Hier zählt, was jetzt noch da ist, die Zeit ist nicht genannt.
+      - type: figure
+        image: images/zeitstrahl-ppsp.svg
+        alt: Ein Zeitstrahl mit dem roten Strich now ganz rechts. Links liegt ein blauer Punkt mit dem Fähnchen yesterday. Daneben liegt ein grüner Bogen, der bis now reicht, mit dem Fähnchen already.
+        caption: Der Punkt hat eine Zeitangabe. Der Bogen reicht bis now, sein Fähnchen nennt kein Datum.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Punkt oder Bogen
+        header: [Zeichen, Zeit, Signalwörter]
+        rows:
+          - [Punkt, simple past, "yesterday, last week, in May, ago"]
+          - [Bogen, present perfect, "already, yet, just, ever, never"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Steht eine **Zeitangabe der Vergangenheit** im Satz (**yesterday**, **last year**, **three days ago**), brauchst du das **simple past**. Zählt das **Ergebnis für jetzt** und ist keine Zeit genannt, brauchst du das **present perfect** mit **have** oder **has**. Mit **yesterday** und **ago** steht nie das present perfect.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: ppsp-verstehen
+        text: "Was hat Peter gestern gefunden?"
+        options:
+          - text: Eine Geschichte, die er liebt.
+            correct: true
+            info: Das steht in Zeile 4, mit yesterday.
+          - text: Seinen ersten Bibliotheksausweis.
+            correct: false
+            info: Von einem Ausweis steht im Artikel nichts.
+          - text: Ein Buch, das Ellie ausgeliehen hat.
+            correct: false
+            info: Ellie hat ihr Buch am Montag ausgeliehen, das steht in Zeile 3.
+        explanation: Peter hat gestern eine Geschichte gefunden, die er liebt.
+        links:
+          - title: Uses of English verb forms (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: multiple-choice
+        id: ppsp-zeilen
+        text: "In welchen Zeilen des Artikels steht ein Satz im present perfect?"
+        options:
+          - text: Zeile 2
+            correct: true
+            info: In Zeile 2 steht The library has changed. Das Ergebnis zählt jetzt, es gibt keine Zeitangabe.
+          - text: Zeile 4
+            correct: true
+            info: In Zeile 4 stehen has joined, hasn't chosen und has never liked.
+          - text: Zeile 5
+            correct: true
+            info: In Zeile 5 steht Have you visited the library yet? Das ist eine Frage nach dem Ergebnis.
+          - text: Zeile 3
+            correct: true
+            info: In Zeile 3 steht I have already read three books. Das Ergebnis zählt jetzt, I borrowed the first one on Monday ist dagegen simple past.
+          - text: Zeile 1
+            correct: false
+            info: In Zeile 1 stehen opened, welcomed und clapped, dazu last Monday. Das ist nur simple past.
+        explanation: Das present perfect steht ohne genaue Zeitangabe, wenn das Ergebnis jetzt zählt.
+        links:
+          - title: Uses of English verb forms (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: language-task
+        id: ppsp-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Zeit. Im britischen Englisch ist hier genau eine Zeit üblich.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Gestern habe ich ein Poster gemalt.
+            target: Yesterday I [painted] a poster.
+            distractors: [[have painted, had painted]]
+          - cue: Wir haben unsere Hausaufgaben schon gemacht.
+            target: We [have done] our homework already.
+            distractors: [[did, had done]]
+          - cue: Er hat vor zwei Tagen sein Buch zurückgegeben.
+            target: He [returned] his book two days ago.
+            distractors: [[has returned, had returned]]
+          - cue: Sie hat noch nie Sushi gegessen.
+            target: She [has never eaten] sushi.
+            distractors: [[never ate, never eats]]
+        hint: Steht eine Zeitangabe wie yesterday oder ago im Satz, brauchst du das simple past. Sonst zählt das Ergebnis.
+      - type: single-choice
+        id: ppsp-begruendung
+        text: "„I have lost my key.“ Warum steht hier das present perfect und nicht das simple past?"
+        options:
+          - text: Der Schlüssel fehlt jetzt noch, das Ergebnis zählt.
+            correct: true
+            info: Das ist der Bogen bis now. Der Sprecher hat den Schlüssel jetzt nicht.
+          - text: Der Schlüssel ging gestern verloren.
+            correct: false
+            info: Von gestern steht im Satz nichts. Mit yesterday würde das simple past stehen.
+          - text: Es war ein Ereignis, das nicht mehr wichtig ist.
+            correct: false
+            info: Das present perfect zeigt, dass das Ergebnis noch wichtig ist.
+        explanation: Mit dem present perfect sagst du, dass das Ergebnis jetzt zählt. Eine Zeitangabe steht nicht im Satz.
+        links:
+          - title: Uses of English verb forms (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: language-task
+        id: ppsp-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz in der richtigen Zeit.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: I · see · that film · last week
+            target: I saw that film last week.
+            mistakes:
+              - answer: I have seen that film last week.
+                message: Last week ist eine Zeitangabe der Vergangenheit, das ist der Punkt. Dann brauchst du das simple past.
+              - answer: I seen that film last week.
+                message: Das simple past von see heißt saw. Seen ist die 3. Form.
+          - cue: Amir · lose · his key · yesterday
+            target: Amir lost his key yesterday.
+            mistakes:
+              - answer: Amir has lost his key yesterday.
+                message: Mit yesterday steht nie das present perfect. Das ist ein Punkt, also lost.
+          - cue: Ellie · just · finish · her book
+            target: Ellie has just finished her book.
+            mistakes:
+              - answer: Ellie just finished her book.
+                message: Möglich, aber hier üben wir das britische Englisch. Just zeigt, dass das Ergebnis jetzt zählt, also has just finished.
+              - answer: Ellie has just finish her book.
+                message: Nach has steht die 3. Form, bei finish heißt sie finished.
+          - cue: they · never · visit · London (bis jetzt)
+            target: They have never visited London.
+            mistakes:
+              - answer: They never visited London.
+                message: Möglich, aber hier üben wir das present perfect. Never spricht über das Leben bis jetzt, das ist der Bogen, also have visited.
+              - answer: They has never visited London.
+                message: They gehört zu have, nicht zu has.
+        hint: Zeitangabe der Vergangenheit, dann simple past. Ergebnis jetzt, dann present perfect.
+      - type: language-task
+        id: ppsp-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: I have seen him yesterday.
+            target: I saw him yesterday.
+            mistakes:
+              - answer: I have seen him yesterday.
+                message: Noch nicht ganz. Yesterday steht für einen Punkt, nicht für einen Bogen.
+          - cue: We have visited the museum last week.
+            target: We visited the museum last week.
+            mistakes:
+              - answer: We have visited the museum last week.
+                message: Noch nicht ganz. Mit last week brauchst du das simple past.
+        hint: Prüfe, ob eine Zeitangabe der Vergangenheit im Satz steht.
+      - type: language-task
+        id: ppsp-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: she-has-already-sent-the-letter.mp3
+            target: She has already sent the letter.
+          - audio: they-watched-the-match-on-saturday.mp3
+            target: They watched the match on Saturday.
+          - audio: have-you-tried-the-new-cake-yet.mp3
+            target: Have you tried the new cake yet?
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: ppsp-nachsprechen
+        language: en
+        items:
+          - audio: my-uncle-has-bought-a-new-car.mp3
+            text: My uncle has bought a new car.
+          - audio: we-went-to-the-beach-two-days-ago.mp3
+            text: We went to the beach two days ago.
+          - audio: i-haven-t-finished-my-homework-yet.mp3
+            text: I haven't finished my homework yet.
+        hint: Hör den Satz zuerst. Sprich langsam nach und achte auf have, has und die Zeitangaben.
+      - type: open-task
+        id: ppsp-bericht
+        task: "Schreibe für die Schülerzeitung drei bis vier Sätze über etwas Neues in deiner Schule oder Stadt. Benutze mindestens einen Satz mit dem simple past und einer Zeitangabe und einen Satz mit dem present perfect. Du kannst so beginnen: Last week, … The new … has already …"
+        points:
+          - text: Mindestens ein Satz im simple past mit einer Zeitangabe (zum Beispiel last week oder yesterday).
+            source: /erzaehlen/present-perfect-oder-simple-past/#neu
+          - text: Mindestens ein Satz im present perfect ohne genaue Zeitangabe, bei dem das Ergebnis zählt.
+            source: /erzaehlen/present-perfect-oder-simple-past/#neu
+          - text: Ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          Last week, our school opened a new gym. The students have already used it three times. The teachers have bought new balls, and we played a match there yesterday.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Am Wandbild liegen jetzt Punkte und Bögen nebeneinander. Du kannst Erzählungen jetzt ordnen und die Zeit begründen. Im nächsten Kapitel wächst der Bogen, wenn etwas bis jetzt andauert, und du lernst since und for.

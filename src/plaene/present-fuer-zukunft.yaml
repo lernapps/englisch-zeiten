@@ -1,0 +1,292 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Verabredungen und Fahrpläne: present tenses für die Zukunft"
+description: "Die Klasse plant eine Klassenfahrt. Du liest den Chat und erkennst, wann das present progressive eine Verabredung und das simple present einen Fahrplan meint."
+competencies: [present-fuer-zukunft]
+scope: Die Seite zeigt, dass man mit dem present progressive über feste Verabredungen in der Zukunft spricht (I am meeting a friend on Friday) und mit dem simple present über Fahrpläne und feste Programme (The train leaves at nine). Auf dem Zeitstrahl ist die Verabredung ein Kalendereintrag über einer Welle, der Fahrplan eine Punktreihe von Abfahrten mit einer hervorgehobenen Uhrzeit. Will klingt dafür oft nach einer Vermutung oder einem spontanen Entschluss. Nicht hier, weil es spätere Seiten sind. Will be doing, will have done und alle Zeiten der Vergangenheit.
+blocks:
+  - type: section
+    id: einstieg
+    title: Die Klassenfahrt
+    blocks:
+      - type: text
+        text: Mr Hill plant eine Klassenfahrt in die Stadt. Sophie, Ellie und Amir besprechen im Chat, wann was passiert.
+      - type: single-choice
+        id: present-fuer-zukunft-start
+        text: Welche zwei Zeichen kennst du vom Zeitstrahl für das present progressive und das simple present?
+        options:
+          - text: Die Welle und die Punktreihe
+            correct: true
+            info: Das present progressive ist die Welle (etwas ist im Gang), das simple present ist die Punktreihe (etwas wiederholt sich).
+          - text: Der Pfeil und der Punkt
+            correct: false
+            info: Der Pfeil steht für going to, der Punkt für das simple past oder für will.
+          - text: Der Bogen und die Welle
+            correct: false
+            info: Der Bogen gehört zum present perfect. Die Welle stimmt zwar, aber der Bogen nicht.
+          - text: Der Punkt und der Bogen
+            correct: false
+            info: Der Punkt ist ein einzelnes Ereignis, der Bogen gehört zum present perfect.
+        explanation: Beide Zeichen kennst du schon. Auf dieser Seite siehst du sie an einer neuen Stelle, in der Zukunft.
+        links:
+          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
+            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst im Chat, ob jemand eine feste Verabredung oder einen Fahrplan meint, und sagst beides richtig auf Englisch."
+  - type: section
+    id: lesestueck
+    title: Der Klassenchat
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Chat
+        languages: { source: de, target: en }
+        entries:
+          - target: platform
+            source: Bahnsteig, Gleis
+          - target: arrive
+            source: ankommen
+          - target: pack
+            source: packen
+          - target: tour
+            source: Führung
+          - target: check
+            source: nachsehen
+          - target: collect
+            source: einsammeln
+          - target: don't worry
+            source: keine Sorge
+          - target: be late
+            source: zu spät kommen
+      - type: text
+        text: |
+          **[1]** Ellie: Hi Sophie! Are you ready for the school trip on Friday?
+
+          **[2]** Sophie: Almost! I'm packing my bag tonight. What time does our train leave?
+
+          **[3]** Ellie: Let me check Mr Hill's email. The train leaves at 7:45 from platform 3, and it arrives in the city at 9:10.
+
+          **[4]** Amir: I'm meeting you both at the station at 7:15. My dad is bringing sandwiches for everyone.
+
+          **[5]** Sophie: Nice! And the museum? Does it open early?
+      - type: text
+        text: |
+          **[6]** Ellie: The museum opens at 10:00 and the tour starts at 10:30. After that we're having lunch in the park.
+
+          **[7]** Amir: My mum is driving us to the station. She's leaving home at 7:00, so don't be late!
+
+          **[8]** Sophie: Don't worry. Ellie and I live in the same house, so we're coming together.
+
+          **[9]** Ellie: Perfect. The last train home leaves at 5:30, so we're not staying long in the shops.
+
+          **[10]** Mr Hill: Great plan, everyone. I'm collecting the tickets on the platform at 7:30. See you there!
+      - type: table
+        caption: Fahrplan der Klassenfahrt
+        header: [Uhrzeit, Was passiert]
+        rows:
+          - ["7:45", Der Zug fährt ab (Bahnsteig 3)]
+          - ["9:10", Der Zug kommt in der Stadt an]
+          - ["10:00", Das Museum öffnet]
+          - ["10:30", Die Führung beginnt]
+          - ["17:30", Der letzte Zug nach Hause fährt ab]
+  - type: section
+    id: neu
+    title: Kalender oder Fahrplan
+    blocks:
+      - type: text
+        text: Rechts von now liegt die Zukunft. Zwei Dinge sind dort fest. Eine **Verabredung** steht im Kalender, jemand hat sie abgesprochen. Ein **Fahrplan** steht im Programm, er gilt für alle und jeden Tag gleich. Viele Abfahrten sind eine **Punktreihe**, wie beim simple present, das du kennst. Beides sagst du mit Zeichen, die du schon kennst.
+      - type: figure
+        image: images/zeitstrahl-present-fuer-zukunft.svg
+        alt: Ein Zeitstrahl von links nach rechts. Links steht ein roter Strich mit now, rechts davon liegt die Zukunft. Ein Kalenderblatt mit Fri 7:15 hängt über einer violetten Welle. Weiter rechts liegt eine Reihe blauer Punkte, ein Punkt davon ist größer und hat das Kästchen 7:45.
+        caption: Rechts von now liegt die Zukunft. Der Kalendereintrag hängt über der Welle. Der Fahrplan ist eine Punktreihe von Abfahrten, eine davon ist hervorgehoben.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Zukunft mit den Zeiten der Gegenwart
+        header: [Zeichen, Form, Beispiel]
+        rows:
+          - [Kalender mit Welle, present progressive, We are visiting my aunt on Sunday.]
+          - [Fahrplan mit Punktreihe, simple present, The film starts at nine.]
+      - type: text
+        text: Eine feste Verabredung nennst du im **present progressive** (I am visiting my aunt on Sunday). Du hast sie schon geplant, und die Zeit steht dabei. Für einen **Fahrplan** oder ein festes Programm nimmst du das **simple present** (The film starts at nine). Hier entscheidet niemand mehr.
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Verabredung → present progressive, Fahrplan → simple present.** Mit **will** klingen beide Sätze oft nach einer Vermutung oder einem spontanen Einfall, die Gegenwartsformen sind für feste Pläne üblicher. Mit einer Zeitangabe wie on Sunday oder at nine ist klar, dass es um die Zukunft geht.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: present-fuer-zukunft-verstehen
+        text: Um wie viel Uhr kommt der Zug der Klasse in der Stadt an?
+        options:
+          - text: Um 9:10
+            correct: true
+            info: In Zeile 3 steht, dass der Zug um 9:10 in der Stadt ankommt.
+          - text: Um 7:45
+            correct: false
+            info: Um 7:45 fährt der Zug ab, er kommt dann noch nicht an.
+          - text: Um 10:30
+            correct: false
+            info: Um 10:30 beginnt die Führung im Museum.
+        explanation: Die Abfahrt ist um 7:45, die Ankunft um 9:10.
+        links:
+          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
+            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
+      - type: single-choice
+        id: present-fuer-zukunft-wer
+        text: Wer bringt belegte Brote für alle mit?
+        options:
+          - text: Amirs Vater
+            correct: true
+            info: Amir schreibt in Zeile 4, dass sein Vater die Sandwiches mitbringt.
+          - text: Amir
+            correct: false
+            info: Amir trifft die anderen am Bahnhof. Die Brote bringt sein Vater mit.
+          - text: Mr Hill
+            correct: false
+            info: Mr Hill sammelt die Fahrkarten ein, er bringt nichts zu essen mit.
+        explanation: Amirs Vater bringt die Brote mit, Amir trifft Ellie und Sophie am Bahnhof.
+        links:
+          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
+            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
+      - type: multiple-choice
+        id: present-fuer-zukunft-zeilen
+        text: In welchen Zeilen steht ein Fahrplan oder ein festes Programm für alle?
+        options:
+          - text: Zeile 3 (der Zug)
+            correct: true
+            info: Die Abfahrt des Zuges gilt für alle Reisenden. Es steht das simple present.
+          - text: Zeile 9 (der letzte Zug nach Hause)
+            correct: true
+            info: Auch die Abfahrt des Zuges am Abend steht im Fahrplan.
+          - text: Zeile 6 (Museum und Führung)
+            correct: true
+            info: Die Öffnungszeit des Museums und der Beginn der Führung stehen im Programm. Es steht das simple present.
+          - text: Zeile 4 (Amir am Bahnhof)
+            correct: false
+            info: Das hat Amir abgesprochen. Es ist eine Verabredung im present progressive.
+          - text: Zeile 7 (Amirs Mutter fährt)
+            correct: false
+            info: Das ist eine private Verabredung, kein Fahrplan.
+        explanation: Fahrpläne stehen im simple present. Verabredungen stehen im present progressive.
+        links:
+          - title: Uses of English verb forms (Wikipedia)
+            url: https://en.wikipedia.org/wiki/Uses_of_English_verb_forms
+      - type: language-task
+        id: present-fuer-zukunft-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form. Für feste Pläne und Fahrpläne nimmst du kein will.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Der Bus fährt um neun Uhr ab.
+            target: The bus [leaves] at nine o'clock.
+            distractors: [[will leave, leave]]
+          - cue: Meine Cousine besucht uns am Sonntag. Das ist abgemacht.
+            target: My cousin [is visiting] us on Sunday.
+            distractors: [[visits, will visit]]
+          - cue: Der Laden öffnet um acht Uhr.
+            target: The shop [opens] at eight o'clock.
+            distractors: [[is opening, will open]]
+          - cue: Wir treffen heute Abend meine Oma. Das ist abgemacht.
+            target: We [are meeting] my grandmother tonight.
+            distractors: [[meet, will meet]]
+      - type: language-task
+        id: present-fuer-zukunft-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz ohne will.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: the lesson · start · at nine (Stundenplan)
+            target: The lesson starts at nine.
+            mistakes:
+              - answer: The lesson will start at nine.
+                message: Möglich, aber hier üben wir die Gegenwartsform. Für einen festen Plan im Programm nimmst du das simple present.
+              - answer: The lesson start at nine.
+                message: Noch nicht ganz. The lesson ist „es“, also braucht start ein s.
+          - cue: I · meet · my uncle · on Saturday (abgemacht)
+            target: (I am|I'm) meeting my uncle on Saturday.
+            mistakes:
+              - answer: I meet my uncle on Saturday.
+                message: Noch nicht ganz. Eine Verabredung sagst du im present progressive, mit am und -ing.
+              - answer: I will meet my uncle on Saturday.
+                message: Möglich, aber hier üben wir die Gegenwartsform. Mit will klingt es nach einem spontanen Einfall, die Verabredung steht schon.
+          - cue: Peter and Amir · play · tennis · on Sunday (abgemacht)
+            target: Peter and Amir are playing tennis on Sunday.
+            mistakes:
+              - answer: Peter and Amir is playing tennis on Sunday.
+                message: Noch nicht ganz. Zu Peter and Amir gehört are, nicht is.
+              - answer: Peter and Amir play tennis on Sunday.
+                message: Noch nicht ganz. Sie haben es abgesprochen. Das ist eine Verabredung mit are und -ing.
+          - cue: the film · begin · at half past seven (Programm)
+            target: The film begins at half past seven.
+            mistakes:
+              - answer: The film is beginning at half past seven.
+                message: Noch nicht ganz. Die Anfangszeit eines Films steht im Programm, also im simple present.
+        hint: Frag dich, ob jemand etwas abgesprochen hat (present progressive) oder ob es im Programm steht (simple present).
+      - type: language-task
+        id: present-fuer-zukunft-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: The train leave at nine every day.
+            target: The train leaves at nine every day.
+            mistakes:
+              - answer: The train leave at nine every day.
+                message: Noch nicht ganz. The train ist „es“, also braucht leave ein s.
+          - cue: We are meet my aunt at the station at six.
+            target: We are meeting my aunt at the station at six.
+            mistakes:
+              - answer: We are meet my aunt at the station at six.
+                message: Noch nicht ganz. Nach are steht das Verb mit -ing.
+        hint: Prüfe das s beim simple present und das -ing beim present progressive.
+      - type: language-task
+        id: present-fuer-zukunft-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-concert-begins-at-eight-o-clock.mp3
+            target: The concert begins at eight o'clock.
+          - audio: my-cousin-is-coming-to-our-house-on-sunday.mp3
+            target: My cousin is coming to our house on Sunday.
+          - audio: we-are-having-dinner-with-our-grandparents-tonight.mp3
+            target: We are having dinner with our grandparents tonight.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: present-fuer-zukunft-nachsprechen
+        language: en
+        items:
+          - audio: the-lesson-finishes-at-a-quarter-to-four.mp3
+            text: The lesson finishes at a quarter to four.
+          - audio: are-you-meeting-your-friends-this-weekend.mp3
+            text: Are you meeting your friends this weekend?
+          - audio: i-am-playing-tennis-with-my-cousin-on-saturday.mp3
+            text: I am playing tennis with my cousin on Saturday.
+        hint: Hör den Satz zuerst. Sprich langsam nach und achte auf die Uhrzeiten.
+      - type: open-task
+        id: present-fuer-zukunft-plan
+        task: "Plane mit einem Freund oder einer Freundin ein Wochenende. Schreibe drei bis vier Sätze: zwei feste Verabredungen und eine Zeit aus einem Fahrplan oder Programm."
+        points:
+          - text: Mindestens zwei Sätze mit am, is oder are und -ing für feste Verabredungen.
+            source: /plaene/present-fuer-zukunft/#neu
+          - text: Mindestens ein Satz im simple present für einen Fahrplan oder ein festes Programm.
+            source: /plaene/present-fuer-zukunft/#neu
+          - text: Die Sätze haben eine Zeitangabe (on Saturday, at ten).
+            source: /plaene/present-fuer-zukunft/#neu
+          - text: Ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          On Saturday I am playing basketball with my friend. In the evening we are cooking dinner at my house. The bus home leaves at eleven.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Die Klassenfahrt ist geplant. Sophie fragt sich, wo alle nächsten Samstag um acht Uhr abends sein werden. Auf der nächsten Seite stellt sie genau diese Frage ihren Freunden.

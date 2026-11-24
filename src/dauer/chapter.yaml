@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Seit wann und wie lange?
+summary: "Sophie macht eine Umfrage für die Schülerzeitung, Sophie und Ellie chatten, Sophie und Amir reden über einen Film. Du liest ihre Texte und sagst mit since und for, wie lange etwas schon dauert, und erkennst Verben, die keine Welle bilden."
+pages: [since-for, present-perfect-progressive, dynamic-stative]
+selfAssessment:
+  pages:
+    - exercises:
+        - /dauer/since-for/#since-for-wahl
+        - /dauer/since-for/#since-for-bilden
+    - exercises:
+        - /dauer/present-perfect-progressive/#present-perfect-progressive-wahl
+        - /dauer/present-perfect-progressive/#present-perfect-progressive-bilden
+    - exercises:
+        - /dauer/dynamic-stative/#dynamic-stative-wahl
+        - /dauer/dynamic-stative/#dynamic-stative-bilden

@@ -62,12 +62,14 @@ blocks:
           - type: text
             text: |
               Auf dieser Seite sind die Fälle klar. Manchmal passen beide Formen, und es hängt davon ab, wie du es meinst.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [ring, klingeln]
-          - [on 10 July, am 10. Juli]
+        languages: { source: de, target: en }
+        entries:
+          - target: ring
+            source: klingeln
+          - target: on 10 July
+            source: am 10. Juli
   - type: section
     id: uebung
     title: Übung

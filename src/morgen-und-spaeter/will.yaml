@@ -64,15 +64,20 @@ blocks:
           - type: text
             text: |
               **Nach will kommt kein s und kein to.** Es heißt she will play, nicht she wills play und nicht she will to play. In Gesprächen hörst du oft die Kurzform **’ll**: I’ll help you heißt I will help you.
-      - type: table
+      - type: vocabulary
         caption: Schulkalender · Zeitangaben
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [tomorrow, morgen]
-          - [next week, nächste Woche]
-          - [soon, bald]
-          - [I think, ich glaube]
-          - [in two days, in zwei Tagen]
+        languages: { source: de, target: en }
+        entries:
+          - target: tomorrow
+            source: morgen
+          - target: next week
+            source: nächste Woche
+          - target: soon
+            source: bald
+          - target: I think
+            source: ich glaube
+          - target: in two days
+            source: in zwei Tagen
   - type: section
     id: uebung
     title: Übung

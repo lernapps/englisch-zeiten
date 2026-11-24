@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200">
+  <rect width="480" height="200" fill="#f4efe2"/>
+  <line x1="20" y1="120" x2="458" y2="120" stroke="#333" stroke-width="3"/>
+  <line x1="340" y1="86" x2="340" y2="166" stroke="#c0392b" stroke-width="4"/><text x="340" y="186" text-anchor="middle" font-size="18" fill="#c0392b">now</text>
+  <path d="M 70 120 q 12 -22 24 0 t 24 0 t 24 0 t 24 0 t 24 0 t 24 0" fill="none" stroke="#8e44ad" stroke-width="3"/>
+  <circle cx="190" cy="120" r="8" fill="#2c6fd8"/>
+  <rect x="120" y="40" width="150" height="30" rx="4" fill="#fff" stroke="#333"/><text x="195" y="61" text-anchor="middle" font-size="16">when we arrived</text>
+</svg>

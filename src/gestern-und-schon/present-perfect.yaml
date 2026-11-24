@@ -57,15 +57,20 @@ blocks:
           - [he / she / it, "**has** + 3. Form", Ellie has made a cake.]
       - type: text
         text: "Kleine Wörter zeigen dir den Bogen. Sie stehen zwischen have und der 3. Form: *I have never seen it.* Nur yet steht am Ende, meist in einer Frage. Die Frage beginnt mit have oder has: *Have you ever written a book?*"
-      - type: table
+      - type: vocabulary
         caption: Schulkalender · Signalwörter für das present perfect
-        header: [Signalwort, Bedeutung]
-        rows:
-          - [already, schon]
-          - [just, gerade eben]
-          - [never, nie]
-          - [ever, jemals]
-          - [yet, schon (in Fragen)]
+        languages: { source: de, target: en }
+        entries:
+          - target: already
+            source: schon
+          - target: just
+            source: gerade eben
+          - target: never
+            source: nie
+          - target: ever
+            source: jemals
+          - target: yet
+            source: schon (in Fragen)
       - type: note
         title: Merke
         blocks:

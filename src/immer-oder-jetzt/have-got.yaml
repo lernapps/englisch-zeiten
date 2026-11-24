@@ -62,13 +62,16 @@ blocks:
           - type: text
             text: |
               **He, she, it – das s muss mit:** has got statt have got. Die **Verneinung** hängt not hinter have oder has und wird kurz zu **haven't** und **hasn't**. Die **Frage** entsteht, wenn have oder has und die Person die Plätze tauschen. Bei have got brauchst du kein do. Kurz sagst du auch **I've got** und **she's got**.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [have got, haben]
-          - [bike, Fahrrad]
-          - [pencil case, Federtasche]
+        languages: { source: de, target: en }
+        entries:
+          - target: have got
+            source: haben
+          - target: bike
+            source: Fahrrad
+          - target: pencil case
+            source: Federtasche
   - type: section
     id: uebung
     title: Übung
