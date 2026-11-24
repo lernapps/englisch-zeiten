@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Punkt oder Bogen? present perfect oder simple past"
-description: "Die Schülerzeitung schreibt über die neue Bibliothek. Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl."
+description: "Du entscheidest in einem Zeitungsartikel, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl."
 competencies: [present-perfect-oder-simple-past]
 scope: Die Seite hilft bei der Wahl zwischen present perfect und simple past, mit einem Zeitungsartikel als Lesestück. Auf dem Zeitstrahl ist das simple past ein Punkt mit einer Zeitangabe in der Vergangenheit, das present perfect ein Bogen bis now, bei dem das Ergebnis jetzt zählt. Signalwörter für das simple past sind yesterday, last Monday, ago und on Monday. Signalwörter für das present perfect sind already, yet, just, ever und never. Nicht hier, weil es spätere Seiten sind. Since und for und das present perfect progressive. Fragen mit did gehören nicht dazu.
 blocks:
@@ -26,7 +26,7 @@ blocks:
         text: "**Das kannst du danach:** Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl."
   - type: section
     id: lesestueck
-    title: Die Schülerzeitung berichtet
+    title: Ein Zeitungsartikel
     blocks:
       - type: vocabulary
         caption: Wörter zum Artikel
@@ -64,7 +64,7 @@ blocks:
         text: |
           **[3]** "It's wonderful," says Ellie, 13. "I have already read three books, and I borrowed the first one on Monday."
 
-          **[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter, 11, has never liked reading before, but yesterday he found a story he loves.
+          **[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter has never liked reading before, but yesterday he found a story he loves.
 
           **[5]** Have you visited the library yet? The doors are open every day after school. Come and see it!
   - type: section
@@ -266,4 +266,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Wandbild liegen jetzt Punkte und Bögen nebeneinander. Du kannst Erzählungen jetzt ordnen und die Zeit begründen. Im nächsten Kapitel wächst der Bogen, wenn etwas bis jetzt andauert, und du lernst since und for.
+        text: Am Wandbild liegen jetzt Punkte und Bögen nebeneinander. Im nächsten Kapitel wächst der Bogen, wenn etwas bis jetzt andauert, und du lernst since und for.
