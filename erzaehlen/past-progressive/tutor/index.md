@@ -41,17 +41,15 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Was gerade im Gang war: das past progressive“
 
-Sophie schreibt Tagebuch über den Schulausflug. Du erkennst, was im Hintergrund lief und was plötzlich passierte, und bildest das past progressive.
+Du erkennst in einem Tagebuch, was im Hintergrund lief und was plötzlich passierte, und bildest das past progressive.
 
-### Zwei Jahre später
-
-Sophie ist jetzt 13 und lebt noch immer bei den Parkers. Ellie (13), Peter (11) und Amir (13) sind in ihrer Nähe, und Mr Hill hängt am Wandbild neue Zeichen auf. Heute war Schulausflug, und Sophie schreibt abends Tagebuch.
+### Was du schon kennst
 
 - Aufgabe `past-progressive-start` (unten)
 
 **Das kannst du danach:** Du erkennst in einem Text, was schon lief und was dann passierte. Und du bildest das past progressive mit was und were.
 
-### Sophies Tagebuch
+### Ein Tagebuch
 
 Vokabeln (Englisch – Deutsch): Wörter zum Tagebuch
 - get off – aussteigen
@@ -129,7 +127,7 @@ Das -ing bildest du wie im present progressive: bei einem kurzen Verb mit einem 
 
 ### Wie es weitergeht
 
-Am Wandbild hängt jetzt eine Welle in der Vergangenheit, die ein Punkt unterbricht. Peter hat auf dem Ausflug etwas Wichtiges vergessen. Auf der nächsten Seite lernst du, wie du sagst, was schon vorher passiert war.
+Am Wandbild hängt jetzt eine Welle in der Vergangenheit, die ein Punkt unterbricht. Auf der nächsten Seite lernst du, wie du sagst, was schon vorher passiert war.
 
 ### Aufgabe past-progressive-start
 
@@ -146,7 +144,7 @@ Am Wandbild hängt jetzt eine Welle in der Vergangenheit, die ein Punkt unterbri
 
 ### Aufgabe past-progressive-verstehen
 
-- Aufgabe: Sophie schreibt über den Schulausflug. Was war im Gang, als in der Burg das Licht ausging?
+- Aufgabe: Im Tagebuch steht der Ausflug. Was war im Gang, als in der Burg das Licht ausging?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Die Klasse ging durch eine dunkle Halle. – Das war die Welle. Das Licht ging aus, der Punkt kam dazu.

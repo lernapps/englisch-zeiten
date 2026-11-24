@@ -41,17 +41,15 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Wann passiert was? when, after, before, as soon as“
 
-Sophie interviewt Mr Hill zum Schulfest. Du erkennst, welche Zeit nach when, after, before und as soon as steht, und stimmst die Zeiten richtig ab.
+Du erkennst in einem Interview, welche Zeit nach when, after, before und as soon as steht, und stimmst die Zeiten richtig ab.
 
 ### Was kommt zuerst?
-
-Auf der letzten Seite hat Peter gelernt, dass ein Ereignis vor einem anderen liegen kann. Jetzt bereitet Mr Hill das Schulfest vor. Sophie führt ein **Interview** mit ihm, das ist ein Gespräch mit Fragen und Antworten. Dabei kommen Sätze mit when, after, before und as soon as vor, mal über die Zukunft und mal über die Vergangenheit.
 
 - Aufgabe `zeitenfolge-start` (unten)
 
 **Das kannst du danach:** Du stimmst in Sätzen mit when, after, before und as soon as die Zeiten richtig ab, über die Zukunft und über die Vergangenheit.
 
-### Das Interview mit Mr Hill
+### Ein Interview
 
 Vokabeln (Englisch – Deutsch): Wörter zum Interview
 - school fair – Schulfest
@@ -116,7 +114,7 @@ Nach **when**, **after**, **before** und **as soon as** steht für die Zukunft *
 
 ### Wie es weitergeht
 
-Am Wandbild liegen jetzt Punkte in der Vergangenheit und in der Zukunft. Die Schülerzeitung bringt einen Artikel über die neue Bibliothek. Darin musst du entscheiden, ob ein Satz ins present perfect oder ins simple past gehört. Auf der nächsten Seite lernst du, wie du das herausfindest.
+Am Wandbild liegen jetzt Punkte in der Vergangenheit und in der Zukunft. Auf der nächsten Seite entscheidest du, ob ein Satz ins present perfect oder ins simple past gehört.
 
 ### Aufgabe zeitenfolge-start
 

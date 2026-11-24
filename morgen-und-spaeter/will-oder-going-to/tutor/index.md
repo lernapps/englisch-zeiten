@@ -45,9 +45,9 @@ Ellie hat einen Plan, Amir einen Einfall. Du lernst, in klaren Fällen zu entsch
 
 ### Ellies Plan und Amirs Einfall
 
-Bild: Peter, Sophie, Ellie und Amir stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 10 July. Ellie sagt in der oberen Sprechblase: „I am going to have a party.“ Amir sagt in der unteren: „I will bring a cake.“. Bildunterschrift: Von links: Peter (gelbe Jacke), Sophie (Zöpfe), Ellie (roter Pferdeschwanz) und Amir (Brille). Ellie und Amir sprechen.
+Bild: Peter, Sophie, Ellie und Amir stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 10 July. Ellie sagt in der oberen Sprechblase: „I am going to have a party.“ Amir sagt in der unteren: „I will bring a cake.“. Bildunterschrift: Ellie (roter Pferdeschwanz) und Amir (Brille) sprechen.
 
-Ellie hat am 10. Juli Geburtstag. Sie erzählt: „I am going to have a party.“ Amir hört das zum ersten Mal und sagt gleich: „I will bring a cake.“ Bring heißt mitbringen, cake heißt Kuchen.
+Ellie erzählt: „I am going to have a party.“ Amir hört das zum ersten Mal und sagt gleich: „I will bring a cake.“ Bring heißt mitbringen, cake heißt Kuchen.
 
 - Aufgabe `will-oder-going-to-start` (unten)
 

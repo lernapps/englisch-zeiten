@@ -45,7 +45,7 @@ Ellie, Peter und Amir zeigen, was sie haben. Du lernst have got und has got für
 
 ### Wer hat was?
 
-Bild: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. Ellie steht neben einem braunen Hund. Auf dem Boden liegen eine rote Federtasche und ein blauer Stift. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Rechts steht Ellies Hund.
+Bild: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. Ellie steht neben einem braunen Hund. Auf dem Boden liegen eine rote Federtasche und ein blauer Stift. Bildunterschrift: Rechts steht Ellies Hund.
 
 Ellie hat einen Hund (dog). Peter hat einen Stift (pen). Mr Hill fragt: „Wer hat was?“ Wenn du sagst, was jemand hat, brauchst du auf Englisch **have got**.
 

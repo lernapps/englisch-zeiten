@@ -41,11 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Verabredungen und Fahrpläne: present tenses für die Zukunft“
 
-Die Klasse plant eine Klassenfahrt. Du liest den Chat und erkennst, wann das present progressive eine Verabredung und das simple present einen Fahrplan meint.
+Du liest einen Chat und erkennst, wann das present progressive eine Verabredung und das simple present einen Fahrplan meint.
 
-### Die Klassenfahrt
-
-Mr Hill plant eine Klassenfahrt in die Stadt. Sophie, Ellie und Amir besprechen im Chat, wann was passiert.
+### Verabredung oder Fahrplan?
 
 - Aufgabe `present-fuer-zukunft-start` (unten)
 
@@ -132,7 +130,7 @@ Eine feste Verabredung nennst du im **present progressive** (I am visiting my au
 
 ### Wie es weitergeht
 
-Die Klassenfahrt ist geplant. Sophie fragt sich, wo alle nächsten Samstag um acht Uhr abends sein werden. Auf der nächsten Seite stellt sie genau diese Frage ihren Freunden.
+Am Wandbild hängen jetzt Kalendereintrag und Fahrplan. Auf der nächsten Seite kommen Zeitpunkte in der Zukunft dazu: Was läuft dann gerade, und was ist bis dahin fertig?
 
 ### Aufgabe present-fuer-zukunft-start
 

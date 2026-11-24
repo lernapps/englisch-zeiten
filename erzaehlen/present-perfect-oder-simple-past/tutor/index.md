@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Punkt oder Bogen? present perfect oder simple past“
 
-Die Schülerzeitung schreibt über die neue Bibliothek. Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl.
+Du entscheidest in einem Zeitungsartikel, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl.
 
 ### Punkt und Bogen
 
@@ -49,7 +49,7 @@ Die Schülerzeitung schreibt über die neue Bibliothek. Du entscheidest, ob du d
 
 **Das kannst du danach:** Du entscheidest, ob du das simple past oder das present perfect brauchst, und begründest deine Wahl mit dem Zeitstrahl.
 
-### Die Schülerzeitung berichtet
+### Ein Zeitungsartikel
 
 Vokabeln (Englisch – Deutsch): Wörter zum Artikel
 - library – Bibliothek
@@ -71,7 +71,7 @@ Vokabeln (Englisch – Deutsch): Wörter zum Artikel
 
 **[3]** "It's wonderful," says Ellie, 13. "I have already read three books, and I borrowed the first one on Monday."
 
-**[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter, 11, has never liked reading before, but yesterday he found a story he loves.
+**[4]** Amir has joined the reading club, but he hasn't chosen a book yet. Peter has never liked reading before, but yesterday he found a story he loves.
 
 **[5]** Have you visited the library yet? The doors are open every day after school. Come and see it!
 
@@ -114,7 +114,7 @@ Steht eine **Zeitangabe der Vergangenheit** im Satz (**yesterday**, **last year*
 
 ### Wie es weitergeht
 
-Am Wandbild liegen jetzt Punkte und Bögen nebeneinander. Du kannst Erzählungen jetzt ordnen und die Zeit begründen. Im nächsten Kapitel wächst der Bogen, wenn etwas bis jetzt andauert, und du lernst since und for.
+Am Wandbild liegen jetzt Punkte und Bögen nebeneinander. Im nächsten Kapitel wächst der Bogen, wenn etwas bis jetzt andauert, und du lernst since und for.
 
 ### Aufgabe ppsp-start
 

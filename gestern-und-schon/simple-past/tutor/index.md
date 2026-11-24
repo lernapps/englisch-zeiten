@@ -45,7 +45,7 @@ Sophie erzählt, was sie gestern gemacht hat. Du lernst, mit dem simple past und
 
 ### Was Sophie gestern erzählt
 
-Bild: Sophie erzählt Amir und Ellie etwas. In der Sprechblase über ihr steht „Yesterday I played football.“ Amir und Ellie hören zu. Bildunterschrift: Von links Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz). Sophie spricht.
+Bild: Sophie erzählt Amir und Ellie etwas. In der Sprechblase über ihr steht „Yesterday I played football.“ Amir und Ellie hören zu. Bildunterschrift: Sophie (Zöpfe) spricht.
 
 Sophie erzählt Amir und Ellie von ihrem Tag: „Yesterday I played football.“ Yesterday heißt gestern. Der Tag ist vorbei.
 

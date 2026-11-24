@@ -41,11 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Wo bist du nächsten Samstag um acht? will be doing und will have done“
 
-Sophie macht für die Schülerzeitung ein Interview. Du erkennst, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist, und bildest beides.
+Du erkennst im Interview, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist, und bildest beides.
 
-### Das Interview für die Schülerzeitung
-
-Sophie schreibt für die Schülerzeitung, die Millbrook Mail. Heute fragt sie ihre Freunde und Mr Hill, was sie nächsten Samstag um acht Uhr abends tun.
+### Welle und Bogen in der Zukunft
 
 - Aufgabe `future-progressive-perfect-start` (unten)
 
@@ -119,7 +117,7 @@ Mit **at ... tomorrow** und **this time next ...** setzt du die Welle (will be d
 
 ### Wie es weitergeht
 
-Das Interview ist fertig, und am Wandbild hängt jetzt auch ein Zeitpunkt in der Zukunft mit Welle und Bogen. Damit sind die Zeitformen dieser Stufe komplett. Kapitel 7 folgt später.
+Am Wandbild hängt jetzt ein Zeitpunkt in der Zukunft mit Welle und Bogen. Damit sind die Zeitformen dieser Stufe komplett. Kapitel 7 folgt später.
 
 ### Aufgabe future-progressive-perfect-start
 

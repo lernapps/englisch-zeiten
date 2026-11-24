@@ -41,17 +41,15 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Was schon vorher geschehen war: das past perfect“
 
-Peter verpasst den Bus und chattet mit Ellie. Du erkennst, was vor einem anderen Ereignis in der Vergangenheit passiert war, und bildest das past perfect.
+Du erkennst in einem Chat, was vor einem anderen Ereignis in der Vergangenheit passiert war, und bildest das past perfect.
 
 ### Zwei Ereignisse, ein Zeitstrahl
-
-Peter hat auf dem Ausflug seinen Geldbeutel vergessen. Am Wandbild hat er noch einen Platz frei, für etwas, das schon vorher passiert war. Er chattet mit Ellie, weil er zu spät kommt.
 
 - Aufgabe `past-perfect-start` (unten)
 
 **Das kannst du danach:** Du sagst auf Englisch, was vor einem anderen Ereignis in der Vergangenheit schon geschehen war. Und du bildest das past perfect mit had und der 3. Form.
 
-### Peters Chat mit Ellie
+### Ein Chat
 
 Vokabeln (Englisch – Deutsch): Wörter zum Chat
 - wallet – Geldbeutel
@@ -116,7 +114,7 @@ Klassenzimmer-Poster · Das past perfect mit open:
 
 ### Wie es weitergeht
 
-Am Wandbild liegen jetzt zwei Punkte in der Vergangenheit, der frühere und der spätere. Mr Hill plant das Schulfest und erzählt, was vorher geschehen sein muss. Auf der nächsten Seite lernst du, wie du mit when, after, before und as soon as die Zeiten richtig abstimmst.
+Am Wandbild liegen jetzt zwei Punkte in der Vergangenheit, der frühere und der spätere. Auf der nächsten Seite lernst du, wie du mit when, after, before und as soon as die Zeiten richtig abstimmst.
 
 ### Aufgabe past-perfect-start
 

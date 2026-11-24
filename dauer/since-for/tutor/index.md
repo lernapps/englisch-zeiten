@@ -41,11 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Seit wann und wie lange: since und for“
 
-Sophie macht eine Umfrage für die Schülerzeitung. Du erkennst, was ein Startpunkt und was eine Länge ist, und sagst mit since und for, wie lange etwas schon dauert.
+Du erkennst in einer Umfrage, was ein Startpunkt und was eine Länge ist, und sagst mit since und for, wie lange etwas schon dauert.
 
 ### Wie lange schon?
-
-Die Schülerzeitung der Millbrook School braucht eine neue Seite. Sophie (13) soll die Klasse fragen, wie lange sie schon etwas tun. Mr Hill hat den Bogen des present perfect an die Wand gehängt, den du schon kennst.
 
 - Aufgabe `since-for-start` (unten)
 
@@ -73,7 +71,7 @@ Vokabeln (Englisch – Deutsch): Wörter zur Umfrage
 
 **[5]** **Amir:** I have lived in this town all my life. My grandmother has had a small shop here for forty years, and I help her every Saturday.
 
-**[6]** **Sophie:** And me? I have lived with the Parkers since I came to England. I have been here for two years now, and I have learned a lot.
+**[6]** **Sophie:** And me? I have lived here since I came to England. I have been here for two years now, and I have learned a lot.
 
 **[7]** **Mr Hill:** Good work, Sophie. The newspaper will print all your answers on Friday. Please bring your notes to the classroom after lunch.
 
@@ -120,7 +118,7 @@ Die Frage heißt **How long have you …?** Beispiele: Dad has driven the same c
 
 ### Wie es weitergeht
 
-Am Wandbild hängt jetzt ein Bogen mit dem Fähnchen since und der Klammer for. Ellie ist zu spät zum Kino gekommen, und Sophie hat schon lange gewartet. Auf der nächsten Seite wird aus dem Bogen eine Welle.
+Am Wandbild hängt jetzt ein Bogen mit dem Fähnchen since und der Klammer for. Auf der nächsten Seite wird aus dem Bogen eine Welle.
 
 ### Aufgabe since-for-start
 

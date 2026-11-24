@@ -41,11 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Verben ohne Welle: Zustandsverben“
 
-Sophie und Amir reden über einen Film. Du erkennst Verben wie know, like und belong, die einen Zustand beschreiben und meistens keine Verlaufsform bilden.
+Du erkennst in einem Dialog Verben wie know, like und belong, die einen Zustand beschreiben und meistens keine Verlaufsform bilden.
 
-### Nach dem Kino
-
-Sophie und Amir haben einen Film gesehen und reden darüber. Du kennst die Welle für etwas, das gerade läuft. Heute siehst du, bei welchen Verben die Welle nicht passt.
+### Die Welle und ihre Grenze
 
 - Aufgabe `dynamic-stative-start` (unten)
 
@@ -124,7 +122,7 @@ Tätigkeitsverben bilden die Welle, wenn etwas gerade läuft: **I am cooking.** 
 
 ### Wie es weitergeht
 
-Am Wandbild steht jetzt ein Stoppschild an der Welle. Bei den Zustandsverben bleibt die einfache Form. Im nächsten Kapitel schaut Mr Hill auf die Zukunft und auf feste Pläne.
+Am Wandbild steht jetzt ein Stoppschild an der Welle. Bei den Zustandsverben bleibt die einfache Form. Im nächsten Kapitel geht es um feste Pläne und die Zukunft.
 
 ### Aufgabe dynamic-stative-start
 

@@ -41,11 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Was bis jetzt andauert: das present perfect progressive“
 
-Sophie wartet vor dem Kino, und Ellie ist zu spät. Du erkennst im Chat, was bis jetzt andauert, und bildest das present perfect progressive mit have been und -ing.
+Du erkennst im Chat, was bis jetzt andauert, und bildest das present perfect progressive mit have been und -ing.
 
-### Sophie wartet
-
-Sophie und Ellie wollen ins Kino. Ellie ist nicht da, und Sophie schreibt ihr. Mr Hill hat am Wandbild neben den Bogen eine Welle gehängt.
+### Bis jetzt
 
 - Aufgabe `present-perfect-progressive-start` (unten)
 
@@ -125,7 +123,7 @@ Das present perfect progressive betont die **Tätigkeit** und wie lange sie daue
 
 ### Wie es weitergeht
 
-Am Wandbild hängt jetzt eine Welle, die von einem Startpunkt bis now läuft. Am Abend sitzen Sophie und Amir im Kino. Auf der nächsten Seite siehst du, bei welchen Verben die Welle nicht möglich ist.
+Am Wandbild hängt jetzt eine Welle, die von einem Startpunkt bis now läuft. Auf der nächsten Seite siehst du, bei welchen Verben die Welle nicht möglich ist.
 
 ### Aufgabe present-perfect-progressive-start
 
