@@ -68,13 +68,12 @@ Klassenzimmer-Poster · Das present perfect:
 
 Kleine Wörter zeigen dir den Bogen. Sie stehen zwischen have und der 3. Form: *I have never seen it.* Nur yet steht am Ende, meist in einer Frage. Die Frage beginnt mit have oder has: *Have you ever written a book?*
 
-Schulkalender · Signalwörter für das present perfect:
-- Signalwort | Bedeutung
-- already | schon
-- just | gerade eben
-- never | nie
-- ever | jemals
-- yet | schon (in Fragen)
+Vokabeln (Englisch – Deutsch): Schulkalender · Signalwörter für das present perfect
+- already – schon
+- just – gerade eben
+- never – nie
+- ever – jemals
+- yet – schon (in Fragen)
 
 **Merke: Merke**
 

@@ -51,7 +51,7 @@ Sophie sagt zu Mr Hill: „Yesterday I went to school.“ Go heißt gehen. Mr Hi
 
 - Aufgabe `unregelmaessig-start` (unten)
 
-**Das kannst du danach:** Du kennst die wichtigsten unregelmäßigen Verben und bildest ihr simple past und ihre dritte Form.
+**Das kannst du danach:** Du kennst die wichtigsten unregelmäßigen Verben und bildest ihr simple past und ihre 3. Form.
 
 ### Karten mit drei Formen, nach Klang sortiert
 
@@ -117,11 +117,10 @@ Klassenzimmer-Poster · Unregelmäßige Verben · besondere Verben:
 
 Im simple past nimmst du die **2. Spalte**: Yesterday I went to school. Die **3. Form** ist eine andere Karte: gone gehört nicht zu yesterday. Hänge bei diesen Verben **kein ed** an: goed, eated und buyed gibt es nicht.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- break | kaputt machen
-- speak | sprechen
-- sink | sinken
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Wörter dieser Seite
+- break – kaputt machen
+- speak – sprechen
+- sink – sinken
 
 ### Übung
 
@@ -147,7 +146,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 
 ### Wie es weitergeht
 
-Mr Hill hat auch die dritte Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst.
+Mr Hill hat auch die 3. Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst.
 
 ### Aufgabe unregelmaessig-start
 

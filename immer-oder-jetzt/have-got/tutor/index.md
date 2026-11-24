@@ -74,11 +74,10 @@ Klassenzimmer-Poster · Aussage, Verneinung, Frage:
 
 **He, she, it – das s muss mit:** has got statt have got. Die **Verneinung** hängt not hinter have oder has und wird kurz zu **haven't** und **hasn't**. Die **Frage** entsteht, wenn have oder has und die Person die Plätze tauschen. Bei have got brauchst du kein do. Kurz sagst du auch **I've got** und **she's got**.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- have got | haben
-- bike | Fahrrad
-- pencil case | Federtasche
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Wörter dieser Seite
+- have got – haben
+- bike – Fahrrad
+- pencil case – Federtasche
 
 ### Übung
 

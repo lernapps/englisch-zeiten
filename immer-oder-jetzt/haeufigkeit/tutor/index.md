@@ -59,13 +59,12 @@ Wie oft etwas passiert, sagen die **Häufigkeitswörter**. Mr Hill zeichnet daf�
 
 Bild: Fünf Reihen aus je sieben Punkten für die Tage von Montag bis Sonntag. Bei always sind alle Punkte ausgefüllt, bei usually sechs, bei often vier, bei sometimes zwei und bei never keiner. Bildunterschrift: Jede Reihe ist eine Woche. Ein ausgefüllter Punkt heißt, dass die Person es an diesem Tag tut.
 
-Klassenzimmer-Poster · Wie oft?:
-- Ausdruck | Bedeutung
-- always | immer
-- usually | meistens
-- often | oft
-- sometimes | manchmal
-- never | nie
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Wie oft?
+- always – immer
+- usually – meistens
+- often – oft
+- sometimes – manchmal
+- never – nie
 
 **Merke: Merke**
 

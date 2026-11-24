@@ -59,11 +59,10 @@ Auf dem Zeitstrahl kennst du schon die Punktreihe. Jetzt kommt links von now ein
 
 Bild: Ein Zeitstrahl von links nach rechts mit einem roten Strich now. Links davon liegen zwei einzelne blaue Punkte. An einem hängt das Fähnchen yesterday, am anderen das Fähnchen last week. Bildunterschrift: Jeder Punkt ist ein einzelnes Ereignis. Das Fähnchen sagt, wann es war.
 
-Schulkalender · Zeitangaben für das simple past:
-- Zeitangabe | Bedeutung
-- yesterday | gestern
-- last week | letzte Woche
-- two days ago | vor zwei Tagen
+Vokabeln (Englisch – Deutsch): Schulkalender · Zeitangaben für das simple past
+- yesterday – gestern
+- last week – letzte Woche
+- two days ago – vor zwei Tagen
 
 Bei regelmäßigen Verben hängst du **ed** an die Grundform. Das gilt für alle Personen, auch für he, she und it. Das -s vom simple present fällt weg.
 

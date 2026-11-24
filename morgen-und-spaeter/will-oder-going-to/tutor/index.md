@@ -70,10 +70,9 @@ Klassenzimmer-Poster · will oder going to:
 
 Auf dieser Seite sind die Fälle klar. Manchmal passen beide Formen, und es hängt davon ab, wie du es meinst.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- ring | klingeln
-- on 10 July | am 10. Juli
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Wörter dieser Seite
+- ring – klingeln
+- on 10 July – am 10. Juli
 
 ### Übung
 

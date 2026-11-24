@@ -76,9 +76,8 @@ Klassenzimmer-Poster · Aussage, Verneinung, Frage:
 
 Die **Verneinung** hängt **not** hinter be. Die **Frage** entsteht, wenn be und die Person die Plätze tauschen. Bei be brauchst du kein do. Kurz sagst du auch **I'm**, **you're**, **he's**, **she's**, **we're** und **they're**.
 
-Klassenzimmer-Poster · Wörter dieser Seite:
-- Ausdruck | Bedeutung
-- in the classroom | im Klassenzimmer
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Wörter dieser Seite
+- in the classroom – im Klassenzimmer
 
 ### Übung
 

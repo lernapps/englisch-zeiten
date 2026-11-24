@@ -72,13 +72,12 @@ Klassenzimmer-Poster · will mit play:
 
 **Nach will kommt kein s und kein to.** Es heißt she will play, nicht she wills play und nicht she will to play. In Gesprächen hörst du oft die Kurzform **’ll**: I’ll help you heißt I will help you.
 
-Schulkalender · Zeitangaben:
-- Ausdruck | Bedeutung
-- tomorrow | morgen
-- next week | nächste Woche
-- soon | bald
-- I think | ich glaube
-- in two days | in zwei Tagen
+Vokabeln (Englisch – Deutsch): Schulkalender · Zeitangaben
+- tomorrow – morgen
+- next week – nächste Woche
+- soon – bald
+- I think – ich glaube
+- in two days – in zwei Tagen
 
 ### Übung
 
