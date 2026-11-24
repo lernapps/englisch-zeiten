@@ -1,15 +1,13 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Verben ohne Welle: Zustandsverben"
-description: "Sophie und Amir reden über einen Film. Du erkennst Verben wie know, like und belong, die einen Zustand beschreiben und meistens keine Verlaufsform bilden."
+description: "Du erkennst in einem Dialog Verben wie know, like und belong, die einen Zustand beschreiben und meistens keine Verlaufsform bilden."
 competencies: [dynamic-stative]
-scope: "Die Seite führt die Zustandsverben ein, mit einem Lesestück als Dialog von Sophie und Amir nach dem Kino. Zustandsverben beschreiben einen Zustand wie Wissen, Meinung, Gefühl, Wunsch und Besitz (know, understand, believe, remember, like, love, hate, want, need, prefer, belong, own) und bilden meist keine Verlaufsform. Auf dem Zeitstrahl endet die Welle an einem Stoppschild. Dagegen stehen Tätigkeitsverben (read, play, make) in der Verlaufsform, wenn etwas gerade läuft. Wie bei since und for steht auch das present perfect einfach (I have known him for years). Think ist eine Tätigkeit (nachdenken: I am thinking about it) oder ein Zustand (meinen: I think it is good). Nicht hier, weil es spätere Seiten sind. Alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu."
+scope: "Die Seite führt die Zustandsverben ein, mit einem Lesestück als Dialog. Zustandsverben beschreiben einen Zustand wie Wissen, Meinung, Gefühl, Wunsch und Besitz (know, understand, believe, remember, like, love, hate, want, need, prefer, belong, own) und bilden meist keine Verlaufsform. Auf dem Zeitstrahl endet die Welle an einem Stoppschild. Dagegen stehen Tätigkeitsverben (read, play, make) in der Verlaufsform, wenn etwas gerade läuft. Wie bei since und for steht auch das present perfect einfach (I have known him for years). Think ist eine Tätigkeit (nachdenken: I am thinking about it) oder ein Zustand (meinen: I think it is good). Nicht hier, weil es spätere Seiten sind. Alle Zeiten der Zukunft. Verneinung und Fragen mit do und did gehören nicht dazu."
 blocks:
   - type: section
     id: einstieg
-    title: Nach dem Kino
+    title: Die Welle und ihre Grenze
     blocks:
-      - type: text
-        text: Sophie und Amir haben einen Film gesehen und reden darüber. Du kennst die Welle für etwas, das gerade läuft. Heute siehst du, bei welchen Verben die Welle nicht passt.
       - type: single-choice
         id: dynamic-stative-start
         text: Du kennst die Verlaufsform mit be und -ing. Was zeigt die Welle auf dem Zeitstrahl?
@@ -24,9 +22,6 @@ blocks:
             correct: false
             info: Wiederholungen sind eine Punktreihe. Das ist das simple present.
         explanation: Die Welle steht für etwas, das läuft. Für Zustände wie Wissen oder Besitz passt sie meistens nicht.
-        links:
-          - title: Lernlandkarte Englisch · Zustandsverben
-            url: https://lernapps.net/apps/map/englisch/c/dynamic-stative/
       - type: text
         text: "**Das kannst du danach:** Du erkennst Zustandsverben wie know, like und belong. Und du weißt, dass sie meistens keine Verlaufsform bilden."
   - type: section
@@ -279,4 +274,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Wandbild steht jetzt ein Stoppschild an der Welle. Bei den Zustandsverben bleibt die einfache Form. Im nächsten Kapitel schaut Mr Hill auf die Zukunft und auf feste Pläne.
+        text: Am Wandbild steht jetzt ein Stoppschild an der Welle. Bei den Zustandsverben bleibt die einfache Form. Im nächsten Kapitel geht es um feste Pläne und die Zukunft.

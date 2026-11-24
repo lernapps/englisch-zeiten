@@ -6,17 +6,17 @@ scope: Die Seite führt going to ein. Es nennt Pläne, die schon feststehen, und
 blocks:
   - type: section
     id: einstieg
-    title: Peters Plan für den 5. Mai
+    title: Peters Plan
     blocks:
       - type: figure
         image: images/szene-going-to.svg
         alt: "Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 5 May. Peter sagt in der Sprechblase: „I am going to have a party.“"
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Peter spricht."
+        caption: Peter (gelbe Jacke) spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Peter hat am 5. Mai Geburtstag. Er erzählt der Klasse: „I am going to have a party.“ Party heißt Feier, have a party heißt eine Feier machen.
+          Peter erzählt der Klasse: „I am going to have a party.“ Party heißt Feier, have a party heißt eine Feier machen.
       - type: single-choice
         id: going-to-start
         text: Peter sagt „I am going to have a party.“ Wann hat er sich die Feier überlegt?
@@ -31,9 +31,6 @@ blocks:
             correct: false
             info: Gestern heißt yesterday. In Peters Satz ist die Feier noch nicht vorbei.
         explanation: Mit going to sagst du, was du dir vorgenommen hast.
-        links:
-          - title: Lernlandkarte Englisch · Going-to-Future
-            url: https://lernapps.net/apps/map/englisch/c/going-to/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was du vorhast oder was nach einem Anzeichen bald passiert. Und du bildest going to mit am, is und are."
   - type: section
@@ -126,9 +123,6 @@ blocks:
         distractors: [Peter plays football every Saturday.]
         explanation: Wer einen Plan hat oder ein Anzeichen sieht, sagt mit going to, was bald passiert. Der Satz mit every Saturday erzählt von einer Gewohnheit.
         hint: Frag dich, was man nach dem Satz links als Nächstes erwartet.
-        links:
-          - title: Lernlandkarte Englisch · Going-to-Future
-            url: https://lernapps.net/apps/map/englisch/c/going-to/
       - type: language-task
         id: going-to-bilden
         languages: { source: de, target: en }
@@ -187,9 +181,6 @@ blocks:
             correct: false
             info: Eine Punktreihe ist das Zeichen für Gewohnheiten. Peters Feier ist ein einziger Termin.
         explanation: Going to hat als Zeichen einen Pfeil, der schon bei now beginnt.
-        links:
-          - title: Lernlandkarte Englisch · Going-to-Future
-            url: https://lernapps.net/apps/map/englisch/c/going-to/
       - type: language-task
         id: going-to-hoeren
         languages: { source: de, target: en }
@@ -234,4 +225,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters Pfeil. Ellie hat am 10. Juli Geburtstag und erzählt ihre Pläne. Amir hört zu und hat gleich eine Idee. Auf der nächsten Seite entscheidest du, wann du will und wann du going to nimmst."
+        text: "Am Zeitstrahl hängen jetzt zwei Zeichen rechts von now: Amirs Punkt und Peters Pfeil. Ellie erzählt ihre Pläne. Amir hört zu und hat gleich eine Idee. Auf der nächsten Seite entscheidest du, wann du will und wann du going to nimmst."

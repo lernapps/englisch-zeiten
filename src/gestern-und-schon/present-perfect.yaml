@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-present-perfect.svg
         alt: Ellie steht neben einem Tisch mit einem Kuchen auf einem Teller. Peter und Sophie schauen zu. In der Sprechblase steht „I have made a cake.“
-        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Ellie spricht, rechts steht ihr Kuchen.
+        caption: Ellie (roter Pferdeschwanz) spricht. Rechts steht ihr Kuchen.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Sie ist schon fertig, der Kuchen steht ja schon da.
         explanation: Das present perfect sagt, was schon passiert ist. Das Ergebnis zählt jetzt.
-        links:
-          - title: Lernlandkarte Englisch · Present perfect
-            url: https://lernapps.net/apps/map/englisch/c/present-perfect/
       - type: text
         text: "**Das kannst du danach:** Du sagst, was schon passiert ist, mit have oder has und der 3. Form. Und du weißt, wann du statt dessen das simple past nimmst."
   - type: section
@@ -112,9 +109,6 @@ blocks:
             right: Have you ever drunk coffee?
         explanation: Diese Wörter zeigen den Bogen bis now. Sie stehen zwischen have oder has und der 3. Form.
         hint: Such in jedem deutschen Satz das Wort, das schon, gerade eben, nie oder jemals heißt.
-        links:
-          - title: Lernlandkarte Englisch · Present perfect
-            url: https://lernapps.net/apps/map/englisch/c/present-perfect/
       - type: language-task
         id: present-perfect-waehlen
         languages: { source: de, target: en }

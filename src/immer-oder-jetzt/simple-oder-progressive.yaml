@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-simple-oder-progressive.svg
         alt: Sophie, Ellie, Amir und Peter stehen vor dem Wandbild. Auf dem Wandbild liegt ein Zeitstrahl mit blauen Punkten, einem roten Strich in der Mitte und einer violetten Welle über dem Strich.
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Hinter ihnen hängt der Zeitstrahl von der Klasse."
+        caption: Hinter den Kindern hängt der Zeitstrahl.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie zeigt auf den Zeitstrahl und sagt zwei Sätze über ihren Bruder: „Peter often plays football.“ und „Peter is playing football at the moment.“ **At the moment** heißt „im Moment“."
+        text: "Ellie zeigt auf den Zeitstrahl und sagt zwei Sätze über Peter: „Peter often plays football.“ und „Peter is playing football at the moment.“ **At the moment** heißt „im Moment“."
       - type: single-choice
         id: simple-oder-progressive-start
         text: Welcher Satz sagt, was Amir gerade jetzt tut?
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: every day heißt „jeden Tag“. Auch dieser Satz erzählt von etwas, das sich wiederholt.
         explanation: Ein Satz kann von etwas erzählen, das oft passiert, oder von etwas, das gerade passiert. Du brauchst für jedes eine andere Form.
-        links:
-          - title: Lernlandkarte Englisch · Simple present oder present progressive
-            url: https://lernapps.net/apps/map/englisch/c/simple-oder-progressive/
       - type: text
         text: "**Das kannst du danach:** Du entscheidest bei einem Satz, ob er eine Punktreihe oder eine Welle erzählt, und wählst die passende Form."
   - type: section
@@ -100,9 +97,6 @@ blocks:
             right: Sophie often sings.
         explanation: Wiederholung ist die Punktreihe, dann steht das simple present. Gerade jetzt ist die Welle, dann steht is und -ing.
         hint: Suche zuerst in jedem Satz das Fähnchen. Gehört es zur Punktreihe oder zur Welle?
-        links:
-          - title: Lernlandkarte Englisch · Simple present oder present progressive
-            url: https://lernapps.net/apps/map/englisch/c/simple-oder-progressive/
       - type: language-task
         id: simple-oder-progressive-bilden
         languages: { source: de, target: en }

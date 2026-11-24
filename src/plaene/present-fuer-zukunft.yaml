@@ -1,15 +1,13 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Verabredungen und Fahrpläne: present tenses für die Zukunft"
-description: "Die Klasse plant eine Klassenfahrt. Du liest den Chat und erkennst, wann das present progressive eine Verabredung und das simple present einen Fahrplan meint."
+description: "Du liest einen Chat und erkennst, wann das present progressive eine Verabredung und das simple present einen Fahrplan meint."
 competencies: [present-fuer-zukunft]
 scope: Die Seite zeigt, dass man mit dem present progressive über feste Verabredungen in der Zukunft spricht (I am meeting a friend on Friday) und mit dem simple present über Fahrpläne und feste Programme (The train leaves at nine). Auf dem Zeitstrahl ist die Verabredung ein Kalendereintrag über einer Welle, der Fahrplan eine Punktreihe von Abfahrten mit einer hervorgehobenen Uhrzeit. Will klingt dafür oft nach einer Vermutung oder einem spontanen Entschluss. Nicht hier, weil es spätere Seiten sind. Will be doing, will have done und alle Zeiten der Vergangenheit.
 blocks:
   - type: section
     id: einstieg
-    title: Die Klassenfahrt
+    title: Verabredung oder Fahrplan?
     blocks:
-      - type: text
-        text: Mr Hill plant eine Klassenfahrt in die Stadt. Sophie, Ellie und Amir besprechen im Chat, wann was passiert.
       - type: single-choice
         id: present-fuer-zukunft-start
         text: Welche zwei Zeichen kennst du vom Zeitstrahl für das present progressive und das simple present?
@@ -27,9 +25,6 @@ blocks:
             correct: false
             info: Der Punkt ist ein einzelnes Ereignis, der Bogen gehört zum present perfect.
         explanation: Beide Zeichen kennst du schon. Auf dieser Seite siehst du sie an einer neuen Stelle, in der Zukunft.
-        links:
-          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
-            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
       - type: text
         text: "**Das kannst du danach:** Du erkennst im Chat, ob jemand eine feste Verabredung oder einen Fahrplan meint, und sagst beides richtig auf Englisch."
   - type: section
@@ -131,9 +126,6 @@ blocks:
             correct: false
             info: Um 10:30 beginnt die Führung im Museum.
         explanation: Die Abfahrt ist um 7:45, die Ankunft um 9:10.
-        links:
-          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
-            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
       - type: single-choice
         id: present-fuer-zukunft-wer
         text: Wer bringt belegte Brote für alle mit?
@@ -148,9 +140,6 @@ blocks:
             correct: false
             info: Mr Hill sammelt die Fahrkarten ein, er bringt nichts zu essen mit.
         explanation: Amirs Vater bringt die Brote mit, Amir trifft Ellie und Sophie am Bahnhof.
-        links:
-          - title: Lernlandkarte Englisch · Present tenses für die Zukunft
-            url: https://lernapps.net/apps/map/englisch/c/present-fuer-zukunft/
       - type: multiple-choice
         id: present-fuer-zukunft-zeilen
         text: In welchen Zeilen steht ein Fahrplan oder ein festes Programm für alle?
@@ -289,4 +278,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Die Klassenfahrt ist geplant. Sophie fragt sich, wo alle nächsten Samstag um acht Uhr abends sein werden. Auf der nächsten Seite stellt sie genau diese Frage ihren Freunden.
+        text: "Am Wandbild hängen jetzt Kalendereintrag und Fahrplan. Auf der nächsten Seite kommen Zeitpunkte in der Zukunft dazu: Was läuft dann gerade, und was ist bis dahin fertig?"

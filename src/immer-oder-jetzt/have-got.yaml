@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-have-got.svg
         alt: Sophie, Ellie, Amir und Peter stehen im Klassenzimmer. Ellie steht neben einem braunen Hund. Auf dem Boden liegen eine rote Federtasche und ein blauer Stift.
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Rechts steht Ellies Hund."
+        caption: Rechts steht Ellies Hund.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: is gehört zum Verb be und sagt, wie jemand ist, nicht, was er hat.
         explanation: Was jemand hat, sagst du mit have got. Bei he, she und it heißt es has got.
-        links:
-          - title: Lernlandkarte Englisch · have got und has got
-            url: https://lernapps.net/apps/map/englisch/c/have-got/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was jemand hat, und du verneinst und fragst mit have got."
   - type: section
@@ -102,9 +99,6 @@ blocks:
         items: [Amir, has, got, a, bag]
         explanation: Zuerst kommt die Person, dann has got, dann das, was sie hat.
         hint: Der Satz beginnt mit der Person. Danach kommt die Form von have got.
-        links:
-          - title: Lernlandkarte Englisch · have got und has got
-            url: https://lernapps.net/apps/map/englisch/c/have-got/
       - type: single-choice
         id: have-got-verneinung
         text: Mr Hill hat kein Auto. Welcher Satz sagt das richtig?
@@ -120,9 +114,6 @@ blocks:
             info: Bei have got brauchst du kein do. Die Verneinung hängt nicht an do, sondern an has.
         explanation: Die Verneinung hängt not oder n't an have oder has.
         hint: Mr Hill ist „er“. Dann brauchst du has, nicht have.
-        links:
-          - title: Lernlandkarte Englisch · Have got und has got
-            url: https://lernapps.net/apps/map/englisch/c/have-got/
       - type: language-task
         id: have-got-frage
         languages: { source: de, target: en }

@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-simple-past.svg
         alt: Sophie erzählt Amir und Ellie etwas. In der Sprechblase über ihr steht „Yesterday I played football.“ Amir und Ellie hören zu.
-        caption: Von links Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz). Sophie spricht.
+        caption: Sophie (Zöpfe) spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Rechts von now liegt das, was noch kommt. Gestern ist schon vorbei.
         explanation: Was einmal war und vorbei ist, ist ein einzelner Punkt links von now.
-        links:
-          - title: Lernlandkarte Englisch · Simple past
-            url: https://lernapps.net/apps/map/englisch/c/simple-past/
       - type: text
         text: "**Das kannst du danach:** Du erzählst auf Englisch, was gestern oder letzte Woche passiert ist, und bildest die Verbform mit -ed."
   - type: section

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Wann passiert was? when, after, before, as soon as"
-description: "Sophie interviewt Mr Hill zum Schulfest. Du erkennst, welche Zeit nach when, after, before und as soon as steht, und stimmst die Zeiten richtig ab."
+description: "Du erkennst in einem Interview, welche Zeit nach when, after, before und as soon as steht, und stimmst die Zeiten richtig ab."
 competencies: [zeitenfolge-temporalsaetze]
 scope: Die Seite zeigt, wie die Zeiten in Sätzen mit when, after, before und as soon as zusammenpassen. Spricht der Satz über die Zukunft, steht im Nebensatz das simple present, nicht will, und im Hauptsatz will plus Grundform. Spricht der Satz über die Vergangenheit, steht nach after meist das past perfect für das frühere Ereignis und im Hauptsatz das simple past. Als Lesestück dient ein Interview. Nicht hier, weil es spätere Seiten oder andere Explainer sind. Bedingungssätze mit if, indirekte Rede, das Passiv und die Entscheidung zwischen present perfect und simple past.
 blocks:
@@ -8,8 +8,6 @@ blocks:
     id: einstieg
     title: Was kommt zuerst?
     blocks:
-      - type: text
-        text: Auf der letzten Seite hat Peter gelernt, dass ein Ereignis vor einem anderen liegen kann. Jetzt bereitet Mr Hill das Schulfest vor. Sophie führt ein **Interview** mit ihm, das ist ein Gespräch mit Fragen und Antworten. Dabei kommen Sätze mit when, after, before und as soon as vor, mal über die Zukunft und mal über die Vergangenheit.
       - type: single-choice
         id: zeitenfolge-start
         text: "Du kennst vom Zeitstrahl zwei Zeichen für die Zukunft: einen Punkt für will und einen Pfeil für going to. Welche Form des Verbs steht nach will?"
@@ -24,14 +22,11 @@ blocks:
             correct: false
             info: Die -ing-Form steht nach is, are oder was, nicht nach will.
         explanation: Nach will steht immer die Grundform. Gleich siehst du, was in einem Nebensatz mit when oder after dazukommt.
-        links:
-          - title: Lernlandkarte Englisch · Zeitenfolge in Temporalsätzen
-            url: https://lernapps.net/apps/map/englisch/c/zeitenfolge-temporalsaetze/
       - type: text
         text: "**Das kannst du danach:** Du stimmst in Sätzen mit when, after, before und as soon as die Zeiten richtig ab, über die Zukunft und über die Vergangenheit."
   - type: section
     id: lesestueck
-    title: Das Interview mit Mr Hill
+    title: Ein Interview
     blocks:
       - type: vocabulary
         caption: Wörter zum Interview
@@ -256,4 +251,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Wandbild liegen jetzt Punkte in der Vergangenheit und in der Zukunft. Die Schülerzeitung bringt einen Artikel über die neue Bibliothek. Darin musst du entscheiden, ob ein Satz ins present perfect oder ins simple past gehört. Auf der nächsten Seite lernst du, wie du das herausfindest.
+        text: Am Wandbild liegen jetzt Punkte in der Vergangenheit und in der Zukunft. Auf der nächsten Seite entscheidest du, ob ein Satz ins present perfect oder ins simple past gehört.

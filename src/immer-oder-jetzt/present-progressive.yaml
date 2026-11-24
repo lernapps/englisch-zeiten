@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-present-progressive.svg
         alt: Im Klassenzimmer sitzen Sophie, Ellie, Amir und Peter an Tischen. Sophie hat ein Buch, Ellie schreibt auf ein Blatt, Amir sitzt am Computer und Peter malt ein Bild. Ellie sagt in der Sprechblase „Sophie is reading a book.“
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Ellie spricht."
+        caption: Ellie spricht.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Im Klassenzimmer ist es ruhig. Ellie erzählt Mr Hill, was die anderen tun: „Sophie is reading a book.“ **Reading** heißt „liest“."
+        text: "Ellie sagt: „Sophie is reading a book.“ **Reading** heißt „liest“."
       - type: single-choice
         id: present-progressive-start
         text: Ellie sagt „Sophie is reading a book.“ Wann liest Sophie?
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Nie heißt never. Das Wort steht nicht im Satz.
         explanation: Dieser Satz erzählt von einem Moment. Er sagt, was Sophie gerade tut.
-        links:
-          - title: Lernlandkarte Englisch · Present progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was gerade passiert, und bildest die Form mit be und -ing."
   - type: section
@@ -188,9 +185,6 @@ blocks:
             right: Peter and Sophie are cooking dinner.
         distractors: [Amir eats an apple.]
         explanation: Die Welle über now braucht be und die -ing-Form.
-        links:
-          - title: Lernlandkarte Englisch · Present progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
       - type: single-choice
         id: present-progressive-tanzen
         text: Sophie tanzt gerade. Welcher Satz ist richtig?
@@ -205,9 +199,6 @@ blocks:
             correct: false
             info: Dir fehlt das be. Zur Welle gehört is und die -ing-Form.
         explanation: Bei dance fällt das e vor -ing weg.
-        links:
-          - title: Lernlandkarte Englisch · Present progressive
-            url: https://lernapps.net/apps/map/englisch/c/present-progressive/
       - type: language-task
         id: present-progressive-hoeren
         languages: { source: de, target: en }

@@ -1,15 +1,13 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Wo bist du nächsten Samstag um acht? will be doing und will have done"
-description: "Sophie macht für die Schülerzeitung ein Interview. Du erkennst, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist, und bildest beides."
+description: "Du erkennst im Interview, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist, und bildest beides."
 competencies: [future-progressive-perfect]
 scope: Die Seite führt will be doing (future progressive) und will have done (future perfect) ein. Beide sprechen über einen genauen Zeitpunkt in der Zukunft. Will be + Verb mit -ing sagt, was zu diesem Zeitpunkt gerade läuft. Will have + 3. Form sagt, was bis dahin schon fertig ist. Auf dem Zeitstrahl ist das erste eine Welle um den Zeitpunkt, das zweite ein Bogen von now bis zum Zeitpunkt. Signalwörter sind at ... tomorrow, this time next ... und by ..., by then. Nicht hier, weil es spätere Seiten sind. Das past perfect progressive, used to und die Übersicht aller Zeiten.
 blocks:
   - type: section
     id: einstieg
-    title: Das Interview für die Schülerzeitung
+    title: Welle und Bogen in der Zukunft
     blocks:
-      - type: text
-        text: Sophie schreibt für die Schülerzeitung, die Millbrook Mail. Heute fragt sie ihre Freunde und Mr Hill, was sie nächsten Samstag um acht Uhr abends tun.
       - type: single-choice
         id: future-progressive-perfect-start
         text: Du kennst vom Zeitstrahl die Welle und den Bogen. Was sagt die Welle?
@@ -24,9 +22,6 @@ blocks:
             correct: false
             info: Das sagt die Punktreihe beim simple present.
         explanation: Die Welle steht für etwas, das läuft. Auf dieser Seite liegt sie in der Zukunft.
-        links:
-          - title: Lernlandkarte Englisch · Future progressive und future perfect
-            url: https://lernapps.net/apps/map/englisch/c/future-progressive-perfect/
       - type: text
         text: "**Das kannst du danach:** Du erkennst im Interview, was zu einem Zeitpunkt in der Zukunft gerade läuft und was bis dahin schon fertig ist. Und du sagst beides auf Englisch."
   - type: section
@@ -115,9 +110,6 @@ blocks:
             correct: false
             info: Das tut Amir. Er sagt es in Zeile 2.
         explanation: Peter spielt den ganzen Tag Fußball und schläft um acht.
-        links:
-          - title: Lernlandkarte Englisch · Future progressive und future perfect
-            url: https://lernapps.net/apps/map/englisch/c/future-progressive-perfect/
       - type: single-choice
         id: future-progressive-perfect-satz
         text: Welcher Satz sagt, dass etwas bis zu einem Zeitpunkt schon fertig ist?
@@ -254,4 +246,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Das Interview ist fertig, und am Wandbild hängt jetzt auch ein Zeitpunkt in der Zukunft mit Welle und Bogen. Damit sind die Zeitformen dieser Stufe komplett. Kapitel 7 folgt später.
+        text: Am Wandbild hängt jetzt ein Zeitpunkt in der Zukunft mit Welle und Bogen. Damit sind die Zeitformen dieser Stufe komplett. Kapitel 7 folgt später.

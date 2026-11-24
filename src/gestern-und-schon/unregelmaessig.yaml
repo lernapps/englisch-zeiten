@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-unregelmaessig.svg
         alt: Mr Hill steht neben der Tafel. Auf der Tafel hängen zwei Karten mit den Aufschriften go – went und see – saw. Sophie und Peter schauen zu.
-        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und rechts Mr Hill (graue Haare). Auf der Tafel hängen zwei Karten.
+        caption: Mr Hill (graue Haare) hängt zwei Karten an die Tafel.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Went steht bei Zeitangaben wie yesterday. Die Gegenwart wäre go.
         explanation: Bei unregelmäßigen Verben musst du die Form kennen. Ein -ed hilft hier nicht.
-        links:
-          - title: Lernlandkarte Englisch · Unregelmäßige Verben
-            url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
       - type: text
         text: "**Das kannst du danach:** Du kennst die wichtigsten unregelmäßigen Verben und bildest ihr simple past und ihre 3. Form."
   - type: section
@@ -139,9 +136,6 @@ blocks:
             right: took
         distractors: [eated, goed]
         explanation: Diese Verben haben eine eigene Form im simple past.
-        links:
-          - title: Lernlandkarte Englisch · Unregelmäßige Verben
-            url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
       - type: language-task
         id: unregelmaessig-waehlen
         languages: { source: de, target: en }
@@ -240,9 +234,6 @@ blocks:
             correct: false
             info: Bei drink hängst du kein ed an. Die Form ändert sich im Wort.
         explanation: Bei yesterday steht die 2. Form.
-        links:
-          - title: Lernlandkarte Englisch · Unregelmäßige Verben
-            url: https://lernapps.net/apps/map/englisch/c/unregelmaessige-verben/
       - type: language-task
         id: unregelmaessig-hoeren
         languages: { source: de, target: en }
@@ -287,4 +278,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill hat auch die 3. Form auf die Karten geschrieben. Dann kommt Ellie mit einem fertigen Poster in die Klasse. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."
+        text: "Mr Hill hat auch die 3. Form auf die Karten geschrieben. Dann bringt Ellie einen fertigen Kuchen mit. Auf der nächsten Seite lernst du, wofür du die 3. Form brauchst."
