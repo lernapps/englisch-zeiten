@@ -11,12 +11,12 @@ blocks:
       - type: figure
         image: images/szene-will-oder-going-to.svg
         alt: "Peter, Sophie, Ellie und Amir stehen im Klassenzimmer. An der Wand hängt ein Kalenderblatt mit dem Datum 10 July. Ellie sagt in der oberen Sprechblase: „I am going to have a party.“ Amir sagt in der unteren: „I will bring a cake.“"
-        caption: "Von links: Peter (gelbe Jacke), Sophie (Zöpfe), Ellie (roter Pferdeschwanz) und Amir (Brille). Ellie und Amir sprechen."
+        caption: Ellie (roter Pferdeschwanz) und Amir (Brille) sprechen.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Ellie hat am 10. Juli Geburtstag. Sie erzählt: „I am going to have a party.“ Amir hört das zum ersten Mal und sagt gleich: „I will bring a cake.“ Bring heißt mitbringen, cake heißt Kuchen.
+          Ellie erzählt: „I am going to have a party.“ Amir hört das zum ersten Mal und sagt gleich: „I will bring a cake.“ Bring heißt mitbringen, cake heißt Kuchen.
       - type: single-choice
         id: will-oder-going-to-start
         text: Wann hat Amir sich entschieden, den Kuchen mitzubringen?

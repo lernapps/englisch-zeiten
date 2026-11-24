@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-will.svg
         alt: "Sophie, Peter, Ellie und Amir stehen im Klassenzimmer. Amir sagt in der oberen Sprechblase: „It will be sunny tomorrow.“ Ellie sagt in der unteren: „Maybe it will rain.“ Rechts steht eine gelbe Sonne."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Amir (Brille). Ellie und Amir sprechen."
+        caption: Ellie (roter Pferdeschwanz) und Amir (Brille) sprechen.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -221,4 +221,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben etwas anderes aufgehängt: einen Pfeil, der schon bei now beginnt. Er hat seinen Geburtstag am 5. Mai geplant. Auf der nächsten Seite lernst du, was dieser Pfeil bedeutet."
+        text: "Am Zeitstrahl hängt rechts von now jetzt ein einzelner Punkt. Peter hat daneben etwas anderes aufgehängt: einen Pfeil, der schon bei now beginnt. Er plant eine Feier. Auf der nächsten Seite lernst du, was dieser Pfeil bedeutet."

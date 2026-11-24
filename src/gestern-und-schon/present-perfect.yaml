@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-present-perfect.svg
         alt: Ellie steht neben einem Tisch mit einem Kuchen auf einem Teller. Peter und Sophie schauen zu. In der Sprechblase steht „I have made a cake.“
-        caption: Von links Sophie (Zöpfe), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Ellie spricht, rechts steht ihr Kuchen.
+        caption: Ellie (roter Pferdeschwanz) spricht. Rechts steht ihr Kuchen.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
