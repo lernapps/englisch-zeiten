@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Alle Zeiten im Überblick
 summary: "Du liest Sachtexte über reale Fälle: den Bau des Eiffelturms und die Concorde. Du sagst, wie lange etwas vor einem Zeitpunkt der Vergangenheit schon dauerte, sprichst über frühere Gewohnheiten und wählst in einem Text für jede Handlung die passende Zeit."
-pages: [past-perfect-progressive]
+pages: [past-perfect-progressive, used-to]

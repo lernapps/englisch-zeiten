@@ -6,9 +6,9 @@ archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
 phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
-prePushFailures: 0
+prePushFailures: 1
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 2 }
+failedChecks: { checks-pass: 3 }
 ---
 
 # Increment: increment-04-stufe-9-10
