@@ -84,6 +84,13 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - „Verabredungen und Fahrpläne: present tenses für die Zukunft“ · Aufgaben A1, A2
 - „Wo bist du nächsten Samstag um acht? will be doing und will have done“ · Aufgaben A3, A4
 
+### Kapitel „Alle Zeiten im Überblick“
+
+- Selbsteinschätzung des Kapitels
+- „Wie lange es schon dauerte: das past perfect progressive“
+- „Was früher war: used to“
+- „Welche Zeit passt? Alle Zeiten im Überblick“
+
 ## Die Aufgaben dieser Selbsteinschätzung
 
 - A1: Aufgabe present-fuer-zukunft-form der Seite „Verabredungen und Fahrpläne: present tenses für die Zukunft“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)

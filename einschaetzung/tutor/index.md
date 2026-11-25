@@ -84,6 +84,13 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - „Verabredungen und Fahrpläne: present tenses für die Zukunft“ · Aufgaben A39, A40
 - „Wo bist du nächsten Samstag um acht? will be doing und will have done“ · Aufgaben A41, A42
 
+### Kapitel „Alle Zeiten im Überblick“
+
+- Selbsteinschätzung des Kapitels
+- „Wie lange es schon dauerte: das past perfect progressive“ · Aufgaben A43, A44
+- „Was früher war: used to“ · Aufgaben A45, A46
+- „Welche Zeit passt? Alle Zeiten im Überblick“ · Aufgaben A47, A48
+
 ## Die Aufgaben dieser Selbsteinschätzung
 
 - A1: Aufgabe to-be-form der Seite „Wer bist du? Das Verb be“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
@@ -128,3 +135,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - A40: Aufgabe present-fuer-zukunft-bilden der Seite „Verabredungen und Fahrpläne: present tenses für die Zukunft“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A41: Aufgabe future-progressive-perfect-form der Seite „Wo bist du nächsten Samstag um acht? will be doing und will have done“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A42: Aufgabe future-progressive-perfect-bilden der Seite „Wo bist du nächsten Samstag um acht? will be doing und will have done“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A43: Aufgabe ppp-form der Seite „Wie lange es schon dauerte: das past perfect progressive“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A44: Aufgabe ppp-bilden der Seite „Wie lange es schon dauerte: das past perfect progressive“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A45: Aufgabe used-to-form der Seite „Was früher war: used to“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A46: Aufgabe used-to-bilden der Seite „Was früher war: used to“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A47: Aufgabe zeiten-ueberblick-waehlen der Seite „Welche Zeit passt? Alle Zeiten im Überblick“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A48: Aufgabe zeiten-ueberblick-bilden der Seite „Welche Zeit passt? Alle Zeiten im Überblick“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)

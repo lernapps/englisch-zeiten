@@ -153,6 +153,27 @@
       "competencies": [
         "future-progressive-perfect"
       ]
+    },
+    {
+      "path": "ueberblick/past-perfect-progressive/",
+      "title": "Wie lange es schon dauerte: das past perfect progressive",
+      "competencies": [
+        "past-perfect-progressive"
+      ]
+    },
+    {
+      "path": "ueberblick/used-to/",
+      "title": "Was früher war: used to",
+      "competencies": [
+        "used-to"
+      ]
+    },
+    {
+      "path": "ueberblick/zeiten-ueberblick/",
+      "title": "Welche Zeit passt? Alle Zeiten im Überblick",
+      "competencies": [
+        "zeiten-ueberblick"
+      ]
     }
   ]
 }

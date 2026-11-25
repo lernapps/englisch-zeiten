@@ -84,6 +84,13 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - „Verabredungen und Fahrpläne: present tenses für die Zukunft“
 - „Wo bist du nächsten Samstag um acht? will be doing und will have done“
 
+### Kapitel „Alle Zeiten im Überblick“
+
+- Selbsteinschätzung des Kapitels
+- „Wie lange es schon dauerte: das past perfect progressive“
+- „Was früher war: used to“
+- „Welche Zeit passt? Alle Zeiten im Überblick“
+
 ## Die Aufgaben dieser Selbsteinschätzung
 
 - A1: Aufgabe since-for-wahl der Seite „Seit wann und wie lange: since und for“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
