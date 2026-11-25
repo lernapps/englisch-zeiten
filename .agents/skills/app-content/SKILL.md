@@ -38,7 +38,8 @@ Inkrement 02 (Stufe 7-8, Branch `increment/02-erzaehlen-dauer-plaene`): neun wei
 4. Kapitel `erzaehlen` („Erzählen: Hintergrund, Handlung, vorher“): `past-progressive` → `erzaehlen/past-progressive` (Musterseite Lesestück) · `past-perfect` → `erzaehlen/past-perfect` · `zeitenfolge-temporalsaetze` → `erzaehlen/zeitenfolge-temporalsaetze` · `present-perfect-oder-simple-past` → `erzaehlen/present-perfect-oder-simple-past`
 5. Kapitel `dauer` („Seit wann und wie lange?“): `since-for` → `dauer/since-for` · `present-perfect-progressive` → `dauer/present-perfect-progressive` · `dynamic-stative` → `dauer/dynamic-stative`
 6. Kapitel `plaene` („Pläne, Fahrpläne und Zeitpunkte“): `present-fuer-zukunft` → `plaene/present-fuer-zukunft` · `future-progressive-perfect` → `plaene/future-progressive-perfect`
-Kapitel 7 (Stufe 9-10) folgt später als Inkrement.
+Inkrement 04 (Stufe 9-10, Branch `increment/04-stufe-9-10`): drei weitere Lücken der Karte, Sachtexte statt Figurenszenen.
+7. Kapitel `ueberblick` („Alle Zeiten im Überblick“): `past-perfect-progressive` → `ueberblick/past-perfect-progressive` (Musterseite, Sachtext Eiffelturm) · `used-to` → `ueberblick/used-to` (Sachtext Concorde) · `zeiten-ueberblick` → `ueberblick/zeiten-ueberblick` (Sachtext „Zwei Bauwerke, ein Strahl“, Eiffelturm und Concorde, alle 13 Zeichen). Selbsteinschätzung: je Seite zwei Übungen (Form, Bilden/Wählen).
 
 ## Content structure
 
@@ -79,6 +80,16 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 - Hinweis `explainer-text-load` (mehr als 350 Wörter zu lesen) ist bei diesen Seiten **bewusst**: Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext (Konventionen Abschnitt 8, Ersteller:in bestätigt).
 - Lerner-Check der Musterseite (Kind 7-8): Vorwissens-Frage vom Zeitstrahl aus (nicht ein Satz, den die Seite noch nicht erklärt hat), Glossar vor dem Text, -ing-Regel mit anderen Verben als die Übungen, Frage und Verneinung kurz im Merke, Übungen mit eigener Meldung je Fehler.
 
+### Stufe 9-10: Seite mit Sachtext (Kapitel 7, Muster `ueberblick/past-perfect-progressive`)
+
+- Aufbau wie bei 7-8 (`einstieg`, `lesestueck`, `neu`, `uebung`, `anwenden`, `weiter`), aber das Lesestück ist ein **Sachtext** über einen echten Fall mit Daten (300 bis 600 Wörter, nummerierte Zeilen, sachlicher Ton, keine erfundenen Kinder, keine wörtlichen Sätze aus der Quelle). Vokabelblock vor dem Text, auch für Wörter wie petition, nevertheless, carry on, put up.
+- Eiffelturm-Zahlen stammen aus Wikipedia „Eiffel_Tower“ (geöffnet und geprüft): Skizze Mai 1884, Baubeginn 28. Januar 1887, fertig 31. März 1889, Weltausstellung 6. Mai 1889, Turm für Besucher ab 15. Mai, Aufzüge ab 26. Mai.
+- Übungen in drei Stufen: Verstehen, Belegen mit Zeile, Entscheidung/Meinung. Aufgaben müssen das Thema der Seite prüfen, nicht nur das Lesen (eine Datums-Wahr/Falsch-Frage ohne Bezug zur Zeitform wurde im Lerner-Check ersetzt).
+- Bild: Welle bis zu einem Punkt der Vergangenheit mit grünem Bogen und Klammer (`images/zeitstrahl-ppp.svg`), Fähnchen „tower finished“ bindet es an den Text.
+- Verneinung in `language-task`: beide Formen zulassen, `(hadn't|had not)`.
+- Hörsätze (Diktat und Nachsprechen): wenige und kurz, nie das Lesestück.
+- Lerner-Check Musterseite (Kind 9-10): Wörterblock vollständig, Bild ohne Überlappung (später/now), Tabelle mit Frageform, Merke mit Beispielpaaren.
+
 ## Figures
 
 - Zeichen des Zeitstrahls (eine SVG-Familie `src/images/zeitstrahl-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox; Farben: now #c0392b, Punkte #2c6fd8, Welle #8e44ad, Bogen #138d75, Pfeil und will #d35400): now = senkrechter roter Strich; simple = ausgefüllte Punkte (Gewohnheit = Reihe, einzelnes Ereignis = ein Punkt mit Zeitangabe); progressive = Welle über now; perfect = Bogen von links bis now; going to = Pfeil, der bei now beginnt; will = Punkt rechts ohne Pfeil; Signalwörter als Fähnchen; links früher, rechts später. Das -s bei he/she/it farbig.
@@ -86,10 +97,13 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 - Gebaut: `zeitstrahl-leer` (das-brauchst-du), `-to-be`, `-punktreihe` (simple-present), `-haeufigkeit`, `-welle`, `-beides` (simple-oder-progressive), `-punkt-links`, `-punkt-und-bogen`, `-will`, `-going-to`, `-will-oder-going-to`, `-ganz` (Rückblick K3, alle Zeichen). `zeitstrahl-ganz.svg` wächst mit jedem Inkrement.
 - Szenen: je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; in Aufgaben zeigt der Strahl nur die Legende, nie das Ergebnis.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb); Skizzen liegen in `.vibe/sketches/`.
+- Stufe 9-10 (Inkrement 04): `zeitstrahl-ppp` (Welle bis zu einem Punkt, Bogen, Klammer, Fähnchen „tower finished“), `zeitstrahl-used-to` (graue Punktreihe, die vor now endet), `zeitstrahl-alle-zeichen` (13 nummerierte Zeilen, ein Zeichen je Zeit, Werkzeug der Übersicht).
 - Stufe 7-8 (Inkrement 02): `zeitstrahl-<seite>.svg` für past-progressive (Welle in der Vergangenheit, Punkt unterbricht, Fähnchen when), past-perfect (ein Punkt vor dem Punkt), zeitenfolge, ppsp (Punkt links neben Bogen), since-for (Fähnchen since am Startpunkt, Klammer for), present-perfect-progressive (Bogen wird Welle), dynamic-stative (Stoppschild an der Welle), present-fuer-zukunft (Kalender-Punkt und Fahrplan), future-progressive-perfect (Welle um einen Zeitpunkt, Bogen bis dahin); Figuren nur im Text (Sophie 13, Ellie 13, Peter 11, Amir 13), keine neuen Szenen; Mrs Parker wird nicht gezeichnet.
 - Poster und Kalender sind `table`-Blöcke, wachsen von Seite zu Seite.
 
 ## Sources
+
+Inkrement 04 (Sachtexte, nur aus geöffneten Quellen, eigene Sätze): Wikipedia „Eiffel_Tower“ (Skizze Mai 1884, Baubeginn 28. Januar 1887, fertig 31. März 1889, Weltausstellung 6. Mai, Turm für Besucher ab 15. Mai, Aufzüge ab 26. Mai, 1.665/1.710 Stufen, 18.038 Teile, 2,5 Millionen Niete, 1.896.987 Besucher, 1930 Chrysler Building). Wikipedia „Concorde“ (Studien ab 1954, Vertrag 1962, Erstflug 2. März 1969, Dienstbeginn 21. Januar 1976, New York JFK ab 17. Oktober 1977, 20 gebaut, 18 erhalten, bis 18.300 m, Reiseflug etwa 2.150 km/h, Höchstgeschwindigkeit 2.370 km/h beim Test am 26. März 1974, rund 3,5 gegen 8 Stunden Paris–New York, Absturz 25. Juli 2000, letzter Linienflug 24. Oktober 2003). `used to` und `would`: Allgemeinwissen, kein Satz übernommen.
 
 Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur sink (Poster-Eintrag in `unregelmaessig`) und friends (Mehrzahl von friend); `yet` ist A2). Inkrement 02: Grammatikfakten aus Wikipedia, geöffnet am 2026-11-22 (nur Fakten): Past continuous, Pluperfect (past perfect), Uses of English verb forms (present perfect progressive, future progressive, future perfect), Stative verb, Future perfect, Sequence of tenses. Die Lesestücke sind eigene erfundene Texte der Figuren ohne reale Faktenangaben; Fahrpläne und Orte sind erfunden. Erste Version: Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `English irregular verbs` (Klangmuster sing – sang – sung, Ablaut; regelmäßige Verben auf -ed), `Present perfect` und `English verbs` (Formen und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia ohne Seite „Zeitform (Englisch)“ (404), kein Klexikon-Artikel gelesen. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
@@ -224,13 +238,38 @@ Alle 54 Hörsätze sind mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt. Sätze 
 | `plaene/present-fuer-zukunft` | `the-lesson-finishes-at-a-quarter-to-four.mp3` | The lesson finishes at a quarter to four. | four |  |
 | `plaene/present-fuer-zukunft` | `we-are-having-dinner-with-our-grandparents-tonight.mp3` | We are having dinner with our grandparents tonight. | tonight | 35 ms |
 
+### Hörliste Inkrement 04 (Stufe 9-10, Kapitel 7)
+
+Alle 18 Hörsätze mit `regen_audio.py` (Fehllaut-Schnitt) erzeugt; je Seite 3 Diktat- und 3 Nachsprechsätze. Markiert sind Schnitte an der Senke (ms). Bei `use to` (didn't use to, did … use to) liest die Stimme ggf. /juːz/ statt /juːs/: die Ersteller:in hört diese Sätze gezielt. Alle übrigen Hörsätze sind vom Orchestrator in Namen der Ersteller:in bestätigt. **Offen: Aussprache von `use to` prüfen** bei „My brother didn't use to eat fish.“, „Did your grandmother use to sing?“ und „I didn't use to like tea.“ (kein Hörurteil; blockiert den Merge nicht).
+
+| Seite | Datei | Satz | Ende | Schnitt |
+|---|---|---|---|---|
+| `ueberblick/past-perfect-progressive` | `they-had-been-walking-for-hours-before-they-found-the-village.mp3` | They had been walking for hours before they found the village. | village | |
+| `ueberblick/past-perfect-progressive` | `my-mother-had-been-baking-all-morning-when-we-arrived.mp3` | My mother had been baking all morning when we arrived. | arrived | |
+| `ueberblick/past-perfect-progressive` | `the-pilot-had-been-flying-for-ten-hours-when-the-storm-began.mp3` | The pilot had been flying for ten hours when the storm began. | began | |
+| `ueberblick/past-perfect-progressive` | `how-long-had-you-been-waiting-when-the-train-arrived.mp3` | How long had you been waiting when the train arrived? | arrived | |
+| `ueberblick/past-perfect-progressive` | `she-had-been-living-in-spain-for-ten-years-before-she-moved.mp3` | She had been living in Spain for ten years before she moved. | moved | |
+| `ueberblick/past-perfect-progressive` | `we-had-not-been-sleeping-well-because-of-the-noise.mp3` | We had not been sleeping well because of the noise. | noise | |
+| `ueberblick/used-to` | `we-used-to-play-football-every-sunday.mp3` | We used to play football every Sunday. | sunday | |
+| `ueberblick/used-to` | `my-brother-didnt-use-to-eat-fish.mp3` | My brother didn't use to eat fish. | fish | |
+| `ueberblick/used-to` | `did-your-grandmother-use-to-sing.mp3` | Did your grandmother use to sing? | sing | |
+| `ueberblick/used-to` | `concorde-used-to-fly-very-fast.mp3` | Concorde used to fly very fast. | fast | |
+| `ueberblick/used-to` | `people-used-to-write-long-letters.mp3` | People used to write long letters. | letters | |
+| `ueberblick/used-to` | `i-didnt-use-to-like-tea.mp3` | I didn't use to like tea. | tea | |
+| `ueberblick/zeiten-ueberblick` | `the-train-had-left-before-we-reached-the-station.mp3` | The train had left before we reached the station. | station | |
+| `ueberblick/zeiten-ueberblick` | `she-was-cooking-when-the-lights-went-out.mp3` | She was cooking when the lights went out. | out | 25 ms |
+| `ueberblick/zeiten-ueberblick` | `we-have-been-waiting-since-noon.mp3` | We have been waiting since noon. | noon | |
+| `ueberblick/zeiten-ueberblick` | `grandpa-used-to-ride-a-bike-to-work.mp3` | Grandpa used to ride a bike to work. | work | |
+| `ueberblick/zeiten-ueberblick` | `are-you-going-to-watch-the-match-tonight.mp3` | Are you going to watch the match tonight? | tonight | 25 ms |
+| `ueberblick/zeiten-ueberblick` | `i-have-never-visited-a-castle.mp3` | I have never visited a castle. | castle | |
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Strahl-SVG um die neuen Zeichen erweitern (Inkremente: Welle in der Vergangenheit, Bogen wird Welle, Fähnchen since/for, Stoppschild für Zustandsverben, Punktreihe in der Vergangenheit für used to) und das Poster um die Zeilen der Seite.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, alle 72 Sätze der App, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen und nicht wörtlich (auch nicht mit getauschtem Namen) auf derselben Seite verwenden; Hörsätze bleiben natürlich (ein Name steht nur, wenn der Satz ihn braucht, zum Beispiel als Anrede); einsilbig endende Sätze in die Hörliste eintragen.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, alle 144 Sätze der App, 6 je Seite: je 3 für Diktat und Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen und nicht wörtlich (auch nicht mit getauschtem Namen) auf derselben Seite verwenden; Hörsätze bleiben natürlich (ein Name steht nur, wenn der Satz ihn braucht, zum Beispiel als Anrede); einsilbig endende Sätze in die Hörliste eintragen.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
@@ -260,3 +299,5 @@ Aus dieser App (Lerner-Check der Musterseite, Gesamtcheck, Sprachprüfung):
 - Jede Seite hat mindestens vier Übungen, bei denen eine falsche Antwort eine eigene Rückmeldung bekommt: Schreibübungen mit `mistakes` je Item oder `single-choice` mit `info` je Option. `language-task` im Modus `choice` zeigt die Meldungen aus `mistakes` nicht; dort zählt nur der `hint`.
 - Keine langen Einführungen der Figuren im Verlauf (Rückmeldung der Ersteller:in): kein Vorstellen („X ist 13 und lebt bei den Parkers“), keine Altersangaben, keine Verwandtschaftserklärungen, kein Datum im Fließtext, wenn es nichts zur Aufgabe beiträgt; eine Figur wird nur dort benannt, wo die Aufgabe sie braucht (Sprecher einer Chatzeile, wer in der Szene spricht). Die Vorstellung steht kurz einmal im `intro` der App und auf `immer-oder-jetzt/das-brauchst-du`. Das gilt auch für Szenen-, Einstiegs- und Lesestück-Texte, Bildunterschriften, Alt-Texte, `summary` und `scope`; Titel der Lesestücke sind neutral („Ein Tagebuch“, „Ein Chat“).
 - Einheitliche Wörter: Punktreihe, Welle über now, Poster, happy = froh, phone = Telefon / Handy.
+- Stufe 9-10: Verneinung und Alternativen großzügig zulassen (hadn't|had not, never used to, Umstellungen von Zeitangaben, Kurzformen); Lösung und Quelle zählen: keine Behauptung, die die geöffnete Quelle nicht trägt (der Zeitungssatz über Eiffel wurde gestrichen).
+- Stufe 9-10: Die Bezeichnung „Zeile 2“ meint den nummerierten Absatz [2]; sie steht so schon auf den Seiten 7-8 und bleibt einheitlich. Das Lizenz-Badge des Templates kann Bildränder verdecken: wichtige Beschriftungen nicht in die untersten 30 px des 200er viewBox setzen.

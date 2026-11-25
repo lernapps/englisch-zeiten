@@ -1,0 +1,295 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wie lange es schon dauerte: das past perfect progressive"
+description: "Du liest einen Sachtext über den Bau des Eiffelturms. Du erkennst, wie lange etwas vor einem Zeitpunkt der Vergangenheit schon dauerte, und bildest das past perfect progressive."
+competencies: [past-perfect-progressive]
+scope: Die Seite führt das past perfect progressive ein, mit einem Sachtext über den Bau des Eiffelturms als Lesestück. Es sagt, wie lange etwas vor einem Zeitpunkt in der Vergangenheit schon dauerte. Auf dem Zeitstrahl ist es eine Welle, die in der Vergangenheit bis zu einem Punkt reicht, mit einem Bogen darüber. Die Form ist had been plus das Verb mit -ing, für alle Personen gleich. Dazu die Signalwörter for, since und all day. Der Unterschied zum simple past und zum past perfect wird gezeigt. Nicht hier, weil es spätere Seiten oder andere Kapitel sind. Used to und would, die Übersicht aller Zeiten, Fragen und Verneinung mit did.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was du schon kennst
+    blocks:
+      - type: single-choice
+        id: ppp-start
+        text: Du kennst das present perfect progressive, zum Beispiel I have been working here since May. Bis wohin reicht die Welle bei diesem Satz?
+        options:
+          - text: Bis now
+            correct: true
+            info: Die Tätigkeit hat im Mai begonnen und läuft bis jetzt. Darum reicht die Welle bis zum roten Strich now.
+          - text: Bis zu einem Punkt in der Vergangenheit
+            correct: false
+            info: Das wäre eine Tätigkeit, die schon vorbei ist. Der Satz sagt aber, dass sie bis jetzt andauert.
+          - text: Bis in die Zukunft
+            correct: false
+            info: Von der Zukunft sagt der Satz nichts. Er sagt, was bis jetzt gilt.
+        explanation: Beim present perfect progressive reicht die Welle bis now. Heute verschiebst du diesen Gedanken in die Vergangenheit.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst in einem Sachtext, wie lange etwas vor einem Zeitpunkt der Vergangenheit schon dauerte. Und du bildest dafür das past perfect progressive."
+  - type: section
+    id: lesestueck
+    title: "Sachtext: Der Eiffelturm"
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: celebrate
+            source: feiern, an etwas erinnern
+          - target: petition
+            source: Protestbrief, Unterschriftenliste
+          - target: nevertheless
+            source: trotzdem
+          - target: carry on
+            source: weitermachen
+          - target: detailed drawing
+            source: Detailzeichnung
+          - target: horse-drawn
+            source: von Pferden gezogen
+          - target: drill
+            source: bohren
+          - target: not … until
+            source: erst (ab)
+          - target: be allowed to keep
+            source: behalten dürfen
+          - target: World's Fair
+            source: Weltausstellung
+          - target: sketch
+            source: Skizze
+          - target: building work
+            source: Bauarbeiten
+          - target: site
+            source: Baustelle
+          - target: fit
+            source: passen
+          - target: rivet
+            source: Niete
+          - target: cart
+            source: Karren, Wagen
+          - target: drawing office
+            source: Zeichenbüro
+          - target: lift
+            source: Aufzug
+          - target: step
+            source: Stufe
+          - target: income
+            source: Einnahmen
+          - target: structure
+            source: Bauwerk
+      - type: text
+        text: |
+          **[1]** The Eiffel Tower was built for the World's Fair of 1889 in Paris, which celebrated one hundred years since the French Revolution. The first sketch was ready in May 1884, almost three years before the building work began on 28 January 1887.
+
+          **[2]** Before the first part came to the site, the drawing office had produced 1,700 general drawings and 3,629 detailed drawings. The work had to be exact: the position of every rivet hole was fixed to within one millimetre. The parts were made in a factory near Paris and arrived on horse-drawn carts. Nothing was drilled on the site: if a part did not fit, it went back to the factory. In the end, 18,038 pieces were joined with 2.5 million rivets.
+      - type: text
+        text: |
+          **[3]** Many people did not believe in the project. Before the work began, nobody had built a structure higher than 200 metres, and a group of artists sent a petition against the tower. Nevertheless, the workers carried on and did not stop the building work. The tower was finished on 31 March 1889. By then, they had been building for more than two years.
+
+          **[4]** The World's Fair opened on 6 May 1889, but the tower was not open to visitors until 15 May. The lifts were not ready yet: the engineers were still working on them when the first guests arrived. Nearly 30,000 people climbed the 1,710 steps to the top before the lifts started on 26 May.
+      - type: text
+        text: |
+          **[5]** Tickets cost two francs for the first level, three for the second and five for the top. By the end of the fair, 1,896,987 people had visited the tower. Gustave Eiffel was allowed to keep the income from the tower for the next twenty years.
+
+          **[6]** The Eiffel Tower was the tallest structure in the world from 1889 until 1930, when the Chrysler Building became taller.
+  - type: section
+    id: neu
+    title: Die Welle bis zu einem Punkt
+    blocks:
+      - type: text
+        text: Beim present perfect progressive reicht die **Welle** bis now. Das **past perfect progressive** rückt sie in die Vergangenheit. Die Welle beginnt früher und reicht nur bis zu einem **Punkt** der Vergangenheit. Der **Bogen** darüber zeigt, wie lange sie schon lief.
+      - type: figure
+        image: images/zeitstrahl-ppp.svg
+        alt: Ein Zeitstrahl von links nach rechts. Rechts steht ein roter Strich mit now. Links davon liegt eine violette Welle, die bis zu einem blauen Punkt reicht. Über der Welle spannt sich ein grüner Bogen. Unter dem Strahl steht eine Klammer mit for more than two years, am Punkt hängt das Fähnchen tower finished.
+        caption: Die Welle endet am Punkt, nicht bei now. Die Klammer misst die Dauer, das Fähnchen nennt den Zeitpunkt. So war es beim Eiffelturm, mehr als zwei Jahre Bau und dann war er fertig.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Das past perfect progressive
+        header: [Person, Form, Beispiel]
+        rows:
+          - [alle Personen, had been working, She had been waiting for an hour when the bus came.]
+          - [Verneinung, hadn't been working, They hadn't been sleeping well.]
+          - [Frage, Had … been working?, Had she been working for long?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **had been + Verb mit -ing**, für alle Personen gleich. Die Dauer steht oft mit **for** (for an hour) oder **since** (since Monday). Der Zeitpunkt der Vergangenheit steht im simple past (when the bus came). Das **past perfect** ohne -ing zeigt dagegen, dass etwas fertig war (She had finished her homework). Das past perfect progressive zeigt, wie lange etwas lief (She had been doing her homework for an hour). Zustandsverben (Verben, die etwas beschreiben, das man nicht aktiv tut) wie know bilden keine Verlaufsform: I had known him for years, nicht had been knowing.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: ppp-verstehen
+        text: Wie lange hatten die Arbeiter schon am Turm gebaut, als er fertig war?
+        options:
+          - text: Mehr als zwei Jahre
+            correct: true
+            info: Der Bau begann am 28. Januar 1887 und der Turm war am 31. März 1889 fertig. Das sind mehr als zwei Jahre.
+          - text: Fast drei Jahre
+            correct: false
+            info: Fast drei Jahre lagen zwischen der ersten Skizze und dem Baubeginn, nicht zwischen Baubeginn und Fertigstellung.
+          - text: Nur neun Tage
+            correct: false
+            info: Neun Tage lagen zwischen der Eröffnung der Weltausstellung und dem Tag, an dem der Turm für Besucher öffnete.
+        explanation: Die Welle beginnt am Baubeginn und reicht bis zur Fertigstellung, das waren mehr als zwei Jahre.
+        links:
+          - title: Eiffelturm (Wikipedia, englisch)
+            url: https://en.wikipedia.org/wiki/Eiffel_Tower
+      - type: multiple-choice
+        id: ppp-zeilen
+        text: In welchen Zeilen steht ein Satz im past perfect (auch mit had been), der etwas Früheres vor einem Zeitpunkt der Vergangenheit nennt?
+        options:
+          - text: Zeile 2
+            correct: true
+            info: Zuerst hatte das Zeichenbüro die Zeichnungen gemacht, dann kam das erste Teil an die Baustelle.
+          - text: Zeile 3
+            correct: true
+            info: Vor dem Baubeginn hatte niemand ein so hohes Bauwerk gebaut (had built), und die Arbeiter hatten zwei Jahre gebaut, als der Turm fertig war (had been building).
+          - text: Zeile 5
+            correct: true
+            info: Am Ende der Ausstellung hatten fast 1,9 Millionen Menschen den Turm besucht.
+          - text: Zeile 6
+            correct: false
+            info: In Zeile 6 steht nur das simple past. Sie nennt keinen früheren Zeitpunkt.
+        explanation: In diesen drei Zeilen liegt ein Ereignis vor einem anderen Zeitpunkt der Vergangenheit.
+        links:
+          - title: Eiffelturm (Wikipedia, englisch)
+            url: https://en.wikipedia.org/wiki/Eiffel_Tower
+      - type: true-false
+        id: ppp-wahr
+        text: "Der Satz „By then, they had been building for more than two years“ (Zeile 3) sagt: Die Arbeiter bauen auch heute noch am Turm."
+        answer: false
+        hint: Wo endet die Welle beim past perfect progressive?
+        explanation: Die Welle endet am Punkt in der Vergangenheit (By then = 31. März 1889). Danach war der Turm fertig.
+      - type: language-task
+        id: ppp-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Kinder spielten schon seit Stunden draußen, als es zu regnen begann.
+            target: The children [had been playing] outside for hours when it began to rain.
+            distractors: [[have been playing, are playing]]
+          - cue: Mein Vater war die ganze Nacht gefahren, als er die Küste erreichte.
+            target: My father [had been driving] all night when he reached the coast.
+            distractors: [[has been driving, will drive]]
+          - cue: Die Band übte schon drei Wochen, als das Konzert stattfand.
+            target: The band [had been practising] for three weeks when the concert took place.
+            distractors: [[has been practising, will practise]]
+          - cue: Wir warteten schon seit einer Stunde, als der Zug endlich kam.
+            target: We [had been waiting] for an hour when the train finally arrived.
+            distractors: [[have been waiting, are waiting]]
+      - type: language-task
+        id: ppp-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz im past perfect progressive.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: she · learn · Spanish · for two years · before she moved to Madrid
+            target: (She had|She'd) been learning Spanish for two years before she moved to Madrid.
+            mistakes:
+              - answer: She was learning Spanish for two years before she moved to Madrid.
+                message: Die Dauer vor dem Umzug braucht had been und das Verb mit -ing, nicht was.
+              - answer: She had learning Spanish for two years before she moved to Madrid.
+                message: Zwischen had und learning fehlt been.
+              - answer: She has been learning Spanish for two years before she moved to Madrid.
+                message: Der Umzug liegt in der Vergangenheit, darum has been nicht, sondern had been.
+          - cue: the team · train · all week · when the injury happened
+            target: The team had been training all week when the injury happened.
+            mistakes:
+              - answer: The team has been training all week when the injury happened.
+                message: Der Zeitpunkt liegt in der Vergangenheit. Dann brauchst du had been, nicht has been.
+              - answer: The team had been train all week when the injury happened.
+                message: Nach had been kommt die -ing-Form, also training.
+          - cue: I · work · in the garden · since eight o'clock · when it started to rain
+            target: (I had|I'd) been working in the garden since eight o'clock when it started to rain.
+            mistakes:
+              - answer: I worked in the garden since eight o'clock when it started to rain.
+                message: Mit since braucht die Dauer had been und das Verb mit -ing, nicht das simple past.
+              - answer: I had been worked in the garden since eight o'clock when it started to rain.
+                message: Nach been steht das Verb mit -ing, working.
+          - cue: they · not · sleep · well · before the storm
+            target: They (hadn't|had not) been sleeping well before the storm.
+            mistakes:
+              - answer: They hadn't sleeping well before the storm.
+                message: Bei der Verneinung brauchst du hadn't been und die -ing-Form.
+        hint: Frag dich, was schon lief, bevor etwas anderes passierte. Das bekommt had been und das Verb mit -ing.
+      - type: single-choice
+        id: ppp-entscheidung
+        text: "Warum war der Boden nass? Es regnete am Morgen nicht mehr. Welcher Satz sagt, dass der Regen bis kurz davor ohne Pause lief?"
+        options:
+          - text: The floor was wet because it had been raining all night.
+            correct: true
+            info: Die Welle lief die ganze Nacht und endete vor dem Morgen. Das ist das past perfect progressive.
+          - text: The floor was wet because it rained all night.
+            correct: false
+            info: Das simple past nennt den Regen als abgeschlossenes Ereignis, aber nicht, dass er bis zu einem Zeitpunkt schon lange lief.
+          - text: The floor was wet because it has been raining all night.
+            correct: false
+            info: Has been raining reicht bis jetzt. Der Satz steht aber in der Vergangenheit (was wet).
+        explanation: Der Satz nennt eine Dauer vor einem Zeitpunkt der Vergangenheit, darum had been raining.
+      - type: language-task
+        id: ppp-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: The audience had been waited for two hours when the show started.
+            target: The audience had been waiting for two hours when the show started.
+            mistakes:
+              - answer: The audience had been waited for two hours when the show started.
+                message: Noch nicht ganz. Nach had been steht das Verb mit -ing, nicht die 3. Form.
+          - cue: I have been learning English for five years when I met her.
+            target: I had been learning English for five years when I met her.
+            mistakes:
+              - answer: I have been learning English for five years when I met her.
+                message: Noch nicht ganz. Das Treffen liegt in der Vergangenheit, dann braucht die Dauer had been.
+        hint: Prüfe die Form nach had been und den Zeitpunkt der Vergangenheit.
+      - type: language-task
+        id: ppp-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: they-had-been-walking-for-hours-before-they-found-the-village.mp3
+            target: They had been walking for hours before they found the village.
+          - audio: my-mother-had-been-baking-all-morning-when-we-arrived.mp3
+            target: My mother had been baking all morning when we arrived.
+          - audio: the-pilot-had-been-flying-for-ten-hours-when-the-storm-began.mp3
+            target: The pilot had been flying for ten hours when the storm began.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: ppp-nachsprechen
+        language: en
+        items:
+          - audio: how-long-had-you-been-waiting-when-the-train-arrived.mp3
+            text: How long had you been waiting when the train arrived?
+          - audio: she-had-been-living-in-spain-for-ten-years-before-she-moved.mp3
+            text: She had been living in Spain for ten years before she moved.
+          - audio: we-had-not-been-sleeping-well-because-of-the-noise.mp3
+            text: We had not been sleeping well because of the noise.
+        hint: Hör den Satz zuerst. Sprich langsam nach und achte auf had been.
+      - type: open-task
+        id: ppp-ereignis
+        task: "Schreibe drei bis vier Sätze über ein Ereignis, bei dem etwas schon lange lief, als etwas anderes passierte, zum Beispiel ein Spiel, ein Konzert oder eine Reise. Nenne, wie lange es schon dauerte."
+        points:
+          - text: Mindestens ein Satz im past perfect progressive (had been und das Verb mit -ing).
+            source: /ueberblick/past-perfect-progressive/#neu
+          - text: Die Dauer ist genannt, zum Beispiel mit for oder since.
+            source: /ueberblick/past-perfect-progressive/#neu
+          - text: Der spätere Zeitpunkt steht im simple past.
+            source: /ueberblick/past-perfect-progressive/#neu
+          - text: Ganze Sätze mit Verb und Punkt am Ende.
+            kind: form
+        solution: |
+          The crowd had been waiting for three hours when the band finally came on stage. Some fans had been standing in the rain since the morning. When the first song started, everybody cheered.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Am Zeitstrahl hängt jetzt eine Welle, die in der Vergangenheit bis zu einem Punkt reicht. Auf der nächsten Seite geht es um etwas, das früher oft passierte und heute nicht mehr gilt, eine graue Punktreihe, die heute endet.
